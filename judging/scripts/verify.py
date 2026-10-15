@@ -3,7 +3,7 @@ from decimal import Decimal
 from html.parser import HTMLParser
 import collections,hashlib,json,re,time
 from setup import manifest
-from model_labels import NAMES, legacy_data, reveal_data
+from model_labels import NAMES, add_configuration, legacy_data, relabel_markdown, reveal_data
 ROOT=Path(__file__).resolve().parents[2];J=ROOT/'judging'
 def read(p):return legacy_data(json.loads((ROOT/p).read_text(encoding='utf-8')))
 class Parser(HTMLParser):
@@ -95,6 +95,40 @@ def main():
  if brokenlinks:errors.append('Missing local links')
  html_result=read('judging/data/html-verification.json');record('html_toggle_and_image_check_pass',html_result.get('pass',False))
  if not html_result.get('pass'):errors.append('HTML browser verification')
+ # Freeze the pre-reveal scores, measurements and editorial judgments. Only
+ # identity labels and the new run-configuration section may differ.
+ baseline=J/'logs/reveal/before'
+ unchanged_reports={}
+ for lang,file,doc in [('en','README.md',en),('vi','README.vi.md',vi)]:
+  expected=add_configuration(relabel_markdown((baseline/file).read_text(encoding='utf-8')),lang)
+  unchanged_reports[file]=doc==expected
+  if not unchanged_reports[file]:errors.append(file+' changed beyond labels/configuration')
+ record('reports_only_relabelled_and_configuration_added',unchanged_reports)
+ unchanged_data={}
+ for old in sorted((baseline/'data').glob('*.json')):
+  if old.name in {'verification.json','html-verification.json'}:continue
+  expected=reveal_data(json.loads(old.read_text(encoding='utf-8')))
+  actual=json.loads((J/'data'/old.name).read_text(encoding='utf-8'))
+  unchanged_data[old.name]=actual==expected
+  if not unchanged_data[old.name]:errors.append(old.name+' changed beyond identity labels')
+ record('pre_reveal_data_unchanged_except_labels',unchanged_data)
+ config=json.loads((J/'data/run-configuration.json').read_text(encoding='utf-8'))
+ exact_config=config['submissions']=={
+  'Argon':{'model':'Gemini 4 Argon','vendor':'Google','effort':'high','maximum_supported_effort':'high'},
+  'Astra':{'model':'GPT-6 Astra','vendor':'OpenAI','effort':'xhigh'},
+  'Opus':{'model':'Claude Opus 5.5','vendor':'Anthropic','effort':'xhigh'}
+ } and config['judge']=={'model':'GPT 6.1 Sol','vendor':'OpenAI','effort':'max'} and config['cost_data_provided'] is False
+ record('run_configuration_matches_user',exact_config)
+ if not exact_config:errors.append('Run configuration differs from user')
+ from markdown_it import MarkdownIt
+ parser=MarkdownIt('commonmark',{'html':True}).enable('table')
+ html_text_matches={}
+ for lang,doc in [('en',en),('vi',vi)]:
+  expected=re.sub(r'<table>(.*?)</table>',r'<div class="table-wrap"><table>\1</table></div>',parser.render(doc),flags=re.S)
+  actual=re.search(r'<article class="lang-panel" data-lang="'+lang+r'"(?: hidden)?>(.*?)</article>',web,re.S)
+  html_text_matches[lang]=bool(actual and actual[1]==expected)
+  if not html_text_matches[lang]:errors.append(lang+' HTML content differs from Markdown')
+ record('html_full_content_matches_markdown',html_text_matches)
  result={'pass':not errors,'errors':errors,'checks':checks,'image_references':len(p.images),'unique_report_image_paths':len(allpaths),'reviewed_project_pngs':90,'date_utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())}
  outpath.write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps(result,ensure_ascii=False,indent=2));raise SystemExit(0 if result['pass']else 1)
 if __name__=='__main__':main()

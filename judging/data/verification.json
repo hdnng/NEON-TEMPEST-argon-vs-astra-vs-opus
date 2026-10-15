@@ -30,10 +30,29 @@
     "all_score_and_checklist_evidence_paths_exist": true,
     "html_image_set_matches_markdown": true,
     "missing_local_links": [],
-    "html_toggle_and_image_check_pass": true
+    "html_toggle_and_image_check_pass": true,
+    "reports_only_relabelled_and_configuration_added": {
+      "README.md": true,
+      "README.vi.md": true
+    },
+    "pre_reveal_data_unchanged_except_labels": {
+      "checklist.json": true,
+      "display-values.json": true,
+      "environment.json": true,
+      "metrics.json": true,
+      "objective.json": true,
+      "report-content.json": true,
+      "scores.json": true,
+      "server-shutdown.json": true
+    },
+    "run_configuration_matches_user": true,
+    "html_full_content_matches_markdown": {
+      "en": true,
+      "vi": true
+    }
   },
   "image_references": 288,
   "unique_report_image_paths": 72,
   "reviewed_project_pngs": 90,
-  "date_utc": "2026-10-15T16:04:44Z"
+  "date_utc": "2026-10-15T16:43:24Z"
 }

@@ -31,6 +31,30 @@
       "saved": "en"
     }
   ],
+  "configuration_checks": {
+    "en": {
+      "heading_visible": true,
+      "exact_config_details": true,
+      "effort_caveat": true,
+      "vendor_bias_caveat": true,
+      "ranking": [
+        "Opus",
+        "Astra",
+        "Argon"
+      ]
+    },
+    "vi": {
+      "heading_visible": true,
+      "exact_config_details": true,
+      "effort_caveat": true,
+      "vendor_bias_caveat": true,
+      "ranking": [
+        "Opus",
+        "Astra",
+        "Argon"
+      ]
+    }
+  },
   "images": {
     "count": 288,
     "unique": 72,
