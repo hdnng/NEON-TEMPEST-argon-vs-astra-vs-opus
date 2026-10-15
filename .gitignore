@@ -1,0 +1,20 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+
+# Temporary test output and caches
+test-results/
+playwright-report/
+coverage/
+.vite/
+*.tsbuildinfo
+*.log
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
