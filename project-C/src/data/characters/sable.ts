@@ -1,0 +1,212 @@
+/**
+ * SABLE - fast rushdown. Double jump, air dash, a dive kick, teleports and a three-part rekka
+ * with an overhead / low split. Low damage per hit, relentless pressure.
+ */
+import { bx, move, systemMoves, variants, type StanceBoxes } from '../build';
+import type { CharacterDef, MoveDef, ThrowDef } from '../schema';
+
+const hurt: StanceBoxes = {
+  stand: [bx([-15, 190, 34, 44]), bx([-24, 104, 50, 90]), bx([-28, 0, 56, 106])],
+  crouch: [bx([-10, 106, 36, 38]), bx([-30, 0, 68, 112])],
+  air: [bx([-22, 40, 48, 140])],
+};
+
+const STAND = [4, 5, 6];
+const CROUCH = [1, 2, 3];
+const LIGHTS = ['5LP', '2LP', '5LK', '2LK'];
+
+const throwF: ThrowDef = {
+  box: bx([10, 40, 58, 130]), damage: 110, stun: 90, techable: true, swap: false,
+  release: 20, duration: 30, releaseVel: { vx: 8, vy: 8 }, knockdown: 'soft', power: 'medium',
+  victim: [{ f: 0, x: 48, y: 0, rot: 0 }, { f: 10, x: 30, y: 60, rot: -60 }, { f: 20, x: 70, y: 40, rot: -140 }],
+  anim: [{ f: 0, pose: 'grab' }, { f: 8, pose: 'sab_axe_w' }, { f: 18, pose: 'sab_axe' }, { f: 30, pose: 'stance' }],
+};
+const throwB: ThrowDef = {
+  ...throwF, swap: true, damage: 120,
+  victim: [{ f: 0, x: 48, y: 0, rot: 0 }, { f: 10, x: 0, y: 120, rot: -160 }, { f: 20, x: -60, y: 30, rot: -260 }],
+  anim: [{ f: 0, pose: 'grab' }, { f: 10, pose: 'sab_flip' }, { f: 20, pose: 'throw_back' }, { f: 30, pose: 'stance' }],
+};
+
+const moves: MoveDef[] = [
+  move({ id: '5LP', name: 'Needle Jab', desc: 'Fastest jab in the game. Chains into 5MP.', stance: 'stand', input: { btn: 'LP', dirs: STAND },
+    s: 3, a: 2, r: 5, pose: 'jab', cancel: 'chain', chainTo: [...LIGHTS, '5MP'],
+    hits: [{ dmg: 29, box: [32, 160, 52, 20], onHit: 5, onBlock: 2, power: 'light' }] }, hurt),
+  move({ id: '5MP', name: 'Twin Fang', desc: 'Quick slash. Chains into 5HP.', stance: 'stand', input: { btn: 'MP', dirs: STAND },
+    s: 4, a: 2, r: 9, pose: 'sab_slash', windup: 'sab_slash_w', cancel: 'chain', chainTo: ['5HP'],
+    hits: [{ dmg: 50, box: [36, 140, 64, 34], onHit: 4, onBlock: 1, power: 'medium' }] }, hurt),
+  move({ id: '5HP', name: 'Crescent Slash', desc: 'Wide upward slash. Cancelable.', stance: 'stand', input: { btn: 'HP', dirs: STAND },
+    s: 6, a: 3, r: 14, pose: 'sab_slash2', windup: 'sab_slash_w', cancel: 'special',
+    hits: [{ dmg: 80, box: [36, 130, 76, 70], onHit: 2, onBlock: -3, power: 'heavy' }] }, hurt),
+  move({ id: '5LK', name: 'Snap Kick', desc: 'Quick kick.', stance: 'stand', input: { btn: 'LK', dirs: STAND },
+    s: 4, a: 2, r: 7, pose: 'kick_low', cancel: 'chain', chainTo: LIGHTS,
+    hits: [{ dmg: 32, box: [30, 50, 64, 28], onHit: 3, onBlock: 0, power: 'light' }] }, hurt),
+  move({ id: '5MK', name: 'Wire Kick', desc: 'Mid-range kick poke.', stance: 'stand', input: { btn: 'MK', dirs: STAND },
+    s: 5, a: 3, r: 11, pose: 'kick_mid', cancel: 'special',
+    hits: [{ dmg: 55, box: [36, 96, 78, 30], onHit: 2, onBlock: -2, power: 'medium' }] }, hurt),
+  move({ id: '5HK', name: 'Moon Arc', desc: 'High arcing kick.', stance: 'stand', input: { btn: 'HK', dirs: STAND },
+    s: 8, a: 4, r: 16, pose: 'kick_high',
+    hits: [{ dmg: 90, box: [40, 140, 80, 60], onHit: 2, onBlock: -4, power: 'heavy' }] }, hurt),
+  move({ id: '2LP', name: 'Low Needle', desc: 'Crouching jab. Chains.', stance: 'crouch', input: { btn: 'LP', dirs: CROUCH },
+    s: 3, a: 2, r: 6, pose: 'c_jab', cancel: 'chain', chainTo: LIGHTS,
+    hits: [{ dmg: 25, box: [32, 96, 52, 20], onHit: 4, onBlock: 2, power: 'light' }] }, hurt),
+  move({ id: '2MP', name: 'Gut Slice', desc: 'Crouching slash. Cancelable.', stance: 'crouch', input: { btn: 'MP', dirs: CROUCH },
+    s: 4, a: 2, r: 9, pose: 'c_punch', cancel: 'special',
+    hits: [{ dmg: 50, box: [34, 88, 62, 24], onHit: 4, onBlock: 1, power: 'medium' }] }, hurt),
+  move({ id: '2HP', name: 'Rising Fang', desc: 'Upward slash anti-air.', stance: 'crouch', input: { btn: 'HP', dirs: CROUCH },
+    s: 5, a: 5, r: 18, pose: 'c_upper', cancel: 'special',
+    hurt: [{ f: 1, boxes: [[-10, 106, 36, 38], [-30, 0, 68, 112]] }, { f: 4, boxes: [[-18, 0, 60, 190]] }, { f: 16, boxes: [[-10, 106, 36, 38], [-30, 0, 68, 112]] }],
+    hits: [{ dmg: 85, box: [14, 140, 56, 110], onHit: 2, onBlock: -5, power: 'heavy', launch: [2, 10], jug: [1, 1] }] }, hurt),
+  move({ id: '2LK', name: 'Heel Tap', desc: 'Low kick. Chains into 2MK.', stance: 'crouch', input: { btn: 'LK', dirs: CROUCH },
+    s: 3, a: 2, r: 7, pose: 'c_short', cancel: 'chain', chainTo: [...LIGHTS, '2MK'],
+    hits: [{ dmg: 25, box: [30, 2, 60, 20], onHit: 3, onBlock: 0, level: 'low', power: 'light' }] }, hurt),
+  move({ id: '2MK', name: 'Ground Wire', desc: 'Fast low poke. Cancelable.', stance: 'crouch', input: { btn: 'MK', dirs: CROUCH },
+    s: 5, a: 3, r: 12, pose: 'c_poke', cancel: 'special',
+    hits: [{ dmg: 50, box: [34, 2, 86, 22], onHit: 1, onBlock: -3, level: 'low', power: 'medium' }] }, hurt),
+  move({ id: '2HK', name: 'Shadow Slide', desc: 'Sliding sweep. Knocks down.', stance: 'crouch', input: { btn: 'HK', dirs: CROUCH },
+    s: 7, a: 5, r: 22, pose: 'sab_slide', windup: 'sab_slide_w', move: [{ f: 3, vx: 4 }, { f: 14, vx: 0 }],
+    hurt: [{ f: 1, boxes: [[-30, 0, 68, 112]] }, { f: 5, boxes: [[-50, 0, 140, 60]] }, { f: 22, boxes: [[-30, 0, 68, 112]] }],
+    hits: [{ dmg: 90, box: [30, 0, 96, 30], onBlock: -11, level: 'low', power: 'heavy', kd: 'soft', launch: [1, 3] }] }, hurt),
+  move({ id: 'j.LP', name: 'Air Needle', desc: 'Fast air jab.', stance: 'air', input: { btn: 'LP' },
+    s: 3, a: 6, r: 6, pose: 'j_punch',
+    hits: [{ dmg: 34, box: [24, 60, 50, 40], hitstun: 14, blockstun: 10, level: 'overhead', power: 'light' }] }, hurt),
+  move({ id: 'j.MP', name: 'Air Slash', desc: 'Air-to-air slash.', stance: 'air', input: { btn: 'MP' },
+    s: 4, a: 6, r: 9, pose: 'sab_slash',
+    hits: [{ dmg: 55, box: [26, 60, 66, 52], hitstun: 16, blockstun: 12, level: 'overhead', power: 'medium' }] }, hurt),
+  move({ id: 'j.HP', name: 'Falling Crescent', desc: 'Downward slash jump-in.', stance: 'air', input: { btn: 'HP' },
+    s: 6, a: 5, r: 11, pose: 'j_hammer', windup: 'j_hammer_w',
+    hits: [{ dmg: 85, box: [20, 0, 76, 70], hitstun: 18, blockstun: 14, level: 'overhead', power: 'heavy' }] }, hurt),
+  move({ id: 'j.LK', name: 'Cross Heel', desc: 'Cross-up kick that hits behind.', stance: 'air', input: { btn: 'LK' },
+    s: 3, a: 10, r: 5, pose: 'j_knee',
+    hits: [{ dmg: 34, box: [-30, 0, 86, 44], hitstun: 15, blockstun: 11, level: 'overhead', power: 'light' }] }, hurt),
+  move({ id: 'j.MK', name: 'Air Wire', desc: 'Long air kick.', stance: 'air', input: { btn: 'MK' },
+    s: 5, a: 6, r: 9, pose: 'j_kick',
+    hits: [{ dmg: 55, box: [24, 14, 80, 36], hitstun: 16, blockstun: 12, level: 'overhead', power: 'medium' }] }, hurt),
+  move({ id: 'j.HK', name: 'Raven Kick', desc: 'Deep jump-in kick.', stance: 'air', input: { btn: 'HK' },
+    s: 6, a: 6, r: 11, pose: 'j_flykick',
+    hits: [{ dmg: 90, box: [26, 0, 84, 44], hitstun: 18, blockstun: 14, level: 'overhead', power: 'heavy' }] }, hurt),
+  move({ id: 'j.2HK', name: 'Stiletto Dive', desc: 'Air down + HK: steep dive kick. Overhead; changes jump trajectory.', type: 'command', stance: 'air',
+    input: { btn: 'HK', dirs: [1, 2, 3] }, s: 6, a: 24, r: 8, pose: 'sab_dive', landingLag: 8, priority: 2,
+    move: [{ f: 5, vx: 7.5, vy: -10, g: 0 }],
+    hits: [{ dmg: 70, box: [20, -20, 50, 50], frames: [6, 30], hitstun: 17, blockstun: 12, level: 'overhead', power: 'medium' }] }, hurt),
+  move({ id: '6MK', name: 'Axe Heel', desc: 'Forward + MK: overhead heel drop.', type: 'command', stance: 'stand', input: { btn: 'MK', dirs: [6] },
+    s: 17, a: 2, r: 14, pose: 'sab_axe', windup: 'sab_axe_w', move: [{ f: 3, vx: 2.5 }, { f: 17, vx: 0 }],
+    hits: [{ dmg: 65, box: [34, 90, 64, 100], onHit: 2, onBlock: -3, level: 'overhead', power: 'medium' }] }, hurt),
+
+  // ---- specials
+  ...variants({
+    id: 'fang1', name: 'Fang Rekka', desc: 'QCF + P, up to three times. Third hit: QCF+P low sweep or QCF+K overhead flip.', motion: 'qcf', group: 'P',
+    stance: 'stand', s: 7, a: 3, r: 16, pose: 'sab_stab', windup: 'sab_slash_w', sfx: 'spin', cancel: ['special', 'super', 'drive'], cancelOn: 'contact',
+    cancelWindow: [7, 24],
+  }, {
+    L: { s: 6, move: [{ f: 1, vx: 4 }, { f: 9, vx: 0 }], hits: [{ dmg: 54, box: [34, 120, 72, 50], power: 'special', hitstun: 20, onBlock: -6, push: [16, 18] }] },
+    M: { move: [{ f: 1, vx: 5.5 }, { f: 9, vx: 0 }], hits: [{ dmg: 59, box: [34, 120, 72, 50], power: 'special', hitstun: 20, onBlock: -6, push: [16, 18] }] },
+    H: { s: 8, move: [{ f: 1, vx: 7 }, { f: 10, vx: 0 }], hits: [{ dmg: 70, box: [34, 120, 72, 50], power: 'special', hitstun: 20, onBlock: -7, push: [16, 18] }] },
+    EX: { s: 5, invuln: { strike: [1, 6] }, move: [{ f: 1, vx: 7 }, { f: 9, vx: 0 }],
+      hits: [{ dmg: 49, box: [34, 120, 72, 50], power: 'special', hitstun: 24, onBlock: -2, frames: [5, 6], push: [14, 16] },
+        { dmg: 49, box: [34, 120, 72, 50], power: 'special', hitstun: 22, onBlock: -2, frames: [8, 9], push: [14, 16] }] },
+  }, hurt),
+  move({ id: 'fang2', name: 'Fang Rekka II', type: 'special', desc: 'Second rekka slash (after Fang Rekka).', stance: 'stand', input: { motion: 'qcf', anyOf: 'P' },
+    followFrom: ['fang1'], priority: 5, s: 7, a: 3, r: 16, pose: 'sab_slash2', windup: 'sab_slash_w', sfx: 'spin',
+    cancel: ['special', 'super', 'drive'], cancelWindow: [7, 24], move: [{ f: 1, vx: 5 }, { f: 9, vx: 0 }],
+    hits: [{ dmg: 59, box: [34, 120, 76, 70], power: 'special', hitstun: 20, onBlock: -6, push: [16, 18] }] }, hurt),
+  move({ id: 'fang3b', name: 'Fang Rekka: Low Tide', type: 'special', desc: 'Third rekka (QCF + P): sliding low. Knocks down.', stance: 'stand', input: { motion: 'qcf', anyOf: 'P' },
+    followFrom: ['fang2'], priority: 6, s: 9, a: 4, r: 20, pose: 'sab_slide', windup: 'sab_slide_w', sfx: 'spin', move: [{ f: 2, vx: 6 }, { f: 13, vx: 0 }],
+    hurt: [{ f: 1, boxes: [[-30, 0, 68, 112]] }, { f: 6, boxes: [[-50, 0, 140, 60]] }, { f: 24, boxes: [[-30, 0, 68, 112]] }],
+    cancel: 'super',
+    hits: [{ dmg: 86, box: [30, 0, 100, 34], power: 'special', onBlock: -12, level: 'low', kd: 'soft', launch: [2, 4] }] }, hurt),
+  move({ id: 'fang3a', name: 'Fang Rekka: Moonfall', type: 'special', desc: 'Third rekka (QCF + K): flipping overhead. Knocks down.', stance: 'stand', input: { motion: 'qcf', anyOf: 'K' },
+    followFrom: ['fang2'], priority: 6, s: 15, a: 3, r: 16, pose: 'sab_axe', windup: 'sab_flip', sfx: 'spin', airborne: true, landingLag: 6,
+    move: [{ f: 2, vx: 4, vy: 8, g: 1.0 }],
+    hits: [{ dmg: 86, box: [20, 30, 74, 110], power: 'special', onBlock: -5, level: 'overhead', kd: 'soft', launch: [3, 6] }] }, hurt),
+  ...variants({
+    id: 'step', name: 'Phantom Step', desc: 'QCB + K teleport. L: in front, M: behind, H: above (attack on the way down). EX: faster, invincible.', motion: 'qcb', group: 'K',
+    stance: 'stand', s: 16, a: 1, r: 12, pose: 'sab_teleport', sfx: 'teleport', noLimbHurt: true, cancel: 'none',
+    anim: [{ f: 1, pose: 'sab_teleport' }, { f: 12, pose: 'sab_teleport' }, { f: 28, pose: 'stance' }],
+  }, {
+    L: { invuln: { strike: [8, 16], throw: [8, 16], proj: [8, 16] }, teleport: { f: 12, rel: 'front', dist: 70 } },
+    M: { invuln: { strike: [8, 18], throw: [8, 18], proj: [8, 18] }, teleport: { f: 12, rel: 'behind', dist: 70 }, r: 14 },
+    H: { invuln: { strike: [8, 14], throw: [8, 14], proj: [8, 14] }, teleport: { f: 12, rel: 'above', dist: 20, height: 210 }, r: 2 },
+    EX: { s: 10, r: 8, invuln: { strike: [1, 16], throw: [1, 16], proj: [1, 16] }, teleport: { f: 8, rel: 'behind', dist: 60 } },
+  }, hurt),
+  ...variants({
+    id: 'needle', name: 'Night Needle', desc: 'QCF + K: low sliding kick that travels far. H slides under projectiles.', motion: 'qcf', group: 'K',
+    stance: 'stand', s: 8, a: 10, r: 18, pose: 'sab_slide', windup: 'sab_slide_w', sfx: 'charge',
+    hurt: [{ f: 1, boxes: [[-30, 0, 68, 112]] }, { f: 5, boxes: [[-50, 0, 140, 56]] }, { f: 26, boxes: [[-30, 0, 68, 112]] }],
+  }, {
+    L: { move: [{ f: 5, vx: 8 }, { f: 15, vx: 0 }], hits: [{ dmg: 81, box: [30, 0, 96, 34], power: 'special', onBlock: -9, level: 'low', kd: 'soft', launch: [2, 4] }] },
+    M: { move: [{ f: 5, vx: 10 }, { f: 16, vx: 0 }], hits: [{ dmg: 86, box: [30, 0, 96, 34], power: 'special', onBlock: -10, level: 'low', kd: 'soft', launch: [2, 4] }] },
+    H: { a: 12, move: [{ f: 5, vx: 12 }, { f: 18, vx: 0 }], invuln: { proj: [4, 18] }, hits: [{ dmg: 92, box: [30, 0, 96, 34], power: 'special', onBlock: -12, level: 'low', kd: 'soft', launch: [2, 4] }] },
+    EX: { s: 6, a: 12, move: [{ f: 3, vx: 12 }, { f: 16, vx: 0 }], invuln: { proj: [1, 18] },
+      hits: [{ dmg: 54, box: [30, 0, 96, 34], power: 'special', hitstun: 22, onBlock: -4, level: 'low', frames: [6, 9], jug: [0, 3] },
+        { dmg: 86, box: [30, 0, 100, 120], power: 'special', onBlock: -6, kd: 'soft', launch: [2, 11], jug: [1, 3], frames: [12, 17] }] },
+  }, hurt),
+
+  move({ id: 'super', name: 'Thousand Cuts', type: 'super', desc: 'Super Art (1 stock): invincible dash into a storm of blade strikes.',
+    stance: 'stand', input: { motion: 'qcf2', anyOf: 'K' }, s: 5, a: 30, r: 26, meterCost: 100, superFreeze: 40, sfx: 'super',
+    invuln: { strike: [1, 12], throw: [1, 12], proj: [1, 12] },
+    move: [{ f: 1, vx: 14 }, { f: 10, vx: 1 }, { f: 34, vx: 0 }],
+    hits: [
+      ...[5, 8, 11, 14, 17, 20, 23, 26].map((f) => ({ dmg: 26, box: [0, 40, 110, 170] as [number, number, number, number], frames: [f, f + 1] as [number, number], power: 'super' as const, hitstun: 32, onBlock: -20, jug: [0, 12] as [number, number], vacuum: true })),
+      { dmg: 120, box: [0, 40, 120, 200], frames: [31, 33], power: 'super', hitstop: 18, kd: 'hard', launch: [7, 13], jug: [1, 12], onBlock: -22 },
+    ],
+    anim: [{ f: 1, pose: 'dash_f' }, { f: 5, pose: 'sab_slash' }, { f: 8, pose: 'sab_slash2' }, { f: 11, pose: 'sab_stab' }, { f: 14, pose: 'sab_slash' }, { f: 17, pose: 'sab_slash2' }, { f: 20, pose: 'sab_stab' }, { f: 23, pose: 'sab_slash' }, { f: 27, pose: 'sab_crossslash' }, { f: 31, pose: 'sab_crossslash' }, { f: 60, pose: 'stance' }] }, hurt),
+  move({ id: 'ult', name: 'Eclipse Requiem', type: 'ultimate', desc: 'Ultimate (3 stocks, below 35% life): vanish behind the opponent and carve them apart.',
+    stance: 'stand', input: { motion: 'qcb2', anyOf: 'P' }, s: 14, a: 34, r: 26, meterCost: 300, lowHp: true, superFreeze: 70, sfx: 'ultimate',
+    invuln: { strike: [1, 22], throw: [1, 22], proj: [1, 22] }, teleport: { f: 8, rel: 'behind', dist: 50 }, noLimbHurt: true,
+    hits: [
+      ...[14, 17, 20, 23, 26, 29, 32, 35, 38].map((f) => ({ dmg: 34, box: [-20, 20, 140, 200] as [number, number, number, number], frames: [f, f + 1] as [number, number], power: 'super' as const, hitstun: 36, onBlock: -10, jug: [0, 20] as [number, number], vacuum: true })),
+      { dmg: 220, box: [-20, 0, 160, 260], frames: [44, 47], power: 'super', hitstop: 24, kd: 'hard', launch: [6, 17], jug: [1, 20], onBlock: -16 },
+    ],
+    anim: [{ f: 1, pose: 'sab_teleport' }, { f: 10, pose: 'sab_intro' }, { f: 14, pose: 'sab_slash' }, { f: 20, pose: 'sab_slash2' }, { f: 26, pose: 'sab_stab' }, { f: 32, pose: 'sab_slash' }, { f: 40, pose: 'sab_crossslash' }, { f: 44, pose: 'sab_crossslash' }, { f: 73, pose: 'stance' }] }, hurt),
+
+  ...systemMoves(hurt, throwF, throwB, { throwF: 'grab', throwB: 'grab' }),
+];
+
+export const SABLE: CharacterDef = {
+  id: 'sable',
+  name: 'SABLE',
+  kanji: '黒刃',
+  epithet: 'The Black Courier',
+  archetype: 'Rushdown',
+  description: 'A data-courier who never misses a delivery. Double jump, air dash, teleports and a three-way rekka let her overwhelm anyone who blinks.',
+  stats: { power: 2, speed: 5, range: 2, defense: 2, difficulty: 4 },
+  maxHp: 1040,
+  maxStun: 1000,
+  walkF: 5.2,
+  walkB: 3.8,
+  dashF: { frames: 14, dist: 140 },
+  dashB: { frames: 18, dist: 120, invuln: 6 },
+  jump: { prejump: 3, vy: 19.5, g: 0.95, vxF: 5.6, vxB: 4.6 },
+  airJumps: 1,
+  airDashes: 1,
+  hurt,
+  push: { stand: bx([-21, 0, 42, 196]), crouch: bx([-24, 0, 48, 124]), air: bx([-20, 40, 40, 130]) },
+  body: { scale: 0.96, height: 236, torso: 76, neck: 10, head: 17, shoulder: 13, hipWidth: 11, upperArm: 42, foreArm: 40, thigh: 60, shin: 58, limbWidth: 11, torsoWidth: 30, style: 'sable' },
+  palettes: [
+    { name: 'Nightshade', skin: '#e2b8a0', body: '#3c2060', bodyDark: '#1c1030', cloth: '#ff2e9a', accent: '#ff3fb4', glow: '#ff9ad8', hair: '#120c18', rim: '#ff6ad0' },
+    { name: 'Ghostwire', skin: '#d6ad94', body: '#d9dbe8', bodyDark: '#2a2e40', cloth: '#5dffc8', accent: '#5dffc8', glow: '#c9fff0', hair: '#e8e8f0', rim: '#8affdc' },
+  ],
+  moves,
+  ai: {
+    aggression: 0.82, zoning: 0.05, jumpiness: 0.16, grabby: 0.35, antiAirMove: '2HP', preferredRange: 110, meterUse: 0.65,
+    pokes: ['2MK', '5MK', '5LK', '5LP', '2LK'],
+    combos: [['2LK', '2LP', 'fang1_L', 'fang2', 'fang3b'], ['5LP', '5MP', '5HP', 'fang1_M', 'fang2'], ['2MK', 'needle_M'], ['5HP', 'super'], ['2LK', '2MK', 'needle_L']],
+    blockstrings: [['5LP', '5MP', '5HP'], ['2LK', '2MK'], ['5LP', '5MP']],
+  },
+  quotes: {
+    intro: ['You\'re on my route. Bad idea.', 'Blink and you lose.', 'I deliver. Pain included.'],
+    win: ['Signed, sealed, delivered.', 'Too slow. Way too slow.', 'Next time, try keeping up.'],
+  },
+  arcade: {
+    intro: 'Sable stole a data-shard from the tournament\'s own sponsor and now every bounty hunter in Neo-Kyoto wants her head. The only safe place left is the NEON TEMPEST spotlight, where the cameras keep her alive.',
+    ending: 'With the title in hand, Sable broadcasts the stolen shard across every billboard in the city: proof the tournament was rigged from day one. She vanishes into the rain before the sponsors can react, already on her next delivery.',
+    rival: 'magnus',
+  },
+  trials: [
+    { name: 'Fang Waltz', hint: 'Chain 5LP > 5MP > 5HP.', steps: [{ move: '5LP', label: '5LP' }, { move: '5MP', label: '5MP' }, { move: '5HP', label: '5HP' }] },
+    { name: 'Three Fangs', hint: 'Fang Rekka three times: QCF+P, QCF+P, QCF+P.', steps: [{ move: 'fang1', label: 'QCF+P Fang Rekka' }, { move: 'fang2', label: 'QCF+P Rekka II' }, { move: 'fang3b', label: 'QCF+P Low Tide' }] },
+    { name: 'Shadow Step', hint: 'Jump-in HK, 2MK, cancel into Night Needle.', steps: [{ move: 'j.HK', label: 'Jump HK' }, { move: '2MK', label: '2MK' }, { move: 'needle', label: 'QCF+K Night Needle' }] },
+    { name: 'Thousand Cuts', hint: 'Chain into 5HP and cancel into the Super Art.', steps: [{ move: '5LP', label: '5LP' }, { move: '5MP', label: '5MP' }, { move: '5HP', label: '5HP' }, { move: 'super', label: 'QCFx2+K Thousand Cuts' }] },
+  ],
+  themeColor: '#ff3fb4',
+};
