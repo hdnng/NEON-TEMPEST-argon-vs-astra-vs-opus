@@ -1,0 +1,29 @@
+{
+  "name": "neon-tempest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NEON TEMPEST - a procedural neon-noir 2D fighting game for the browser",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/ensure-deps.mjs && vite --open",
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "botsim": "tsx scripts/botsim.ts",
+    "bench": "node scripts/bench.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "diag": "tsx scripts/dmgsrc.ts",
+    "movelist": "tsx scripts/movelist-md.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3",
+    "vite": "7.3.7",
+    "vitest": "3.2.7"
+  }
+}
