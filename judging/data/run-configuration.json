@@ -1,0 +1,24 @@
+{
+  "provided_by": "User, after blind evaluation was completed",
+  "submissions": {
+    "Argon": {"model": "Gemini 4 Argon", "vendor": "Google", "effort": "high", "maximum_supported_effort": "high"},
+    "Astra": {"model": "GPT-6 Astra", "vendor": "OpenAI", "effort": "xhigh"},
+    "Opus": {"model": "Claude Opus 5.5", "vendor": "Anthropic", "effort": "xhigh"}
+  },
+  "judge": {"model": "GPT 6.1 Sol", "vendor": "OpenAI", "effort": "max"},
+  "cost_data_provided": false,
+  "context": {
+    "en": "The model identities and configurations were supplied after the blind evaluation. Scores and analysis are unchanged; references to anonymity in the original analysis describe the judging phase. Evidence files retain their original directory names so links and reproducibility remain intact.",
+    "vi": "Danh tính và cấu hình mô hình được cung cấp sau khi hoàn tất chấm ẩn danh. Điểm số và nội dung phân tích được giữ nguyên; những chỗ nhắc đến tính ẩn danh trong phân tích gốc nói về giai đoạn chấm. Các file bằng chứng vẫn giữ tên thư mục ban đầu để bảo toàn liên kết và khả năng tái lập."
+  },
+  "caveats": [
+    {
+      "en": "Argon ran at its maximum supported effort (high), while Astra and Opus ran at xhigh. This is a “best each model can do” comparison, not an equal-effort comparison.",
+      "vi": "Argon chạy ở mức effort cao nhất mà mô hình hỗ trợ (high), còn Astra và Opus chạy ở xhigh. Vì vậy, đây là so sánh theo nguyên tắc “mỗi mô hình phát huy hết khả năng”, không phải so sánh ở cùng mức effort."
+    },
+    {
+      "en": "The judge (GPT 6.1 Sol, OpenAI) is from the same vendor as Astra (GPT-6 Astra), so scores for Astra may be biased in its favour. Blind labels and tool-measured metrics were used to reduce this, but the bias cannot be ruled out.",
+      "vi": "Mô hình chấm (GPT 6.1 Sol, OpenAI) cùng nhà cung cấp với Astra (GPT-6 Astra), nên điểm của Astra có thể chịu thiên lệch theo hướng có lợi cho Astra. Nhãn ẩn danh và các chỉ số đo bằng công cụ đã được dùng để giảm nguy cơ này, nhưng không thể loại trừ hoàn toàn thiên lệch."
+    }
+  ]
+}

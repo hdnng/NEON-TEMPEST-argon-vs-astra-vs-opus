@@ -50,6 +50,19 @@ Seed của trận browser theo mặc định từng dự án; khả năng tái l
 
 Lệnh khởi động server không tự thoát khi sẵn sàng: exit code ghi null, kèm thời gian sẵn sàng và PID. Lệnh build/test có exit code thông thường. Không dùng screenshot nộp sẵn làm bằng chứng hình ảnh.
 
+### Cấu hình chạy
+
+Danh tính và cấu hình mô hình được cung cấp sau khi hoàn tất chấm ẩn danh. Điểm số và nội dung phân tích được giữ nguyên; những chỗ nhắc đến tính ẩn danh trong phân tích gốc nói về giai đoạn chấm. Các file bằng chứng vẫn giữ tên thư mục ban đầu để bảo toàn liên kết và khả năng tái lập.
+
+- **Argon**: Gemini 4 Argon (Google), effort = **high**.
+- **Astra**: GPT-6 Astra (OpenAI), effort = **xhigh**.
+- **Opus**: Claude Opus 5.5 (Anthropic), effort = **xhigh**.
+- **Mô hình chấm**: GPT 6.1 Sol (OpenAI), effort = **max**.
+
+Argon chạy ở mức effort cao nhất mà mô hình hỗ trợ (high), còn Astra và Opus chạy ở xhigh. Vì vậy, đây là so sánh theo nguyên tắc “mỗi mô hình phát huy hết khả năng”, không phải so sánh ở cùng mức effort.
+
+Mô hình chấm (GPT 6.1 Sol, OpenAI) cùng nhà cung cấp với Astra (GPT-6 Astra), nên điểm của Astra có thể chịu thiên lệch theo hướng có lợi cho Astra. Nhãn ẩn danh và các chỉ số đo bằng công cụ đã được dùng để giảm nguy cơ này, nhưng không thể loại trừ hoàn toàn thiên lệch.
+
 ## 3. Chỉ số khách quan
 
 | Chỉ số | Argon | Astra | Opus |

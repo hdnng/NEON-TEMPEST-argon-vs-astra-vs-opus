@@ -50,6 +50,19 @@ Benchmark match seeds follow each project’s browser defaults; exact seeded rep
 
 Long-running startup commands have no natural exit at readiness: the recorded exit code is null, with the ready duration and PID retained. Build/test commands have ordinary exit codes. Submitted screenshots were never used as visual evidence.
 
+### Run configuration
+
+The model identities and configurations were supplied after the blind evaluation. Scores and analysis are unchanged; references to anonymity in the original analysis describe the judging phase. Evidence files retain their original directory names so links and reproducibility remain intact.
+
+- **Argon**: Gemini 4 Argon (Google), effort = **high**.
+- **Astra**: GPT-6 Astra (OpenAI), effort = **xhigh**.
+- **Opus**: Claude Opus 5.5 (Anthropic), effort = **xhigh**.
+- **Judge**: GPT 6.1 Sol (OpenAI), effort = **max**.
+
+Argon ran at its maximum supported effort (high), while Astra and Opus ran at xhigh. This is a “best each model can do” comparison, not an equal-effort comparison.
+
+The judge (GPT 6.1 Sol, OpenAI) is from the same vendor as Astra (GPT-6 Astra), so scores for Astra may be biased in its favour. Blind labels and tool-measured metrics were used to reduce this, but the bias cannot be ruled out.
+
 ## 3. Objective metrics
 
 | Metric | Argon | Astra | Opus |

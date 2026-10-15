@@ -63,3 +63,25 @@ def legacy_data(value, parent=''):
     if isinstance(value, str) and parent in {'label', 'project', 'order', 'ranking'}:
         return '/'.join(LEGACY.get(part, part) for part in value.split('/'))
     return value
+
+
+def configuration():
+    return json.loads((ROOT / 'judging/data/run-configuration.json').read_text(encoding='utf-8'))
+
+
+def configuration_section(language):
+    config = configuration()
+    en = language == 'en'
+    lines = ['### Run configuration' if en else '### Cấu hình chạy', '', config['context'][language], '']
+    for name, item in config['submissions'].items():
+        lines.append(f"- **{name}**: {item['model']} ({item['vendor']}), effort = **{item['effort']}**.")
+    judge = config['judge']
+    lines += [f"- **{'Judge' if en else 'Mô hình chấm'}**: {judge['model']} ({judge['vendor']}), effort = **{judge['effort']}**.", '']
+    for caveat in config['caveats']:
+        lines += [caveat[language], '']
+    return '\n'.join(lines)
+
+
+def add_configuration(text, language):
+    anchor = '## 3. Objective metrics' if language == 'en' else '## 3. Chỉ số khách quan'
+    return text.replace(anchor, configuration_section(language) + '\n' + anchor, 1)
