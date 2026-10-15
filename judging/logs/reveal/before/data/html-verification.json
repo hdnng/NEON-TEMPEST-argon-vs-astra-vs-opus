@@ -1,0 +1,40 @@
+{
+  "pass": true,
+  "transport": "Temporary local HTTP server; closed after verification",
+  "states": [
+    {
+      "lang": "en",
+      "enVisible": true,
+      "viVisible": false,
+      "button": "Tiếng Việt",
+      "saved": "en"
+    },
+    {
+      "lang": "vi",
+      "enVisible": false,
+      "viVisible": true,
+      "button": "English",
+      "saved": "vi"
+    },
+    {
+      "lang": "vi",
+      "enVisible": false,
+      "viVisible": true,
+      "button": "English",
+      "saved": "vi"
+    },
+    {
+      "lang": "en",
+      "enVisible": true,
+      "viVisible": false,
+      "button": "Tiếng Việt",
+      "saved": "en"
+    }
+  ],
+  "images": {
+    "count": 288,
+    "unique": 72,
+    "broken": []
+  },
+  "console_errors": []
+}

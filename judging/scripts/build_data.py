@@ -1,9 +1,10 @@
 from pathlib import Path
 from decimal import Decimal
 import collections, json, math, re
+from model_labels import legacy_data, reveal_data
 ROOT=Path(__file__).resolve().parents[2];J=ROOT/'judging';D=J/'data'
-def read(p): return json.loads((ROOT/p).read_text(encoding='utf-8'))
-def save(name,data): (D/name).write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
+def read(p): return legacy_data(json.loads((ROOT/p).read_text(encoding='utf-8')))
+def save(name,data): (D/name).write_text(json.dumps(reveal_data(data),ensure_ascii=False,indent=2),encoding='utf-8')
 def ref(x,file,needle):
     p=J/'work'/x/file
     lines=p.read_text(encoding='utf-8').splitlines()

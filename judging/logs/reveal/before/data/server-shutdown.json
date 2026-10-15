@@ -1,0 +1,44 @@
+[
+  {
+    "project": "A",
+    "pid": 3284,
+    "command": "taskkill /PID 3284 /T /F",
+    "shutdown_command_exit_code": 0,
+    "status": "terminated by judge after all checks",
+    "natural_server_exit_code": null,
+    "verified_descendant_commands": [
+      "C:\\WINDOWS\\system32\\cmd.exe /d /s /c vite",
+      "\"node\"   \"D:\\HD\\code\\prj\\round2\\judging\\work\\A\\node_modules\\.bin\\\\..\\vite\\bin\\vite.js\" ",
+      "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\node_modules\\vite\\node_modules\\@esbuild\\win32-x64\\esbuild.exe --service=0.21.5 --ping"
+    ]
+  },
+  {
+    "project": "B",
+    "pid": 21752,
+    "command": "taskkill /PID 21752 /T /F",
+    "shutdown_command_exit_code": 0,
+    "status": "terminated by judge after all checks",
+    "natural_server_exit_code": null,
+    "verified_descendant_commands": [
+      "\"C:\\Program Files\\nodejs\\node.exe\" node_modules/vite/bin/vite.js --host 0.0.0.0"
+    ]
+  },
+  {
+    "project": "C",
+    "pid": 16088,
+    "command": "taskkill /PID 16088 /T /F",
+    "shutdown_command_exit_code": 0,
+    "status": "terminated by judge after all checks",
+    "natural_server_exit_code": null,
+    "verified_descendant_commands": [
+      "C:\\WINDOWS\\system32\\cmd.exe /d /s /c node scripts/ensure-deps.mjs && vite --open",
+      "\"node\"   \"D:\\HD\\code\\prj\\round2\\judging\\work\\C\\node_modules\\.bin\\\\..\\vite\\bin\\vite.js\" --open"
+    ]
+  },
+  {
+    "helper": "production static servers",
+    "pid": 14664,
+    "command_identity": "\"C:\\Program Files\\nodejs\\node.exe\" judging/scripts/server.mjs",
+    "shutdown_command_exit_code": 0
+  }
+]

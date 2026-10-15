@@ -1,5 +1,5 @@
 {
-  "B": {
+  "Astra": {
     "startup": {
       "command": "npm start",
       "status": "PASS",
@@ -44,7 +44,7 @@
       "log": "judging/logs/B/unit-tests.log"
     }
   },
-  "C": {
+  "Opus": {
     "startup": {
       "command": "npm start",
       "status": "PASS",
@@ -84,7 +84,7 @@
       "log": "judging/logs/C/unit-tests.log"
     }
   },
-  "A": {
+  "Argon": {
     "startup": {
       "command": "npm install && npm run dev",
       "status": "PASS",

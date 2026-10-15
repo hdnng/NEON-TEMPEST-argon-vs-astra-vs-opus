@@ -4,7 +4,7 @@
     "vi": "Mỗi yêu cầu có trọng số ngang nhau; Implemented tính đủ, Partial tính nửa, Missing/Broken tính không. Hai bullet không đánh số ở phần D được ghi là D1/D2. Chỉ phần A–E được tính phần trăm này."
   },
   "projects": {
-    "A": {
+    "Argon": {
       "sections": {
         "A": {
           "requirements": 4,
@@ -546,7 +546,7 @@
         "Broken": 2
       }
     },
-    "B": {
+    "Astra": {
       "sections": {
         "A": {
           "requirements": 4,
@@ -1091,7 +1091,7 @@
         "Partial": 7
       }
     },
-    "C": {
+    "Opus": {
       "sections": {
         "A": {
           "requirements": 4,

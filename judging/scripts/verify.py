@@ -3,8 +3,9 @@ from decimal import Decimal
 from html.parser import HTMLParser
 import collections,hashlib,json,re,time
 from setup import manifest
+from model_labels import NAMES, legacy_data, reveal_data
 ROOT=Path(__file__).resolve().parents[2];J=ROOT/'judging'
-def read(p):return json.loads((ROOT/p).read_text(encoding='utf-8'))
+def read(p):return legacy_data(json.loads((ROOT/p).read_text(encoding='utf-8')))
 class Parser(HTMLParser):
  def __init__(self):super().__init__();self.images=[];self.links=[]
  def handle_starttag(self,tag,attrs):
@@ -37,8 +38,9 @@ def main():
    actual=[c.strip()for c in row.strip('|').split('|')][1:]if row else None
    if actual!=vals:errors.append(f'{lang}: metric {key}');tablevalues=False
   for x in 'ABC':
-   row=next(s for s in doc.splitlines()if f'<!--score:{x}-->'in s);cells=[z.strip().replace('**','')for z in row.strip('|').split('|')]
-   pr=scores['projects'][x];expected=[str(pr['rank']),x+f' <!--score:{x}-->']+[f"{pr['categories'][k]['score']:.1f}"for k in scores['weights']]+[f"{pr['total']:.2f}",f"{pr['spec_completion_percent']:.2f}"]
+   name=NAMES[x]
+   row=next(s for s in doc.splitlines()if f'<!--score:{name}-->'in s);cells=[z.strip().replace('**','')for z in row.strip('|').split('|')]
+   pr=scores['projects'][x];expected=[str(pr['rank']),name+f' <!--score:{name}-->']+[f"{pr['categories'][k]['score']:.1f}"for k in scores['weights']]+[f"{pr['total']:.2f}",f"{pr['spec_completion_percent']:.2f}"]
    if cells!=expected:errors.append(f'{lang}: score row {x}');scorerows=False
  record('readme_metric_table_values',tablevalues);record('readme_score_table_values',scorerows)
  # Independently format key objective metrics from metrics.json, without trusting display-values alone.
@@ -75,7 +77,7 @@ def main():
   if metrics[x]['startup']['assisted']and pr['categories']['runs']['score']>6:errors.append(x+' assistance cap')
  record('weighted_and_completion_math',math_ok)
  if not math_ok:errors.append('Math mismatch')
- record('original_manifests_unchanged',originals);record('work_submission_source_unchanged',work_source);record('all_final_images_reviewed_and_fingerprinted',image_reviews)
+ record('original_manifests_unchanged',reveal_data(originals));record('work_submission_source_unchanged',reveal_data(work_source));record('all_final_images_reviewed_and_fingerprinted',reveal_data(image_reviews))
  if sum(scores['weights'].values())!=100:errors.append('Weights')
  for e in evidence:
   if not pathcheck(e):errors.append('Missing evidence '+e)

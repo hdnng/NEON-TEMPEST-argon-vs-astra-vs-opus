@@ -6,9 +6,9 @@
   "node": "v24.16.0",
   "npm": "11.13.0",
   "order": [
-    "B",
-    "C",
-    "A"
+    "Astra",
+    "Opus",
+    "Argon"
   ],
   "random_seed": 2139301718,
   "excluded_copy_dirs": [

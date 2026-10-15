@@ -1,0 +1,39 @@
+{
+  "pass": true,
+  "errors": [],
+  "checks": {
+    "missing_image_paths": [],
+    "bilingual_image_parity": true,
+    "bilingual_numeric_set_parity": true,
+    "english_only_numbers": [],
+    "vietnamese_only_numbers": [],
+    "readme_language_switchers": true,
+    "readme_metric_table_values": true,
+    "readme_score_table_values": true,
+    "direct_metrics_json_comparison": true,
+    "weighted_and_completion_math": true,
+    "original_manifests_unchanged": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "work_submission_source_unchanged": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "all_final_images_reviewed_and_fingerprinted": {
+      "A": true,
+      "B": true,
+      "C": true
+    },
+    "all_score_and_checklist_evidence_paths_exist": true,
+    "html_image_set_matches_markdown": true,
+    "missing_local_links": [],
+    "html_toggle_and_image_check_pass": true
+  },
+  "image_references": 288,
+  "unique_report_image_paths": 72,
+  "reviewed_project_pngs": 90,
+  "date_utc": "2026-10-15T16:04:44Z"
+}

@@ -1,0 +1,127 @@
+{
+  "B": {
+    "startup": {
+      "command": "npm start",
+      "status": "PASS",
+      "assisted": false,
+      "duration_seconds": 12.702,
+      "exit_code": null,
+      "pid": 21752,
+      "url": "http://localhost:5173",
+      "log": "judging/logs/B/readme-start.log"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "duration_seconds": 10.494,
+      "log": "judging/logs/B/build.log"
+    },
+    "bundle": {
+      "files": [
+        {
+          "path": "assets/index-BDzXYmyz.css",
+          "bytes": 16452,
+          "gzip_bytes": 4505
+        },
+        {
+          "path": "assets/index-Dps3RrfX.js",
+          "bytes": 96677,
+          "gzip_bytes": 35632
+        },
+        {
+          "path": "index.html",
+          "bytes": 1059,
+          "gzip_bytes": 603
+        }
+      ],
+      "total_bytes": 114188,
+      "gzip_total_bytes": 40740
+    },
+    "unit_tests": {
+      "command": "npm test -- --reporter=json --outputFile=../../logs/B/unit-results.json",
+      "exit_code": 0,
+      "duration_seconds": 3.006,
+      "log": "judging/logs/B/unit-tests.log"
+    }
+  },
+  "C": {
+    "startup": {
+      "command": "npm start",
+      "status": "PASS",
+      "assisted": false,
+      "duration_seconds": 15.19,
+      "exit_code": null,
+      "pid": 16088,
+      "url": "http://localhost:5173",
+      "log": "judging/logs/C/readme-start.log"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "duration_seconds": 13.893,
+      "log": "judging/logs/C/build.log"
+    },
+    "bundle": {
+      "files": [
+        {
+          "path": "assets/index-xrqisXGG.js",
+          "bytes": 410475,
+          "gzip_bytes": 133027
+        },
+        {
+          "path": "index.html",
+          "bytes": 1348,
+          "gzip_bytes": 754
+        }
+      ],
+      "total_bytes": 411823,
+      "gzip_total_bytes": 133781
+    },
+    "unit_tests": {
+      "command": "npm test -- --reporter=json --outputFile=../../logs/C/unit-results.json",
+      "exit_code": 0,
+      "duration_seconds": 4.553,
+      "log": "judging/logs/C/unit-tests.log"
+    }
+  },
+  "A": {
+    "startup": {
+      "command": "npm install && npm run dev",
+      "status": "PASS",
+      "assisted": false,
+      "duration_seconds": 14.843,
+      "exit_code": null,
+      "pid": 3284,
+      "url": "http://localhost:5123",
+      "log": "judging/logs/A/readme-start.log"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "duration_seconds": 7.309,
+      "log": "judging/logs/A/build.log"
+    },
+    "bundle": {
+      "files": [
+        {
+          "path": "assets/index-D6MQdmbI.js",
+          "bytes": 193452,
+          "gzip_bytes": 53233
+        },
+        {
+          "path": "index.html",
+          "bytes": 1290,
+          "gzip_bytes": 692
+        }
+      ],
+      "total_bytes": 194742,
+      "gzip_total_bytes": 53925
+    },
+    "unit_tests": {
+      "command": "npm test -- --reporter=json --outputFile=../../logs/A/unit-results.json",
+      "exit_code": 0,
+      "duration_seconds": 2.964,
+      "log": "judging/logs/A/unit-tests.log"
+    }
+  }
+}

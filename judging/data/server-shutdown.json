@@ -1,6 +1,6 @@
 [
   {
-    "project": "A",
+    "project": "Argon",
     "pid": 3284,
     "command": "taskkill /PID 3284 /T /F",
     "shutdown_command_exit_code": 0,
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "project": "B",
+    "project": "Astra",
     "pid": 21752,
     "command": "taskkill /PID 21752 /T /F",
     "shutdown_command_exit_code": 0,
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "project": "C",
+    "project": "Opus",
     "pid": 16088,
     "command": "taskkill /PID 16088 /T /F",
     "shutdown_command_exit_code": 0,

@@ -1,5 +1,5 @@
 {
-  "A": {
+  "Argon": {
     "startup": {
       "command": "npm install && npm run dev",
       "status": "PASS",
@@ -51,7 +51,7 @@
       "scope": "Independent production browser flow and two-minute keyboard gameplay; excludes Vite HMR and node runner color warnings."
     },
     "benchmark": {
-      "label": "A",
+      "label": "Argon",
       "duration_seconds": 60.012899999999995,
       "frames": 1957,
       "fps_average": 32.60965559071467,
@@ -219,8 +219,8 @@
       "numeric_mismatch": true,
       "comparable_conditions": false,
       "note": {
-        "en": "Different viewport/backends/workloads; mismatch is a reproduction flag, not proof of a false claim. A also changes the game loop and render target.",
-        "vi": "Viewport/backend/workload khác nhau; chênh lệch chỉ là cờ cảnh báo tái lập, không chứng minh tuyên bố sai. A còn đổi vòng lặp và render target."
+        "en": "Different viewport/backends/workloads; mismatch is a reproduction flag, not proof of a false claim. Argon also changes the game loop and render target.",
+        "vi": "Viewport/backend/workload khác nhau; chênh lệch chỉ là cờ cảnh báo tái lập, không chứng minh tuyên bố sai. Argon còn đổi vòng lặp và render target."
       }
     },
     "play": {
@@ -434,7 +434,7 @@
       }
     }
   },
-  "B": {
+  "Astra": {
     "startup": {
       "command": "npm start",
       "status": "PASS",
@@ -491,7 +491,7 @@
       "scope": "Independent production browser flow and two-minute keyboard gameplay; excludes Vite HMR and node runner color warnings."
     },
     "benchmark": {
-      "label": "B",
+      "label": "Astra",
       "duration_seconds": 60.013299999999994,
       "frames": 3602,
       "fps_average": 60.02002889359526,
@@ -659,8 +659,8 @@
       "numeric_mismatch": true,
       "comparable_conditions": false,
       "note": {
-        "en": "Different viewport/backends/workloads; mismatch is a reproduction flag, not proof of a false claim. A also changes the game loop and render target.",
-        "vi": "Viewport/backend/workload khác nhau; chênh lệch chỉ là cờ cảnh báo tái lập, không chứng minh tuyên bố sai. A còn đổi vòng lặp và render target."
+        "en": "Different viewport/backends/workloads; mismatch is a reproduction flag, not proof of a false claim. Argon also changes the game loop and render target.",
+        "vi": "Viewport/backend/workload khác nhau; chênh lệch chỉ là cờ cảnh báo tái lập, không chứng minh tuyên bố sai. Argon còn đổi vòng lặp và render target."
       }
     },
     "play": {
@@ -874,7 +874,7 @@
       }
     }
   },
-  "C": {
+  "Opus": {
     "startup": {
       "command": "npm start",
       "status": "PASS",
@@ -926,7 +926,7 @@
       "scope": "Independent production browser flow and two-minute keyboard gameplay; excludes Vite HMR and node runner color warnings."
     },
     "benchmark": {
-      "label": "C",
+      "label": "Opus",
       "duration_seconds": 60.0296,
       "frames": 2511,
       "fps_average": 41.8293641803377,
@@ -1094,8 +1094,8 @@
       "numeric_mismatch": true,
       "comparable_conditions": false,
       "note": {
-        "en": "Different viewport/backends/workloads; mismatch is a reproduction flag, not proof of a false claim. A also changes the game loop and render target.",
-        "vi": "Viewport/backend/workload khác nhau; chênh lệch chỉ là cờ cảnh báo tái lập, không chứng minh tuyên bố sai. A còn đổi vòng lặp và render target."
+        "en": "Different viewport/backends/workloads; mismatch is a reproduction flag, not proof of a false claim. Argon also changes the game loop and render target.",
+        "vi": "Viewport/backend/workload khác nhau; chênh lệch chỉ là cờ cảnh báo tái lập, không chứng minh tuyên bố sai. Argon còn đổi vòng lặp và render target."
       }
     },
     "play": {

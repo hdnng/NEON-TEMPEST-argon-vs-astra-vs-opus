@@ -1,0 +1,395 @@
+{
+  "weights": {
+    "runs": 10,
+    "combat": 20,
+    "feel": 10,
+    "ai": 8,
+    "ui": 20,
+    "visuals": 10,
+    "balance": 5,
+    "performance": 7,
+    "tests": 7,
+    "architecture": 3
+  },
+  "category_names": {
+    "runs": {
+      "en": "Runs and stability",
+      "vi": "Khả năng chạy và độ ổn định"
+    },
+    "combat": {
+      "en": "Combat depth and correctness",
+      "vi": "Độ sâu và tính đúng đắn của combat"
+    },
+    "feel": {
+      "en": "Game feel — code estimate",
+      "vi": "Game feel — ước lượng từ code"
+    },
+    "ai": {
+      "en": "CPU AI quality",
+      "vi": "Chất lượng CPU AI"
+    },
+    "ui": {
+      "en": "UI/UX",
+      "vi": "UI/UX"
+    },
+    "visuals": {
+      "en": "Visuals, VFX, stages, audio",
+      "vi": "Đồ họa, VFX, sân đấu, âm thanh"
+    },
+    "balance": {
+      "en": "Balance and roster completeness",
+      "vi": "Cân bằng và độ đầy đủ của roster"
+    },
+    "performance": {
+      "en": "Performance",
+      "vi": "Hiệu năng"
+    },
+    "tests": {
+      "en": "Tests and self-verification",
+      "vi": "Test và tự kiểm chứng"
+    },
+    "architecture": {
+      "en": "Code architecture and README accuracy",
+      "vi": "Kiến trúc code và độ chính xác của README"
+    }
+  },
+  "formula": "sum(score_0_to_10 * category_weight / 10); total out of 100",
+  "performance_thresholds": "8.5: avg>=59, low>=50, p95<=17.5; 8: avg>=58, low>=40, p95<=20; 7: avg>=55, low>=30, p95<=33.5; 6: avg>=50, low>=25; 5: avg>=40; 4: avg>=30; 3: avg>=20; 2: avg>=10; 1 otherwise. Applied to common GPU-headless benchmark.",
+  "projects": {
+    "A": {
+      "categories": {
+        "runs": {
+          "score": 8,
+          "weight": 10,
+          "assessment": "verified by tool",
+          "evidence": [
+            "judging/logs/A/readme-start.log",
+            "judging/logs/A/build.log",
+            "judging/logs/A/two-minute-play.json",
+            "judging/logs/A/independent-balance.json"
+          ]
+        },
+        "combat": {
+          "score": 7.2,
+          "weight": 20,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/A/combat-spotchecks.json",
+            "judging/logs/A/edge-cases.json",
+            "judging/logs/A/roster-inventory.json"
+          ]
+        },
+        "feel": {
+          "score": 6.5,
+          "weight": 10,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/work/A/src/core/simulation.ts#L2284",
+            "judging/work/A/src/core/simulation.ts#L2336"
+          ]
+        },
+        "ai": {
+          "score": 5.0,
+          "weight": 8,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/work/A/src/ai/cpuController.ts#L133",
+            "judging/logs/A/independent-balance.json"
+          ]
+        },
+        "ui": {
+          "score": 6.0,
+          "weight": 20,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/A/browser-flow.json",
+            "judging/screenshots/A/03-main-menu.png",
+            "judging/screenshots/A/04-character-select.png",
+            "judging/screenshots/A/13-settings.png"
+          ]
+        },
+        "visuals": {
+          "score": 5.4,
+          "weight": 10,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/screenshots/A/15-stage-1.png",
+            "judging/screenshots/A/16-stage-2.png",
+            "judging/screenshots/A/17-stage-3.png",
+            "judging/screenshots/A/09-super-active.png",
+            "judging/screenshots/A/18-special-strip.png"
+          ]
+        },
+        "balance": {
+          "score": 6.6,
+          "weight": 5,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/A/independent-balance.json",
+            "judging/logs/A/roster-inventory.json"
+          ]
+        },
+        "performance": {
+          "score": 4.0,
+          "weight": 7,
+          "assessment": "verified by tool",
+          "evidence": [
+            "judging/logs/A/independent-benchmark-gpu.json",
+            "judging/logs/A/independent-benchmark.json"
+          ]
+        },
+        "tests": {
+          "score": 3.8,
+          "weight": 7,
+          "assessment": "verified by tool",
+          "evidence": [
+            "judging/logs/A/unit-results.json",
+            "judging/logs/A/own-e2e.log",
+            "judging/logs/A/edge-cases.json"
+          ]
+        },
+        "architecture": {
+          "score": 4.8,
+          "weight": 3,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/A/source-evidence.json",
+            "judging/logs/A/own-e2e.log",
+            "judging/work/A/src/scenes/gameApp.ts#L68"
+          ]
+        }
+      },
+      "total": 60.5,
+      "spec_completion_percent": 75.0,
+      "human_playtest_score": null,
+      "rank": 3
+    },
+    "B": {
+      "categories": {
+        "runs": {
+          "score": 8,
+          "weight": 10,
+          "assessment": "verified by tool",
+          "evidence": [
+            "judging/logs/B/readme-start.log",
+            "judging/logs/B/build.log",
+            "judging/logs/B/two-minute-play.json",
+            "judging/logs/B/independent-balance.json"
+          ]
+        },
+        "combat": {
+          "score": 7.1,
+          "weight": 20,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/B/combat-spotchecks.json",
+            "judging/logs/B/edge-cases.json",
+            "judging/logs/B/roster-inventory.json"
+          ]
+        },
+        "feel": {
+          "score": 7.1,
+          "weight": 10,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/work/B/src/core/sim.ts#L193",
+            "judging/work/B/src/render/renderer.ts#L164"
+          ]
+        },
+        "ai": {
+          "score": 6.2,
+          "weight": 8,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/work/B/src/ai/cpu.ts#L71",
+            "judging/logs/B/independent-balance.json"
+          ]
+        },
+        "ui": {
+          "score": 8.2,
+          "weight": 20,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/B/browser-flow.json",
+            "judging/screenshots/B/03-main-menu.png",
+            "judging/screenshots/B/04-character-select.png",
+            "judging/screenshots/B/13-settings.png"
+          ]
+        },
+        "visuals": {
+          "score": 7.1,
+          "weight": 10,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/screenshots/B/15-stage-1.png",
+            "judging/screenshots/B/16-stage-2.png",
+            "judging/screenshots/B/17-stage-3.png",
+            "judging/screenshots/B/09-super-active.png",
+            "judging/screenshots/B/18-special-strip.png"
+          ]
+        },
+        "balance": {
+          "score": 7.2,
+          "weight": 5,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/B/independent-balance.json",
+            "judging/logs/B/roster-inventory.json"
+          ]
+        },
+        "performance": {
+          "score": 8.5,
+          "weight": 7,
+          "assessment": "verified by tool",
+          "evidence": [
+            "judging/logs/B/independent-benchmark-gpu.json",
+            "judging/logs/B/independent-benchmark.json"
+          ]
+        },
+        "tests": {
+          "score": 7.3,
+          "weight": 7,
+          "assessment": "verified by tool",
+          "evidence": [
+            "judging/logs/B/unit-results.json",
+            "judging/logs/B/own-e2e.log",
+            "judging/logs/B/edge-cases.json"
+          ]
+        },
+        "architecture": {
+          "score": 7.0,
+          "weight": 3,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/B/source-evidence.json",
+            "judging/logs/B/own-e2e.log",
+            "judging/work/B/src/main.ts#L89"
+          ]
+        }
+      },
+      "total": 74.52,
+      "spec_completion_percent": 88.33,
+      "human_playtest_score": null,
+      "rank": 2
+    },
+    "C": {
+      "categories": {
+        "runs": {
+          "score": 8,
+          "weight": 10,
+          "assessment": "verified by tool",
+          "evidence": [
+            "judging/logs/C/readme-start.log",
+            "judging/logs/C/build.log",
+            "judging/logs/C/two-minute-play.json",
+            "judging/logs/C/independent-balance.json"
+          ]
+        },
+        "combat": {
+          "score": 8.4,
+          "weight": 20,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/C/combat-spotchecks.json",
+            "judging/logs/C/edge-cases.json",
+            "judging/logs/C/roster-inventory.json"
+          ]
+        },
+        "feel": {
+          "score": 8.0,
+          "weight": 10,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/work/C/src/core/loop.ts#L2",
+            "judging/work/C/src/sim/input.ts#L20",
+            "judging/work/C/src/sim/match.ts#L132",
+            "judging/work/C/src/render/camera.ts#L54"
+          ]
+        },
+        "ai": {
+          "score": 8.2,
+          "weight": 8,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/work/C/src/ai/cpu.ts#L135",
+            "judging/logs/C/independent-balance.json"
+          ]
+        },
+        "ui": {
+          "score": 7.8,
+          "weight": 20,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/C/browser-flow.json",
+            "judging/screenshots/C/03-main-menu.png",
+            "judging/screenshots/C/04-character-select.png",
+            "judging/screenshots/C/13-settings.png"
+          ]
+        },
+        "visuals": {
+          "score": 8.0,
+          "weight": 10,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/screenshots/C/15-stage-1.png",
+            "judging/screenshots/C/16-stage-2.png",
+            "judging/screenshots/C/17-stage-3.png",
+            "judging/screenshots/C/09-super-active.png",
+            "judging/screenshots/C/18-special-strip.png"
+          ]
+        },
+        "balance": {
+          "score": 6.7,
+          "weight": 5,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/C/independent-balance.json",
+            "judging/logs/C/roster-inventory.json"
+          ]
+        },
+        "performance": {
+          "score": 5.0,
+          "weight": 7,
+          "assessment": "verified by tool",
+          "evidence": [
+            "judging/logs/C/independent-benchmark-gpu.json",
+            "judging/logs/C/independent-benchmark.json"
+          ]
+        },
+        "tests": {
+          "score": 8.6,
+          "weight": 7,
+          "assessment": "verified by tool",
+          "evidence": [
+            "judging/logs/C/unit-results.json",
+            "judging/logs/C/own-e2e.log",
+            "judging/logs/C/edge-cases.json"
+          ]
+        },
+        "architecture": {
+          "score": 8.1,
+          "weight": 3,
+          "assessment": "judged visually/by reading",
+          "evidence": [
+            "judging/logs/C/source-evidence.json",
+            "judging/logs/C/own-e2e.log",
+            "judging/work/C/src/core/app.ts#L36"
+          ]
+        }
+      },
+      "total": 78.26,
+      "spec_completion_percent": 93.33,
+      "human_playtest_score": null,
+      "rank": 1
+    }
+  },
+  "ranking": [
+    "C",
+    "B",
+    "A"
+  ],
+  "consistency_review": {
+    "en": "All highest and lowest category scores were reread against the same anchors. Identical run/stability scores are intentional: startup, builds, long play and the balance safety checks all pass. No category reaches the near-commercial band; human game feel and audio taste remain unverified.",
+    "vi": "Đã đọc lại điểm cao nhất và thấp nhất theo cùng thang chuẩn. Điểm chạy/ổn định bằng nhau là có chủ đích: cả ba đều đạt khởi động, build, chơi kéo dài và kiểm tra an toàn trong lượt cân bằng. Không hạng mục nào đạt mức gần thương mại; game feel và gu âm thanh vẫn chưa được người chơi kiểm chứng."
+  }
+}

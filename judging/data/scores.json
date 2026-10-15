@@ -56,7 +56,7 @@
   "formula": "sum(score_0_to_10 * category_weight / 10); total out of 100",
   "performance_thresholds": "8.5: avg>=59, low>=50, p95<=17.5; 8: avg>=58, low>=40, p95<=20; 7: avg>=55, low>=30, p95<=33.5; 6: avg>=50, low>=25; 5: avg>=40; 4: avg>=30; 3: avg>=20; 2: avg>=10; 1 otherwise. Applied to common GPU-headless benchmark.",
   "projects": {
-    "A": {
+    "Argon": {
       "categories": {
         "runs": {
           "score": 8,
@@ -164,7 +164,7 @@
       "human_playtest_score": null,
       "rank": 3
     },
-    "B": {
+    "Astra": {
       "categories": {
         "runs": {
           "score": 8,
@@ -272,7 +272,7 @@
       "human_playtest_score": null,
       "rank": 2
     },
-    "C": {
+    "Opus": {
       "categories": {
         "runs": {
           "score": 8,
@@ -384,9 +384,9 @@
     }
   },
   "ranking": [
-    "C",
-    "B",
-    "A"
+    "Opus",
+    "Astra",
+    "Argon"
   ],
   "consistency_review": {
     "en": "All highest and lowest category scores were reread against the same anchors. Identical run/stability scores are intentional: startup, builds, long play and the balance safety checks all pass. No category reaches the near-commercial band; human game feel and audio taste remain unverified.",

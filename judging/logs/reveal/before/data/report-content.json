@@ -1,0 +1,396 @@
+{
+  "title": {
+    "en": "NEON TEMPEST — independent blind evaluation",
+    "vi": "NEON TEMPEST — báo cáo chấm độc lập, ẩn danh"
+  },
+  "summary": {
+    "en": "C offers the strongest combat implementation, CPU policy, verification coverage and scene architecture. B has the clearest interface hierarchy and substantially better native-resolution performance, but its normal-throw tech fails in the full simulation. A is playable and has a substantial combat core, yet its presentation is basic, its browser test fails, and several README claims do not describe the shipped code. These are evaluations of the submitted artifacts under the same protocol; the labels have not been deanonymized.",
+    "vi": "C mạnh nhất về combat, chính sách CPU, độ bao phủ kiểm chứng và cách tổ chức scene. B có phân cấp giao diện rõ nhất và hiệu năng ở độ phân giải native tốt hơn đáng kể, nhưng throw tech của throw thường không hoạt động khi chạy simulation đầy đủ. A chơi được và có combat core khá đầy đặn; phần trình diễn còn đơn giản, browser test trượt và một số tuyên bố trong README không khớp code được nộp. Báo cáo đánh giá các bài nộp theo cùng quy trình; không suy đoán danh tính đứng sau nhãn."
+  },
+  "method": [
+    {
+      "en": "SPEC.md is the authority. Review order was drawn before execution and preserved in environment.json. Each submission was copied before installation. Original source/content hashes were recorded and checked again at delivery; dependencies, old builds and test output were excluded from the clean copies. No submission source was fixed.",
+      "vi": "SPEC.md là chuẩn đối chiếu. Thứ tự chấm được rút trước khi chạy và lưu trong environment.json. Mỗi bài được sao chép trước khi cài; hash source/nội dung gốc được ghi lại và đối chiếu lần nữa khi bàn giao. Bản sao sạch không mang theo dependency, build cũ hay output test. Không sửa source của bài nộp."
+    },
+    {
+      "en": "Startup followed each README exactly; BROWSER=none only suppressed an unsolicited browser window. A server address overlap was resolved by verifying the loaded application identity and selecting the correct IPv4/IPv6 address. Builds use the same command. Original unit and browser suites were run; browser viewport was overridden consistently. Node runner color-environment warnings are retained in command logs and are distinct from game console warnings.",
+      "vi": "Khởi động đúng theo README của từng bài; BROWSER=none chỉ ngăn cửa sổ trình duyệt tự bật. Khi địa chỉ server bị trùng, người chấm xác minh ứng dụng thực sự được tải và chọn đúng địa chỉ IPv4/IPv6. Cả ba dùng cùng lệnh build. Đã chạy unit/browser suite gốc và ghi đè viewport browser thống nhất. Cảnh báo biến môi trường màu của Node vẫn được giữ trong log lệnh, tách khỏi cảnh báo console của game."
+    },
+    {
+      "en": "The primary benchmark uses production bundles, full Chromium headless, the same GPU flags, fixed resolution scale, a fresh profile, standard life/meter and Hard HAYATE versus SABLE on the first stage. It measures actual requestAnimationFrame intervals, with a warmup, automatic next-match restart and raw samples retained. A separate software-rendering run and keyboard gameplay are also retained. No uncapped or scheduled synthetic FPS is substituted for rAF.",
+      "vi": "Benchmark chính dùng bundle production, Chromium đầy đủ chạy headless, cùng cờ GPU, resolution scale cố định, profile mới, life/meter tiêu chuẩn và HAYATE đấu SABLE ở Hard trên sân đầu. Đo khoảng thời gian requestAnimationFrame thực, có warmup, tự mở trận tiếp theo và giữ toàn bộ mẫu thô. Lượt software rendering và lượt chơi keyboard được lưu riêng. Không thay rAF bằng FPS giả lập không giới hạn hoặc step tự lên lịch."
+    },
+    {
+      "en": "Keyboard navigation and sustained gameplay use actual DOM keyboard input. Precise combat spot-checks run the original simulation inside a live browser through raw inputs; only neutral spacing, initial life/meter and near-expiry timer fixtures are staged. No move, hit, combo count, damage or winner is fabricated. Animation captures pause presentation at genuine simulated states. Gallery notes identify these fixtures; they are not claims of a naturally played full-health victory.",
+      "vi": "Điều hướng và lượt chơi kéo dài dùng input keyboard DOM thật. Spot-check cần độ chính xác theo frame chạy simulation gốc trong trình duyệt bằng raw input; chỉ bố trí khoảng cách neutral, life/meter ban đầu và timer gần hết. Không gán sẵn chiêu, hit, combo count, damage hay người thắng. Ảnh animation dừng ở trạng thái được simulation tạo ra thật. Ghi chú gallery nêu rõ fixture; chúng không chứng minh một chiến thắng tự nhiên từ đầy máu."
+    },
+    {
+      "en": "Completion is a separate equal-weight checklist, not the weighted quality score. Partial earns half credit; Missing and Broken earn none. Composite requirements are Partial if material parts are missing, broken or unverified. The unnumbered robustness bullets are explicitly labeled. Process and deliverable sections outside the requested checklist do not inflate this percentage.",
+      "vi": "Mức hoàn thành là checklist trọng số đều, tách khỏi điểm chất lượng có trọng số. Partial được nửa điểm; Missing và Broken không được điểm. Yêu cầu gồm nhiều phần được đánh Partial nếu còn phần đáng kể bị thiếu, hỏng hoặc chưa kiểm chứng. Các bullet robustness không đánh số được gán nhãn rõ ràng. Phần quy trình và bàn giao ngoài phạm vi checklist yêu cầu không làm tăng phần trăm."
+    },
+    {
+      "en": "Headless FPS is host/backend-specific and does not establish input latency, human-perceived smoothness or universal laptop performance. Endpoint heap growth without forced GC is not proof of a leak. The common viewport does not force identical internal pixel counts: A keeps a smaller backing canvas, while B and C render at the full viewport in the primary benchmark. C normally offers automatic resolution reduction; it was disabled for this fixed-scale comparison.",
+      "vi": "FPS headless phụ thuộc máy/backend; không chứng minh input latency, độ mượt con người cảm nhận hay hiệu năng trên mọi laptop. Heap tăng giữa hai đầu đo khi không ép GC không phải bằng chứng rò rỉ bộ nhớ. Viewport chung không đồng nghĩa số pixel nội bộ bằng nhau: A giữ backing canvas nhỏ hơn, còn B và C render đủ viewport trong benchmark chính. C có tự hạ độ phân giải mặc định; chức năng đó được tắt để so sánh ở scale cố định."
+    },
+    {
+      "en": "The judge is an LLM: aesthetic preferences, code-reading omissions and fixture design can bias results. The score anchors were reread across submissions; high scores require executable or visual evidence. Game feel is only a code-based estimate. No physical controller or human assessment of responsiveness, mix, fatigue, strategic depth or competitive balance was performed.",
+      "vi": "Người chấm là LLM: gu thẩm mỹ, thiếu sót khi đọc code và cách thiết kế fixture có thể gây thiên lệch. Đã đọc lại thang điểm giữa các bài; điểm cao phải có bằng chứng thực thi hoặc hình ảnh. Game feel chỉ được ước lượng từ code. Chưa dùng tay cầm vật lý và chưa có người đánh giá độ phản hồi, bản mix, cảm giác mỏi, chiều sâu chiến thuật hay cân bằng thi đấu."
+    }
+  ],
+  "projects": {
+    "A": {
+      "strengths": {
+        "en": "Runs from the documented setup without assistance; the deterministic combat core includes the full roster, motion/charge attacks, throws, guard levels, cancels, scaling, resources and round flow. The required combat probes pass. Training telemetry and the move archive expose useful information. Procedural line art remains visually consistent across the menus and HUD.",
+        "vi": "Chạy được theo hướng dẫn mà không cần hỗ trợ; combat core có determinism và đủ roster, motion/charge, throw, các mức guard, cancel, scaling, tài nguyên và luồng round. Các combat probe yêu cầu đều đạt. Telemetry training và move archive cung cấp thông tin hữu ích. Đồ họa nét vẽ thủ tục giữ được sự thống nhất giữa menu và HUD."
+      },
+      "weaknesses": {
+        "en": "Characters are simplified neon outlines and the stages reuse the same city/grid composition, so the result feels closer to a functional prototype than commercial art direction. Dense small text and the fixed backing resolution weaken readability. CPU defense sees current state immediately. The very small unit suite and failing E2E do not support the breadth of the verification claims.",
+        "vi": "Nhân vật là hình nét neon giản lược; các sân lặp lại bố cục thành phố/lưới, nên cảm giác gần một prototype hoạt động được hơn là sản phẩm có art direction thương mại. Chữ nhỏ dày và backing resolution cố định làm giảm khả năng đọc. CPU phòng thủ đọc trạng thái hiện tại ngay lập tức. Unit suite nhỏ và E2E bị trượt không đủ bảo chứng cho độ rộng các tuyên bố kiểm chứng."
+      },
+      "recommendations": [
+        {
+          "en": "Repair the E2E timing and verify real keyboard specials and replay hashes. Add execution tests for each documented binding, Ultimate cost and every trial; align the README with executable data.",
+          "vi": "Sửa timing E2E và kiểm tra special bằng keyboard thật cùng hash replay. Thêm test thực thi từng binding được tài liệu hóa, chi phí Ultimate và toàn bộ trial; đồng bộ README với data thực thi."
+        },
+        {
+          "en": "Give CPU defense a genuine delayed perception snapshot. Complete gamepad remapping and fullscreen, then reduce repeated glow work and cache stage/HUD elements.",
+          "vi": "Cho CPU phòng thủ dùng snapshot có perception delay thực. Hoàn thiện remap gamepad và fullscreen, sau đó giảm việc tính glow lặp lại và cache thành phần sân/HUD."
+        },
+        {
+          "en": "Develop stronger silhouettes, anticipation/recovery poses and stage-specific compositions; raise the backing resolution only after profiling the existing render cost.",
+          "vi": "Phát triển silhouette, pose anticipation/recovery và bố cục riêng cho từng sân; chỉ tăng backing resolution sau khi profile được chi phí render hiện tại."
+        }
+      ]
+    },
+    "B": {
+      "strengths": {
+        "en": "The strongest interface hierarchy: large clear titles, restrained color, readable focus states, consistent spacing, useful preview cards and a well-organized results screen. It has the smallest bundle, the best frame pacing in the shared GPU run, meaningful input/round/replay/trial tests, working responsive layout and mocked gamepad coverage.",
+        "vi": "Phân cấp giao diện tốt nhất: tiêu đề lớn rõ, màu tiết chế, focus dễ nhận biết, khoảng cách thống nhất, thẻ preview hữu ích và màn kết quả gọn gàng. Bundle nhỏ nhất, frame pacing tốt nhất trong lượt GPU chung, có test input/round/replay/trial có ý nghĩa, layout responsive chạy đúng và coverage gamepad giả lập."
+      },
+      "weaknesses": {
+        "en": "The normal-throw tech is a genuine integration failure hidden by a direct resolver unit test. CPU defense reads the opponent’s exact current hit level. Character motions are stylized but often reuse angular poses; small secondary labels and the training panel could be clearer. The application/UI scene controller is concentrated in one large file, and the victory music branch is not selected by results.",
+        "vi": "Throw tech của throw thường là lỗi tích hợp thực, bị che khuất bởi unit test gọi thẳng resolver. CPU phòng thủ đọc đúng hit level hiện tại của đối thủ. Chuyển động nhân vật có phong cách nhưng thường dùng lại pose góc cạnh; nhãn phụ nhỏ và panel training còn có thể rõ hơn. Điều khiển application/scene UI tập trung trong một file lớn; results không chọn nhánh nhạc chiến thắng."
+      },
+      "recommendations": [
+        {
+          "en": "Fix throw-tech evaluation before consuming the defender’s input edge; assert the result through full simulation steps and real keyboard/gamepad chords, including simultaneous throws.",
+          "vi": "Kiểm tra throw tech trước khi tiêu cạnh input của người phòng thủ; assertion phải đi qua step simulation đầy đủ và chord keyboard/gamepad thật, gồm cả throw đồng thời."
+        },
+        {
+          "en": "Retain the visual system and performance work. Add a delayed CPU perception model, stronger pose variation and a distinct victory track.",
+          "vi": "Giữ hệ thống hình ảnh và tối ưu hiệu năng hiện có. Thêm mô hình perception delay cho CPU, tăng biến thể pose và dùng nhạc chiến thắng riêng."
+        },
+        {
+          "en": "Split scene/UI controllers into modules and add an explicit mode-select treatment if literal screen-flow parity matters. Recheck the weakest matchup with larger samples and human players.",
+          "vi": "Tách controller scene/UI thành module và thêm cách trình bày mode select riêng nếu cần khớp luồng màn hình theo spec. Kiểm tra lại matchup yếu nhất bằng mẫu lớn hơn và người chơi thật."
+        }
+      ]
+    },
+    "C": {
+      "strengths": {
+        "en": "The most thoroughly realized combat system and cleanest scene/module structure. The CPU has a real delayed observation buffer, error/jitter and character-specific planning. Detailed frame, guard, trade, throw, resource, rollback and trial assertions pass, as do the browser flow, full Arcade, replay, gamepad and audio-analysis tests. Stages and fighters have the richest procedural detail and the most varied animation.",
+        "vi": "Combat được triển khai kỹ nhất, cấu trúc scene/module rõ nhất. CPU có observation buffer trễ thực, error/jitter và lập kế hoạch theo nhân vật. Các assertion chi tiết về frame, guard, trade, throw, tài nguyên, rollback và trial đều đạt; browser flow, Arcade đầy đủ, replay, gamepad và phân tích audio cũng đạt. Sân và nhân vật có chi tiết thủ tục phong phú nhất, animation đa dạng nhất."
+      },
+      "weaknesses": {
+        "en": "Full-resolution performance does not meet the stable target on this host; default automatic resolution can hide this cost by reducing sharpness. The rotation parser accepts unordered cardinals. Neon bloom, thin small labels and dense animated backgrounds compete with gameplay information. The grappler’s life advantage is very small and its zoner matchup remains poor despite acceptable overall bot win rates. Projectile allocation also contradicts the broad allocation-free README wording.",
+        "vi": "Hiệu năng đủ độ phân giải chưa đạt mục tiêu ổn định trên máy kiểm tra; tự hạ resolution mặc định có thể che chi phí đó bằng cách giảm độ sắc nét. Parser rotation nhận cả cardinal sai thứ tự. Bloom neon, nhãn nhỏ nét mảnh và nền chuyển động dày chi tiết cạnh tranh với thông tin trận. Lợi thế life của grappler rất nhỏ và matchup với zoner vẫn yếu dù win rate bot tổng thể chấp nhận được. Việc cấp phát projectile cũng không khớp cách README mô tả allocation-free quá rộng."
+      },
+      "recommendations": [
+        {
+          "en": "Profile full-resolution rendering first: stage composites, glyph/portrait caches, reflections, rain and super FX. Show the chosen dynamic resolution to users and verify the stable target at a clearly documented quality level.",
+          "vi": "Ưu tiên profile rendering đủ độ phân giải: composite sân, cache glyph/portrait, phản chiếu, mưa và super FX. Cho người dùng thấy mức dynamic resolution đang dùng và kiểm chứng mục tiêu ổn định ở một mức chất lượng được ghi rõ."
+        },
+        {
+          "en": "Constrain rotation recognition to a documented ordered shortcut and test rejection cases. Pool projectiles or narrow the README performance claim.",
+          "vi": "Giới hạn rotation theo shortcut có thứ tự được ghi rõ và test các trường hợp phải từ chối. Dùng pool cho projectile hoặc thu hẹp tuyên bố hiệu năng trong README."
+        },
+        {
+          "en": "Reduce glow behind small functional text and simplify busy HUD backdrops. Human-test the grappler/zoner matchup and whether the rushdown fighter should have more life than the grappler.",
+          "vi": "Giảm glow sau chữ chức năng nhỏ và đơn giản hóa nền sau HUD. Cho người chơi thử matchup grappler/zoner và kiểm tra việc rushdown có life cao hơn grappler có hợp lý hay không."
+        }
+      ]
+    }
+  },
+  "analysis": {
+    "runs": {
+      "A": {
+        "en": "Clean documented installation, build, prolonged keyboard play and the shared balance safety run pass. The run score is deliberately equal across submissions; the failed own browser suite is penalized in Tests, not counted again as a startup failure.",
+        "vi": "Cài sạch theo tài liệu, build, chơi keyboard kéo dài và lượt cân bằng an toàn chung đều đạt. Điểm chạy được cố ý giữ bằng nhau; browser suite gốc trượt bị trừ ở mục Test, không bị tính lại thành lỗi khởi động."
+      },
+      "B": {
+        "en": "The one-command dependency launcher works, and the observed game runs without console problems or softlocks in the measured workload. This does not erase the separate combat defect.",
+        "vi": "Launcher tự cài dependency bằng một lệnh chạy được; trong workload đo, game không có lỗi console hoặc softlock. Kết quả này không xóa đi lỗi combat được ghi riêng."
+      },
+      "C": {
+        "en": "The first-run installer and production build succeed. Long play, the headless match workload and original browser mode coverage finish. Rendering slowdowns belong to Performance.",
+        "vi": "Installer lần chạy đầu và build production thành công. Lượt chơi dài, workload trận headless và coverage mode của browser suite gốc đều hoàn tất. Các lần chậm render được chấm ở Hiệu năng."
+      }
+    },
+    "combat": {
+      "A": {
+        "en": "The required input-driven probes pass and the move data is substantial. Confidence is limited by permissive rotation recognition, thin boundary coverage and inconsistent documented bindings/costs; this is a working combat engine, not a mechanically empty demo.",
+        "vi": "Các probe bắt buộc qua input đều đạt và move data khá đầy đặn. Độ tin cậy còn bị giới hạn bởi rotation quá dễ, coverage biên mỏng và binding/chi phí trong tài liệu không thống nhất. Đây là combat engine hoạt động thực, có nhiều cơ chế."
+      },
+      "B": {
+        "en": "The parser rejects out-of-order rotations, and guard, cancel/scaling, resource and round behavior are well covered. The missing normal-throw tech in full steps is a core defensive correctness fault, so the passing resolver test does not justify a high robustness score.",
+        "vi": "Parser từ chối rotation sai thứ tự; guard, cancel/scaling, tài nguyên và round được kiểm tra khá rộng. Throw tech thường không hoạt động khi đi qua full step là lỗi tính đúng đắn của cơ chế phòng thủ cốt lõi; test resolver đạt không đủ để chấm độ chắc chắn cao."
+      },
+      "C": {
+        "en": "Strongest evidence for frame execution, measured advantage, contact/cancel windows, guard/cross-up, throws, trade, juggle, resources and replay. Every required spot-check succeeds. Its permissive rotation policy and untested human exploits keep the score below exceptional commercial quality.",
+        "vi": "Có bằng chứng mạnh nhất cho thực thi frame, advantage đo được, contact/cancel window, guard/cross-up, throw, trade, juggle, tài nguyên và replay. Mọi spot-check bắt buộc đều đạt. Chính sách rotation quá dễ và việc chưa kiểm tra exploit bởi người chơi giữ điểm dưới mức thương mại xuất sắc."
+      }
+    },
+    "feel": {
+      "A": {
+        "en": "Code defines per-strength hitstop, buffered cancels during freeze, distance-based zoom and decaying shake. Camera and presentation values are embedded in the simulation and tuned mostly through fixed constants. The estimate concerns these implemented mechanisms only; no tactile responsiveness was judged.",
+        "vi": "Code có hitstop theo sức đòn, buffer cancel trong freeze, zoom theo khoảng cách và shake giảm dần. Giá trị camera/trình diễn nằm trong simulation và phần lớn được chỉnh bằng hằng số cố định. Điểm chỉ ước lượng các cơ chế đã triển khai; chưa chấm cảm giác phản hồi bằng tay."
+      },
+      "B": {
+        "en": "Code provides a short input buffer, strength-based hitstop, retained input context through freeze, camera easing and transient shake. These mechanisms are coherent, but there is less explicit per-fighter freeze/input bookkeeping than in C. No human feel or animation preference enters this estimate.",
+        "vi": "Code có input buffer ngắn, hitstop theo sức đòn, giữ ngữ cảnh input qua freeze, camera easing và shake ngắn. Các cơ chế thống nhất nhưng việc theo dõi freeze/input riêng từng võ sĩ chưa rõ bằng C. Điểm này không dùng cảm giác chơi của người hoặc sở thích về animation."
+      },
+      "C": {
+        "en": "Code has freeze-aware input history, explicit frame conventions, per-fighter hitstop, dedicated camera interpolation/bounds and layered shake/recoil handling. The mechanism design is the most explicit of the three. Actual input latency, comfort and perceived impact still require human play.",
+        "vi": "Code có input history nhận biết freeze, quy ước frame rõ, hitstop riêng từng võ sĩ, camera interpolation/giới hạn riêng và xử lý shake/recoil nhiều lớp. Thiết kế cơ chế được thể hiện rõ nhất trong ba bài. Input latency, sự thoải mái và cảm nhận lực đánh thực vẫn cần người chơi kiểm tra."
+      }
+    },
+    "ai": {
+      "A": {
+        "en": "Uses spacing, charge/motion sequences, anti-airs, meter and hit-confirm routes. However, defense and throw-tech branches read current state ahead of the neutral decision cooldown, allowing reactions much faster than a human perception model.",
+        "vi": "Có spacing, chuỗi charge/motion, anti-air, dùng meter và hit-confirm route. Tuy nhiên, nhánh phòng thủ/throw tech đọc trạng thái hiện tại trước cooldown quyết định neutral, cho phép phản ứng nhanh hơn nhiều so với mô hình cảm nhận con người."
+      },
+      "B": {
+        "en": "Character-aware queues and difficulty-dependent waits make it functional and reproducible. Defense chooses the correct current hit level without delayed observation, and tactics remain a relatively compact rule set.",
+        "vi": "Queue theo nhân vật và thời gian chờ theo độ khó giúp CPU hoạt động và tái lập được. Phòng thủ chọn hit level hiện tại đúng ngay, không qua quan sát trễ; chiến thuật vẫn là một bộ luật tương đối gọn."
+      },
+      "C": {
+        "en": "A genuine observation delay, execution error/jitter, move analysis and per-character personality drive layered defense, punishes and routes. Full raw-input motions and charge holds are used. Bot success demonstrates implementation, not human entertainment quality.",
+        "vi": "Observation delay thực, execution error/jitter, phân tích chiêu và cá tính từng võ sĩ dẫn dắt các lớp phòng thủ, punish và route. CPU dùng motion raw input và giữ charge thật. Bot chạy thành công chứng minh phần triển khai, chưa chứng minh mức thú vị khi người chơi đối đầu."
+      }
+    },
+    "ui": {
+      "A": {
+        "en": "The required destinations mostly work, with useful telemetry and readable selected states. The main menu is dense, mode select is merged, supporting labels are small and most panels use a generic cyan outline treatment. Some requested settings are absent.",
+        "vi": "Phần lớn màn cần có đều vào được, có telemetry hữu ích và trạng thái chọn rõ. Main menu dày, mode select gộp chung, nhãn phụ nhỏ và panel chủ yếu dùng viền cyan đơn giản. Một số settings yêu cầu còn thiếu."
+      },
+      "B": {
+        "en": "Best typography hierarchy, spacing, focus affordances and restrained visual language. DOM controls support keyboard and device tests, and responsive layout is sound. Secondary labels and training overlays are small; a separate mode-select screen is absent.",
+        "vi": "Phân cấp typography, khoảng cách, dấu hiệu focus và ngôn ngữ hình ảnh tiết chế tốt nhất. Control DOM được kiểm tra bằng keyboard/thiết bị, layout responsive ổn. Nhãn phụ và overlay training nhỏ; thiếu màn mode select riêng."
+      },
+      "C": {
+        "en": "Most complete screen flow and settings structure, with animated fighter previews, separate mode cards and rich move icons. Busy backgrounds, bloom and small functional text reduce the otherwise coherent interface’s clarity.",
+        "vi": "Luồng màn hình và cấu trúc settings đầy đủ nhất, có preview võ sĩ động, thẻ mode riêng và ký hiệu chiêu phong phú. Nền nhiều chi tiết, bloom và chữ chức năng nhỏ làm giao diện thống nhất này kém rõ hơn mức có thể đạt."
+      }
+    },
+    "visuals": {
+      "A": {
+        "en": "Original procedural rendering is consistent, with rain, sparks, color coding and stage variants. Simplified outlined rigs, repeated city/grid composition and limited pose changes remain visibly basic. Synth paths exist, but the mix has not been heard by a human judge.",
+        "vi": "Rendering thủ tục nguyên bản có tính thống nhất, có mưa, spark, phân màu và biến thể sân. Rig nét vẽ giản lược, bố cục thành phố/lưới lặp và pose đổi ít vẫn khá đơn giản. Có đường tổng hợp âm thanh, nhưng chưa được người chấm nghe bản mix."
+      },
+      "B": {
+        "en": "Distinct alley, skyline and train-terminal staging, reflections and clean character silhouettes are well composed. Animation remains geometric and fairly economical. Audio uses procedural stage/menu patterns and broad action classes; the results flow misses its separate victory-tempo branch.",
+        "vi": "Bố cục hẻm, skyline và ga tàu riêng biệt, phản chiếu và silhouette nhân vật rõ được sắp đặt tốt. Animation còn mang tính hình học và khá tiết kiệm. Audio có pattern sân/menu thủ tục và các nhóm hành động rộng; results bỏ qua nhánh tempo chiến thắng riêng."
+      },
+      "C": {
+        "en": "Most varied procedural stages, articulated fighters, cloth, impacts and cinematic treatment. The executable audio analyser checks every authored track/SFX/ambience for signal and clipping, which is stronger evidence than a README claim, though it cannot establish musical taste.",
+        "vi": "Có sân thủ tục đa dạng nhất, võ sĩ chia khớp, cloth, impact và cinematic phong phú. Test analyser chạy thực kiểm tra tín hiệu/clipping của toàn bộ track/SFX/ambience đã viết, mạnh hơn một lời hứa trong README; kết quả này vẫn không đánh giá được gu âm nhạc."
+      }
+    },
+    "balance": {
+      "A": {
+        "en": "Roster and archetype tools are complete, and aggregate win rates sit in the requested band. Several matchup cells remain extreme, and the small per-cell samples do not establish human balance.",
+        "vi": "Roster và công cụ archetype đầy đủ; win rate tổng thể nằm trong dải yêu cầu. Một số ô matchup vẫn rất lệch và mẫu mỗi ô còn nhỏ, chưa chứng minh cân bằng giữa người chơi."
+      },
+      "B": {
+        "en": "Complete roster with the least extreme overall matchup spread in this run. The zoner still trails and CPU-policy effects dominate. The throw-tech defect makes this matrix especially unsafe to generalize to human play.",
+        "vi": "Roster đầy đủ và độ lệch matchup tổng thể ít cực đoan nhất trong lượt này. Zoner vẫn yếu hơn và kết quả chịu ảnh hưởng lớn của chính sách CPU. Lỗi throw tech càng khiến ma trận này khó suy rộng sang đấu người."
+      },
+      "C": {
+        "en": "Complete, varied move sets and playable trials, but the grappler/zoner matchup is poor. The rushdown fighter has the highest life in the loaded data, weakening the stated heavy/high-HP versus fast/low-damage identity. Aggregate rates alone do not resolve these issues.",
+        "vi": "Move set đầy đủ, đa dạng và trial chơi được, nhưng matchup grappler/zoner yếu. Data nạp thực cho rushdown life cao nhất, làm mờ ý đồ heavy/high-HP so với fast/low-damage. Chỉ win rate tổng thể không giải quyết được các điểm này."
+      }
+    },
+    "performance": {
+      "A": {
+        "en": "The shared real-rAF result is well below the stable target even with the smaller internal render target. Its submitted scheduled offscreen benchmark is methodologically unsuitable for claiming the same on-screen result.",
+        "vi": "Kết quả rAF thực dùng chung thấp hơn nhiều so với mục tiêu ổn định dù render target nội bộ nhỏ hơn. Benchmark offscreen tự lên lịch của bài nộp không phù hợp để khẳng định cùng hiệu năng trên màn hình game."
+      },
+      "B": {
+        "en": "Best measured frame pacing at full backing resolution; the threshold score is computed from the common raw samples. This is strong evidence on this host, not a promise for every machine or a latency measurement.",
+        "vi": "Frame pacing đo được tốt nhất ở backing resolution đầy đủ; điểm theo ngưỡng được tính từ mẫu thô chung. Đây là bằng chứng mạnh trên máy này, không phải lời hứa cho mọi máy hoặc phép đo latency."
+      },
+      "C": {
+        "en": "The fixed full-resolution run misses the stable target and has long tail frames. GPU acceleration helps substantially over software rendering, and its automatic scaling is a useful fallback, but the full-scale cost is a material limitation.",
+        "vi": "Lượt chạy cố định đủ độ phân giải không đạt mục tiêu ổn định và có frame đuôi dài. GPU cải thiện đáng kể so với software rendering, tự hạ scale cũng là phương án dự phòng hữu ích, nhưng chi phí ở scale đầy đủ vẫn là hạn chế đáng kể."
+      }
+    },
+    "tests": {
+      "A": {
+        "en": "Broad unit assertions are real but sparse. Its E2E fails on navigation and later uses direct simulation injection instead of actually performing the advertised keyboard special. Parser-only checks do not verify the documented move mapping.",
+        "vi": "Các assertion unit rộng là kiểm tra thật nhưng thưa. E2E trượt ở điều hướng; phần sau còn dùng gọi simulation trực tiếp thay vì thực hiện special bằng keyboard như quảng bá. Kiểm tra parser riêng không xác minh được mapping chiêu trong tài liệu."
+      },
+      "B": {
+        "en": "Meaningful unit coverage includes buffer edges, deterministic continuation, full replay, combat invariants and executable trials; original browser tests pass. The direct throw-tech resolver test masks the full-step input-consumption failure, preventing a higher score.",
+        "vi": "Unit coverage có ý nghĩa cho biên buffer, chạy tiếp có determinism, replay đầy đủ, combat invariant và trial thực thi; browser test gốc chạy đạt. Test throw tech gọi resolver trực tiếp che khuất lỗi tiêu input khi đi qua full step, nên chưa thể chấm cao hơn."
+      },
+      "C": {
+        "en": "The deepest behavioral unit coverage, including frame advantage, trades, rollback and every trial. Browser tests exercise real menus/inputs, complete Arcade and replay, gamepad fixtures and audio signal quality. Permissive rotation and render-cost claims still escape these gates.",
+        "vi": "Coverage unit hành vi sâu nhất, gồm frame advantage, trade, rollback và mọi trial. Browser test kiểm tra menu/input thật, Arcade đầy đủ và replay, fixture gamepad và chất lượng tín hiệu audio. Rotation quá dễ và tuyên bố về chi phí render vẫn lọt qua các quality gate này."
+      }
+    },
+    "architecture": {
+      "A": {
+        "en": "Typed modules and data separation exist, but the simulation and application/scene files are very large. README discrepancies include throw bindings, Ultimate cost, SOCD behavior and the claimed passing E2E; the benchmark claim is also methodologically misleading.",
+        "vi": "Có module có type và tách data, nhưng file simulation/application/scene rất lớn. README lệch ở binding throw, chi phí Ultimate, SOCD và tuyên bố E2E đạt; mô tả benchmark cũng gây hiểu nhầm về phương pháp."
+      },
+      "B": {
+        "en": "Compact typed simulation, data, inputs, rendering, particles and audio are well separated; the DOM scene controller remains monolithic. Documentation is mostly candid about performance and bot balance, but the tech rule and victory presentation overstate the observed behavior.",
+        "vi": "Simulation, data, input, render, particle và audio có type, gọn và tách khá rõ; controller scene DOM vẫn tập trung. Tài liệu nhìn chung thẳng thắn về hiệu năng và cân bằng bot, nhưng luật tech và trình diễn chiến thắng vượt quá hành vi quan sát được."
+      },
+      "C": {
+        "en": "Best separation of app services, loop, serializable simulation, schema/characters, controllers, scenes, HUD, stages and audio. Allocation-free wording is too broad because projectiles are still allocated. The README runtime minimum also conflicts with the locked Vite engine requirement. Strong structure does not exempt documentation from accuracy review.",
+        "vi": "Tách app service, loop, simulation serialize được, schema/nhân vật, controller, scene, HUD, sân và audio tốt nhất. Cách nói allocation-free quá rộng vì vẫn cấp phát projectile. Phiên bản runtime tối thiểu trong README cũng không khớp yêu cầu engine của Vite đã khóa. Kiến trúc mạnh không miễn việc kiểm tra độ chính xác của tài liệu."
+      }
+    }
+  },
+  "bugs": [
+    {
+      "project": "B",
+      "severity": "High",
+      "title": {
+        "en": "Normal throws cannot be teched through the full input pipeline",
+        "vi": "Không tech được throw thường qua pipeline input đầy đủ"
+      },
+      "repro": {
+        "en": "Start a local versus fixture at close range. Press the attacker’s LP+LK, then the defender’s LP+LK at each delay in the logged window, including the same frame. Normal throws connect but no tech event occurs. Simultaneous throws can damage both fighters. startMove consumes the defender’s edge before resolveHit checks it.",
+        "vi": "Mở fixture versus tại khoảng cách gần. Bấm LP+LK của bên tấn công, rồi LP+LK của bên phòng thủ ở từng độ trễ trong cửa sổ đã ghi, gồm cả cùng frame. Throw trúng nhưng không phát sinh tech. Throw đồng thời có thể làm cả hai bên mất máu. startMove dùng mất cạnh input của người phòng thủ trước khi resolveHit kiểm tra."
+      },
+      "evidence": [
+        "judging/logs/B/edge-cases.json",
+        "judging/work/B/src/core/sim.ts#L160",
+        "judging/work/B/src/core/sim.ts#L338",
+        "judging/work/B/tests/sim.test.ts#L126"
+      ]
+    },
+    {
+      "project": "A/C",
+      "severity": "High",
+      "title": {
+        "en": "Full-scale rendering misses the stable performance target",
+        "vi": "Rendering ở scale cố định không đạt mục tiêu ổn định"
+      },
+      "repro": {
+        "en": "Run the shared GPU benchmark on each production build with the fixed scale and common viewport. Inspect raw intervals and the long-tail metrics; the result persists while B meets the same threshold. For C, automatic scale is a fallback rather than evidence of full-resolution performance.",
+        "vi": "Chạy benchmark GPU chung trên từng build production với scale cố định và viewport chung. Xem khoảng thời gian thô và số đo đuôi dài; A/C không đạt trong khi B đạt theo cùng ngưỡng. Với C, tự hạ scale là giải pháp dự phòng, không phải bằng chứng cho hiệu năng đủ độ phân giải."
+      },
+      "evidence": [
+        "judging/logs/A/independent-benchmark-gpu.json",
+        "judging/logs/B/independent-benchmark-gpu.json",
+        "judging/logs/C/independent-benchmark-gpu.json"
+      ]
+    },
+    {
+      "project": "A",
+      "severity": "Medium",
+      "title": {
+        "en": "Own browser verification fails and overstates keyboard coverage",
+        "vi": "Browser verification gốc trượt và mô tả quá mức coverage keyboard"
+      },
+      "repro": {
+        "en": "Run the recorded E2E command. The move-list expectation fails because the menu never reaches that scene after rapid presses. A paced independent keyboard traversal succeeds. The later special test directly steps the simulation, so it would not prove the advertised keyboard path even if navigation passed.",
+        "vi": "Chạy lệnh E2E đã ghi. Assertion move list trượt vì menu chưa vào scene đó sau chuỗi bấm nhanh. Điều hướng keyboard độc lập có nhịp chờ vẫn chạy được. Phần special phía sau gọi step simulation trực tiếp, nên ngay cả khi qua điều hướng cũng chưa chứng minh đường keyboard được quảng bá."
+      },
+      "evidence": [
+        "judging/logs/A/own-e2e.log",
+        "judging/logs/A/browser-flow.json",
+        "judging/work/A/tests/e2e.spec.ts#L113"
+      ]
+    },
+    {
+      "project": "A",
+      "severity": "Medium",
+      "title": {
+        "en": "README command-grab binding and Ultimate cost differ from code",
+        "vi": "Binding command grab và chi phí Ultimate trong README lệch code"
+      },
+      "repro": {
+        "en": "Follow the README’s HCF+punch grab binding: the selected move is the armored shoulder charge. The actual grab uses the rotation binding. The move data also sets the Ultimate cost below the README claim. The live archive is more accurate than the prose documentation.",
+        "vi": "Làm theo HCF+punch để command grab trong README: chiêu được chọn là shoulder charge có armor. Grab thật dùng binding rotation. Move data cũng đặt chi phí Ultimate thấp hơn README. Move archive trong game chính xác hơn phần tài liệu mô tả."
+      },
+      "evidence": [
+        "judging/logs/A/edge-cases.json",
+        "judging/work/A/README.md#L119",
+        "judging/work/A/src/data/characters.ts#L747"
+      ]
+    },
+    {
+      "project": "A/C",
+      "severity": "Low",
+      "title": {
+        "en": "Rotation parser accepts a non-rotating cardinal sequence",
+        "vi": "Parser rotation nhận chuỗi cardinal không tạo thành vòng xoay"
+      },
+      "repro": {
+        "en": "Feed the same out-of-order cardinal sequence recorded in edge-cases.json. A and C accept it as a rotation; B rejects it. C explicitly documents this implementation choice in a code comment. This is excessive leniency rather than a failure to recognize valid motions.",
+        "vi": "Đưa cùng chuỗi cardinal sai thứ tự trong edge-cases.json vào parser. A và C nhận thành rotation, B từ chối. C ghi rõ lựa chọn triển khai này trong comment. Đây là leniency quá rộng, không phải không nhận được motion hợp lệ."
+      },
+      "evidence": [
+        "judging/logs/A/edge-cases.json",
+        "judging/logs/B/edge-cases.json",
+        "judging/logs/C/edge-cases.json"
+      ]
+    },
+    {
+      "project": "B",
+      "severity": "Low",
+      "title": {
+        "en": "Results do not select the authored victory-tempo branch",
+        "vi": "Results không chọn nhánh tempo chiến thắng đã viết"
+      },
+      "repro": {
+        "en": "Finish a match and inspect the audio theme selection. Results keep the prior stage theme; the victory-tempo condition exists but is not selected by that flow.",
+        "vi": "Kết thúc trận và kiểm tra lựa chọn theme audio. Results giữ theme sân trước đó; điều kiện tempo chiến thắng có trong code nhưng luồng này không chọn nó."
+      },
+      "evidence": [
+        "judging/work/B/src/audio/synth.ts#L132",
+        "judging/work/B/src/main.ts#L297"
+      ]
+    },
+    {
+      "project": "C",
+      "severity": "Low",
+      "title": {
+        "en": "Allocation-free wording exceeds the implementation",
+        "vi": "Mô tả allocation-free rộng hơn thực tế triển khai"
+      },
+      "repro": {
+        "en": "Inspect spawnProjectile: it pushes a newly created projectile object into the simulation list. Particle pooling is real, but it does not make every hot path allocation-free. Endpoint heap growth alone is not used to allege a leak.",
+        "vi": "Xem spawnProjectile: hàm đưa một object projectile mới vào danh sách simulation. Pooling particle là có thật, nhưng không khiến mọi hot path đều allocation-free. Không dùng riêng heap tăng giữa hai đầu để kết luận có leak."
+      },
+      "evidence": [
+        "judging/work/C/src/sim/fighter.ts#L504",
+        "judging/work/C/README.md#L382"
+      ]
+    },
+    {
+      "project": "C",
+      "severity": "Low",
+      "title": {
+        "en": "Documented runtime minimum does not match locked dependencies",
+        "vi": "Runtime tối thiểu trong tài liệu không khớp dependency đã khóa"
+      },
+      "repro": {
+        "en": "Compare the README requirement of Node.js 18+ with the locked Vite engine range, ^20.19.0 || >=22.12.0. This audit ran successfully on Node.js 24; compatibility with the advertised older runtime was not demonstrated.",
+        "vi": "Đối chiếu yêu cầu Node.js 18+ trong README với engine range của Vite đã khóa: ^20.19.0 || >=22.12.0. Lượt chấm này chạy thành công trên Node.js 24; chưa chứng minh được khả năng chạy trên runtime cũ như tài liệu quảng bá."
+      },
+      "evidence": [
+        "judging/work/C/README.md#L17",
+        "judging/work/C/package-lock.json#L1574"
+      ]
+    }
+  ],
+  "human": {
+    "en": "Still requires hands-on play: input latency and missed inputs, physical gamepad remapping, controller comfort, defensive fairness, combo discovery/exploits, audio mix/taste, accessibility under long sessions, dynamic resolution quality, and human matchup balance. Fill the blank Human playtest score column independently of the code-based estimate.",
+    "vi": "Vẫn cần chơi trực tiếp để kiểm tra input latency và input bị hụt, remap tay cầm vật lý, độ thoải mái điều khiển, công bằng phòng thủ, khám phá combo/exploit, mix/gu âm thanh, accessibility khi chơi lâu, chất lượng dynamic resolution và cân bằng matchup giữa người. Hãy điền cột Human playtest score trống độc lập với ước lượng từ code."
+  }
+}
