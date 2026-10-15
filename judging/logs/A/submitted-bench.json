@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-15T04:17:15.048Z",
+  "durationSeconds": 60.03,
+  "totalFramesRendered": 3597,
+  "averageFps": 59.61,
+  "onePercentLowFps": 48.45,
+  "averageFrameTimeMs": 16.776,
+  "averageSimAndRenderCpuMs": 1.296,
+  "p99FrameTimeMs": 17.183,
+  "memoryMB": {
+    "start": 5.28,
+    "end": 5.28,
+    "peak": 5.28,
+    "delta": 0
+  },
+  "consoleErrorsCount": 0
+}

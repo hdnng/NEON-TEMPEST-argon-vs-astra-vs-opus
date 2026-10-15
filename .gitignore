@@ -10,6 +10,11 @@ coverage/
 *.tsbuildinfo
 *.log
 
+# Python caches are disposable; judging command logs are evidence.
+__pycache__/
+*.py[cod]
+!judging/logs/**/*.log
+
 # Local configuration
 .env
 .env.*

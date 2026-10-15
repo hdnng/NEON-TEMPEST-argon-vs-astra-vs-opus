@@ -1,0 +1,17 @@
+COMMAND: npm run build
+CWD: judging/work/A
+
+> neon-tempest@1.0.0 build
+> tsc && vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 23 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  1.29 kB │ gzip:  0.69 kB
+dist/assets/index-D6MQdmbI.js  193.28 kB │ gzip: 53.76 kB
+✓ built in 1.54s
+
+EXIT_CODE: 0
+DURATION_SECONDS: 7.309

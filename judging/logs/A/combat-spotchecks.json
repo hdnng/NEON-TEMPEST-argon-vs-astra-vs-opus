@@ -1,0 +1,1095 @@
+{
+  "label": "A",
+  "method": "Same real simulation input procedure, in running browser; deterministic fixture spacing/health/meter/timer; no direct move, hit, damage, combo, or winner injection",
+  "findings": [
+    {
+      "name": "QCF projectile",
+      "pass": true,
+      "triggered": {
+        "phase": "fight",
+        "timer": 5817,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 1000,
+            "meter": 8,
+            "x": -130,
+            "y": 0,
+            "vy": 0,
+            "state": "attack",
+            "move": "arc_kunai_l",
+            "moveFrame": 2,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 1075,
+            "meter": 0,
+            "x": 130,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "end": {
+        "phase": "fight",
+        "timer": 5737,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 1000,
+            "meter": 20,
+            "x": -130,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 1007,
+            "meter": 7,
+            "x": 172,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 68,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -130,
+          "y": -100,
+          "strength": "special",
+          "moveName": "Arc Shuriken (L)"
+        },
+        {
+          "type": "projectile_spawn",
+          "playerIndex": 0,
+          "x": -78,
+          "y": -115,
+          "moveName": "Arc Shuriken"
+        },
+        {
+          "type": "hit",
+          "playerIndex": 0,
+          "x": 64.5,
+          "y": -115,
+          "strength": "special",
+          "damage": 68,
+          "moveName": "Arc Shuriken",
+          "isCounter": false,
+          "isCrossUp": false
+        }
+      ]
+    },
+    {
+      "name": "DP startup invincibility",
+      "pass": true,
+      "control": {
+        "phase": "fight",
+        "timer": 5805,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 969,
+            "meter": 4,
+            "x": -54.5,
+            "y": 0,
+            "vy": 0,
+            "state": "hitstun_stand",
+            "moveFrame": 0,
+            "combo": 1,
+            "damage": 31,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 1000,
+            "meter": 10,
+            "x": 32.5,
+            "y": 0,
+            "vy": 0,
+            "state": "attack",
+            "move": "5LP",
+            "moveFrame": 10,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "end": {
+        "phase": "fight",
+        "timer": 5805,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 1000,
+            "meter": 30.08,
+            "x": -22.5,
+            "y": -24.28,
+            "vy": -10.559999999999999,
+            "state": "attack",
+            "move": "rising_raijin_h",
+            "moveFrame": 7,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 880,
+            "meter": 14,
+            "x": 40.5,
+            "y": -2,
+            "vy": -12.5,
+            "state": "hitstun_air",
+            "moveFrame": 7,
+            "combo": 1,
+            "damage": 120,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -31,
+          "y": -100,
+          "strength": "special",
+          "moveName": "Rising Raijin (H)"
+        },
+        {
+          "type": "whiff",
+          "playerIndex": 1,
+          "x": 36,
+          "y": -100,
+          "strength": "light",
+          "moveName": "Quick Jab"
+        },
+        {
+          "type": "hit",
+          "playerIndex": 0,
+          "x": 40.5,
+          "y": -154,
+          "strength": "special",
+          "damage": 120,
+          "moveName": "Rising Raijin (H)",
+          "isCounter": false,
+          "isCrossUp": false
+        }
+      ]
+    },
+    {
+      "name": "Throw and throw tech",
+      "pass": true,
+      "thrown": true,
+      "teched": true,
+      "delayFound": 3,
+      "throwEnd": {
+        "phase": "fight",
+        "timer": 5754,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 1000,
+            "meter": 18,
+            "x": -45,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 960,
+            "meter": 0,
+            "x": 215.4940578878114,
+            "y": 0,
+            "vy": 0,
+            "state": "wakeup",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 115,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 3
+          }
+        ]
+      },
+      "throwEvents": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -36.5,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 28,
+          "y": -90,
+          "strength": "throw",
+          "damage": 115,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 185.5,
+          "y": 0
+        }
+      ],
+      "techEvents": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -36.5,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_tech",
+          "playerIndex": 1,
+          "x": -8.5,
+          "y": -115,
+          "text": "THROW TECH!"
+        }
+      ]
+    },
+    {
+      "name": "High and low guard",
+      "pass": true,
+      "results": [
+        {
+          "attack": [
+            5,
+            [
+              "HP"
+            ]
+          ],
+          "guard": 4,
+          "damage": 5,
+          "blocked": true,
+          "events": [
+            {
+              "type": "whiff",
+              "playerIndex": 0,
+              "x": -36.5,
+              "y": -100,
+              "strength": "heavy",
+              "moveName": "Heavy Breaker"
+            },
+            {
+              "type": "block",
+              "playerIndex": 1,
+              "x": 59.69999999999999,
+              "y": -143.5,
+              "strength": "heavy"
+            }
+          ]
+        },
+        {
+          "attack": [
+            2,
+            [
+              "LK"
+            ]
+          ],
+          "guard": 1,
+          "damage": 0,
+          "blocked": true,
+          "events": [
+            {
+              "type": "whiff",
+              "playerIndex": 0,
+              "x": -36.5,
+              "y": -100,
+              "strength": "light",
+              "moveName": "Low Ankle Tap"
+            },
+            {
+              "type": "block",
+              "playerIndex": 1,
+              "x": 21.5,
+              "y": -25,
+              "strength": "light"
+            }
+          ]
+        },
+        {
+          "attack": [
+            2,
+            [
+              "LK"
+            ]
+          ],
+          "guard": 4,
+          "damage": 27,
+          "blocked": false,
+          "events": [
+            {
+              "type": "whiff",
+              "playerIndex": 0,
+              "x": -36.5,
+              "y": -100,
+              "strength": "light",
+              "moveName": "Low Ankle Tap"
+            },
+            {
+              "type": "hit",
+              "playerIndex": 0,
+              "x": 28.849999999999994,
+              "y": -25,
+              "strength": "light",
+              "damage": 27,
+              "moveName": "Low Ankle Tap",
+              "isCounter": false,
+              "isCrossUp": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combo counter and damage scaling",
+      "pass": true,
+      "best": {
+        "delay": 1,
+        "max": 2,
+        "scaled": true,
+        "end": {
+          "phase": "fight",
+          "timer": 5742,
+          "freeze": 0,
+          "f": [
+            {
+              "hp": 1000,
+              "meter": 40,
+              "x": 9.5,
+              "y": 0,
+              "vy": 0,
+              "state": "idle",
+              "moveFrame": 0,
+              "combo": 0,
+              "damage": 0,
+              "scale": 1,
+              "jumps": 0,
+              "airDash": 0,
+              "invincible": 0
+            },
+            {
+              "hp": 978,
+              "meter": 16,
+              "x": 185.19023204826027,
+              "y": 0,
+              "vy": 0,
+              "state": "idle",
+              "moveFrame": 0,
+              "combo": 0,
+              "damage": 97,
+              "scale": 1,
+              "jumps": 0,
+              "airDash": 0,
+              "invincible": 0
+            }
+          ]
+        },
+        "events": [
+          {
+            "type": "whiff",
+            "playerIndex": 0,
+            "x": -36.5,
+            "y": -100,
+            "strength": "light",
+            "moveName": "Low Ankle Tap"
+          },
+          {
+            "type": "hit",
+            "playerIndex": 0,
+            "x": 24.5,
+            "y": -25,
+            "strength": "light",
+            "damage": 27,
+            "moveName": "Low Ankle Tap",
+            "isCounter": false,
+            "isCrossUp": false
+          },
+          {
+            "type": "whiff",
+            "playerIndex": 0,
+            "x": -37.5,
+            "y": -100,
+            "strength": "special",
+            "moveName": "Tempest Cyclone (L)"
+          },
+          {
+            "type": "hit",
+            "playerIndex": 0,
+            "x": 53,
+            "y": -145.14,
+            "strength": "special",
+            "damage": 70,
+            "moveName": "Tempest Cyclone (L)",
+            "isCounter": false,
+            "isCrossUp": false
+          },
+          {
+            "type": "land",
+            "playerIndex": 0,
+            "x": 10.5,
+            "y": 0
+          },
+          {
+            "type": "knockdown",
+            "playerIndex": 1,
+            "x": 163,
+            "y": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Super meter gain and Super Art",
+      "pass": true,
+      "earned": 10,
+      "activation": {
+        "phase": "fight",
+        "timer": 5814,
+        "freeze": 28,
+        "f": [
+          {
+            "hp": 1000,
+            "meter": 200,
+            "x": -40,
+            "y": 0,
+            "vy": 0,
+            "state": "attack",
+            "move": "super_art",
+            "moveFrame": 2,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 1075,
+            "meter": 0,
+            "x": 45,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "super_freeze",
+          "playerIndex": 0,
+          "x": -40,
+          "y": -110,
+          "moveName": "Ion Storm Barrage"
+        }
+      ]
+    },
+    {
+      "name": "Timer and time-over",
+      "pass": true,
+      "timerBefore": 5820,
+      "timerAfter": 5700,
+      "end": {
+        "phase": "outro",
+        "timer": 0,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 1000,
+            "meter": 0,
+            "x": -130,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 100,
+            "meter": 0,
+            "x": 130,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "events": []
+    },
+    {
+      "name": "KO and round transition",
+      "pass": true,
+      "ko": {
+        "phase": "ko_slowmo",
+        "timer": 5812,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 1000,
+            "meter": 26,
+            "x": -26.5,
+            "y": 0,
+            "vy": 0,
+            "state": "attack",
+            "move": "5HP",
+            "moveFrame": 9,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 0,
+            "meter": 11,
+            "x": 100.5,
+            "y": -2,
+            "vy": -9.5,
+            "state": "hitstun_air",
+            "moveFrame": 0,
+            "combo": 1,
+            "damage": 90,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -36.5,
+          "y": -100,
+          "strength": "heavy",
+          "moveName": "Heavy Breaker"
+        },
+        {
+          "type": "hit",
+          "playerIndex": 0,
+          "x": 46.5,
+          "y": -143.5,
+          "strength": "heavy",
+          "damage": 90,
+          "moveName": "Heavy Breaker",
+          "isCounter": false,
+          "isCrossUp": false
+        },
+        {
+          "type": "ko",
+          "playerIndex": 0,
+          "x": 37,
+          "y": -100,
+          "text": "PERFECT K.O."
+        }
+      ]
+    },
+    {
+      "name": "Next round starts",
+      "pass": true,
+      "end": {
+        "phase": "fight",
+        "timer": 5560,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 1000,
+            "meter": 26,
+            "x": -210,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 1075,
+            "meter": 11,
+            "x": 210,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warden charge move",
+      "pass": true,
+      "trigger": {
+        "phase": "fight",
+        "timer": 5774,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 980,
+            "meter": 8,
+            "x": -150,
+            "y": 0,
+            "vy": 0,
+            "state": "attack",
+            "move": "rail_pulse_l",
+            "moveFrame": 2,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 1075,
+            "meter": 0,
+            "x": 150,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "end": {
+        "phase": "fight",
+        "timer": 5724,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 980,
+            "meter": 20,
+            "x": -150,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 1013,
+            "meter": 7,
+            "x": 198,
+            "y": 0,
+            "vy": 0,
+            "state": "hitstun_stand",
+            "moveFrame": 0,
+            "combo": 1,
+            "damage": 62,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -150,
+          "y": -100,
+          "strength": "special",
+          "moveName": "Rail Pulse (L)"
+        },
+        {
+          "type": "projectile_spawn",
+          "playerIndex": 0,
+          "x": -92,
+          "y": -120,
+          "moveName": "Rail Pulse"
+        },
+        {
+          "type": "hit",
+          "playerIndex": 0,
+          "x": 81.60000000000004,
+          "y": -120,
+          "strength": "special",
+          "damage": 62,
+          "moveName": "Rail Pulse",
+          "isCounter": false,
+          "isCrossUp": false
+        }
+      ]
+    },
+    {
+      "name": "Magnus command grab",
+      "pass": true,
+      "motion": "360 (6,2,4,8+HP)",
+      "trigger": {
+        "phase": "fight",
+        "timer": 5816,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 1075,
+            "meter": 8.08,
+            "x": -39.565,
+            "y": 0,
+            "vy": 0,
+            "state": "attack",
+            "move": "tectonic_crusher_h",
+            "moveFrame": 2,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 1000,
+            "meter": 0,
+            "x": 39.35,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "damage": 168,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -38.55,
+          "y": -100,
+          "strength": "special",
+          "moveName": "Tectonic Buster (H)"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -17.655,
+          "y": -110,
+          "moveName": "Tectonic Buster (H)"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 10.344999999999999,
+          "y": -90,
+          "strength": "throw",
+          "damage": 168,
+          "moveName": "Tectonic Buster (H)"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 237.8375,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "Sable double jump or air dash",
+      "pass": true,
+      "before": {
+        "phase": "fight",
+        "timer": 5807,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 960,
+            "meter": 0,
+            "x": -130,
+            "y": -132.99999999999997,
+            "vy": -7.6799999999999935,
+            "state": "jump",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 1,
+            "airDash": 1,
+            "invincible": 0
+          },
+          {
+            "hp": 1075,
+            "meter": 0,
+            "x": 130,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "after": {
+        "phase": "fight",
+        "timer": 5803,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 960,
+            "meter": 0,
+            "x": -130,
+            "y": -184.83999999999995,
+            "vy": -11.159999999999997,
+            "state": "jump",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 1,
+            "invincible": 0
+          },
+          {
+            "hp": 1075,
+            "meter": 0,
+            "x": 130,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "end": {
+        "phase": "fight",
+        "timer": 5797,
+        "freeze": 0,
+        "f": [
+          {
+            "hp": 960,
+            "meter": 0,
+            "x": -78.80000000000001,
+            "y": -206.43999999999994,
+            "vy": 0,
+            "state": "air_dash",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          },
+          {
+            "hp": 1075,
+            "meter": 0,
+            "x": 130,
+            "y": 0,
+            "vy": 0,
+            "state": "idle",
+            "moveFrame": 0,
+            "combo": 0,
+            "damage": 0,
+            "scale": 1,
+            "jumps": 0,
+            "airDash": 0,
+            "invincible": 0
+          }
+        ]
+      },
+      "jumps": 2,
+      "dashes": 1,
+      "events": [
+        {
+          "type": "jump",
+          "playerIndex": 0,
+          "x": -130,
+          "y": 0
+        },
+        {
+          "type": "jump",
+          "playerIndex": 0,
+          "x": -130,
+          "y": -132.99999999999997
+        },
+        {
+          "type": "dash",
+          "playerIndex": 0,
+          "x": -130,
+          "y": -206.43999999999994
+        }
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "name": "09-super-active",
+      "note": "Controlled fixture: 300 meter and spacing; Super Art triggered through double-QCF+LP inputs; captured at seventy percent of initial super freeze"
+    },
+    {
+      "name": "23-super-followthrough",
+      "note": "Same Super Art after simulation advances"
+    },
+    {
+      "name": "10-ko-round-end",
+      "note": "Controlled fixture: defender begins at 1 HP; normal attack causes actual KO; twenty frames into KO presentation"
+    },
+    {
+      "name": "08-mid-combo",
+      "note": "Actual 2LK > 2LP connected combo through raw inputs; no combo counter or damage values injected"
+    },
+    {
+      "name": "11-training-hitboxes",
+      "note": "Actual training mode paused on an active heavy normal through raw input; hurtbox, hitbox and spacing fixtures"
+    },
+    {
+      "name": "animation-1",
+      "note": "Actual QCF LP, 5 simulation frames between samples"
+    },
+    {
+      "name": "animation-2",
+      "note": "Actual QCF LP, 5 simulation frames between samples"
+    },
+    {
+      "name": "animation-3",
+      "note": "Actual QCF LP, 5 simulation frames between samples"
+    },
+    {
+      "name": "animation-4",
+      "note": "Actual QCF LP, 5 simulation frames between samples"
+    },
+    {
+      "name": "animation-5",
+      "note": "Actual QCF LP, 5 simulation frames between samples"
+    },
+    {
+      "name": "animation-6",
+      "note": "Actual QCF LP, 5 simulation frames between samples"
+    },
+    {
+      "name": "14-results",
+      "note": "Actual match results after two KO rounds with low-life fixtures; no wins or outcome values set directly"
+    }
+  ],
+  "consoleLog": [
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "error: Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ]
+}

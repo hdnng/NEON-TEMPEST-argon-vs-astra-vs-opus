@@ -1,0 +1,71 @@
+{
+  "label": "C",
+  "duration_seconds": 121.405,
+  "input_cycles": 212,
+  "history": [
+    {
+      "phase": "fight",
+      "frame": 890,
+      "hp": [
+        690,
+        938
+      ],
+      "timer": 87
+    },
+    {
+      "phase": "fight",
+      "frame": 1638,
+      "hp": [
+        83,
+        908
+      ],
+      "timer": 75
+    },
+    {
+      "phase": "fight",
+      "frame": 2398,
+      "hp": [
+        794,
+        950
+      ],
+      "timer": 94
+    },
+    {
+      "phase": "fight",
+      "frame": 3105,
+      "hp": [
+        172,
+        794
+      ],
+      "timer": 83
+    },
+    {
+      "phase": "fight",
+      "frame": 266,
+      "hp": [
+        925,
+        1040
+      ],
+      "timer": 98
+    },
+    {
+      "phase": "fight",
+      "frame": 987,
+      "hp": [
+        661,
+        825
+      ],
+      "timer": 86
+    },
+    {
+      "phase": "fight",
+      "frame": 1745,
+      "hp": [
+        90,
+        765
+      ],
+      "timer": 74
+    }
+  ],
+  "issues": []
+}

@@ -1,0 +1,4069 @@
+{
+  "label": "A",
+  "invalid_360": {
+    "directions": [
+      6,
+      4,
+      2,
+      8
+    ],
+    "accepted": true,
+    "expected": false
+  },
+  "hcf_punch": {
+    "directions": [
+      4,
+      1,
+      2,
+      3,
+      6
+    ],
+    "button": "HP",
+    "selected": "juggernaut_rush_h",
+    "note": "Only A documents this binding as a command grab; B and C use a different HCF binding."
+  },
+  "techAttempts": [
+    {
+      "delay": 0,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        960
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "whiff",
+          "playerIndex": 1,
+          "x": 30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Spine Breaker Slam"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 28,
+          "y": -90,
+          "strength": "throw",
+          "damage": 115,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 185.5,
+          "y": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            "throw_f"
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            "throw_f"
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            "throw_f"
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 1,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        960
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "whiff",
+          "playerIndex": 1,
+          "x": 36.5,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Spine Breaker Slam"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 28,
+          "y": -90,
+          "strength": "throw",
+          "damage": 115,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 185.5,
+          "y": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            "throw_f"
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            "throw_f"
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 2,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        960
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "whiff",
+          "playerIndex": 1,
+          "x": 36.5,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Spine Breaker Slam"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 28,
+          "y": -90,
+          "strength": "throw",
+          "damage": 115,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 185.5,
+          "y": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            "throw_f"
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 3,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        960
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "whiff",
+          "playerIndex": 1,
+          "x": 36.5,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Spine Breaker Slam"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 28,
+          "y": -90,
+          "strength": "throw",
+          "damage": 115,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 185.5,
+          "y": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 4,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        1075
+      ],
+      "tech": true,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_tech",
+          "playerIndex": 1,
+          "x": -8.5,
+          "y": -115,
+          "text": "THROW TECH!"
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 5,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        1075
+      ],
+      "tech": true,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_tech",
+          "playerIndex": 1,
+          "x": -8.5,
+          "y": -115,
+          "text": "THROW TECH!"
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 6,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        1075
+      ],
+      "tech": true,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_tech",
+          "playerIndex": 1,
+          "x": -8.5,
+          "y": -115,
+          "text": "THROW TECH!"
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 7,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        1075
+      ],
+      "tech": true,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_tech",
+          "playerIndex": 1,
+          "x": -8.5,
+          "y": -115,
+          "text": "THROW TECH!"
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 8,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        1075
+      ],
+      "tech": true,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_tech",
+          "playerIndex": 1,
+          "x": -8.5,
+          "y": -115,
+          "text": "THROW TECH!"
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 9,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        1075
+      ],
+      "tech": true,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_tech",
+          "playerIndex": 1,
+          "x": -8.5,
+          "y": -115,
+          "text": "THROW TECH!"
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 10,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        1075
+      ],
+      "tech": true,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_tech",
+          "playerIndex": 1,
+          "x": -8.5,
+          "y": -115,
+          "text": "THROW TECH!"
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 11,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        960
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 28,
+          "y": -90,
+          "strength": "throw",
+          "damage": 115,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 185.5,
+          "y": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 12,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        960
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 28,
+          "y": -90,
+          "strength": "throw",
+          "damage": 115,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 185.5,
+          "y": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 13,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        960
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 28,
+          "y": -90,
+          "strength": "throw",
+          "damage": 115,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 185.5,
+          "y": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 14,
+      "hpStart": [
+        1000,
+        1075
+      ],
+      "hpEnd": [
+        1000,
+        960
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "whiff",
+          "playerIndex": 0,
+          "x": -30,
+          "y": -100,
+          "strength": "throw",
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_start",
+          "playerIndex": 0,
+          "x": -8.5,
+          "y": -110,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "throw_slam",
+          "playerIndex": 0,
+          "x": 28,
+          "y": -90,
+          "strength": "throw",
+          "damage": 115,
+          "moveName": "Izuna Whip Throw"
+        },
+        {
+          "type": "knockdown",
+          "playerIndex": 1,
+          "x": 185.5,
+          "y": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            1075
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw_f",
+            null
+          ],
+          "hp": [
+            1000,
+            960
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    }
+  ],
+  "teched": 7
+}

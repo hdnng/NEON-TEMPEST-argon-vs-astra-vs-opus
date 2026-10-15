@@ -1,0 +1,28 @@
+{
+  "date_utc": "2026-10-15T14:59:07Z",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+  "python": "3.11.9",
+  "node": "v24.16.0",
+  "npm": "11.13.0",
+  "order": [
+    "B",
+    "C",
+    "A"
+  ],
+  "random_seed": 2139301718,
+  "excluded_copy_dirs": [
+    ".git",
+    "dist",
+    "node_modules",
+    "playwright-report",
+    "test-results"
+  ],
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  },
+  "device_scale_factor": 1,
+  "headless": true,
+  "source_spec_sha256": "0637ba3dace45a6a482d285dcdabac2ae2c78160a1b5582f476b36363dde0cc0"
+}

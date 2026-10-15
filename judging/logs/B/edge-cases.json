@@ -1,0 +1,3915 @@
+{
+  "label": "B",
+  "invalid_360": {
+    "directions": [
+      6,
+      4,
+      2,
+      8
+    ],
+    "accepted": false,
+    "expected": false
+  },
+  "hcf_punch": {
+    "directions": [
+      4,
+      1,
+      2,
+      3,
+      6
+    ],
+    "button": "HP",
+    "selected": "stand_HP",
+    "note": "Only A documents this binding as a command grab; B and C use a different HCF binding."
+  },
+  "techAttempts": [
+    {
+      "delay": 0,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        845,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "move",
+          "x": 770,
+          "y": -80,
+          "player": 1,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        },
+        {
+          "type": "throw",
+          "x": 696,
+          "y": -80,
+          "player": 0,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            1
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            1
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            1
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            1
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            1
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            2
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            3
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            4
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            5
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            6
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            7
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            8
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            9
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            10
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            null,
+            null
+          ],
+          "hp": [
+            845,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 1,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "move",
+          "x": 770,
+          "y": -80,
+          "player": 1,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            2
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            2
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            2
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            2
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            3
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            4
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            5
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            6
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            7
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            8
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            9
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            10
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            11
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 2,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "move",
+          "x": 770,
+          "y": -80,
+          "player": 1,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            3
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            3
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            3
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            4
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            5
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            6
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            7
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            8
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            9
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            10
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            11
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            12
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 3,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "move",
+          "x": 770,
+          "y": -80,
+          "player": 1,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            "throw"
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            4
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            4
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            5
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            6
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            7
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            8
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            9
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            10
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            11
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            12
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            13
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 4,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "move",
+          "x": 770,
+          "y": -80,
+          "player": 1,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            5
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            6
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            7
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            8
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            9
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            10
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            11
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            12
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            13
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            14
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 5,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 6,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 7,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 8,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 9,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 10,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 11,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 12,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 13,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 14,
+      "hpStart": [
+        1000,
+        1160
+      ],
+      "hpEnd": [
+        1000,
+        1045
+      ],
+      "tech": false,
+      "events": [
+        {
+          "type": "move",
+          "x": 710,
+          "y": -80,
+          "player": 0,
+          "strength": 0,
+          "text": "Close Displacement"
+        },
+        {
+          "type": "throw",
+          "x": 784,
+          "y": -80,
+          "player": 1,
+          "strength": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1160
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            1,
+            -99
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            2,
+            -98
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            3,
+            -97
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            4,
+            -96
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            5,
+            -95
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            6,
+            -94
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            7,
+            -93
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            8,
+            -92
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            9,
+            -91
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            10,
+            -90
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throw",
+            null
+          ],
+          "hp": [
+            1000,
+            1045
+          ],
+          "inputUsed": [
+            11,
+            -89
+          ]
+        }
+      ]
+    }
+  ],
+  "teched": 0
+}

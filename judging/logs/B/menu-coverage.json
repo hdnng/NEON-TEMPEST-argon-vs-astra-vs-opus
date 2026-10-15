@@ -1,0 +1,131 @@
+{
+  "label": "B",
+  "method": "Real DOM keyboard only; mode entries followed by actual back paths; no injected menu index or scene",
+  "trace": [
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "character"
+    },
+    {
+      "mode": "arcade",
+      "reached": true
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "character"
+    },
+    {
+      "mode": "versus",
+      "reached": true
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "character"
+    },
+    {
+      "mode": "training",
+      "reached": true
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "character"
+    },
+    {
+      "mode": "trials",
+      "reached": true
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "mode": "empty replay",
+      "stays_on_menu": true
+    },
+    {
+      "completed": true,
+      "scene": "menu"
+    }
+  ],
+  "issues": []
+}

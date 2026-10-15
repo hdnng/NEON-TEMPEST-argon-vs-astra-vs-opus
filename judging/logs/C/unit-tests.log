@@ -1,0 +1,10 @@
+COMMAND: npm test -- --reporter=json --outputFile=../../logs/C/unit-results.json
+CWD: judging/work/C
+
+> neon-tempest@1.0.0 test
+> vitest run --reporter=json --outputFile=../../logs/C/unit-results.json
+
+JSON report written to D:/HD/code/prj/round2/judging/logs/C/unit-results.json
+
+EXIT_CODE: 0
+DURATION_SECONDS: 4.553

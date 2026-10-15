@@ -1,0 +1,6822 @@
+{
+  "label": "C",
+  "perPair": 32,
+  "attempted": 512,
+  "completed": 512,
+  "crashes": 0,
+  "softlocks": 0,
+  "average_match_seconds": 106.91490885416667,
+  "elapsed_seconds": 69.73855449999999,
+  "winRates": [
+    {
+      "id": "hayate",
+      "matches": 192,
+      "percent": 56.770833333333336
+    },
+    {
+      "id": "magnus",
+      "matches": 192,
+      "percent": 41.145833333333336
+    },
+    {
+      "id": "sable",
+      "matches": 192,
+      "percent": 50
+    },
+    {
+      "id": "warden",
+      "matches": 192,
+      "percent": 52.083333333333336
+    }
+  ],
+  "matrix": [
+    [
+      {
+        "matches": 32,
+        "p1Wins": 17,
+        "p2Wins": 15,
+        "draws": 0,
+        "win_percent": 53.125
+      },
+      {
+        "matches": 32,
+        "p1Wins": 17,
+        "p2Wins": 15,
+        "draws": 0,
+        "win_percent": 53.125
+      },
+      {
+        "matches": 32,
+        "p1Wins": 19,
+        "p2Wins": 13,
+        "draws": 0,
+        "win_percent": 59.375
+      },
+      {
+        "matches": 32,
+        "p1Wins": 19,
+        "p2Wins": 13,
+        "draws": 0,
+        "win_percent": 59.375
+      }
+    ],
+    [
+      {
+        "matches": 32,
+        "p1Wins": 17,
+        "p2Wins": 15,
+        "draws": 0,
+        "win_percent": 53.125
+      },
+      {
+        "matches": 32,
+        "p1Wins": 19,
+        "p2Wins": 13,
+        "draws": 0,
+        "win_percent": 59.375
+      },
+      {
+        "matches": 32,
+        "p1Wins": 12,
+        "p2Wins": 20,
+        "draws": 0,
+        "win_percent": 37.5
+      },
+      {
+        "matches": 32,
+        "p1Wins": 8,
+        "p2Wins": 24,
+        "draws": 0,
+        "win_percent": 25
+      }
+    ],
+    [
+      {
+        "matches": 32,
+        "p1Wins": 13,
+        "p2Wins": 19,
+        "draws": 0,
+        "win_percent": 40.625
+      },
+      {
+        "matches": 32,
+        "p1Wins": 15,
+        "p2Wins": 17,
+        "draws": 0,
+        "win_percent": 46.875
+      },
+      {
+        "matches": 32,
+        "p1Wins": 17,
+        "p2Wins": 15,
+        "draws": 0,
+        "win_percent": 53.125
+      },
+      {
+        "matches": 32,
+        "p1Wins": 20,
+        "p2Wins": 12,
+        "draws": 0,
+        "win_percent": 62.5
+      }
+    ],
+    [
+      {
+        "matches": 32,
+        "p1Wins": 12,
+        "p2Wins": 20,
+        "draws": 0,
+        "win_percent": 37.5
+      },
+      {
+        "matches": 32,
+        "p1Wins": 22,
+        "p2Wins": 10,
+        "draws": 0,
+        "win_percent": 68.75
+      },
+      {
+        "matches": 32,
+        "p1Wins": 17,
+        "p2Wins": 15,
+        "draws": 0,
+        "win_percent": 53.125
+      },
+      {
+        "matches": 32,
+        "p1Wins": 16,
+        "p2Wins": 16,
+        "draws": 0,
+        "win_percent": 50
+      }
+    ]
+  ],
+  "determinism": {
+    "frames": 7200,
+    "seed": 774921,
+    "firstDifference": -1,
+    "pass": true,
+    "hash1": "c21846dd61e6ab9265d8922062ead960d25eda4c77353fc5c9e393630d3091e0",
+    "hash2": "c21846dd61e6ab9265d8922062ead960d25eda4c77353fc5c9e393630d3091e0",
+    "serialization_roundtrip": true,
+    "inputs_sha256": "3b3f3e9967f8e9a7d134fd450eec6691b9853fa77dff5eca002be6a031726f6f"
+  },
+  "matches": [
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 19831,
+      "steps": 4638,
+      "simulation_frame": 4638,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 355
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 20148,
+      "steps": 4881,
+      "simulation_frame": 4881,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 435
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 20465,
+      "steps": 5657,
+      "simulation_frame": 5657,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 457
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 20782,
+      "steps": 5168,
+      "simulation_frame": 5168,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 378
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 21099,
+      "steps": 8529,
+      "simulation_frame": 8529,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 659
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 21416,
+      "steps": 4128,
+      "simulation_frame": 4128,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 356
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 21733,
+      "steps": 5396,
+      "simulation_frame": 5396,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 429
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 22050,
+      "steps": 4988,
+      "simulation_frame": 4988,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 379
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 22367,
+      "steps": 7746,
+      "simulation_frame": 7746,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 638
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 22684,
+      "steps": 4843,
+      "simulation_frame": 4843,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 398
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 23001,
+      "steps": 6361,
+      "simulation_frame": 6361,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 489
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 23318,
+      "steps": 7418,
+      "simulation_frame": 7418,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 596
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 23635,
+      "steps": 6541,
+      "simulation_frame": 6541,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 529
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 23952,
+      "steps": 6600,
+      "simulation_frame": 6600,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 499
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 24269,
+      "steps": 7840,
+      "simulation_frame": 7840,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 612
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 24586,
+      "steps": 6910,
+      "simulation_frame": 6910,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 529
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 24903,
+      "steps": 6399,
+      "simulation_frame": 6399,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 514
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 25220,
+      "steps": 5143,
+      "simulation_frame": 5143,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 401
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 25537,
+      "steps": 7238,
+      "simulation_frame": 7238,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 522
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 25854,
+      "steps": 4948,
+      "simulation_frame": 4948,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 399
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 26171,
+      "steps": 7788,
+      "simulation_frame": 7788,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 590
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 26488,
+      "steps": 6565,
+      "simulation_frame": 6565,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 513
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 26805,
+      "steps": 6828,
+      "simulation_frame": 6828,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 547
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 27122,
+      "steps": 7276,
+      "simulation_frame": 7276,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 619
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 27439,
+      "steps": 6993,
+      "simulation_frame": 6993,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 525
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 27756,
+      "steps": 7834,
+      "simulation_frame": 7834,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 605
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 28073,
+      "steps": 7568,
+      "simulation_frame": 7568,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 588
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 28390,
+      "steps": 8001,
+      "simulation_frame": 8001,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 606
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 28707,
+      "steps": 5155,
+      "simulation_frame": 5155,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 412
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 29024,
+      "steps": 5087,
+      "simulation_frame": 5087,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 379
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 29341,
+      "steps": 7952,
+      "simulation_frame": 7952,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 586
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "hayate",
+      "seed": 29658,
+      "steps": 6627,
+      "simulation_frame": 6627,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 542
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 21132,
+      "steps": 8050,
+      "simulation_frame": 8050,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 564
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 21449,
+      "steps": 4999,
+      "simulation_frame": 4999,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 371
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 21766,
+      "steps": 7423,
+      "simulation_frame": 7423,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 511
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 22083,
+      "steps": 4715,
+      "simulation_frame": 4715,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 343
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 22400,
+      "steps": 7182,
+      "simulation_frame": 7182,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 526
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 22717,
+      "steps": 7377,
+      "simulation_frame": 7377,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 558
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 23034,
+      "steps": 6830,
+      "simulation_frame": 6830,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 511
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 23351,
+      "steps": 7865,
+      "simulation_frame": 7865,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 550
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 23668,
+      "steps": 4101,
+      "simulation_frame": 4101,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 287
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 23985,
+      "steps": 8534,
+      "simulation_frame": 8534,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 605
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 24302,
+      "steps": 3974,
+      "simulation_frame": 3974,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 298
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 24619,
+      "steps": 4643,
+      "simulation_frame": 4643,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 330
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 24936,
+      "steps": 4911,
+      "simulation_frame": 4911,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 380
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 25253,
+      "steps": 4411,
+      "simulation_frame": 4411,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 326
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 25570,
+      "steps": 7129,
+      "simulation_frame": 7129,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 520
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 25887,
+      "steps": 7919,
+      "simulation_frame": 7919,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 559
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 26204,
+      "steps": 4069,
+      "simulation_frame": 4069,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 307
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 26521,
+      "steps": 6683,
+      "simulation_frame": 6683,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 493
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 26838,
+      "steps": 5829,
+      "simulation_frame": 5829,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 435
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 27155,
+      "steps": 6591,
+      "simulation_frame": 6591,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 493
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 27472,
+      "steps": 6504,
+      "simulation_frame": 6504,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 479
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 27789,
+      "steps": 6047,
+      "simulation_frame": 6047,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 434
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 28106,
+      "steps": 7324,
+      "simulation_frame": 7324,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 530
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 28423,
+      "steps": 4758,
+      "simulation_frame": 4758,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 322
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 28740,
+      "steps": 4240,
+      "simulation_frame": 4240,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 269
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 29057,
+      "steps": 6990,
+      "simulation_frame": 6990,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 494
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 29374,
+      "steps": 5188,
+      "simulation_frame": 5188,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 395
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 29691,
+      "steps": 6029,
+      "simulation_frame": 6029,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 415
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 30008,
+      "steps": 5407,
+      "simulation_frame": 5407,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 413
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 30325,
+      "steps": 6347,
+      "simulation_frame": 6347,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 500
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 30642,
+      "steps": 7867,
+      "simulation_frame": 7867,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 565
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "magnus",
+      "seed": 30959,
+      "steps": 4300,
+      "simulation_frame": 4300,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 306
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 22433,
+      "steps": 7509,
+      "simulation_frame": 7509,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 628
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 22750,
+      "steps": 6872,
+      "simulation_frame": 6872,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 567
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 23067,
+      "steps": 4524,
+      "simulation_frame": 4524,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 364
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 23384,
+      "steps": 7982,
+      "simulation_frame": 7982,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 663
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 23701,
+      "steps": 7760,
+      "simulation_frame": 7760,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 623
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 24018,
+      "steps": 4879,
+      "simulation_frame": 4879,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 425
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 24335,
+      "steps": 4269,
+      "simulation_frame": 4269,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 340
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 24652,
+      "steps": 4830,
+      "simulation_frame": 4830,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 384
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 24969,
+      "steps": 8094,
+      "simulation_frame": 8094,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 646
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 25286,
+      "steps": 7325,
+      "simulation_frame": 7325,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 589
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 25603,
+      "steps": 4562,
+      "simulation_frame": 4562,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 369
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 25920,
+      "steps": 3489,
+      "simulation_frame": 3489,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 273
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 26237,
+      "steps": 4738,
+      "simulation_frame": 4738,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 379
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 26554,
+      "steps": 4625,
+      "simulation_frame": 4625,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 415
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 26871,
+      "steps": 7189,
+      "simulation_frame": 7189,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 601
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 27188,
+      "steps": 4691,
+      "simulation_frame": 4691,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 381
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 27505,
+      "steps": 8455,
+      "simulation_frame": 8455,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 709
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 27822,
+      "steps": 7417,
+      "simulation_frame": 7417,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 574
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 28139,
+      "steps": 3595,
+      "simulation_frame": 3595,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 318
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 28456,
+      "steps": 7112,
+      "simulation_frame": 7112,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 581
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 28773,
+      "steps": 6824,
+      "simulation_frame": 6824,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 584
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 29090,
+      "steps": 7305,
+      "simulation_frame": 7305,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 623
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 29407,
+      "steps": 7797,
+      "simulation_frame": 7797,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 704
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 29724,
+      "steps": 4462,
+      "simulation_frame": 4462,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 325
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 30041,
+      "steps": 7332,
+      "simulation_frame": 7332,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 613
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 30358,
+      "steps": 7238,
+      "simulation_frame": 7238,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 635
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 30675,
+      "steps": 6351,
+      "simulation_frame": 6351,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 555
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 30992,
+      "steps": 4705,
+      "simulation_frame": 4705,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 428
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 31309,
+      "steps": 4059,
+      "simulation_frame": 4059,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 343
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 31626,
+      "steps": 7232,
+      "simulation_frame": 7232,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 580
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 31943,
+      "steps": 7458,
+      "simulation_frame": 7458,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 642
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "sable",
+      "seed": 32260,
+      "steps": 5380,
+      "simulation_frame": 5380,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 426
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 23734,
+      "steps": 4826,
+      "simulation_frame": 4826,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 336
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 24051,
+      "steps": 6294,
+      "simulation_frame": 6294,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 421
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 24368,
+      "steps": 8290,
+      "simulation_frame": 8290,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 586
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 24685,
+      "steps": 6765,
+      "simulation_frame": 6765,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 468
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 25002,
+      "steps": 4666,
+      "simulation_frame": 4666,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 331
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 25319,
+      "steps": 5802,
+      "simulation_frame": 5802,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 432
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 25636,
+      "steps": 6640,
+      "simulation_frame": 6640,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 473
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 25953,
+      "steps": 4675,
+      "simulation_frame": 4675,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 322
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 26270,
+      "steps": 5099,
+      "simulation_frame": 5099,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 355
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 26587,
+      "steps": 5875,
+      "simulation_frame": 5875,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 423
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 26904,
+      "steps": 4416,
+      "simulation_frame": 4416,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 312
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 27221,
+      "steps": 7271,
+      "simulation_frame": 7271,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 473
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 27538,
+      "steps": 5567,
+      "simulation_frame": 5567,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 378
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 27855,
+      "steps": 6152,
+      "simulation_frame": 6152,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 460
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 28172,
+      "steps": 5656,
+      "simulation_frame": 5656,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 378
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 28489,
+      "steps": 8315,
+      "simulation_frame": 8315,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 599
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 28806,
+      "steps": 9576,
+      "simulation_frame": 9576,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 675
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 29123,
+      "steps": 7708,
+      "simulation_frame": 7708,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 566
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 29440,
+      "steps": 8551,
+      "simulation_frame": 8551,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 567
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 29757,
+      "steps": 8447,
+      "simulation_frame": 8447,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 601
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 30074,
+      "steps": 6068,
+      "simulation_frame": 6068,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 399
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 30391,
+      "steps": 7475,
+      "simulation_frame": 7475,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 583
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 30708,
+      "steps": 8373,
+      "simulation_frame": 8373,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 611
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 31025,
+      "steps": 4683,
+      "simulation_frame": 4683,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 330
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 31342,
+      "steps": 5790,
+      "simulation_frame": 5790,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 408
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 31659,
+      "steps": 7566,
+      "simulation_frame": 7566,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 517
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 31976,
+      "steps": 7893,
+      "simulation_frame": 7893,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 518
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 32293,
+      "steps": 6113,
+      "simulation_frame": 6113,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 432
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 32610,
+      "steps": 5603,
+      "simulation_frame": 5603,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 373
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 32927,
+      "steps": 5376,
+      "simulation_frame": 5376,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 356
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 33244,
+      "steps": 6009,
+      "simulation_frame": 6009,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 403
+      }
+    },
+    {
+      "a": "hayate",
+      "b": "warden",
+      "seed": 33561,
+      "steps": 7764,
+      "simulation_frame": 7764,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 489
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 27750,
+      "steps": 7468,
+      "simulation_frame": 7468,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 499
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 28067,
+      "steps": 7128,
+      "simulation_frame": 7128,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 507
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 28384,
+      "steps": 4415,
+      "simulation_frame": 4415,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 344
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 28701,
+      "steps": 4634,
+      "simulation_frame": 4634,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 354
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 29018,
+      "steps": 7873,
+      "simulation_frame": 7873,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 569
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 29335,
+      "steps": 8442,
+      "simulation_frame": 8442,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 596
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 29652,
+      "steps": 3942,
+      "simulation_frame": 3942,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 307
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 29969,
+      "steps": 4627,
+      "simulation_frame": 4627,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 299
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 30286,
+      "steps": 6522,
+      "simulation_frame": 6522,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 482
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 30603,
+      "steps": 6924,
+      "simulation_frame": 6924,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 553
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 30920,
+      "steps": 3662,
+      "simulation_frame": 3662,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 226
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 31237,
+      "steps": 4375,
+      "simulation_frame": 4375,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 342
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 31554,
+      "steps": 5270,
+      "simulation_frame": 5270,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 383
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 31871,
+      "steps": 8355,
+      "simulation_frame": 8355,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 589
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 32188,
+      "steps": 5281,
+      "simulation_frame": 5281,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 374
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 32505,
+      "steps": 3717,
+      "simulation_frame": 3717,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 249
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 32822,
+      "steps": 4436,
+      "simulation_frame": 4436,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 295
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 33139,
+      "steps": 4648,
+      "simulation_frame": 4648,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 283
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 33456,
+      "steps": 7153,
+      "simulation_frame": 7153,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 532
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 33773,
+      "steps": 6988,
+      "simulation_frame": 6988,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 454
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 34090,
+      "steps": 5146,
+      "simulation_frame": 5146,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 333
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 34407,
+      "steps": 4665,
+      "simulation_frame": 4665,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 329
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 34724,
+      "steps": 4766,
+      "simulation_frame": 4766,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 291
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 35041,
+      "steps": 4468,
+      "simulation_frame": 4468,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 315
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 35358,
+      "steps": 7407,
+      "simulation_frame": 7407,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 547
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 35675,
+      "steps": 4924,
+      "simulation_frame": 4924,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 347
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 35992,
+      "steps": 6726,
+      "simulation_frame": 6726,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 484
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 36309,
+      "steps": 4968,
+      "simulation_frame": 4968,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 369
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 36626,
+      "steps": 6959,
+      "simulation_frame": 6959,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 472
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 36943,
+      "steps": 6987,
+      "simulation_frame": 6987,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 533
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 37260,
+      "steps": 4583,
+      "simulation_frame": 4583,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 373
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "hayate",
+      "seed": 37577,
+      "steps": 4289,
+      "simulation_frame": 4289,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 266
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 29051,
+      "steps": 4655,
+      "simulation_frame": 4655,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 317
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 29368,
+      "steps": 3578,
+      "simulation_frame": 3578,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 235
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 29685,
+      "steps": 3796,
+      "simulation_frame": 3796,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 242
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 30002,
+      "steps": 4155,
+      "simulation_frame": 4155,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 248
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 30319,
+      "steps": 4854,
+      "simulation_frame": 4854,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 283
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 30636,
+      "steps": 4993,
+      "simulation_frame": 4993,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 366
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 30953,
+      "steps": 5060,
+      "simulation_frame": 5060,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 323
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 31270,
+      "steps": 7269,
+      "simulation_frame": 7269,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 438
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 31587,
+      "steps": 6573,
+      "simulation_frame": 6573,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 394
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 31904,
+      "steps": 6092,
+      "simulation_frame": 6092,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 418
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 32221,
+      "steps": 5389,
+      "simulation_frame": 5389,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 312
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 32538,
+      "steps": 4850,
+      "simulation_frame": 4850,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 357
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 32855,
+      "steps": 4295,
+      "simulation_frame": 4295,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 259
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 33172,
+      "steps": 5563,
+      "simulation_frame": 5563,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 363
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 33489,
+      "steps": 6675,
+      "simulation_frame": 6675,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 453
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 33806,
+      "steps": 7652,
+      "simulation_frame": 7652,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 454
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 34123,
+      "steps": 5965,
+      "simulation_frame": 5965,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 388
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 34440,
+      "steps": 5777,
+      "simulation_frame": 5777,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 368
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 34757,
+      "steps": 6577,
+      "simulation_frame": 6577,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 461
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 35074,
+      "steps": 4809,
+      "simulation_frame": 4809,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 343
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 35391,
+      "steps": 6516,
+      "simulation_frame": 6516,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 416
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 35708,
+      "steps": 5395,
+      "simulation_frame": 5395,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 337
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 36025,
+      "steps": 5826,
+      "simulation_frame": 5826,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 340
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 36342,
+      "steps": 6819,
+      "simulation_frame": 6819,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 446
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 36659,
+      "steps": 6197,
+      "simulation_frame": 6197,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 401
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 36976,
+      "steps": 3872,
+      "simulation_frame": 3872,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 270
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 37293,
+      "steps": 6304,
+      "simulation_frame": 6304,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 416
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 37610,
+      "steps": 4324,
+      "simulation_frame": 4324,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 269
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 37927,
+      "steps": 6591,
+      "simulation_frame": 6591,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 443
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 38244,
+      "steps": 4761,
+      "simulation_frame": 4761,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 294
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 38561,
+      "steps": 4017,
+      "simulation_frame": 4017,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 258
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "magnus",
+      "seed": 38878,
+      "steps": 4698,
+      "simulation_frame": 4698,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 311
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 30352,
+      "steps": 6873,
+      "simulation_frame": 6873,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 530
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 30669,
+      "steps": 4095,
+      "simulation_frame": 4095,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 268
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 30986,
+      "steps": 6762,
+      "simulation_frame": 6762,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 533
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 31303,
+      "steps": 7078,
+      "simulation_frame": 7078,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 519
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 31620,
+      "steps": 7178,
+      "simulation_frame": 7178,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 531
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 31937,
+      "steps": 7337,
+      "simulation_frame": 7337,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 567
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 32254,
+      "steps": 6780,
+      "simulation_frame": 6780,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 521
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 32571,
+      "steps": 4326,
+      "simulation_frame": 4326,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 368
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 32888,
+      "steps": 4960,
+      "simulation_frame": 4960,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 388
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 33205,
+      "steps": 5105,
+      "simulation_frame": 5105,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 389
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 33522,
+      "steps": 4700,
+      "simulation_frame": 4700,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 367
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 33839,
+      "steps": 5194,
+      "simulation_frame": 5194,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 394
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 34156,
+      "steps": 5338,
+      "simulation_frame": 5338,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 424
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 34473,
+      "steps": 6512,
+      "simulation_frame": 6512,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 555
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 34790,
+      "steps": 4496,
+      "simulation_frame": 4496,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 392
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 35107,
+      "steps": 6801,
+      "simulation_frame": 6801,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 544
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 35424,
+      "steps": 4363,
+      "simulation_frame": 4363,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 345
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 35741,
+      "steps": 6276,
+      "simulation_frame": 6276,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 489
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 36058,
+      "steps": 7532,
+      "simulation_frame": 7532,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 538
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 36375,
+      "steps": 4449,
+      "simulation_frame": 4449,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 360
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 36692,
+      "steps": 6988,
+      "simulation_frame": 6988,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 539
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 37009,
+      "steps": 5852,
+      "simulation_frame": 5852,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 481
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 37326,
+      "steps": 6552,
+      "simulation_frame": 6552,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 496
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 37643,
+      "steps": 6042,
+      "simulation_frame": 6042,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 459
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 37960,
+      "steps": 6367,
+      "simulation_frame": 6367,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 536
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 38277,
+      "steps": 6646,
+      "simulation_frame": 6646,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 533
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 38594,
+      "steps": 4557,
+      "simulation_frame": 4557,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 348
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 38911,
+      "steps": 3846,
+      "simulation_frame": 3846,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 318
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 39228,
+      "steps": 4609,
+      "simulation_frame": 4609,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 340
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 39545,
+      "steps": 4272,
+      "simulation_frame": 4272,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 399
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 39862,
+      "steps": 4520,
+      "simulation_frame": 4520,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 309
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "sable",
+      "seed": 40179,
+      "steps": 7262,
+      "simulation_frame": 7262,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 541
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 31653,
+      "steps": 7138,
+      "simulation_frame": 7138,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 482
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 31970,
+      "steps": 5356,
+      "simulation_frame": 5356,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 308
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 32287,
+      "steps": 4648,
+      "simulation_frame": 4648,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 315
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 32604,
+      "steps": 8653,
+      "simulation_frame": 8653,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 491
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 32921,
+      "steps": 8026,
+      "simulation_frame": 8026,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 527
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 33238,
+      "steps": 5631,
+      "simulation_frame": 5631,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 345
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 33555,
+      "steps": 4972,
+      "simulation_frame": 4972,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 316
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 33872,
+      "steps": 6382,
+      "simulation_frame": 6382,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 381
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 34189,
+      "steps": 5276,
+      "simulation_frame": 5276,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 331
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 34506,
+      "steps": 4831,
+      "simulation_frame": 4831,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 289
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 34823,
+      "steps": 5802,
+      "simulation_frame": 5802,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 344
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 35140,
+      "steps": 4620,
+      "simulation_frame": 4620,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 331
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 35457,
+      "steps": 5723,
+      "simulation_frame": 5723,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 357
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 35774,
+      "steps": 5932,
+      "simulation_frame": 5932,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 376
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 36091,
+      "steps": 6371,
+      "simulation_frame": 6371,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 362
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 36408,
+      "steps": 4910,
+      "simulation_frame": 4910,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 273
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 36725,
+      "steps": 4900,
+      "simulation_frame": 4900,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 371
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 37042,
+      "steps": 5601,
+      "simulation_frame": 5601,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 396
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 37359,
+      "steps": 5353,
+      "simulation_frame": 5353,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 333
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 37676,
+      "steps": 5458,
+      "simulation_frame": 5458,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 353
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 37993,
+      "steps": 4938,
+      "simulation_frame": 4938,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 329
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 38310,
+      "steps": 5249,
+      "simulation_frame": 5249,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 351
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 38627,
+      "steps": 5489,
+      "simulation_frame": 5489,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 361
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 38944,
+      "steps": 8709,
+      "simulation_frame": 8709,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 510
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 39261,
+      "steps": 4967,
+      "simulation_frame": 4967,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 348
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 39578,
+      "steps": 5773,
+      "simulation_frame": 5773,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 339
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 39895,
+      "steps": 5973,
+      "simulation_frame": 5973,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 383
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 40212,
+      "steps": 5607,
+      "simulation_frame": 5607,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 341
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 40529,
+      "steps": 9564,
+      "simulation_frame": 9564,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 568
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 40846,
+      "steps": 5829,
+      "simulation_frame": 5829,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 332
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 41163,
+      "steps": 8308,
+      "simulation_frame": 8308,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 522
+      }
+    },
+    {
+      "a": "magnus",
+      "b": "warden",
+      "seed": 41480,
+      "steps": 8315,
+      "simulation_frame": 8315,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 471
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 35669,
+      "steps": 6740,
+      "simulation_frame": 6740,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 576
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 35986,
+      "steps": 6036,
+      "simulation_frame": 6036,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 478
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 36303,
+      "steps": 5100,
+      "simulation_frame": 5100,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 439
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 36620,
+      "steps": 4418,
+      "simulation_frame": 4418,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 391
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 36937,
+      "steps": 8078,
+      "simulation_frame": 8078,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 674
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 37254,
+      "steps": 7689,
+      "simulation_frame": 7689,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 675
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 37571,
+      "steps": 4767,
+      "simulation_frame": 4767,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 394
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 37888,
+      "steps": 4764,
+      "simulation_frame": 4764,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 370
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 38205,
+      "steps": 4922,
+      "simulation_frame": 4922,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 457
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 38522,
+      "steps": 5088,
+      "simulation_frame": 5088,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 409
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 38839,
+      "steps": 6923,
+      "simulation_frame": 6923,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 553
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 39156,
+      "steps": 6863,
+      "simulation_frame": 6863,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 602
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 39473,
+      "steps": 3847,
+      "simulation_frame": 3847,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 301
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 39790,
+      "steps": 5415,
+      "simulation_frame": 5415,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 441
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 40107,
+      "steps": 4000,
+      "simulation_frame": 4000,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 352
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 40424,
+      "steps": 5819,
+      "simulation_frame": 5819,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 477
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 40741,
+      "steps": 5806,
+      "simulation_frame": 5806,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 404
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 41058,
+      "steps": 7716,
+      "simulation_frame": 7716,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 641
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 41375,
+      "steps": 7115,
+      "simulation_frame": 7115,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 654
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 41692,
+      "steps": 6599,
+      "simulation_frame": 6599,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 574
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 42009,
+      "steps": 6376,
+      "simulation_frame": 6376,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 550
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 42326,
+      "steps": 7305,
+      "simulation_frame": 7305,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 629
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 42643,
+      "steps": 6838,
+      "simulation_frame": 6838,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 598
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 42960,
+      "steps": 6984,
+      "simulation_frame": 6984,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 593
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 43277,
+      "steps": 7645,
+      "simulation_frame": 7645,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 621
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 43594,
+      "steps": 4726,
+      "simulation_frame": 4726,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 417
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 43911,
+      "steps": 7462,
+      "simulation_frame": 7462,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 615
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 44228,
+      "steps": 4564,
+      "simulation_frame": 4564,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 409
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 44545,
+      "steps": 4998,
+      "simulation_frame": 4998,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 426
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 44862,
+      "steps": 6858,
+      "simulation_frame": 6858,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 601
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 45179,
+      "steps": 6004,
+      "simulation_frame": 6004,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 524
+      }
+    },
+    {
+      "a": "sable",
+      "b": "hayate",
+      "seed": 45496,
+      "steps": 5286,
+      "simulation_frame": 5286,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 455
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 36970,
+      "steps": 6671,
+      "simulation_frame": 6671,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 503
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 37287,
+      "steps": 7019,
+      "simulation_frame": 7019,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 582
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 37604,
+      "steps": 7093,
+      "simulation_frame": 7093,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 558
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 37921,
+      "steps": 5073,
+      "simulation_frame": 5073,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 388
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 38238,
+      "steps": 4400,
+      "simulation_frame": 4400,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 395
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 38555,
+      "steps": 7492,
+      "simulation_frame": 7492,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 605
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 38872,
+      "steps": 4411,
+      "simulation_frame": 4411,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 364
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 39189,
+      "steps": 4736,
+      "simulation_frame": 4736,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 349
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 39506,
+      "steps": 7290,
+      "simulation_frame": 7290,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 561
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 39823,
+      "steps": 4999,
+      "simulation_frame": 4999,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 405
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 40140,
+      "steps": 4167,
+      "simulation_frame": 4167,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 387
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 40457,
+      "steps": 5324,
+      "simulation_frame": 5324,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 371
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 40774,
+      "steps": 7675,
+      "simulation_frame": 7675,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 572
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 41091,
+      "steps": 4545,
+      "simulation_frame": 4545,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 387
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 41408,
+      "steps": 4257,
+      "simulation_frame": 4257,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 317
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 41725,
+      "steps": 4399,
+      "simulation_frame": 4399,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 322
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 42042,
+      "steps": 4243,
+      "simulation_frame": 4243,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 379
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 42359,
+      "steps": 7584,
+      "simulation_frame": 7584,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 580
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 42676,
+      "steps": 4315,
+      "simulation_frame": 4315,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 368
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 42993,
+      "steps": 4762,
+      "simulation_frame": 4762,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 318
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 43310,
+      "steps": 7250,
+      "simulation_frame": 7250,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 530
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 43627,
+      "steps": 6729,
+      "simulation_frame": 6729,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 532
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 43944,
+      "steps": 4096,
+      "simulation_frame": 4096,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 304
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 44261,
+      "steps": 6183,
+      "simulation_frame": 6183,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 488
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 44578,
+      "steps": 7130,
+      "simulation_frame": 7130,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 512
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 44895,
+      "steps": 7173,
+      "simulation_frame": 7173,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 584
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 45212,
+      "steps": 7449,
+      "simulation_frame": 7449,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 580
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 45529,
+      "steps": 4954,
+      "simulation_frame": 4954,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 337
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 45846,
+      "steps": 5576,
+      "simulation_frame": 5576,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 412
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 46163,
+      "steps": 6053,
+      "simulation_frame": 6053,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 442
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 46480,
+      "steps": 4596,
+      "simulation_frame": 4596,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 328
+      }
+    },
+    {
+      "a": "sable",
+      "b": "magnus",
+      "seed": 46797,
+      "steps": 6408,
+      "simulation_frame": 6408,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 539
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 38271,
+      "steps": 6059,
+      "simulation_frame": 6059,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 607
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 38588,
+      "steps": 7492,
+      "simulation_frame": 7492,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 656
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 38905,
+      "steps": 4298,
+      "simulation_frame": 4298,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 406
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 39222,
+      "steps": 4098,
+      "simulation_frame": 4098,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 344
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 39539,
+      "steps": 4139,
+      "simulation_frame": 4139,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 333
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 39856,
+      "steps": 6106,
+      "simulation_frame": 6106,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 599
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 40173,
+      "steps": 5168,
+      "simulation_frame": 5168,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 496
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 40490,
+      "steps": 6929,
+      "simulation_frame": 6929,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 629
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 40807,
+      "steps": 4903,
+      "simulation_frame": 4903,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 389
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 41124,
+      "steps": 4628,
+      "simulation_frame": 4628,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 416
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 41441,
+      "steps": 7067,
+      "simulation_frame": 7067,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 631
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 41758,
+      "steps": 5938,
+      "simulation_frame": 5938,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 574
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 42075,
+      "steps": 6918,
+      "simulation_frame": 6918,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 616
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 42392,
+      "steps": 4927,
+      "simulation_frame": 4927,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 448
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 42709,
+      "steps": 6880,
+      "simulation_frame": 6880,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 609
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 43026,
+      "steps": 4493,
+      "simulation_frame": 4493,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 451
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 43343,
+      "steps": 4411,
+      "simulation_frame": 4411,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 389
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 43660,
+      "steps": 7277,
+      "simulation_frame": 7277,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 674
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 43977,
+      "steps": 7145,
+      "simulation_frame": 7145,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 722
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 44294,
+      "steps": 5458,
+      "simulation_frame": 5458,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 474
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 44611,
+      "steps": 4686,
+      "simulation_frame": 4686,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 417
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 44928,
+      "steps": 7136,
+      "simulation_frame": 7136,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 704
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 45245,
+      "steps": 6973,
+      "simulation_frame": 6973,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 698
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 45562,
+      "steps": 3951,
+      "simulation_frame": 3951,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 380
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 45879,
+      "steps": 7377,
+      "simulation_frame": 7377,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 715
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 46196,
+      "steps": 7236,
+      "simulation_frame": 7236,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 641
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 46513,
+      "steps": 4600,
+      "simulation_frame": 4600,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 393
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 46830,
+      "steps": 4560,
+      "simulation_frame": 4560,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 477
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 47147,
+      "steps": 5445,
+      "simulation_frame": 5445,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 552
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 47464,
+      "steps": 7679,
+      "simulation_frame": 7679,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 674
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 47781,
+      "steps": 7624,
+      "simulation_frame": 7624,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 726
+      }
+    },
+    {
+      "a": "sable",
+      "b": "sable",
+      "seed": 48098,
+      "steps": 6911,
+      "simulation_frame": 6911,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 624
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 39572,
+      "steps": 7624,
+      "simulation_frame": 7624,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 611
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 39889,
+      "steps": 8393,
+      "simulation_frame": 8393,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 621
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 40206,
+      "steps": 6712,
+      "simulation_frame": 6712,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 499
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 40523,
+      "steps": 5800,
+      "simulation_frame": 5800,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 453
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 40840,
+      "steps": 6008,
+      "simulation_frame": 6008,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 443
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 41157,
+      "steps": 7705,
+      "simulation_frame": 7705,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 580
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 41474,
+      "steps": 7972,
+      "simulation_frame": 7972,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 590
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 41791,
+      "steps": 7144,
+      "simulation_frame": 7144,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 555
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 42108,
+      "steps": 8510,
+      "simulation_frame": 8510,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 662
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 42425,
+      "steps": 6965,
+      "simulation_frame": 6965,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 534
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 42742,
+      "steps": 4615,
+      "simulation_frame": 4615,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 323
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 43059,
+      "steps": 7225,
+      "simulation_frame": 7225,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 561
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 43376,
+      "steps": 3806,
+      "simulation_frame": 3806,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 329
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 43693,
+      "steps": 7289,
+      "simulation_frame": 7289,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 520
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 44010,
+      "steps": 5069,
+      "simulation_frame": 5069,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 390
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 44327,
+      "steps": 7654,
+      "simulation_frame": 7654,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 635
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 44644,
+      "steps": 7881,
+      "simulation_frame": 7881,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 609
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 44961,
+      "steps": 4839,
+      "simulation_frame": 4839,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 372
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 45278,
+      "steps": 7705,
+      "simulation_frame": 7705,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 600
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 45595,
+      "steps": 7172,
+      "simulation_frame": 7172,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 533
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 45912,
+      "steps": 5910,
+      "simulation_frame": 5910,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 388
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 46229,
+      "steps": 5296,
+      "simulation_frame": 5296,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 392
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 46546,
+      "steps": 8530,
+      "simulation_frame": 8530,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 682
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 46863,
+      "steps": 4227,
+      "simulation_frame": 4227,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 269
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 47180,
+      "steps": 4466,
+      "simulation_frame": 4466,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 338
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 47497,
+      "steps": 3962,
+      "simulation_frame": 3962,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 324
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 47814,
+      "steps": 8156,
+      "simulation_frame": 8156,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 613
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 48131,
+      "steps": 7451,
+      "simulation_frame": 7451,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 547
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 48448,
+      "steps": 5014,
+      "simulation_frame": 5014,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 358
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 48765,
+      "steps": 8429,
+      "simulation_frame": 8429,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 684
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 49082,
+      "steps": 7842,
+      "simulation_frame": 7842,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 619
+      }
+    },
+    {
+      "a": "sable",
+      "b": "warden",
+      "seed": 49399,
+      "steps": 5479,
+      "simulation_frame": 5479,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 389
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 43588,
+      "steps": 7039,
+      "simulation_frame": 7039,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 443
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 43905,
+      "steps": 5370,
+      "simulation_frame": 5370,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 386
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 44222,
+      "steps": 5089,
+      "simulation_frame": 5089,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 365
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 44539,
+      "steps": 5165,
+      "simulation_frame": 5165,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 397
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 44856,
+      "steps": 8481,
+      "simulation_frame": 8481,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 557
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 45173,
+      "steps": 7111,
+      "simulation_frame": 7111,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 540
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 45490,
+      "steps": 5808,
+      "simulation_frame": 5808,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 452
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 45807,
+      "steps": 7698,
+      "simulation_frame": 7698,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 564
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 46124,
+      "steps": 4804,
+      "simulation_frame": 4804,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 341
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 46441,
+      "steps": 6558,
+      "simulation_frame": 6558,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 445
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 46758,
+      "steps": 8270,
+      "simulation_frame": 8270,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 583
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 47075,
+      "steps": 5574,
+      "simulation_frame": 5574,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 406
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 47392,
+      "steps": 8558,
+      "simulation_frame": 8558,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 633
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 47709,
+      "steps": 7834,
+      "simulation_frame": 7834,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 599
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 48026,
+      "steps": 8753,
+      "simulation_frame": 8753,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 604
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 48343,
+      "steps": 8352,
+      "simulation_frame": 8352,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 575
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 48660,
+      "steps": 7636,
+      "simulation_frame": 7636,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 580
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 48977,
+      "steps": 9036,
+      "simulation_frame": 9036,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 643
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 49294,
+      "steps": 4411,
+      "simulation_frame": 4411,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 317
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 49611,
+      "steps": 5222,
+      "simulation_frame": 5222,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 376
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 49928,
+      "steps": 7263,
+      "simulation_frame": 7263,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 533
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 50245,
+      "steps": 6087,
+      "simulation_frame": 6087,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 407
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 50562,
+      "steps": 8807,
+      "simulation_frame": 8807,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 622
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 50879,
+      "steps": 7539,
+      "simulation_frame": 7539,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 493
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 51196,
+      "steps": 5369,
+      "simulation_frame": 5369,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 367
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 51513,
+      "steps": 5823,
+      "simulation_frame": 5823,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 376
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 51830,
+      "steps": 9755,
+      "simulation_frame": 9755,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 678
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 52147,
+      "steps": 8580,
+      "simulation_frame": 8580,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 590
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 52464,
+      "steps": 5237,
+      "simulation_frame": 5237,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 385
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 52781,
+      "steps": 9151,
+      "simulation_frame": 9151,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 620
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 53098,
+      "steps": 10416,
+      "simulation_frame": 10416,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 716
+      }
+    },
+    {
+      "a": "warden",
+      "b": "hayate",
+      "seed": 53415,
+      "steps": 7431,
+      "simulation_frame": 7431,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 507
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 44889,
+      "steps": 7010,
+      "simulation_frame": 7010,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 476
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 45206,
+      "steps": 6715,
+      "simulation_frame": 6715,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 468
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 45523,
+      "steps": 5198,
+      "simulation_frame": 5198,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 344
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 45840,
+      "steps": 5756,
+      "simulation_frame": 5756,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 351
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 46157,
+      "steps": 4756,
+      "simulation_frame": 4756,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 299
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 46474,
+      "steps": 8156,
+      "simulation_frame": 8156,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 518
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 46791,
+      "steps": 6166,
+      "simulation_frame": 6166,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 344
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 47108,
+      "steps": 7575,
+      "simulation_frame": 7575,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 484
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 47425,
+      "steps": 4928,
+      "simulation_frame": 4928,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 308
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 47742,
+      "steps": 5342,
+      "simulation_frame": 5342,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 340
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 48059,
+      "steps": 7677,
+      "simulation_frame": 7677,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 523
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 48376,
+      "steps": 5186,
+      "simulation_frame": 5186,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 350
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 48693,
+      "steps": 5614,
+      "simulation_frame": 5614,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 320
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 49010,
+      "steps": 4630,
+      "simulation_frame": 4630,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 315
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 49327,
+      "steps": 5259,
+      "simulation_frame": 5259,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 335
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 49644,
+      "steps": 7245,
+      "simulation_frame": 7245,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 478
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 49961,
+      "steps": 6517,
+      "simulation_frame": 6517,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 382
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 50278,
+      "steps": 6006,
+      "simulation_frame": 6006,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 360
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 50595,
+      "steps": 8691,
+      "simulation_frame": 8691,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 519
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 50912,
+      "steps": 7889,
+      "simulation_frame": 7889,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 469
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 51229,
+      "steps": 9411,
+      "simulation_frame": 9411,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 555
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 51546,
+      "steps": 5101,
+      "simulation_frame": 5101,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 333
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 51863,
+      "steps": 7916,
+      "simulation_frame": 7916,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 554
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 52180,
+      "steps": 4471,
+      "simulation_frame": 4471,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 265
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 52497,
+      "steps": 6348,
+      "simulation_frame": 6348,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 402
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 52814,
+      "steps": 6134,
+      "simulation_frame": 6134,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 368
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 53131,
+      "steps": 8579,
+      "simulation_frame": 8579,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 535
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 53448,
+      "steps": 5702,
+      "simulation_frame": 5702,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 346
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 53765,
+      "steps": 4305,
+      "simulation_frame": 4305,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 273
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 54082,
+      "steps": 5726,
+      "simulation_frame": 5726,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 373
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 54399,
+      "steps": 5899,
+      "simulation_frame": 5899,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 320
+      }
+    },
+    {
+      "a": "warden",
+      "b": "magnus",
+      "seed": 54716,
+      "steps": 7906,
+      "simulation_frame": 7906,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 519
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 46190,
+      "steps": 5654,
+      "simulation_frame": 5654,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 436
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 46507,
+      "steps": 8067,
+      "simulation_frame": 8067,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 602
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 46824,
+      "steps": 5349,
+      "simulation_frame": 5349,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 366
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 47141,
+      "steps": 6746,
+      "simulation_frame": 6746,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 540
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 47458,
+      "steps": 4633,
+      "simulation_frame": 4633,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 358
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 47775,
+      "steps": 8214,
+      "simulation_frame": 8214,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 588
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 48092,
+      "steps": 5512,
+      "simulation_frame": 5512,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 428
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 48409,
+      "steps": 4982,
+      "simulation_frame": 4982,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 386
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 48726,
+      "steps": 7513,
+      "simulation_frame": 7513,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 600
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 49043,
+      "steps": 5038,
+      "simulation_frame": 5038,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 339
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 49360,
+      "steps": 7028,
+      "simulation_frame": 7028,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 526
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 49677,
+      "steps": 7364,
+      "simulation_frame": 7364,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 508
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 49994,
+      "steps": 5560,
+      "simulation_frame": 5560,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 432
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 50311,
+      "steps": 4318,
+      "simulation_frame": 4318,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 301
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 50628,
+      "steps": 5215,
+      "simulation_frame": 5215,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 392
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 50945,
+      "steps": 8382,
+      "simulation_frame": 8382,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 607
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 51262,
+      "steps": 7216,
+      "simulation_frame": 7216,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 519
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 51579,
+      "steps": 4468,
+      "simulation_frame": 4468,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 375
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 51896,
+      "steps": 5004,
+      "simulation_frame": 5004,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 386
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 52213,
+      "steps": 5772,
+      "simulation_frame": 5772,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 413
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 52530,
+      "steps": 7785,
+      "simulation_frame": 7785,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 568
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 52847,
+      "steps": 7103,
+      "simulation_frame": 7103,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 540
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 53164,
+      "steps": 7357,
+      "simulation_frame": 7357,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 542
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 53481,
+      "steps": 8462,
+      "simulation_frame": 8462,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 636
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 53798,
+      "steps": 4516,
+      "simulation_frame": 4516,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 317
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 54115,
+      "steps": 7218,
+      "simulation_frame": 7218,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 563
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 54432,
+      "steps": 5764,
+      "simulation_frame": 5764,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 413
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 54749,
+      "steps": 5146,
+      "simulation_frame": 5146,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 378
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 55066,
+      "steps": 7391,
+      "simulation_frame": 7391,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 614
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 55383,
+      "steps": 6561,
+      "simulation_frame": 6561,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 555
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 55700,
+      "steps": 8189,
+      "simulation_frame": 8189,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 607
+      }
+    },
+    {
+      "a": "warden",
+      "b": "sable",
+      "seed": 56017,
+      "steps": 4760,
+      "simulation_frame": 4760,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 373
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 47491,
+      "steps": 12228,
+      "simulation_frame": 12228,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 669
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 47808,
+      "steps": 12580,
+      "simulation_frame": 12580,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 750
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 48125,
+      "steps": 10808,
+      "simulation_frame": 10808,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 728
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 48442,
+      "steps": 14399,
+      "simulation_frame": 14399,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 842
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 48759,
+      "steps": 7256,
+      "simulation_frame": 7256,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 462
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 49076,
+      "steps": 11635,
+      "simulation_frame": 11635,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 747
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 49393,
+      "steps": 10799,
+      "simulation_frame": 10799,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 644
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 49710,
+      "steps": 12258,
+      "simulation_frame": 12258,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 720
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 50027,
+      "steps": 13023,
+      "simulation_frame": 13023,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 761
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 50344,
+      "steps": 11183,
+      "simulation_frame": 11183,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 738
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 50661,
+      "steps": 9273,
+      "simulation_frame": 9273,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 575
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 50978,
+      "steps": 13484,
+      "simulation_frame": 13484,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 842
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 51295,
+      "steps": 7985,
+      "simulation_frame": 7985,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 502
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 51612,
+      "steps": 5979,
+      "simulation_frame": 5979,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 405
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 51929,
+      "steps": 12553,
+      "simulation_frame": 12553,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 784
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 52246,
+      "steps": 9929,
+      "simulation_frame": 9929,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 672
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 52563,
+      "steps": 6144,
+      "simulation_frame": 6144,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 401
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 52880,
+      "steps": 13847,
+      "simulation_frame": 13847,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 791
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 53197,
+      "steps": 8272,
+      "simulation_frame": 8272,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 570
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 53514,
+      "steps": 14351,
+      "simulation_frame": 14351,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 826
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 53831,
+      "steps": 13343,
+      "simulation_frame": 13343,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 800
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 54148,
+      "steps": 6589,
+      "simulation_frame": 6589,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 411
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 54465,
+      "steps": 7055,
+      "simulation_frame": 7055,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 468
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 54782,
+      "steps": 6677,
+      "simulation_frame": 6677,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 434
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 55099,
+      "steps": 8209,
+      "simulation_frame": 8209,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 496
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 55416,
+      "steps": 8771,
+      "simulation_frame": 8771,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 515
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 55733,
+      "steps": 6785,
+      "simulation_frame": 6785,
+      "winner": 0,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 395
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 56050,
+      "steps": 9169,
+      "simulation_frame": 9169,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 477
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 56367,
+      "steps": 8943,
+      "simulation_frame": 8943,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 556
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 56684,
+      "steps": 13035,
+      "simulation_frame": 13035,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 760
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 57001,
+      "steps": 12689,
+      "simulation_frame": 12689,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 798
+      }
+    },
+    {
+      "a": "warden",
+      "b": "warden",
+      "seed": 57318,
+      "steps": 16419,
+      "simulation_frame": 16419,
+      "winner": 1,
+      "completed": true,
+      "error": null,
+      "activity": {
+        "other": 973
+      }
+    }
+  ]
+}

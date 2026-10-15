@@ -1,0 +1,22 @@
+COMMAND: npm start
+BROWSER=none (suppress browser popup in headless judging)
+
+> neon-tempest@1.0.0 start
+> node scripts/start.mjs
+
+Installing NEON TEMPEST development dependencies…
+
+added 40 packages, and audited 41 packages in 9s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+  VITE v7.3.7  ready in 729 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.15:5173/
+
+JUDGE_READY_URL: http://localhost:5173
+READY_SECONDS: 12.702

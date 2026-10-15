@@ -1,0 +1,27 @@
+{
+  "durationSeconds": 60.0477,
+  "frames": 701,
+  "averageFPS": 11.67405246162634,
+  "onePercentLowFPS": 5.784108162822666,
+  "averageFrameTimeMs": 85.66005706134094,
+  "p99FrameTimeMs": 150,
+  "maxFrameTimeMs": 233.29999999999927,
+  "memoryStartMB": 6.0181121826171875,
+  "memoryEndMB": 6.1309404373168945,
+  "memoryPeakMB": 7.844522476196289,
+  "simulationFrame": 3651,
+  "droppedCatchups": 0,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+  "viewport": [
+    1280,
+    720
+  ],
+  "devicePixelRatio": 1,
+  "canvas": [
+    1280,
+    720
+  ],
+  "date": "2026-10-14T19:11:45.586Z",
+  "environment": "Headless Chromium on this Windows host; hardware/virtualization specific, not a universal laptop guarantee.",
+  "errors": []
+}

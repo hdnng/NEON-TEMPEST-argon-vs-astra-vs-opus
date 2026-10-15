@@ -1,0 +1,4131 @@
+{
+  "label": "C",
+  "invalid_360": {
+    "directions": [
+      6,
+      4,
+      2,
+      8
+    ],
+    "accepted": true,
+    "expected": false
+  },
+  "hcf_punch": {
+    "directions": [
+      4,
+      1,
+      2,
+      3,
+      6
+    ],
+    "button": "HP",
+    "selected": "6HP",
+    "note": "Only A documents this binding as a command grab; B and C use a different HCF binding."
+  },
+  "techAttempts": [
+    {
+      "delay": 0,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        1020
+      ],
+      "tech": true,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "throwStart",
+          "p": 1,
+          "x": 3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "tech",
+          "p": 0,
+          "x": 0,
+          "y": 13000,
+          "k": "",
+          "v": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 1,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        900
+      ],
+      "tech": false,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "throwStart",
+          "p": 1,
+          "x": 3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "throw",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hit",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hitMove",
+          "p": 0,
+          "x": 0,
+          "y": 0,
+          "k": "throwF",
+          "v": 1
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 2,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        900
+      ],
+      "tech": false,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "throwStart",
+          "p": 1,
+          "x": 3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "throw",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hit",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hitMove",
+          "p": 0,
+          "x": 0,
+          "y": 0,
+          "k": "throwF",
+          "v": 1
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 3,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        900
+      ],
+      "tech": false,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "throwStart",
+          "p": 1,
+          "x": 3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "throw",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hit",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hitMove",
+          "p": 0,
+          "x": 0,
+          "y": 0,
+          "k": "throwF",
+          "v": 1
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            "throwF"
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 4,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        900
+      ],
+      "tech": false,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "throwStart",
+          "p": 1,
+          "x": 3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "throw",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hit",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hitMove",
+          "p": 0,
+          "x": 0,
+          "y": 0,
+          "k": "throwF",
+          "v": 1
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 5,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        1020
+      ],
+      "tech": true,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "tech",
+          "p": 0,
+          "x": 0,
+          "y": 13000,
+          "k": "",
+          "v": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 6,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        1020
+      ],
+      "tech": true,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "tech",
+          "p": 0,
+          "x": -460,
+          "y": 13000,
+          "k": "",
+          "v": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 7,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        1020
+      ],
+      "tech": true,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "tech",
+          "p": 0,
+          "x": -520,
+          "y": 13000,
+          "k": "",
+          "v": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 8,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        1020
+      ],
+      "tech": true,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "tech",
+          "p": 0,
+          "x": -580,
+          "y": 13000,
+          "k": "",
+          "v": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 9,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        1020
+      ],
+      "tech": true,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "tech",
+          "p": 0,
+          "x": -640,
+          "y": 13000,
+          "k": "",
+          "v": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 10,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        1020
+      ],
+      "tech": true,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "tech",
+          "p": 0,
+          "x": -700,
+          "y": 13000,
+          "k": "",
+          "v": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 11,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        1020
+      ],
+      "tech": true,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "tech",
+          "p": 0,
+          "x": -760,
+          "y": 13000,
+          "k": "",
+          "v": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 12,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        1020
+      ],
+      "tech": true,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "tech",
+          "p": 0,
+          "x": -820,
+          "y": 13000,
+          "k": "",
+          "v": 0
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 13,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        900
+      ],
+      "tech": false,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "throw",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hit",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hitMove",
+          "p": 0,
+          "x": 0,
+          "y": 0,
+          "k": "throwF",
+          "v": 1
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "delay": 14,
+      "hpStart": [
+        1000,
+        1020
+      ],
+      "hpEnd": [
+        1000,
+        900
+      ],
+      "tech": false,
+      "events": [
+        {
+          "t": "throwStart",
+          "p": 0,
+          "x": -3000,
+          "y": 0,
+          "k": "throwF",
+          "v": 0
+        },
+        {
+          "t": "grab",
+          "p": 0,
+          "x": 0,
+          "y": 12000,
+          "k": "throw",
+          "v": 0
+        },
+        {
+          "t": "throw",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hit",
+          "p": 0,
+          "x": 5000,
+          "y": 12000,
+          "k": "heavy",
+          "v": 120
+        },
+        {
+          "t": "hitMove",
+          "p": 0,
+          "x": 0,
+          "y": 0,
+          "k": "throwF",
+          "v": 1
+        }
+      ],
+      "trace": [
+        {
+          "frame": 0,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 1,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 2,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 3,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 4,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 5,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 6,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 7,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 8,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 9,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 10,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 11,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 12,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 13,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        },
+        {
+          "frame": 14,
+          "moves": [
+            "throwF",
+            ""
+          ],
+          "hp": [
+            1000,
+            1020
+          ],
+          "inputUsed": [
+            null,
+            null
+          ]
+        }
+      ]
+    }
+  ],
+  "teched": 9
+}

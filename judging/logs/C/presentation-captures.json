@@ -1,0 +1,86 @@
+[
+  {
+    "file": "01-boot-logo",
+    "query": "",
+    "note": "Original built-in scene entry point, actual elapsed frames; frozen after entrance to avoid screenshotting wipes or flickering startup",
+    "scene": "BootScene",
+    "frames": 105,
+    "transitioning": false,
+    "canvas": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "02-title",
+    "query": "?scene=title",
+    "note": "Original built-in scene entry point, actual elapsed frames; frozen after entrance to avoid screenshotting wipes or flickering startup",
+    "scene": "TitleScene",
+    "frames": 150,
+    "transitioning": false,
+    "canvas": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "03-main-menu",
+    "query": "?scene=menu",
+    "note": "Original built-in scene entry point, actual elapsed frames; frozen after entrance to avoid screenshotting wipes or flickering startup",
+    "scene": "MainMenuScene",
+    "frames": 95,
+    "transitioning": false,
+    "canvas": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "04-character-select",
+    "query": "?scene=select&mode=cpu",
+    "note": "Original built-in scene entry point, actual elapsed frames; frozen after entrance to avoid screenshotting wipes or flickering startup",
+    "scene": "CharSelectScene",
+    "frames": 90,
+    "transitioning": false,
+    "canvas": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "05-stage-select",
+    "query": "?scene=stage&mode=cpu",
+    "note": "Original built-in scene entry point, actual elapsed frames; frozen after entrance to avoid screenshotting wipes or flickering startup",
+    "scene": "StageSelectScene",
+    "frames": 90,
+    "transitioning": false,
+    "canvas": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "06-versus-splash",
+    "query": "?scene=versus&mode=cpu",
+    "note": "Original built-in scene entry point, actual elapsed frames; frozen after entrance to avoid screenshotting wipes or flickering startup",
+    "scene": "VersusScene",
+    "frames": 110,
+    "transitioning": false,
+    "canvas": [
+      1920,
+      1080
+    ]
+  },
+  {
+    "file": "07-match-hud-start",
+    "query": "?scene=match&mode=versus&p1=hayate&p2=magnus",
+    "note": "Original built-in scene entry point, actual elapsed frames; frozen after entrance to avoid screenshotting wipes or flickering startup",
+    "scene": "MatchScene",
+    "frames": 80,
+    "transitioning": false,
+    "canvas": [
+      1920,
+      1080
+    ]
+  }
+]

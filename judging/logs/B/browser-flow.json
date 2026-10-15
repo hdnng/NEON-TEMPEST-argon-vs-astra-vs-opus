@@ -1,0 +1,300 @@
+{
+  "label": "B",
+  "url": "http://127.0.0.1:6102",
+  "actions": [
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "title"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "moves"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "settings"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "howto"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "character"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "character"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Tab",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "character"
+    },
+    {
+      "key": "Enter",
+      "n": 2,
+      "scene": "stage"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "versus"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "pause"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "match"
+    }
+  ],
+  "captures": [
+    {
+      "name": "01-boot-logo",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "boot",
+      "time": "2026-10-15T15:31:34.480Z"
+    },
+    {
+      "name": "02-title",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "title",
+      "time": "2026-10-15T15:31:38.503Z"
+    },
+    {
+      "name": "03-main-menu",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "menu",
+      "time": "2026-10-15T15:31:39.861Z"
+    },
+    {
+      "name": "12-move-list",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "moves",
+      "time": "2026-10-15T15:31:40.858Z"
+    },
+    {
+      "name": "13-settings",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "settings",
+      "time": "2026-10-15T15:31:42.270Z"
+    },
+    {
+      "name": "04-character-select",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "character",
+      "time": "2026-10-15T15:31:46.311Z"
+    },
+    {
+      "name": "05-stage-select",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "stage",
+      "time": "2026-10-15T15:31:47.475Z"
+    },
+    {
+      "name": "06-versus-splash",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "versus",
+      "time": "2026-10-15T15:31:48.559Z"
+    },
+    {
+      "name": "07-match-hud-start",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "match",
+      "time": "2026-10-15T15:31:50.232Z"
+    },
+    {
+      "name": "19-pause-menu",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "pause",
+      "time": "2026-10-15T15:31:51.003Z"
+    },
+    {
+      "name": "15-stage-1",
+      "note": "Controlled stage fixture; original rendering; standard starting health/meter",
+      "scene": "match",
+      "time": "2026-10-15T15:31:54.807Z"
+    },
+    {
+      "name": "16-stage-2",
+      "note": "Controlled stage fixture; original rendering; standard starting health/meter",
+      "scene": "match",
+      "time": "2026-10-15T15:31:56.908Z"
+    },
+    {
+      "name": "17-stage-3",
+      "note": "Controlled stage fixture; original rendering; standard starting health/meter",
+      "scene": "match",
+      "time": "2026-10-15T15:31:59.490Z"
+    },
+    {
+      "name": "11-training-hitboxes",
+      "note": "Actual training mode, enabled overlay through exposed settings; no synthesized game art",
+      "scene": "match",
+      "time": "2026-10-15T15:32:03.876Z"
+    },
+    {
+      "name": "21-trials",
+      "note": "Actual trial mode fixture; no completion injected",
+      "scene": "match",
+      "time": "2026-10-15T15:32:05.316Z"
+    },
+    {
+      "name": "22-keyboard-qcf",
+      "note": "Actual DOM keyboard QCF input (S, S+D, D+punch)",
+      "scene": "match",
+      "time": "2026-10-15T15:32:07.610Z"
+    }
+  ],
+  "errors": []
+}

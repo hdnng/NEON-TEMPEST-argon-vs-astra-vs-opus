@@ -1,0 +1,185 @@
+COMMAND: node D:\HD\code\prj\round2\judging\work\B\node_modules\tsx\dist\cli.mjs D:\HD\code\prj\round2\judging\scripts\headless.ts B 32
+B determinism true
+B hayate hayate 32 [Function (anonymous)]
+B hayate magnus 64 [Function (anonymous)]
+B hayate sable 96 [Function (anonymous)]
+B hayate warden 128 [Function (anonymous)]
+B magnus hayate 160 [Function (anonymous)]
+B magnus magnus 192 [Function (anonymous)]
+B magnus sable 224 [Function (anonymous)]
+B magnus warden 256 [Function (anonymous)]
+B sable hayate 288 [Function (anonymous)]
+B sable magnus 320 [Function (anonymous)]
+B sable sable 352 [Function (anonymous)]
+B sable warden 384 [Function (anonymous)]
+B warden hayate 416 [Function (anonymous)]
+B warden magnus 448 [Function (anonymous)]
+B warden sable 480 [Function (anonymous)]
+B warden warden 512 [Function (anonymous)]
+{
+  "label": "B",
+  "perPair": 32,
+  "attempted": 512,
+  "completed": 512,
+  "crashes": 0,
+  "softlocks": 0,
+  "average_match_seconds": 72.11966145833334,
+  "elapsed_seconds": 21.401048799999998,
+  "winRates": [
+    {
+      "id": "hayate",
+      "matches": 192,
+      "percent": 44.270833333333336
+    },
+    {
+      "id": "magnus",
+      "matches": 192,
+      "percent": 56.770833333333336
+    },
+    {
+      "id": "sable",
+      "matches": 192,
+      "percent": 58.333333333333336
+    },
+    {
+      "id": "warden",
+      "matches": 192,
+      "percent": 40.625
+    }
+  ],
+  "matrix": [
+    [
+      {
+        "matches": 32,
+        "p1Wins": 17,
+        "p2Wins": 15,
+        "draws": 0,
+        "win_percent": 53.125
+      },
+      {
+        "matches": 32,
+        "p1Wins": 17,
+        "p2Wins": 15,
+        "draws": 0,
+        "win_percent": 53.125
+      },
+      {
+        "matches": 32,
+        "p1Wins": 14,
+        "p2Wins": 18,
+        "draws": 0,
+        "win_percent": 43.75
+      },
+      {
+        "matches": 32,
+        "p1Wins": 12,
+        "p2Wins": 20,
+        "draws": 0,
+        "win_percent": 37.5
+      }
+    ],
+    [
+      {
+        "matches": 32,
+        "p1Wins": 16,
+        "p2Wins": 16,
+        "draws": 0,
+        "win_percent": 50
+      },
+      {
+        "matches": 32,
+        "p1Wins": 12,
+        "p2Wins": 20,
+        "draws": 0,
+        "win_percent": 37.5
+      },
+      {
+        "matches": 32,
+        "p1Wins": 16,
+        "p2Wins": 16,
+        "draws": 0,
+        "win_percent": 50
+      },
+      {
+        "matches": 32,
+        "p1Wins": 22,
+        "p2Wins": 10,
+        "draws": 0,
+        "win_percent": 68.75
+      }
+    ],
+    [
+      {
+        "matches": 32,
+        "p1Wins": 19,
+        "p2Wins": 13,
+        "draws": 0,
+        "win_percent": 59.375
+      },
+      {
+        "matches": 32,
+        "p1Wins": 16,
+        "p2Wins": 16,
+        "draws": 0,
+        "win_percent": 50
+      },
+      {
+        "matches": 32,
+        "p1Wins": 16,
+        "p2Wins": 16,
+        "draws": 0,
+        "win_percent": 50
+      },
+      {
+        "matches": 32,
+        "p1Wins": 21,
+        "p2Wins": 11,
+        "draws": 0,
+        "win_percent": 65.625
+      }
+    ],
+    [
+      {
+        "matches": 32,
+        "p1Wins": 19,
+        "p2Wins": 13,
+        "draws": 0,
+        "win_percent": 59.375
+      },
+      {
+        "matches": 32,
+        "p1Wins": 8,
+        "p2Wins": 24,
+        "draws": 0,
+        "win_percent": 25
+      },
+      {
+        "matches": 32,
+        "p1Wins": 10,
+        "p2Wins": 22,
+        "draws": 0,
+        "win_percent": 31.25
+      },
+      {
+        "matches": 32,
+        "p1Wins": 16,
+        "p2Wins": 16,
+        "draws": 0,
+        "win_percent": 50
+      }
+    ]
+  ],
+  "determinism": {
+    "frames": 7200,
+    "seed": 774921,
+    "firstDifference": -1,
+    "pass": true,
+    "hash1": "c9f7ea5503c7fd393d89554fb83a60cbf0c13b43f08d63f7b12bee9f96316111",
+    "hash2": "c9f7ea5503c7fd393d89554fb83a60cbf0c13b43f08d63f7b12bee9f96316111",
+    "serialization_roundtrip": true,
+    "inputs_sha256": "6006e854e0742fa32dcd2754b72851c79d048779e6a3402d56b4faf9349be0cf"
+  }
+}
+
+EXIT_CODE: 0
+DURATION_SECONDS: 24.878

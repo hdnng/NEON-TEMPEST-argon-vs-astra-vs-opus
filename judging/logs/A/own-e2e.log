@@ -1,0 +1,39 @@
+COMMAND: npm run test:e2e -- --config=judging.playwright.config.ts
+VIEWPORT: 1920x1080; original tests, common config override
+
+> neon-tempest@1.0.0 test:e2e
+> playwright test --config=judging.playwright.config.ts
+
+
+Running 1 test using 1 worker
+
+(node:21684) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\e2e.spec.ts:24:3 › NEON TEMPEST — End-to-End Browser Verification › navigates all menus via keyboard, starts match, executes special move, updates HUD, finishes round with zero console errors (2.2s)
+
+
+  1) tests\e2e.spec.ts:24:3 › NEON TEMPEST — End-to-End Browser Verification › navigates all menus via keyboard, starts match, executes special move, updates HUD, finishes round with zero console errors 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "movelist"
+    Received: "menu"
+
+      59 |     await page.keyboard.press('Enter');
+      60 |     await page.waitForTimeout(100);
+    > 61 |     expect(await page.evaluate(() => window.__NEON_TEMPEST__.app.scene)).toBe('movelist');
+         |                                                                          ^
+      62 |
+      63 |     // Switch character tab in Move List and return to Menu
+      64 |     await page.keyboard.press('ArrowRight');
+        at D:\HD\code\prj\round2\judging\work\A\tests\e2e.spec.ts:61:74
+
+    Error Context: test-results\e2e-NEON-TEMPEST-—-End-to--93552-nd-with-zero-console-errors\error-context.md
+
+    Error Context: test-results\e2e-NEON-TEMPEST-—-End-to--93552-nd-with-zero-console-errors\error-context.md
+
+  1 failed
+    tests\e2e.spec.ts:24:3 › NEON TEMPEST — End-to-End Browser Verification › navigates all menus via keyboard, starts match, executes special move, updates HUD, finishes round with zero console errors 
+
+EXIT_CODE: 1
+DURATION_SECONDS: 6.271

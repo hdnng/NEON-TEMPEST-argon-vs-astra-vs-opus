@@ -1,0 +1,140 @@
+{
+  "totalMatches": 560,
+  "totalSimFrames": 2218158,
+  "elapsedWallSeconds": 59.05,
+  "simFramesPerSecond": 37564,
+  "crashes": 0,
+  "softlocks": 0,
+  "averageMatchFrames": 3961,
+  "averageMatchSeconds": 66.02,
+  "characterWinRatesPercent": {
+    "hayate": 51,
+    "magnus": 55.7,
+    "sable": 42.9,
+    "warden": 50.5
+  },
+  "characterTotalsNonMirror": {
+    "hayate": {
+      "played": 210,
+      "wins": 107,
+      "losses": 103,
+      "draws": 0
+    },
+    "magnus": {
+      "played": 210,
+      "wins": 117,
+      "losses": 93,
+      "draws": 0
+    },
+    "sable": {
+      "played": 210,
+      "wins": 90,
+      "losses": 120,
+      "draws": 0
+    },
+    "warden": {
+      "played": 210,
+      "wins": 106,
+      "losses": 104,
+      "draws": 0
+    }
+  },
+  "pairwiseMatrix": {
+    "hayate_vs_hayate": {
+      "matches": 35,
+      "p1Wins": 19,
+      "p2Wins": 16,
+      "draws": 0
+    },
+    "hayate_vs_magnus": {
+      "matches": 35,
+      "p1Wins": 22,
+      "p2Wins": 13,
+      "draws": 0
+    },
+    "hayate_vs_sable": {
+      "matches": 35,
+      "p1Wins": 22,
+      "p2Wins": 13,
+      "draws": 0
+    },
+    "hayate_vs_warden": {
+      "matches": 35,
+      "p1Wins": 9,
+      "p2Wins": 26,
+      "draws": 0
+    },
+    "magnus_vs_hayate": {
+      "matches": 35,
+      "p1Wins": 13,
+      "p2Wins": 22,
+      "draws": 0
+    },
+    "magnus_vs_magnus": {
+      "matches": 35,
+      "p1Wins": 16,
+      "p2Wins": 19,
+      "draws": 0
+    },
+    "magnus_vs_sable": {
+      "matches": 35,
+      "p1Wins": 25,
+      "p2Wins": 10,
+      "draws": 0
+    },
+    "magnus_vs_warden": {
+      "matches": 35,
+      "p1Wins": 25,
+      "p2Wins": 10,
+      "draws": 0
+    },
+    "sable_vs_hayate": {
+      "matches": 35,
+      "p1Wins": 10,
+      "p2Wins": 25,
+      "draws": 0
+    },
+    "sable_vs_magnus": {
+      "matches": 35,
+      "p1Wins": 14,
+      "p2Wins": 21,
+      "draws": 0
+    },
+    "sable_vs_sable": {
+      "matches": 35,
+      "p1Wins": 12,
+      "p2Wins": 23,
+      "draws": 0
+    },
+    "sable_vs_warden": {
+      "matches": 35,
+      "p1Wins": 22,
+      "p2Wins": 13,
+      "draws": 0
+    },
+    "warden_vs_hayate": {
+      "matches": 35,
+      "p1Wins": 28,
+      "p2Wins": 7,
+      "draws": 0
+    },
+    "warden_vs_magnus": {
+      "matches": 35,
+      "p1Wins": 15,
+      "p2Wins": 20,
+      "draws": 0
+    },
+    "warden_vs_sable": {
+      "matches": 35,
+      "p1Wins": 14,
+      "p2Wins": 21,
+      "draws": 0
+    },
+    "warden_vs_warden": {
+      "matches": 35,
+      "p1Wins": 16,
+      "p2Wins": 19,
+      "draws": 0
+    }
+  }
+}

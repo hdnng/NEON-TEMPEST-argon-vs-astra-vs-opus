@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-14T19:48:15.197Z",
+  "matches": 512,
+  "crashes": 0,
+  "softlocks": 0,
+  "averageMatchSeconds": 73.291796875,
+  "longestMatchSeconds": 173.65,
+  "totalFrames": 2251524,
+  "elapsedSeconds": 111.1866142,
+  "winRates": [
+    {
+      "id": "hayate",
+      "winRate": 0.4557291666666667,
+      "games": 192
+    },
+    {
+      "id": "magnus",
+      "winRate": 0.5130208333333334,
+      "games": 192
+    },
+    {
+      "id": "sable",
+      "winRate": 0.5729166666666666,
+      "games": 192
+    },
+    {
+      "id": "warden",
+      "winRate": 0.4583333333333333,
+      "games": 192
+    }
+  ],
+  "matrix": [
+    [
+      {
+        "wins": 21,
+        "losses": 11,
+        "draws": 0,
+        "frames": 114490,
+        "matches": 32
+      },
+      {
+        "wins": 17,
+        "losses": 15,
+        "draws": 0,
+        "frames": 128074,
+        "matches": 32
+      },
+      {
+        "wins": 16,
+        "losses": 16,
+        "draws": 0,
+        "frames": 115229,
+        "matches": 32
+      },
+      {
+        "wins": 8,
+        "losses": 24,
+        "draws": 0,
+        "frames": 159970,
+        "matches": 32
+      }
+    ],
+    [
+      {
+        "wins": 12,
+        "losses": 19,
+        "draws": 1,
+        "frames": 130655,
+        "matches": 32
+      },
+      {
+        "wins": 15,
+        "losses": 17,
+        "draws": 0,
+        "frames": 132279,
+        "matches": 32
+      },
+      {
+        "wins": 16,
+        "losses": 16,
+        "draws": 0,
+        "frames": 125713,
+        "matches": 32
+      },
+      {
+        "wins": 21,
+        "losses": 11,
+        "draws": 0,
+        "frames": 164811,
+        "matches": 32
+      }
+    ],
+    [
+      {
+        "wins": 20,
+        "losses": 12,
+        "draws": 0,
+        "frames": 111509,
+        "matches": 32
+      },
+      {
+        "wins": 20,
+        "losses": 12,
+        "draws": 0,
+        "frames": 121075,
+        "matches": 32
+      },
+      {
+        "wins": 16,
+        "losses": 16,
+        "draws": 0,
+        "frames": 102835,
+        "matches": 32
+      },
+      {
+        "wins": 22,
+        "losses": 10,
+        "draws": 0,
+        "frames": 133906,
+        "matches": 32
+      }
+    ],
+    [
+      {
+        "wins": 17,
+        "losses": 15,
+        "draws": 0,
+        "frames": 160155,
+        "matches": 32
+      },
+      {
+        "wins": 10,
+        "losses": 22,
+        "draws": 0,
+        "frames": 157632,
+        "matches": 32
+      },
+      {
+        "wins": 16,
+        "losses": 16,
+        "draws": 0,
+        "frames": 144621,
+        "matches": 32
+      },
+      {
+        "wins": 21,
+        "losses": 11,
+        "draws": 0,
+        "frames": 248570,
+        "matches": 32
+      }
+    ]
+  ],
+  "seedFormula": "19831 + match*317 + p1*7919 + p2*1301",
+  "difficulty": "Hard",
+  "interpretation": "Row win rates use row fighter as Player 1. Aggregate rates include both sides and exclude mirror matches; draws count as half a win."
+}

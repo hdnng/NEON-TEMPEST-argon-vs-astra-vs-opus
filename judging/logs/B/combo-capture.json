@@ -1,0 +1,78 @@
+{
+  "found": true,
+  "delay": 2,
+  "end": {
+    "phase": "fight",
+    "timer": 5810,
+    "round": 1,
+    "freeze": 6,
+    "f": [
+      {
+        "hp": 1000,
+        "meter": 22,
+        "x": 710,
+        "y": 0,
+        "vy": 0,
+        "state": "move",
+        "move": "crouch_LP",
+        "moveFrame": 5,
+        "combo": 2,
+        "damage": 65,
+        "scale": 0.91,
+        "jumps": 0,
+        "airDash": false,
+        "invincible": 0,
+        "lastMove": "crouch_LP"
+      },
+      {
+        "hp": 1095,
+        "meter": 10.4,
+        "x": 792,
+        "y": 0,
+        "vy": 0,
+        "state": "hit",
+        "move": null,
+        "moveFrame": 0,
+        "combo": 0,
+        "damage": 0,
+        "scale": 1,
+        "jumps": 0,
+        "airDash": false,
+        "invincible": 0,
+        "lastMove": ""
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "move",
+      "x": 710,
+      "y": -80,
+      "player": 0,
+      "strength": 0,
+      "text": "Crouching Light Kick"
+    },
+    {
+      "type": "hit",
+      "x": 781,
+      "y": -80,
+      "player": 1,
+      "strength": 0
+    },
+    {
+      "type": "move",
+      "x": 710,
+      "y": -80,
+      "player": 0,
+      "strength": 0,
+      "text": "Crouching Light Punch"
+    },
+    {
+      "type": "hit",
+      "x": 792,
+      "y": -80,
+      "player": 1,
+      "strength": 0
+    }
+  ]
+}

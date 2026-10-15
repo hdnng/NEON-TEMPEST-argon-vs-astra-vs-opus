@@ -1,0 +1,26 @@
+COMMAND: npm install && npm run dev
+BROWSER=none (suppress browser popup in headless judging)
+
+added 51 packages, and audited 52 packages in 12s
+
+12 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (3 moderate, 1 high, 2 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> neon-tempest@1.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 706 ms
+
+  ➜  Local:   http://localhost:5123/
+  ➜  Network: http://192.168.1.15:5123/
+
+JUDGE_READY_URL: http://localhost:5123
+READY_SECONDS: 14.843

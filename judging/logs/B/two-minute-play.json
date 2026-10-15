@@ -1,0 +1,116 @@
+{
+  "label": "B",
+  "duration_seconds": 120.508,
+  "input_cycles": 368,
+  "history": [
+    {
+      "phase": "fight",
+      "frame": 819,
+      "hp": [
+        458,
+        960
+      ],
+      "timer": 5354
+    },
+    {
+      "phase": "ko",
+      "frame": 1440,
+      "hp": [
+        0,
+        892
+      ],
+      "timer": 5009
+    },
+    {
+      "phase": "fight",
+      "frame": 1990,
+      "hp": [
+        464,
+        885
+      ],
+      "timer": 5629
+    },
+    {
+      "phase": "intro",
+      "frame": 97,
+      "hp": [
+        1000,
+        960
+      ],
+      "timer": 5940
+    },
+    {
+      "phase": "fight",
+      "frame": 699,
+      "hp": [
+        575,
+        740
+      ],
+      "timer": 5512
+    },
+    {
+      "phase": "ko",
+      "frame": 1280,
+      "hp": [
+        0,
+        582
+      ],
+      "timer": 5101
+    },
+    {
+      "phase": "fight",
+      "frame": 1859,
+      "hp": [
+        445,
+        960
+      ],
+      "timer": 5725
+    },
+    {
+      "phase": "intro",
+      "frame": 90,
+      "hp": [
+        1000,
+        960
+      ],
+      "timer": 5940
+    },
+    {
+      "phase": "fight",
+      "frame": 633,
+      "hp": [
+        690,
+        804
+      ],
+      "timer": 5518
+    },
+    {
+      "phase": "fight",
+      "frame": 1192,
+      "hp": [
+        181,
+        648
+      ],
+      "timer": 5080
+    },
+    {
+      "phase": "fight",
+      "frame": 1830,
+      "hp": [
+        925,
+        870
+      ],
+      "timer": 5849
+    },
+    {
+      "phase": "fight",
+      "frame": 2386,
+      "hp": [
+        557,
+        740
+      ],
+      "timer": 5416
+    }
+  ],
+  "issues": []
+}

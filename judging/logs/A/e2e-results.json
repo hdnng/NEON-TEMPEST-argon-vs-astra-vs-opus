@@ -1,0 +1,192 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=judging.playwright.config.ts"
+    ],
+    "configFile": "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\judging.playwright.config.ts",
+    "rootDir": "D:/HD/code/prj/round2/judging/work/A/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/HD/code/prj/round2/judging/work/A/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/HD/code/prj/round2/judging/work/A/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\tests",
+        "snapshotDir": "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.ts",
+        "timeout": 60000,
+        "use": {
+          "headless": true,
+          "viewport": {
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "../../logs/A/e2e-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "e2e.spec.ts",
+      "file": "e2e.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "NEON TEMPEST — End-to-End Browser Verification",
+          "file": "e2e.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "navigates all menus via keyboard, starts match, executes special move, updates HUD, finishes round with zero console errors",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 2241,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"m\u001b[7movelist\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"m\u001b[7menu\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"m\u001b[7movelist\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"m\u001b[7menu\u001b[27m\"\u001b[39m\n    at D:\\HD\\code\\prj\\round2\\judging\\work\\A\\tests\\e2e.spec.ts:61:74",
+                        "location": {
+                          "file": "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\tests\\e2e.spec.ts",
+                          "column": 74,
+                          "line": 61
+                        },
+                        "snippet": "  59 |     await page.keyboard.press('Enter');\n  60 |     await page.waitForTimeout(100);\n> 61 |     expect(await page.evaluate(() => window.__NEON_TEMPEST__.app.scene)).toBe('movelist');\n     |                                                                          ^\n  62 |\n  63 |     // Switch character tab in Move List and return to Menu\n  64 |     await page.keyboard.press('ArrowRight');"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\tests\\e2e.spec.ts",
+                            "column": 74,
+                            "line": 61
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"m\u001b[7movelist\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"m\u001b[7menu\u001b[27m\"\u001b[39m\n\n  59 |     await page.keyboard.press('Enter');\n  60 |     await page.waitForTimeout(100);\n> 61 |     expect(await page.evaluate(() => window.__NEON_TEMPEST__.app.scene)).toBe('movelist');\n     |                                                                          ^\n  62 |\n  63 |     // Switch character tab in Move List and return to Menu\n  64 |     await page.keyboard.press('ArrowRight');\n    at D:\\HD\\code\\prj\\round2\\judging\\work\\A\\tests\\e2e.spec.ts:61:74"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-15T15:07:16.480Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\test-results\\e2e-NEON-TEMPEST-—-End-to--93552-nd-with-zero-console-errors\\error-context.md"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\test-results\\e2e-NEON-TEMPEST-—-End-to--93552-nd-with-zero-console-errors\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\HD\\code\\prj\\round2\\judging\\work\\A\\tests\\e2e.spec.ts",
+                        "column": 74,
+                        "line": 61
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "b1c7859d981cc20c96be-a9ab2f7ac32fa97f11d5",
+              "file": "e2e.spec.ts",
+              "line": 24,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-15T15:07:15.036Z",
+    "duration": 4595.423,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

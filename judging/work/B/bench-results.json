@@ -1,0 +1,71 @@
+{
+  "durationSeconds": 60.0132,
+  "frames": 3577,
+  "averageFPS": 59.603553884812015,
+  "onePercentLowFPS": 35.12880562060833,
+  "averageFrameTimeMs": 16.777523064020126,
+  "p99FrameTimeMs": 17,
+  "maxFrameTimeMs": 83.39999999999964,
+  "memoryStartMB": 5.410772323608398,
+  "memoryEndMB": 5.023932456970215,
+  "memoryPeakMB": 5.410772323608398,
+  "simulationFrame": 3769,
+  "droppedCatchups": 0,
+  "warmupOverruns": 1,
+  "matches": 1,
+  "workload": "Hard CPU vs CPU, standard health and meter, best of three, 99-second rounds, all presentation effects and audio enabled",
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "viewport": [
+    1280,
+    720
+  ],
+  "devicePixelRatio": 1,
+  "canvas": [
+    1280,
+    720
+  ],
+  "date": "2026-10-14T20:07:24.534Z",
+  "browserBackend": "Full Chromium, new headless mode (channel: chromium)",
+  "graphics": {
+    "devices": [
+      {
+        "vendorId": 32902,
+        "deviceId": 22807,
+        "subSysId": 136515624,
+        "revision": 7,
+        "vendorString": "",
+        "deviceString": "Intel(R) UHD Graphics 620",
+        "driverVendor": "Intel",
+        "driverVersion": "31.0.101.2137"
+      },
+      {
+        "vendorId": 5140,
+        "deviceId": 140,
+        "subSysId": 0,
+        "revision": 0,
+        "vendorString": "",
+        "deviceString": "Microsoft Basic Render Driver",
+        "driverVendor": "",
+        "driverVersion": "10.0.26100.9711"
+      }
+    ],
+    "features": {
+      "2d_canvas": "enabled",
+      "direct_rendering_display_compositor": "disabled_off_ok",
+      "gpu_compositing": "enabled",
+      "multiple_raster_threads": "enabled_on",
+      "opengl": "enabled_on",
+      "rasterization": "enabled",
+      "raw_draw": "disabled_off_ok",
+      "skia_graphite": "disabled_off",
+      "trees_in_viz": "disabled_off",
+      "video_decode": "enabled",
+      "video_encode": "enabled",
+      "webgl": "enabled",
+      "webgpu": "enabled",
+      "webnn": "disabled_off"
+    }
+  },
+  "environment": "Headless Chromium on this Windows host; hardware/virtualization specific, not a universal laptop guarantee.",
+  "errors": []
+}

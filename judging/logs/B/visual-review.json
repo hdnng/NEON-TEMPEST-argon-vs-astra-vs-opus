@@ -1,0 +1,286 @@
+{
+  "project": "B",
+  "method": "All final original images viewed through image-reader contact sheets, with individual critical screens also opened. Manual visual notes; no submitted screenshots used.",
+  "criteria": [
+    "legibility",
+    "alignment",
+    "hierarchy",
+    "consistency",
+    "contrast/glow",
+    "clipping/overlaps",
+    "visual defects",
+    "designed versus placeholder appearance"
+  ],
+  "images": [
+    {
+      "image": "01-boot-logo.png",
+      "sha256": "e80982617f03e5ac93fc95b9f79ffd32dc6a49aa7aff3bcb194c57fb4bd743ca",
+      "reviewed": true,
+      "note": {
+        "en": "Minimal centered monogram and progress line have clean balance. Microtype is very small, but the screen feels deliberate rather than unfinished.",
+        "vi": "Monogram và thanh tiến trình giữa màn hình cân đối, gọn. Chữ phụ rất nhỏ nhưng bố cục có chủ đích, không mang cảm giác dang dở."
+      }
+    },
+    {
+      "image": "02-title.png",
+      "sha256": "77baae2e47c0008872f20e81ca94adcb0d76eb10f7dbeb8ac3c0f8339053880f",
+      "reviewed": true,
+      "note": {
+        "en": "Large stacked title, clear prompt and hero silhouette create the strongest title hierarchy. Controlled glow and dark negative space keep the focal points legible.",
+        "vi": "Tiêu đề xếp lớn, prompt rõ và silhouette chủ đạo tạo phân cấp tốt nhất. Glow tiết chế và khoảng tối giữ các điểm chính dễ đọc."
+      }
+    },
+    {
+      "image": "03-main-menu.png",
+      "sha256": "d52c11a6c56385a794b364ba7e6806a96c04ffa0867a1def00b6caedaf1dc660",
+      "reviewed": true,
+      "note": {
+        "en": "Large left navigation, highlighted focus and right hero balance well. Secondary links and flavor text are small, but spacing and contrast are cohesive.",
+        "vi": "Điều hướng lớn bên trái, focus rõ và võ sĩ bên phải cân nhau tốt. Link phụ và flavor text nhỏ, nhưng khoảng cách/tương phản thống nhất."
+      }
+    },
+    {
+      "image": "04-character-select.png",
+      "sha256": "180be81b7204f770302c947832fbdb8c26f8290e8ac7aac34bf0b11de5136e5a",
+      "reviewed": true,
+      "note": {
+        "en": "Character names, separate sides and confirm action are easy to scan. Stats labels are tiny and the shared angular pose language limits portrait variety.",
+        "vi": "Tên nhân vật, hai phía và hành động confirm dễ quét mắt. Nhãn chỉ số rất nhỏ, ngôn ngữ pose góc cạnh dùng chung làm chân dung ít đa dạng."
+      }
+    },
+    {
+      "image": "05-stage-select.png",
+      "sha256": "2ad7256b1f0a9b9c51eeee0689320a0032f415ac842ec003e22cc0a34a11ecd4",
+      "reviewed": true,
+      "note": {
+        "en": "Distinct live-looking stage cards, clear title and selected border form a polished selection screen. Thumbnail, caption and card spacing are consistent.",
+        "vi": "Thẻ sân có hình riêng, tiêu đề rõ và viền chọn tạo màn chọn hoàn thiện. Thumbnail, chú thích và khoảng cách thẻ thống nhất."
+      }
+    },
+    {
+      "image": "06-versus-splash.png",
+      "sha256": "f13d586372b956cedf085b6ff00076daf89f6a03e7b94bef28a70ea0fad20a54",
+      "reviewed": true,
+      "note": {
+        "en": "Large VS and names align with the fighter columns. The layout is clean and restrained; stage/loading copy is noticeably small.",
+        "vi": "VS và tên lớn thẳng với cột võ sĩ. Bố cục gọn, tiết chế; chữ sân/loading khá nhỏ."
+      }
+    },
+    {
+      "image": "07-match-hud-start.png",
+      "sha256": "5ba353fea8d7b39921bc803bb676724843251cdd6213e132d0210ae42a556ec8",
+      "reviewed": true,
+      "note": {
+        "en": "Balanced health bars, portraits, round pips and large timer read clearly. Supporting health/stun labels are small, with no visible clipping or overlap.",
+        "vi": "Health bar, portrait, round pip cân đối và timer lớn rõ. Nhãn health/stun phụ nhỏ, không thấy clipping hoặc đè nhau."
+      }
+    },
+    {
+      "image": "08-mid-combo.png",
+      "sha256": "57ae88bd44bb2a9bdeccbb48ec10520aca849edb09589a51203866ce55dfa4ab",
+      "reviewed": true,
+      "note": {
+        "en": "The actual combo counter is cleanly separated from the fighters. White impact rings contrast well; damage/scaling subtext is much smaller than the hit count.",
+        "vi": "Counter combo thật tách rõ khỏi võ sĩ. Vòng impact trắng có tương phản tốt; dòng damage/scaling nhỏ hơn số hit nhiều."
+      }
+    },
+    {
+      "image": "09-super-active.png",
+      "sha256": "bacb8b8c3c9093d7b83f3aa6ff2e9dc83c0974323369f9fb4e25926c711d726e",
+      "reviewed": true,
+      "note": {
+        "en": "Cinematic band, cropped hero bust and high-contrast super name are composed cleanly. It temporarily hides the upper action but leaves the important HUD readable.",
+        "vi": "Dải cinematic, bust cắt cận và tên super tương phản cao được bố trí gọn. Dải tạm che phần trên vùng đánh nhưng vẫn giữ HUD chính dễ đọc."
+      }
+    },
+    {
+      "image": "10-ko-round-end.png",
+      "sha256": "e5907ac451421f4556f97379fd70a782c75d2192a06f4dbafdb015d8b6e2d0f4",
+      "reviewed": true,
+      "note": {
+        "en": "KO and impact effects remain readable against the dark stage. HUD alignment is stable and the character forms remain distinguishable.",
+        "vi": "KO và impact vẫn rõ trên sân tối. HUD giữ thẳng hàng, hình khối nhân vật còn phân biệt được."
+      }
+    },
+    {
+      "image": "11-training-hitboxes.png",
+      "sha256": "a4a20f1835c9c469649b3bde8db81de48f1f941ebd71cbc65dc5c423fca80ed6",
+      "reviewed": true,
+      "note": {
+        "en": "Active hitboxes and hurtboxes are clearly colored and the training panel sits above the action. Telemetry labels and tool buttons are rather small.",
+        "vi": "Hitbox active và hurtbox được phân màu rõ, panel training nằm trên vùng đánh. Nhãn telemetry và nút công cụ khá nhỏ."
+      }
+    },
+    {
+      "image": "12-move-list.png",
+      "sha256": "327f78d3fdefd13d51e439f46183ef75df8678134d65e037f2d93c6593eb24e3",
+      "reviewed": true,
+      "note": {
+        "en": "Move archive has the clearest tabular organization and useful descriptions. Fine frame-data text and faded lower rows need scrolling or close inspection.",
+        "vi": "Move archive có cách tổ chức dạng bảng rõ nhất, mô tả hữu ích. Frame data nét nhỏ và hàng dưới mờ cần cuộn hoặc xem kỹ."
+      }
+    },
+    {
+      "image": "13-settings.png",
+      "sha256": "b07c2141cc3c3480c0607ec78c0040e6f9cc5953c8c6e16e7748d066dad2d74f",
+      "reviewed": true,
+      "note": {
+        "en": "Two-column settings separate audio/video from keyboard bindings with aligned controls. Additional device/display options sit below the visible scroll region.",
+        "vi": "Settings hai cột tách âm thanh/hình ảnh khỏi binding keyboard, control thẳng hàng. Các tùy chọn thiết bị/display khác nằm phía dưới vùng cuộn đang thấy."
+      }
+    },
+    {
+      "image": "14-results.png",
+      "sha256": "07c76dc801bde0ad094f2df4fda335722a1222b949419a743b577c034dd529fb",
+      "reviewed": true,
+      "note": {
+        "en": "Strong victory heading, hero, concise stats and rematch choices make a clear results hierarchy. Secondary copy remains small but there are no persistent collisions.",
+        "vi": "Tiêu đề victory, võ sĩ, chỉ số gọn và lựa chọn đấu lại tạo phân cấp kết quả rõ. Chữ phụ nhỏ nhưng không có đè nhau kéo dài."
+      }
+    },
+    {
+      "image": "15-stage-1.png",
+      "sha256": "2ee5e99209b4ba3a7945a37aeeabaab9e55300facee3e1376fbbfde568dade15",
+      "reviewed": true,
+      "note": {
+        "en": "Alley composition has readable fighter silhouettes, depth, reflections, cables and rain. The restrained palette avoids the strongest glow competing with the HUD.",
+        "vi": "Bố cục hẻm có silhouette rõ, chiều sâu, phản chiếu, dây cáp và mưa. Palette tiết chế giúp glow không tranh vai trò chính với HUD."
+      }
+    },
+    {
+      "image": "16-stage-2.png",
+      "sha256": "abdb55167767560c0be3ba42a3a6d6072c2f51fa9cde06086b4f739680cd1079",
+      "reviewed": true,
+      "note": {
+        "en": "The skyline/sanctum palette and torii silhouette give a distinct mood. Broad shapes keep the fight readable, with less surface detail than C.",
+        "vi": "Palette skyline/sanctum và silhouette torii tạo không khí riêng. Hình lớn giữ vùng đánh rõ, chi tiết bề mặt ít hơn C."
+      }
+    },
+    {
+      "image": "17-stage-3.png",
+      "sha256": "ca67b62a4cc979a8d8137847695f5a1f0b9a2d89406dd4c2aaab949297a55838",
+      "reviewed": true,
+      "note": {
+        "en": "Train, platform, signage and structural grid clearly differ from the other stages. Contrast around the fighters is good and the HUD remains stable.",
+        "vi": "Tàu, sân ga, biển hiệu và lưới kiến trúc khác rõ các sân còn lại. Tương phản quanh võ sĩ tốt, HUD ổn định."
+      }
+    },
+    {
+      "image": "18-special-strip.png",
+      "sha256": "2bc5281cea50a843249237542ccae56c3eac6ac0850c3a9810433d16115c7084",
+      "reviewed": true,
+      "note": {
+        "en": "Six real frames show arm extension, projectile formation and travel. The geometric body remains economical; the effect reads clearly without excessive bloom.",
+        "vi": "Sáu frame thật cho thấy tay duỗi, projectile hình thành và bay. Cơ thể hình học còn tiết kiệm pose; hiệu ứng rõ, không bloom quá mức."
+      }
+    },
+    {
+      "image": "19-pause-menu.png",
+      "sha256": "4ec5c5c2b388ffe732abb6b68a4092e5c0923e458deeb98c56902e4d439ced94",
+      "reviewed": true,
+      "note": {
+        "en": "Opaque centered card, dimmed world and selected row create excellent focus. Button spacing and typography match the rest of the interface.",
+        "vi": "Card giữa màn hình đủ kín, nền giảm sáng và hàng được chọn tạo focus rất tốt. Khoảng cách nút/typography khớp các màn khác."
+      }
+    },
+    {
+      "image": "20-mode-select.png",
+      "sha256": "46c290276b426298c35059a11ae94010152d74cf2f986cae150ce01b64ed67e4",
+      "reviewed": true,
+      "note": {
+        "en": "Judge placeholder for the absent separate mode-select screen. The main menu itself contains the working mode choices.",
+        "vi": "Placeholder của người chấm cho màn mode select riêng bị thiếu. Main menu vẫn có các lựa chọn mode hoạt động được."
+      }
+    },
+    {
+      "image": "21-trials.png",
+      "sha256": "9e0ef2bf47689d8d7daf492c41546aa0cf8c9b318c035b0cd85c2d9087fd8477",
+      "reviewed": true,
+      "note": {
+        "en": "Trial guide is positioned above the action, with clearly connected step icons. Explanatory text is small; close starting fighters are an intentional practice fixture.",
+        "vi": "Hướng dẫn trial nằm trên vùng đánh, icon step nối nhau rõ. Chữ giải thích nhỏ; võ sĩ đứng gần nhau là fixture luyện tập có chủ đích."
+      }
+    },
+    {
+      "image": "22-keyboard-qcf.png",
+      "sha256": "54fe0ba505819fdd866d7e6fb2b9f09f58ad72d53c83c1ee2282c22f4852515f",
+      "reviewed": true,
+      "note": {
+        "en": "Actual keyboard projectile evidence is captured after the intro. Training copy is small but aligned and the projectile is visible against the dark floor.",
+        "vi": "Bằng chứng projectile keyboard thật được chụp sau intro. Chữ training nhỏ nhưng thẳng hàng; projectile thấy rõ trên sàn tối."
+      }
+    },
+    {
+      "image": "23-super-followthrough.png",
+      "sha256": "5bbd717d5241f414572a72c0b4e2fdc4673116402a2d211b378801e11de5b44e",
+      "reviewed": true,
+      "note": {
+        "en": "Super follow-through and opponent reaction remain legible. The central announcement is strong; character poses are still angular and simple.",
+        "vi": "Phần tiếp diễn super và phản ứng đối thủ vẫn rõ. Thông báo giữa màn hình nổi bật; pose nhân vật vẫn góc cạnh và đơn giản."
+      }
+    },
+    {
+      "image": "24-two-minute-play.png",
+      "sha256": "257f71e51e8fa98c309113a7c60b8d5ed55b5ea4cd5440faff554344730c9560",
+      "reviewed": true,
+      "note": {
+        "en": "Life trails, impact rings and both fighter identities remain visible during prolonged play. No visual softlock is evident; tiny supporting HUD copy is the main legibility limitation.",
+        "vi": "Life trail, vòng impact và danh tính hai võ sĩ vẫn rõ khi chơi kéo dài. Không thấy softlock hình ảnh; chữ HUD phụ quá nhỏ là giới hạn đọc chính."
+      }
+    },
+    {
+      "image": "animation-1.png",
+      "sha256": "c9ffbece1d170b6e9687066414f3a9539ee7cf9cc9f351d163657570f12501f4",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-2.png",
+      "sha256": "dd217b1ca9bbc93477d3007d4606017ce1c98c151f902223c28f76b12749ee63",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-3.png",
+      "sha256": "39ec6b8d17f74baf46501695421372fa7b88c4b5b52aba2c3deb553546596081",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-4.png",
+      "sha256": "98ccb070013343bf12eb88eca67857e03343e8e1c44f6eedb858cf77e40af56a",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-5.png",
+      "sha256": "a2df98cb99d535a85da1b01b0dfb36ddefdb4753b88da61f379da723bbc6a434",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-6.png",
+      "sha256": "77a5fe8b98f4cf87f3cd1e1a0238e6f19959ab6e69572f116f9057ddca403469",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "command": "npm start -- --host 127.0.0.1 --port 5178",
+  "freshDirectory": true,
+  "dependenciesInitiallyAbsent": true,
+  "date": "2026-10-14T19:48:53.668Z"
+}

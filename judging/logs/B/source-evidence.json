@@ -1,0 +1,73 @@
+[
+  {
+    "reference": "judging/work/B/src/ai/cpu.ts#L123",
+    "excerpt": [
+      "122:   }",
+      "123:   if (o.move && dist < 190 && r < [0.32, 0.58, 0.76][b.difficulty]) {",
+      "124:     const m = CHARACTERS[o.id].moves[o.move];",
+      "125:     if (o.moveFrame < m.startup + m.active) {",
+      "126:       b.held = { x: -f, y: m.level === \"overhead\" ? 0 : 1, buttons: 0 };",
+      "127:       return b.held;",
+      "128:     }"
+    ]
+  },
+  {
+    "reference": "judging/work/B/src/audio/synth.ts#L132",
+    "excerpt": [
+      "131:     const st = STAGES[Math.max(0, this.theme) % 3],",
+      "132:       bpm = this.theme < 0 ? 92 : this.theme === 3 ? 130 : st.bpm,",
+      "133:       notes = this.theme < 0 ? [45, 48, 52, 55] : st.notes;",
+      "134:     while (this.next < this.ctx.currentTime + 0.18) {",
+      "135:       const b = this.beat % 32,",
+      "136:         t = this.next,",
+      "137:         n = notes[Math.floor(b / 8) % 4],"
+    ]
+  },
+  {
+    "reference": "judging/work/B/src/core/sim.ts#L160",
+    "excerpt": [
+      "159:   p.pose = \"move\";",
+      "160:   p.input.used = s.frame;",
+      "161:   p.confirm = 0;",
+      "162:   p.vx = 0;",
+      "163:   if (m.kind === \"ultimate\") p.ultimateUsed = true;",
+      "164:   event(",
+      "165:     s,"
+    ]
+  },
+  {
+    "reference": "judging/work/B/src/core/sim.ts#L338",
+    "excerpt": [
+      "337:       m.kind === \"throw\" &&",
+      "338:       (trigger(d.input, \"THROW\") || simultaneous(d.input, \"LP\", \"LK\"))",
+      "339:     ) {",
+      "340:       d.throwTech = 22;",
+      "341:       a.throwTech = 22;",
+      "342:       knockback(a, d, 55);",
+      "343:       event(s, \"tech\", i, 0, \"THROW TECH\");"
+    ]
+  },
+  {
+    "reference": "judging/work/B/src/main.ts#L1",
+    "excerpt": [
+      "1: import \"./ui/style.css\";",
+      "2: import \"./ui/refinements.css\";",
+      "3: import { Renderer } from \"./render/renderer\";",
+      "4: import {",
+      "5:   Devices,",
+      "6:   DEFAULT_KEYS,"
+    ]
+  },
+  {
+    "reference": "judging/work/B/src/main.ts#L297",
+    "excerpt": [
+      "296:     if (scene === \"moves\") this.movesUI(root);",
+      "297:     if (scene === \"results\") this.resultsUI(root);",
+      "298:     if (scene === \"howto\")",
+      "299:       this.ui.innerHTML = root(",
+      "300:         `${this.top()}<div class=\"page-title\"><h1>${T.systemTitle}</h1><p>READ THE RHYTHM. MAKE YOUR OPENING COUNT.</p></div>${this.btn(\"← \" + T.back, \"back\", \"back\")}<div class=\"panel-content howto-grid\">${[",
+      "301:           [",
+      "302:             \"01 / MOVE & STRIKE\","
+    ]
+  }
+]

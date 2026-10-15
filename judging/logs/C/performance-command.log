@@ -1,0 +1,13 @@
+COMMAND: node judging/scripts/performance.mjs C
+C BENCH 7.56 2.97 216.70
+C PLAY 17
+C PLAY 32
+C PLAY 49
+C PLAY 68
+C PLAY 85
+C PLAY 102
+C PLAY 119
+C COMPLETE 0 browser problems
+
+EXIT_CODE: 0
+DURATION_SECONDS: 190.782

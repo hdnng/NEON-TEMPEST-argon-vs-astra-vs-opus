@@ -1,0 +1,11 @@
+{
+  "method": "document.hidden mocked true + visibilitychange; not real OS tab hiding",
+  "before": {
+    "scene": "pause",
+    "frame": 51
+  },
+  "after": {
+    "scene": "pause",
+    "frame": 51
+  }
+}

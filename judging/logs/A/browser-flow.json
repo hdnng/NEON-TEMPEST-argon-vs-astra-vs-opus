@@ -1,0 +1,180 @@
+{
+  "label": "A",
+  "url": "http://127.0.0.1:6101",
+  "actions": [
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "title"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 6,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "movelist"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "settings"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "ArrowUp",
+      "n": 6,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "char_select"
+    },
+    {
+      "key": "Enter",
+      "n": 2,
+      "scene": "stage_select"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "versus_splash"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "match"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "match"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "match"
+    }
+  ],
+  "captures": [
+    {
+      "name": "01-boot-logo",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "boot",
+      "time": "2026-10-15T15:33:31.755Z"
+    },
+    {
+      "name": "02-title",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "title",
+      "time": "2026-10-15T15:33:35.546Z"
+    },
+    {
+      "name": "03-main-menu",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "menu",
+      "time": "2026-10-15T15:33:36.554Z"
+    },
+    {
+      "name": "12-move-list",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "movelist",
+      "time": "2026-10-15T15:33:38.407Z"
+    },
+    {
+      "name": "13-settings",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "settings",
+      "time": "2026-10-15T15:33:39.635Z"
+    },
+    {
+      "name": "04-character-select",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "char_select",
+      "time": "2026-10-15T15:33:42.031Z"
+    },
+    {
+      "name": "05-stage-select",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "stage_select",
+      "time": "2026-10-15T15:33:42.940Z"
+    },
+    {
+      "name": "06-versus-splash",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "versus_splash",
+      "time": "2026-10-15T15:33:43.896Z"
+    },
+    {
+      "name": "07-match-hud-start",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "match",
+      "time": "2026-10-15T15:33:44.647Z"
+    },
+    {
+      "name": "19-pause-menu",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "match",
+      "time": "2026-10-15T15:33:45.505Z"
+    },
+    {
+      "name": "15-stage-1",
+      "note": "Controlled stage fixture; original rendering; standard starting health/meter",
+      "scene": "match",
+      "time": "2026-10-15T15:33:49.333Z"
+    },
+    {
+      "name": "16-stage-2",
+      "note": "Controlled stage fixture; original rendering; standard starting health/meter",
+      "scene": "match",
+      "time": "2026-10-15T15:33:51.531Z"
+    },
+    {
+      "name": "17-stage-3",
+      "note": "Controlled stage fixture; original rendering; standard starting health/meter",
+      "scene": "match",
+      "time": "2026-10-15T15:33:53.761Z"
+    },
+    {
+      "name": "11-training-hitboxes",
+      "note": "Actual training mode, enabled overlay through exposed settings; no synthesized game art",
+      "scene": "match",
+      "time": "2026-10-15T15:33:56.706Z"
+    },
+    {
+      "name": "21-trials",
+      "note": "Actual trial mode fixture; no completion injected",
+      "scene": "match",
+      "time": "2026-10-15T15:33:58.176Z"
+    },
+    {
+      "name": "22-keyboard-qcf",
+      "note": "Actual DOM keyboard QCF input (S, S+D, D+punch)",
+      "scene": "match",
+      "time": "2026-10-15T15:34:00.513Z"
+    }
+  ],
+  "errors": []
+}

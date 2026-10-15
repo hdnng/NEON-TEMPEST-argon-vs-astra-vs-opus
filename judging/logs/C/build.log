@@ -1,0 +1,17 @@
+COMMAND: npm run build
+CWD: judging/work/C
+
+> neon-tempest@1.0.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 78 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                  1.35 kB │ gzip:   0.76 kB
+dist/assets/index-xrqisXGG.js  410.48 kB │ gzip: 134.08 kB
+✓ built in 2.73s
+
+EXIT_CODE: 0
+DURATION_SECONDS: 13.893

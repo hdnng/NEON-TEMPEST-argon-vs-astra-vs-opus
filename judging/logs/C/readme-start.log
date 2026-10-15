@@ -1,0 +1,17 @@
+COMMAND: npm start
+BROWSER=none (suppress browser popup in headless judging)
+
+> neon-tempest@1.0.0 start
+> node scripts/ensure-deps.mjs && vite --open
+
+[neon-tempest] Installing dependencies (first run only)...
+
+added 58 packages in 12s
+
+  VITE v7.3.7  ready in 915 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+JUDGE_READY_URL: http://localhost:5173
+READY_SECONDS: 15.190

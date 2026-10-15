@@ -1,0 +1,18 @@
+COMMAND: npm run test:e2e -- --config=judging.playwright.config.ts
+VIEWPORT: 1920x1080; original tests, common config override
+
+> neon-tempest@1.0.0 test:e2e
+> playwright test --config=judging.playwright.config.ts
+
+
+Running 4 tests using 1 worker
+
+  ok 1 tests\e2e\game.spec.ts:12:1 › keyboard complete flow, special, HUD, round, settings and replay (17.0s)
+  ok 2 tests\e2e\game.spec.ts:97:1 › all modes, training recorder, settings and responsive letterboxing (4.9s)
+  ok 3 tests\e2e\game.spec.ts:142:1 › a complete browser match replays to the identical final state (51.8s)
+  ok 4 tests\e2e\game.spec.ts:171:1 › gamepad menus, held-button edges, remapping and SOCD (4.1s)
+
+  4 passed (1.3m)
+
+EXIT_CODE: 0
+DURATION_SECONDS: 81.604

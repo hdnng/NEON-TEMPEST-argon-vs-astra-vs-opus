@@ -1,0 +1,206 @@
+{
+  "label": "C",
+  "url": "http://127.0.0.1:6103",
+  "actions": [
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "BootScene"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "TitleScene"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 2,
+      "scene": "MainMenuScene"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "MoveListScene"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "MainMenuScene"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 3,
+      "scene": "MainMenuScene"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "SettingsScene"
+    },
+    {
+      "key": "KeyE",
+      "n": 4,
+      "scene": "SettingsScene"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "MainMenuScene"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 4,
+      "scene": "MainMenuScene"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "CreditsScene"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "MainMenuScene"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "ModeSelectScene"
+    },
+    {
+      "key": "ArrowRight",
+      "n": 2,
+      "scene": "ModeSelectScene"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "CharSelectScene"
+    },
+    {
+      "key": "Enter",
+      "n": 3,
+      "scene": "CharSelectScene"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "VersusScene"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "MatchScene"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "MatchScene"
+    }
+  ],
+  "captures": [
+    {
+      "name": "01-boot-logo",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "BootScene",
+      "time": "2026-10-15T15:32:25.142Z"
+    },
+    {
+      "name": "02-title",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "TitleScene",
+      "time": "2026-10-15T15:32:31.848Z"
+    },
+    {
+      "name": "03-main-menu",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "MainMenuScene",
+      "time": "2026-10-15T15:32:33.744Z"
+    },
+    {
+      "name": "12-move-list",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "MoveListScene",
+      "time": "2026-10-15T15:32:35.264Z"
+    },
+    {
+      "name": "13-settings",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "SettingsScene",
+      "time": "2026-10-15T15:32:37.956Z"
+    },
+    {
+      "name": "20-mode-select",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "ModeSelectScene",
+      "time": "2026-10-15T15:32:43.652Z"
+    },
+    {
+      "name": "04-character-select",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "CharSelectScene",
+      "time": "2026-10-15T15:32:46.037Z"
+    },
+    {
+      "name": "05-stage-select",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "StageSelectScene",
+      "time": "2026-10-15T15:32:49.395Z"
+    },
+    {
+      "name": "06-versus-splash",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "VersusScene",
+      "time": "2026-10-15T15:32:51.212Z"
+    },
+    {
+      "name": "07-match-hud-start",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "MatchScene",
+      "time": "2026-10-15T15:32:54.856Z"
+    },
+    {
+      "name": "19-pause-menu",
+      "note": "Captured from actual running UI; keyboard flow",
+      "scene": "MatchScene",
+      "time": "2026-10-15T15:32:56.013Z"
+    },
+    {
+      "name": "15-stage-1",
+      "note": "Controlled stage fixture; original rendering; standard starting health/meter",
+      "scene": "MatchScene",
+      "time": "2026-10-15T15:33:00.662Z"
+    },
+    {
+      "name": "16-stage-2",
+      "note": "Controlled stage fixture; original rendering; standard starting health/meter",
+      "scene": "MatchScene",
+      "time": "2026-10-15T15:33:03.313Z"
+    },
+    {
+      "name": "17-stage-3",
+      "note": "Controlled stage fixture; original rendering; standard starting health/meter",
+      "scene": "MatchScene",
+      "time": "2026-10-15T15:33:05.739Z"
+    },
+    {
+      "name": "11-training-hitboxes",
+      "note": "Actual training mode, enabled overlay through exposed settings; no synthesized game art",
+      "scene": "MatchScene",
+      "time": "2026-10-15T15:33:09.245Z"
+    },
+    {
+      "name": "21-trials",
+      "note": "Actual trial mode fixture; no completion injected",
+      "scene": "MatchScene",
+      "time": "2026-10-15T15:33:10.945Z"
+    },
+    {
+      "name": "22-keyboard-qcf",
+      "note": "Actual DOM keyboard QCF input (S, S+D, D+punch)",
+      "scene": "MatchScene",
+      "time": "2026-10-15T15:33:13.603Z"
+    }
+  ],
+  "errors": []
+}

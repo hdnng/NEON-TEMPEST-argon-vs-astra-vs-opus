@@ -1,0 +1,286 @@
+{
+  "project": "A",
+  "method": "All final original images viewed through image-reader contact sheets, with individual critical screens also opened. Manual visual notes; no submitted screenshots used.",
+  "criteria": [
+    "legibility",
+    "alignment",
+    "hierarchy",
+    "consistency",
+    "contrast/glow",
+    "clipping/overlaps",
+    "visual defects",
+    "designed versus placeholder appearance"
+  ],
+  "images": [
+    {
+      "image": "01-boot-logo.png",
+      "sha256": "8898e62b5653060759f464055036999bfb0a524cf6fb3d1996522a0aa59cba55",
+      "reviewed": true,
+      "note": {
+        "en": "Centered mark and heading have clear spacing; the supporting initialization line is tiny. Restrained boot composition, with a generic geometric logo.",
+        "vi": "Biểu tượng và tiêu đề giữa màn hình có khoảng cách rõ; dòng trạng thái bên dưới rất nhỏ. Bố cục boot gọn nhưng logo hình học còn phổ thông."
+      }
+    },
+    {
+      "image": "02-title.png",
+      "sha256": "656deb469b8dde4ba7c5a94f6e04200c2130d474616ff610506629f78ed5b5ce",
+      "reviewed": true,
+      "note": {
+        "en": "Title and confirm button are easy to locate. Repeated cyan borders, glow and small outlined fighters make this feel like a functional neon prototype.",
+        "vi": "Dễ nhận ra tiêu đề và nút xác nhận. Viền cyan, glow lặp lại và võ sĩ nét vẽ nhỏ tạo cảm giác một prototype neon hoạt động được."
+      }
+    },
+    {
+      "image": "03-main-menu.png",
+      "sha256": "3ff548c95f48112812397ed1f3856833fe0a18f6f586fbda92627f780a5e207a",
+      "reviewed": true,
+      "note": {
+        "en": "Aligned card grid and strong selection border work. Nearly every label is uppercase/bold, so supporting text is dense and the hierarchy is fairly flat.",
+        "vi": "Lưới thẻ thẳng hàng, viền chọn rõ. Gần như nhãn nào cũng in hoa/đậm nên chữ phụ dày và phân cấp còn khá phẳng."
+      }
+    },
+    {
+      "image": "04-character-select.png",
+      "sha256": "78b75bb3009327399117474caa37280e2a4c1f59ed4d4e12e1a923a38b51906a",
+      "reviewed": true,
+      "note": {
+        "en": "Both side panels, cursors and stat bars fit cleanly. Large symbolic portraits outweigh the small fighter previews; short move descriptions are cramped.",
+        "vi": "Hai panel, cursor và thanh chỉ số nằm gọn. Chân dung dạng biểu tượng lớn lấn vai trò preview võ sĩ nhỏ; mô tả chiêu khá chật."
+      }
+    },
+    {
+      "image": "05-stage-select.png",
+      "sha256": "53f25aded8eed4e4abed4057639ffcd16041b968972ffaa740d88accd19fcd91",
+      "reviewed": true,
+      "note": {
+        "en": "Stage names and selection are readable, but there are no distinct stage thumbnail previews here. Large empty upper space retains the reused city backdrop.",
+        "vi": "Tên sân và trạng thái chọn đọc được, nhưng không có thumbnail riêng cho từng sân. Phần trên trống nhiều và vẫn dùng nền thành phố lặp lại."
+      }
+    },
+    {
+      "image": "06-versus-splash.png",
+      "sha256": "0763ea9c26acb9de8cd98c63f1bc8ce36d5937db381a04ddb1378beef4e1a8e9",
+      "reviewed": true,
+      "note": {
+        "en": "Clear split composition and high-contrast names. The icon portraits and neon dividers are consistent, though visually simple; no persistent clipping.",
+        "vi": "Bố cục chia đôi rõ, tên có tương phản cao. Chân dung biểu tượng và đường neon thống nhất nhưng còn đơn giản; không thấy clipping kéo dài."
+      }
+    },
+    {
+      "image": "07-match-hud-start.png",
+      "sha256": "7f06910b88391b83d47e2bf044be176bcd78bfdabd1ea953ee8342ada042a833",
+      "reviewed": true,
+      "note": {
+        "en": "Timer and health are recognizable; numerical labels are small. The intro band occupies much of the center and the outlined fighters feel lightweight.",
+        "vi": "Timer và health dễ nhận ra; nhãn số nhỏ. Dải intro chiếm nhiều phần giữa, còn võ sĩ nét vẽ có cảm giác thiếu khối lượng."
+      }
+    },
+    {
+      "image": "08-mid-combo.png",
+      "sha256": "aaa0f538eb00693b9736a043b5c03d84fea5adad110c93ba32debbd52ca38af6",
+      "reviewed": true,
+      "note": {
+        "en": "Actual connected combo has a clear counter and damage/scaling text. The hit spark is readable, but both bodies still look like simple articulated line figures.",
+        "vi": "Combo trúng thật có counter và chữ damage/scaling rõ. Hit spark dễ thấy nhưng cơ thể hai võ sĩ vẫn giống hình nét vẽ chia khớp đơn giản."
+      }
+    },
+    {
+      "image": "09-super-active.png",
+      "sha256": "21b4c6727c8b222574fc4a4571b6e856ff913047efcad56efdf6a1a609f98d54",
+      "reviewed": true,
+      "note": {
+        "en": "The cut-in band is properly aligned. Cyan-on-blue lettering and excessive bloom soften the super name; the small bust is closer to an icon than a cinematic portrait.",
+        "vi": "Dải cut-in đặt đúng hàng. Chữ cyan trên xanh và bloom nhiều làm mềm tên super; bust nhỏ giống icon hơn chân dung cinematic."
+      }
+    },
+    {
+      "image": "10-ko-round-end.png",
+      "sha256": "28505d6ad1ebe9a9f139dc3efe9f68d69605c850b60040bd611ae132aaefb80b",
+      "reviewed": true,
+      "note": {
+        "en": "Perfect KO announcement is large, centered and legible without colliding with the HUD. The background composition remains visually flat.",
+        "vi": "Thông báo Perfect KO lớn, giữa màn hình và rõ, không đè HUD. Bố cục nền vẫn khá phẳng."
+      }
+    },
+    {
+      "image": "11-training-hitboxes.png",
+      "sha256": "fdd405cebfec2e6330e0bd46286e2fe7ffcf06f971b18a8dc0cb4579c02b61c1",
+      "reviewed": true,
+      "note": {
+        "en": "Real active hit/hurt/push boxes and frame telemetry are visible. The panels fit, but the small legend and bottom tool hints require close inspection.",
+        "vi": "Thấy được hit/hurt/push box đang active và frame telemetry thật. Panel nằm vừa, nhưng chú giải nhỏ và phím tắt đáy màn hình cần nhìn kỹ."
+      }
+    },
+    {
+      "image": "12-move-list.png",
+      "sha256": "1db1ffa1991668b97d26cee56396ddf07665147a889aabe68cb91db4550d629d",
+      "reviewed": true,
+      "note": {
+        "en": "Move rows, inputs and frame columns line up. Dense compact text and glow reduce reading comfort; scrolling is required for the remaining moves.",
+        "vi": "Hàng chiêu, input và cột frame thẳng hàng. Chữ nhỏ dày và glow làm giảm sự thoải mái khi đọc; cần cuộn để xem các chiêu còn lại."
+      }
+    },
+    {
+      "image": "13-settings.png",
+      "sha256": "ec4368b933267fe6ba21ce1c1d7d7f37c546efb91de3dc88154a1c07d532c9a9",
+      "reviewed": true,
+      "note": {
+        "en": "Settings rows and selected value align well. The shared all-caps treatment and very small footer feel utilitarian; the shown tabs only remap keyboards.",
+        "vi": "Hàng settings và giá trị đang chọn thẳng hàng. Cách in hoa cùng footer rất nhỏ mang tính công cụ; các tab được hiển thị chỉ remap keyboard."
+      }
+    },
+    {
+      "image": "14-results.png",
+      "sha256": "868b4419a473b09e1eb599660ebf2ff499a54a3542b972f05944627dab9cc75f",
+      "reviewed": true,
+      "note": {
+        "en": "Winner, score, stats and rematch choices have a clear layout. The oversized icon and rank slogan look generic; borders and selected-button contrast are consistent.",
+        "vi": "Winner, tỉ số, chỉ số và lựa chọn đấu lại có bố cục rõ. Icon quá lớn và câu xếp hạng khá phổ thông; viền và tương phản nút chọn thống nhất."
+      }
+    },
+    {
+      "image": "15-stage-1.png",
+      "sha256": "251cb23cf095b2789facaca1d7a6e2e3fe842cd7287113b8edf6bb15907a6871",
+      "reviewed": true,
+      "note": {
+        "en": "Rooftop has legible fighters, rain and wet grid. Depth relies mainly on repeated building outlines and signage rather than rich material or lighting variation.",
+        "vi": "Sân mái nhà có võ sĩ, mưa và lưới sàn ướt dễ thấy. Chiều sâu chủ yếu dựa vào nét tòa nhà/biển hiệu lặp, ít biến thể vật liệu hoặc ánh sáng."
+      }
+    },
+    {
+      "image": "16-stage-2.png",
+      "sha256": "04260643a12dc2ae58ce1cacd18f5b62da36ad9dfcfe59fa579c48d63fe5c572",
+      "reviewed": true,
+      "note": {
+        "en": "The magenta palette and signage change, but the same skyline/grid/crowd composition dominates. HUD and action remain unobstructed.",
+        "vi": "Palette magenta và biển hiệu đổi, nhưng bố cục skyline/lưới/đám đông cũ vẫn chiếm chính. HUD và vùng đánh không bị che."
+      }
+    },
+    {
+      "image": "17-stage-3.png",
+      "sha256": "5227e0f103c805f7cb63707fcef0f3071f932f7363697bf27aafcc3a22f14878",
+      "reviewed": true,
+      "note": {
+        "en": "Shrine gates and the central symbol distinguish this variant. It still shares the flat line-art language and floor with the other stages.",
+        "vi": "Cổng shrine và biểu tượng giữa sân tạo khác biệt. Sân vẫn dùng chung ngôn ngữ nét vẽ phẳng và sàn với các sân còn lại."
+      }
+    },
+    {
+      "image": "18-special-strip.png",
+      "sha256": "b77781f6cfcf511ded7aa49d9466f32a70e7bcfefd43d403dfd9d6a20388621b",
+      "reviewed": true,
+      "note": {
+        "en": "Six genuine cast samples show the star projectile forming and moving. Anticipation and body-weight changes are slight; open the originals to judge poses.",
+        "vi": "Sáu mẫu cast thật cho thấy projectile ngôi sao hình thành rồi di chuyển. Anticipation và đổi trọng tâm rất ít; mở ảnh gốc để xem pose."
+      }
+    },
+    {
+      "image": "19-pause-menu.png",
+      "sha256": "fd44dbf39449ac6bb644acdcbb498c06698cca5e5af451e6a12e21796c34d822",
+      "reviewed": true,
+      "note": {
+        "en": "Centered pause panel has clear button contrast and orderly spacing. Its large unused lower area and repeated cyan outline look basic.",
+        "vi": "Panel pause giữa màn hình có nút tương phản rõ và khoảng cách đều. Phần dưới trống lớn cùng viền cyan lặp lại còn đơn giản."
+      }
+    },
+    {
+      "image": "20-mode-select.png",
+      "sha256": "d49c90be36d86a99f53dff05c29875c81d2354a62477f7e212e0e2bd25a01901",
+      "reviewed": true,
+      "note": {
+        "en": "Judge placeholder: only the separate mode-select screen is absent. The integrated main-menu mode choices are shown elsewhere and are not treated as missing modes.",
+        "vi": "Placeholder của người chấm: chỉ thiếu màn mode select riêng. Lựa chọn mode gộp trong main menu được chụp ở nơi khác, không bị coi là thiếu mode."
+      }
+    },
+    {
+      "image": "21-trials.png",
+      "sha256": "8d1dffdcfc1fd31db3a7cdc28fd2b195314f1a69857c89499f1a6856ac2312b1",
+      "reviewed": true,
+      "note": {
+        "en": "Trial guide fits in the top-right without HUD collisions. Instructions and step text are small, while most of the frame is the familiar empty stage.",
+        "vi": "Hướng dẫn trial nằm gọn góc trên phải, không đè HUD. Chữ chỉ dẫn/step nhỏ, phần lớn khung hình vẫn là sân trống quen thuộc."
+      }
+    },
+    {
+      "image": "22-keyboard-qcf.png",
+      "sha256": "184c84fdf3900ad24b99be343a9b884a15d2fa65db095b2a7c4eb962cfc3a3a2",
+      "reviewed": true,
+      "note": {
+        "en": "The projectile and training telemetry come from actual keyboard motion. Thin input-history symbols and small labels remain harder to read than the main HUD.",
+        "vi": "Projectile và telemetry training đến từ motion keyboard thật. Ký hiệu input history nét mảnh và nhãn nhỏ vẫn khó đọc hơn HUD chính."
+      }
+    },
+    {
+      "image": "23-super-followthrough.png",
+      "sha256": "0b4ddd28be3574d5b768e25cbca283c3effb53e61b0890e5115e975f2b6c187b",
+      "reviewed": true,
+      "note": {
+        "en": "Connected super hits show a real counter and impact. Effects are clear but the articulated pose changes and character volume remain limited.",
+        "vi": "Các hit super nối nhau cho counter và impact thật. Hiệu ứng rõ, nhưng thay đổi pose chia khớp và độ khối của nhân vật còn hạn chế."
+      }
+    },
+    {
+      "image": "24-two-minute-play.png",
+      "sha256": "75978b09b60971a291df3b5a9686512ee885daadabf35b1a825293a9fc05b4ef",
+      "reviewed": true,
+      "note": {
+        "en": "The sustained play capture preserves life trails and combo labels with no visible softlock. Small status labels remain a weak point; this is gameplay evidence, not a human feel score.",
+        "vi": "Ảnh chơi kéo dài giữ được life trail và nhãn combo, không thấy softlock. Nhãn trạng thái nhỏ vẫn là điểm yếu; ảnh này chứng minh gameplay, không phải điểm cảm giác chơi của người."
+      }
+    },
+    {
+      "image": "animation-1.png",
+      "sha256": "29e091a43a4b98d94a958aca83e0e3a4f9e3b6652514a94801321a3fb3cd065f",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-2.png",
+      "sha256": "60ad10daa2c0b43b847a95f6b16aa9839de735e1600d4f846ab7a2e683d5878a",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-3.png",
+      "sha256": "64b9b081e38784e2c7c206009b0406db6985e4baa63becdaecb0abef6c6c1545",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-4.png",
+      "sha256": "929d6556b9d4d64aa792c366c71285a39ba5acf955c9f5d1980328f899e4e396",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-5.png",
+      "sha256": "75c65a2dc3a49bf97ff434894bbc01772065f092df4a92abaf8d191789f0bc71",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    },
+    {
+      "image": "animation-6.png",
+      "sha256": "2716d1265639d953b5a90643727b634e78abbc2e754054a650f60bfd05522647",
+      "reviewed": true,
+      "note": {
+        "en": "Genuine sample in the special-move sequence: compare body anticipation, arm extension, projectile formation and recovery with the adjacent frames; no pose was set directly.",
+        "vi": "Mẫu thật trong chuỗi special: đối chiếu lấy đà, tay duỗi, projectile hình thành và recovery với frame kế bên; không gán pose trực tiếp."
+      }
+    }
+  ]
+}

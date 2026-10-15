@@ -1,0 +1,10 @@
+{
+  "frames": 7200,
+  "seed": 774921,
+  "firstDifference": -1,
+  "pass": true,
+  "hash1": "c21846dd61e6ab9265d8922062ead960d25eda4c77353fc5c9e393630d3091e0",
+  "hash2": "c21846dd61e6ab9265d8922062ead960d25eda4c77353fc5c9e393630d3091e0",
+  "serialization_roundtrip": true,
+  "inputs_sha256": "3b3f3e9967f8e9a7d134fd450eec6691b9853fa77dff5eca002be6a031726f6f"
+}

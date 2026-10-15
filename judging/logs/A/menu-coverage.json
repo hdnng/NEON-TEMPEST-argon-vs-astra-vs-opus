@@ -1,0 +1,135 @@
+{
+  "label": "A",
+  "method": "Real DOM keyboard only; mode entries followed by actual back paths; no injected menu index or scene",
+  "trace": [
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "char_select"
+    },
+    {
+      "mode_index": 0,
+      "reached": true
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "char_select"
+    },
+    {
+      "mode_index": 1,
+      "reached": true
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "char_select"
+    },
+    {
+      "mode_index": 2,
+      "reached": true
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "char_select"
+    },
+    {
+      "mode_index": 3,
+      "reached": true
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "char_select"
+    },
+    {
+      "mode_index": 4,
+      "reached": true
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "match"
+    },
+    {
+      "mode": "empty replay generates showcase",
+      "scene": "match"
+    },
+    {
+      "key": "Escape",
+      "n": 1,
+      "scene": "match"
+    },
+    {
+      "key": "ArrowDown",
+      "n": 4,
+      "scene": "match"
+    },
+    {
+      "key": "Enter",
+      "n": 1,
+      "scene": "menu"
+    },
+    {
+      "completed": true,
+      "scene": "menu"
+    }
+  ],
+  "issues": []
+}

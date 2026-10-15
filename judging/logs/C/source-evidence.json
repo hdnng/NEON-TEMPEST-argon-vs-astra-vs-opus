@@ -1,0 +1,38 @@
+[
+  {
+    "reference": "judging/work/C/src/core/view.ts#L59",
+    "excerpt": [
+      "58:   /** Clears the letterbox area and sets the logical transform + clip. */",
+      "59:   begin(): void {",
+      "60:     const ctx = this.ctx;",
+      "61:     ctx.setTransform(1, 0, 0, 1, 0, 0);",
+      "62:     ctx.globalAlpha = 1;",
+      "63:     ctx.globalCompositeOperation = 'source-over';",
+      "64:     if (this.offX > 0 || this.offY > 0) {"
+    ]
+  },
+  {
+    "reference": "judging/work/C/src/main.ts#L10",
+    "excerpt": [
+      "9:  */",
+      "10: import { App, setApp, type MatchSetup } from './core/app';",
+      "11: import { CHARACTER_LIST } from './data/characters';",
+      "12: import { BootScene } from './scenes/boot';",
+      "13: import * as flow from './scenes/flow';",
+      "14: import { CharSelectScene } from './scenes/charSelect';",
+      "15: import { MainMenuScene } from './scenes/mainMenu';"
+    ]
+  },
+  {
+    "reference": "judging/work/C/src/sim/input.ts#L267",
+    "excerpt": [
+      "266: /** 360: pure back, down and forward plus any up-direction within 36 frames, any order. */",
+      "267: function match360(f: FighterState, pressA: number): number {",
+      "268:   let gotB = false, gotD = false, gotF = false, gotU = false;",
+      "269:   const maxAge = Math.min(pressA + 36, HISTORY - 2);",
+      "270:   for (let a = pressA; a <= maxAge; a++) {",
+      "271:     const d = dirAt(f, a);",
+      "272:     if (d === 4) gotB = true;"
+    ]
+  }
+]

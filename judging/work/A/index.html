@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>NEON TEMPEST // Neo-Kyoto Underground</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      background-color: #03050c;
+      overflow: hidden;
+      font-family: 'Segoe UI', 'Orbitron', 'Rajdhani', 'Consolas', sans-serif;
+      color: #e8f4ff;
+    }
+    #app {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at center, #080d21 0%, #020308 100%);
+      position: relative;
+    }
+    #game-canvas {
+      display: block;
+      box-shadow: 0 0 60px rgba(0, 240, 255, 0.2), 0 0 120px rgba(255, 0, 128, 0.12);
+      border: 1px solid rgba(0, 240, 255, 0.25);
+      background-color: #050814;
+      cursor: default;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <canvas id="game-canvas" width="1280" height="720"></canvas>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+COMMAND: npm run test:e2e -- --config=judging.playwright.config.ts
+VIEWPORT: 1920x1080; original tests, common config override
+
+> neon-tempest@1.0.0 test:e2e
+> playwright test --config=judging.playwright.config.ts
+
+[WebServer] (node:12788) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:21124) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 1 worker
+
+(node:22020) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 e2e\audio.spec.ts:18:1 › every track and sound effect is audible and does not clip (1.1m)
+  ok 2 e2e\game.spec.ts:37:1 › full flow: menus, match, special move, HUD, round end, no console errors (31.6s)
+  ok 3 e2e\gamepad.spec.ts:7:1 › gamepad navigates menus and controls a fighter (4.8s)
+  ok 4 e2e\modes.spec.ts:14:1 › replay reproduces the recorded match exactly (42.2s)
+  ok 5 e2e\modes.spec.ts:43:1 › arcade: story, four fights, ending and credits (1.2m)
+
+  5 passed (3.7m)
+
+EXIT_CODE: 0
+DURATION_SECONDS: 221.439

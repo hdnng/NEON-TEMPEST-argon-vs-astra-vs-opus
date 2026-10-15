@@ -1,0 +1,82 @@
+{
+  "found": true,
+  "delay": 3,
+  "end": {
+    "phase": "fight",
+    "timer": 5808,
+    "freeze": 0,
+    "f": [
+      {
+        "hp": 1000,
+        "meter": 20,
+        "x": -37.5,
+        "y": 0,
+        "vy": 0,
+        "state": "attack",
+        "move": "2LP",
+        "moveFrame": 4,
+        "combo": 0,
+        "damage": 0,
+        "scale": 1,
+        "jumps": 0,
+        "airDash": 0,
+        "invincible": 0
+      },
+      {
+        "hp": 1022,
+        "meter": 8,
+        "x": 77.5,
+        "y": 0,
+        "vy": 0,
+        "state": "hitstun_stand",
+        "moveFrame": 0,
+        "combo": 2,
+        "damage": 53,
+        "scale": 0.9,
+        "jumps": 0,
+        "airDash": 0,
+        "invincible": 0
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "whiff",
+      "playerIndex": 0,
+      "x": -36.5,
+      "y": -100,
+      "strength": "light",
+      "moveName": "Low Ankle Tap"
+    },
+    {
+      "type": "hit",
+      "playerIndex": 0,
+      "x": 24.5,
+      "y": -25,
+      "strength": "light",
+      "damage": 27,
+      "moveName": "Low Ankle Tap",
+      "isCounter": false,
+      "isCrossUp": false
+    },
+    {
+      "type": "whiff",
+      "playerIndex": 0,
+      "x": -37.5,
+      "y": -100,
+      "strength": "light",
+      "moveName": "Crouch Jab"
+    },
+    {
+      "type": "hit",
+      "playerIndex": 0,
+      "x": 29,
+      "y": -81,
+      "strength": "light",
+      "damage": 26,
+      "moveName": "Crouch Jab",
+      "isCounter": false,
+      "isCrossUp": false
+    }
+  ]
+}

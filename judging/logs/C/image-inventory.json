@@ -1,0 +1,163 @@
+{
+  "images": [
+    "01-boot-logo.png",
+    "02-title.png",
+    "03-main-menu.png",
+    "04-character-select.png",
+    "05-stage-select.png",
+    "06-versus-splash.png",
+    "07-match-hud-start.png",
+    "08-mid-combo.png",
+    "09-super-active.png",
+    "10-ko-round-end.png",
+    "11-training-hitboxes.png",
+    "12-move-list.png",
+    "13-settings.png",
+    "14-results.png",
+    "15-stage-1.png",
+    "16-stage-2.png",
+    "17-stage-3.png",
+    "18-special-strip.png",
+    "19-pause-menu.png",
+    "20-mode-select.png",
+    "21-trials.png",
+    "22-keyboard-qcf.png",
+    "23-super-followthrough.png",
+    "24-two-minute-play.png",
+    "animation-1.png",
+    "animation-2.png",
+    "animation-3.png",
+    "animation-4.png",
+    "animation-5.png",
+    "animation-6.png"
+  ],
+  "contact_sheets": [
+    "screenshots/C/contact-1.jpg",
+    "screenshots/C/contact-2.jpg",
+    "screenshots/C/contact-3.jpg",
+    "screenshots/C/contact-4.jpg",
+    "screenshots/C/contact-5.jpg"
+  ],
+  "dimensions": {
+    "01-boot-logo.png": [
+      1920,
+      1080
+    ],
+    "02-title.png": [
+      1920,
+      1080
+    ],
+    "03-main-menu.png": [
+      1920,
+      1080
+    ],
+    "04-character-select.png": [
+      1920,
+      1080
+    ],
+    "05-stage-select.png": [
+      1920,
+      1080
+    ],
+    "06-versus-splash.png": [
+      1920,
+      1080
+    ],
+    "07-match-hud-start.png": [
+      1920,
+      1080
+    ],
+    "08-mid-combo.png": [
+      1920,
+      1080
+    ],
+    "09-super-active.png": [
+      1920,
+      1080
+    ],
+    "10-ko-round-end.png": [
+      1920,
+      1080
+    ],
+    "11-training-hitboxes.png": [
+      1920,
+      1080
+    ],
+    "12-move-list.png": [
+      1920,
+      1080
+    ],
+    "13-settings.png": [
+      1920,
+      1080
+    ],
+    "14-results.png": [
+      1920,
+      1080
+    ],
+    "15-stage-1.png": [
+      1920,
+      1080
+    ],
+    "16-stage-2.png": [
+      1920,
+      1080
+    ],
+    "17-stage-3.png": [
+      1920,
+      1080
+    ],
+    "18-special-strip.png": [
+      1920,
+      1080
+    ],
+    "19-pause-menu.png": [
+      1920,
+      1080
+    ],
+    "20-mode-select.png": [
+      1920,
+      1080
+    ],
+    "21-trials.png": [
+      1920,
+      1080
+    ],
+    "22-keyboard-qcf.png": [
+      1920,
+      1080
+    ],
+    "23-super-followthrough.png": [
+      1920,
+      1080
+    ],
+    "24-two-minute-play.png": [
+      1920,
+      1080
+    ],
+    "animation-1.png": [
+      1920,
+      1080
+    ],
+    "animation-2.png": [
+      1920,
+      1080
+    ],
+    "animation-3.png": [
+      1920,
+      1080
+    ],
+    "animation-4.png": [
+      1920,
+      1080
+    ],
+    "animation-5.png": [
+      1920,
+      1080
+    ],
+    "animation-6.png": [
+      1920,
+      1080
+    ]
+  }
+}

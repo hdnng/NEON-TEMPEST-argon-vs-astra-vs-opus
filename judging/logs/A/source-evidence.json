@@ -1,0 +1,109 @@
+[
+  {
+    "reference": "judging/work/A/scripts/bench.ts#L50",
+    "excerpt": [
+      "49:     // Use a direct CPU SkSurface 2D context ({ willReadFrequently: true }) so 100% of Canvas 2D rasterization executes synchronously without headless deferred SkPicture commit stalls",
+      "50:     const benchCanvas = document.createElement('canvas');",
+      "51:     benchCanvas.width = 1280;",
+      "52:     benchCanvas.height = 720;",
+      "53:     app.ctx = benchCanvas.getContext('2d', { willReadFrequently: true });",
+      "54: ",
+      "55:     app.launchMatch({"
+    ]
+  },
+  {
+    "reference": "judging/work/A/scripts/bench.ts#L85",
+    "excerpt": [
+      "84:       const elapsed = performance.now() - startTime;",
+      "85:       const dueFrames = Math.min(3600, Math.floor(elapsed / targetFrameMs) + 1);",
+      "86:       const framesToStep = Math.max(1, dueFrames - frameDeltas.length);",
+      "87: ",
+      "88:       const renderStart = performance.now();",
+      "89:       for (let s = 0; s < framesToStep; s++) {",
+      "90:         origFixedUpdate();"
+    ]
+  },
+  {
+    "reference": "judging/work/A/src/ai/cpuController.ts#L217",
+    "excerpt": [
+      "216: ",
+      "217:     // 4. Defensive Reaction when opponent is attacking or projectile is approaching",
+      "218:     const incomingProj = state.projectiles.find(",
+      "219:       (p) => p.ownerIndex !== playerIndex && Math.abs(p.x - me.x) < 180",
+      "220:     );",
+      "221:     const oppAttackingClose =",
+      "222:       opp.status === 'attack' && dist < 210 && opp.currentMoveId !== null;"
+    ]
+  },
+  {
+    "reference": "judging/work/A/src/data/settings.ts#L3",
+    "excerpt": [
+      "2: ",
+      "3: export interface GameSettings {",
+      "4:   masterVolume: number;      // 0..100",
+      "5:   musicVolume: number;       // 0..100",
+      "6:   sfxVolume: number;         // 0..100",
+      "7:   muted: boolean;",
+      "8:   screenShake: boolean;"
+    ]
+  },
+  {
+    "reference": "judging/work/A/src/input/inputBuffer.ts#L318",
+    "excerpt": [
+      "317:     }",
+      "318:     case '360': {",
+      "319:       // Must touch all 4 cardinal zones (Back, Down, Forward, Up) within 24 frames in any order",
+      "320:       const len = Math.min(buf.length, 24);",
+      "321:       let hasBack = false;",
+      "322:       let hasDown = false;",
+      "323:       let hasForward = false;"
+    ]
+  },
+  {
+    "reference": "judging/work/A/src/main.ts#L1",
+    "excerpt": [
+      "1: import { GameApp } from './scenes/gameApp';",
+      "2: import { stepMatch } from './core/simulation';",
+      "3: import { buildMotionSequence, buildRawInputFromNumpad } from './ai/cpuController';",
+      "4: ",
+      "5: declare global {",
+      "6:   interface Window {"
+    ]
+  },
+  {
+    "reference": "judging/work/A/src/scenes/gameApp.ts#L203",
+    "excerpt": [
+      "202:     const dpr = Math.min(2, window.devicePixelRatio || 1) * this.settings.values.resolutionScale;",
+      "203:     this.canvas.width = Math.round(1280 * dpr);",
+      "204:     this.canvas.height = Math.round(720 * dpr);",
+      "205:     this.canvas.style.width = `${Math.floor(drawW)}px`;",
+      "206:     this.canvas.style.height = `${Math.floor(drawH)}px`;",
+      "207:   }",
+      "208: "
+    ]
+  },
+  {
+    "reference": "judging/work/A/src/scenes/gameApp.ts#L762",
+    "excerpt": [
+      "761: ",
+      "762:   private updateComboTrialValidation(state: MatchState): void {",
+      "763:     const f0 = state.fighters[0];",
+      "764:     const f1 = state.fighters[1];",
+      "765:     const trials = CHARACTERS[f0.charId].trials;",
+      "766:     const trial = trials[this.activeTrialIndex % trials.length];",
+      "767: "
+    ]
+  },
+  {
+    "reference": "judging/work/A/tests/simulation.test.ts#L38",
+    "excerpt": [
+      "37: ",
+      "38:   it('parses all motion inputs (QCF, QCB, DP, HCF, HCB, 360, DQCF, CHARGE_BF, CHARGE_DU) and negative edge', () => {",
+      "39:     const state = createMatchState({ p1Char: 'hayate', p2Char: 'magnus', skipIntro: true });",
+      "40:     const f = state.fighters[0];",
+      "41: ",
+      "42:     const testMotion = (",
+      "43:       motion: 'QCF' | 'QCB' | 'DP' | 'HCF' | 'HCB' | '360' | 'DQCF',"
+    ]
+  }
+]

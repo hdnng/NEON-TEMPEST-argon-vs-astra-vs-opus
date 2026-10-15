@@ -1,0 +1,3870 @@
+[
+  {
+    "id": "hayate",
+    "hp": 1000,
+    "normal_count": 18,
+    "total_moves": 38,
+    "types": {
+      "normal": 18,
+      "command": 1,
+      "special": 9,
+      "ex": 3,
+      "super": 1,
+      "ultimate": 1,
+      "throw": 2,
+      "drive": 1,
+      "guardcancel": 1,
+      "pushblock": 1
+    },
+    "trials": 4,
+    "moves": [
+      {
+        "id": "5LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 3,
+        "active": 2,
+        "recovery": 6,
+        "hits": [
+          {
+            "damage": 30,
+            "frames": [
+              3,
+              4
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 5,
+        "active": 3,
+        "recovery": 9,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              5,
+              7
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 7,
+        "active": 4,
+        "recovery": 17,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              7,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 4,
+        "active": 3,
+        "recovery": 8,
+        "hits": [
+          {
+            "damage": 30,
+            "frames": [
+              4,
+              6
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 7,
+        "active": 3,
+        "recovery": 14,
+        "hits": [
+          {
+            "damage": 70,
+            "frames": [
+              7,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 9,
+        "active": 4,
+        "recovery": 19,
+        "hits": [
+          {
+            "damage": 100,
+            "frames": [
+              9,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 3,
+        "active": 2,
+        "recovery": 7,
+        "hits": [
+          {
+            "damage": 25,
+            "frames": [
+              3,
+              4
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 5,
+        "active": 3,
+        "recovery": 9,
+        "hits": [
+          {
+            "damage": 55,
+            "frames": [
+              5,
+              7
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 6,
+        "active": 5,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              6,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "hits": [
+          {
+            "damage": 25,
+            "frames": [
+              4,
+              5
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 6,
+        "active": 3,
+        "recovery": 13,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              6,
+              8
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 8,
+        "active": 3,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              8,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP"
+        },
+        "startup": 4,
+        "active": 8,
+        "recovery": 6,
+        "hits": [
+          {
+            "damage": 35,
+            "frames": [
+              4,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP"
+        },
+        "startup": 5,
+        "active": 6,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              5,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP"
+        },
+        "startup": 7,
+        "active": 6,
+        "recovery": 12,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              7,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK"
+        },
+        "startup": 4,
+        "active": 10,
+        "recovery": 6,
+        "hits": [
+          {
+            "damage": 35,
+            "frames": [
+              4,
+              13
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK"
+        },
+        "startup": 6,
+        "active": 6,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              6,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK"
+        },
+        "startup": 7,
+        "active": 6,
+        "recovery": 12,
+        "hits": [
+          {
+            "damage": 95,
+            "frames": [
+              7,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "6MP",
+        "type": "command",
+        "input": {
+          "btn": "MP",
+          "dirs": [
+            6
+          ]
+        },
+        "startup": 19,
+        "active": 2,
+        "recovery": 14,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              19,
+              20
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "orb_L",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "btn": "LP"
+        },
+        "startup": 12,
+        "active": 1,
+        "recovery": 32,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "orb_M",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "btn": "MP"
+        },
+        "startup": 12,
+        "active": 1,
+        "recovery": 32,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "orb_H",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "btn": "HP"
+        },
+        "startup": 12,
+        "active": 1,
+        "recovery": 32,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "orb_EX",
+        "type": "ex",
+        "input": {
+          "motion": "qcf",
+          "two": "P"
+        },
+        "startup": 10,
+        "active": 1,
+        "recovery": 28,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "rise_L",
+        "type": "special",
+        "input": {
+          "motion": "dp",
+          "btn": "LP"
+        },
+        "startup": 3,
+        "active": 10,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 100,
+            "frames": [
+              3,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "rise_M",
+        "type": "special",
+        "input": {
+          "motion": "dp",
+          "btn": "MP"
+        },
+        "startup": 3,
+        "active": 10,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 40,
+            "frames": [
+              3,
+              5
+            ]
+          },
+          {
+            "damage": 80,
+            "frames": [
+              7,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "rise_H",
+        "type": "special",
+        "input": {
+          "motion": "dp",
+          "btn": "HP"
+        },
+        "startup": 3,
+        "active": 10,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 50,
+            "frames": [
+              3,
+              5
+            ]
+          },
+          {
+            "damage": 90,
+            "frames": [
+              7,
+              13
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "rise_EX",
+        "type": "ex",
+        "input": {
+          "motion": "dp",
+          "two": "P"
+        },
+        "startup": 3,
+        "active": 10,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 40,
+            "frames": [
+              3,
+              5
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              7,
+              9
+            ]
+          },
+          {
+            "damage": 80,
+            "frames": [
+              11,
+              15
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "cyclone_L",
+        "type": "special",
+        "input": {
+          "motion": "qcb",
+          "btn": "LK"
+        },
+        "startup": 10,
+        "active": 14,
+        "recovery": 14,
+        "hits": [
+          {
+            "damage": 40,
+            "frames": [
+              10,
+              14
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              16,
+              22
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "cyclone_M",
+        "type": "special",
+        "input": {
+          "motion": "qcb",
+          "btn": "MK"
+        },
+        "startup": 10,
+        "active": 20,
+        "recovery": 14,
+        "hits": [
+          {
+            "damage": 35,
+            "frames": [
+              10,
+              14
+            ]
+          },
+          {
+            "damage": 35,
+            "frames": [
+              16,
+              20
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              22,
+              28
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "cyclone_H",
+        "type": "special",
+        "input": {
+          "motion": "qcb",
+          "btn": "HK"
+        },
+        "startup": 10,
+        "active": 26,
+        "recovery": 14,
+        "hits": [
+          {
+            "damage": 30,
+            "frames": [
+              10,
+              14
+            ]
+          },
+          {
+            "damage": 30,
+            "frames": [
+              16,
+              20
+            ]
+          },
+          {
+            "damage": 30,
+            "frames": [
+              22,
+              26
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              28,
+              34
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "cyclone_EX",
+        "type": "ex",
+        "input": {
+          "motion": "qcb",
+          "two": "K"
+        },
+        "startup": 10,
+        "active": 28,
+        "recovery": 14,
+        "hits": [
+          {
+            "damage": 30,
+            "frames": [
+              10,
+              13
+            ]
+          },
+          {
+            "damage": 30,
+            "frames": [
+              15,
+              18
+            ]
+          },
+          {
+            "damage": 30,
+            "frames": [
+              20,
+              23
+            ]
+          },
+          {
+            "damage": 30,
+            "frames": [
+              25,
+              28
+            ]
+          },
+          {
+            "damage": 50,
+            "frames": [
+              30,
+              36
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "super",
+        "type": "super",
+        "input": {
+          "motion": "qcf2",
+          "anyOf": "P"
+        },
+        "startup": 5,
+        "active": 26,
+        "recovery": 30,
+        "hits": [
+          {
+            "damage": 40,
+            "frames": [
+              5,
+              8
+            ]
+          },
+          {
+            "damage": 30,
+            "frames": [
+              10,
+              12
+            ]
+          },
+          {
+            "damage": 30,
+            "frames": [
+              14,
+              16
+            ]
+          },
+          {
+            "damage": 30,
+            "frames": [
+              18,
+              20
+            ]
+          },
+          {
+            "damage": 30,
+            "frames": [
+              22,
+              24
+            ]
+          },
+          {
+            "damage": 140,
+            "frames": [
+              28,
+              30
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "ult",
+        "type": "ultimate",
+        "input": {
+          "motion": "qcf2",
+          "anyOf": "K"
+        },
+        "startup": 10,
+        "active": 40,
+        "recovery": 30,
+        "hits": [
+          {
+            "damage": 40,
+            "frames": [
+              10,
+              11
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              14,
+              15
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              18,
+              19
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              22,
+              23
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              26,
+              27
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              30,
+              31
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              34,
+              35
+            ]
+          },
+          {
+            "damage": 40,
+            "frames": [
+              38,
+              39
+            ]
+          },
+          {
+            "damage": 180,
+            "frames": [
+              46,
+              49
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "throwF",
+        "type": "throw",
+        "input": {
+          "combo": [
+            "LP",
+            "LK"
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 20,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "throwB",
+        "type": "throw",
+        "input": {
+          "combo": [
+            "LP",
+            "LK"
+          ],
+          "dirs": [
+            4,
+            1,
+            7
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 20,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "drive",
+        "type": "drive",
+        "input": {
+          "combo": [
+            "MP",
+            "MK"
+          ]
+        },
+        "startup": 1,
+        "active": 1,
+        "recovery": 14,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "guardcancel",
+        "type": "guardcancel",
+        "input": {
+          "combo": [
+            "MP",
+            "MK"
+          ]
+        },
+        "startup": 6,
+        "active": 4,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              6,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "pushblock",
+        "type": "pushblock",
+        "input": {
+          "two": "P"
+        },
+        "startup": 1,
+        "active": 1,
+        "recovery": 14,
+        "hits": [],
+        "per_frame_overrides": 0
+      }
+    ]
+  },
+  {
+    "id": "magnus",
+    "hp": 1020,
+    "normal_count": 18,
+    "total_moves": 42,
+    "types": {
+      "normal": 18,
+      "command": 1,
+      "special": 12,
+      "ex": 4,
+      "super": 1,
+      "ultimate": 1,
+      "throw": 2,
+      "drive": 1,
+      "guardcancel": 1,
+      "pushblock": 1
+    },
+    "trials": 3,
+    "moves": [
+      {
+        "id": "5LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "hits": [
+          {
+            "damage": 35,
+            "frames": [
+              4,
+              5
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 7,
+        "active": 3,
+        "recovery": 12,
+        "hits": [
+          {
+            "damage": 65,
+            "frames": [
+              7,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 12,
+        "active": 4,
+        "recovery": 22,
+        "hits": [
+          {
+            "damage": 130,
+            "frames": [
+              12,
+              15
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 5,
+        "active": 3,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 35,
+            "frames": [
+              5,
+              7
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 8,
+        "active": 3,
+        "recovery": 15,
+        "hits": [
+          {
+            "damage": 80,
+            "frames": [
+              8,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 14,
+        "active": 4,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 120,
+            "frames": [
+              14,
+              17
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 4,
+        "active": 2,
+        "recovery": 8,
+        "hits": [
+          {
+            "damage": 30,
+            "frames": [
+              4,
+              5
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 7,
+        "active": 3,
+        "recovery": 11,
+        "hits": [
+          {
+            "damage": 65,
+            "frames": [
+              7,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 8,
+        "active": 5,
+        "recovery": 22,
+        "hits": [
+          {
+            "damage": 110,
+            "frames": [
+              8,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 9,
+        "hits": [
+          {
+            "damage": 30,
+            "frames": [
+              5,
+              6
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 9,
+        "active": 3,
+        "recovery": 15,
+        "hits": [
+          {
+            "damage": 55,
+            "frames": [
+              9,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 11,
+        "active": 3,
+        "recovery": 28,
+        "hits": [
+          {
+            "damage": 110,
+            "frames": [
+              11,
+              13
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP"
+        },
+        "startup": 5,
+        "active": 7,
+        "recovery": 6,
+        "hits": [
+          {
+            "damage": 35,
+            "frames": [
+              5,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP"
+        },
+        "startup": 6,
+        "active": 6,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 70,
+            "frames": [
+              6,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP"
+        },
+        "startup": 9,
+        "active": 6,
+        "recovery": 12,
+        "hits": [
+          {
+            "damage": 110,
+            "frames": [
+              9,
+              14
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK"
+        },
+        "startup": 5,
+        "active": 8,
+        "recovery": 6,
+        "hits": [
+          {
+            "damage": 35,
+            "frames": [
+              5,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK"
+        },
+        "startup": 7,
+        "active": 6,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 70,
+            "frames": [
+              7,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK"
+        },
+        "startup": 8,
+        "active": 8,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 105,
+            "frames": [
+              8,
+              15
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "6HP",
+        "type": "command",
+        "input": {
+          "btn": "HP",
+          "dirs": [
+            6
+          ]
+        },
+        "startup": 20,
+        "active": 3,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              20,
+              22
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "cradle_L",
+        "type": "special",
+        "input": {
+          "motion": "360",
+          "btn": "LP"
+        },
+        "startup": 6,
+        "active": 2,
+        "recovery": 32,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "cradle_M",
+        "type": "special",
+        "input": {
+          "motion": "360",
+          "btn": "MP"
+        },
+        "startup": 7,
+        "active": 2,
+        "recovery": 32,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "cradle_H",
+        "type": "special",
+        "input": {
+          "motion": "360",
+          "btn": "HP"
+        },
+        "startup": 8,
+        "active": 2,
+        "recovery": 32,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "cradle_EX",
+        "type": "ex",
+        "input": {
+          "motion": "360",
+          "two": "P"
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 32,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "hook_L",
+        "type": "special",
+        "input": {
+          "motion": "hcf",
+          "btn": "LK"
+        },
+        "startup": 14,
+        "active": 8,
+        "recovery": 26,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "hook_M",
+        "type": "special",
+        "input": {
+          "motion": "hcf",
+          "btn": "MK"
+        },
+        "startup": 14,
+        "active": 8,
+        "recovery": 26,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "hook_H",
+        "type": "special",
+        "input": {
+          "motion": "hcf",
+          "btn": "HK"
+        },
+        "startup": 14,
+        "active": 8,
+        "recovery": 26,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "hook_EX",
+        "type": "ex",
+        "input": {
+          "motion": "hcf",
+          "two": "K"
+        },
+        "startup": 10,
+        "active": 8,
+        "recovery": 26,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "charge_L",
+        "type": "special",
+        "input": {
+          "motion": "hcb",
+          "btn": "LP"
+        },
+        "startup": 14,
+        "active": 10,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 80,
+            "frames": [
+              14,
+              23
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "charge_M",
+        "type": "special",
+        "input": {
+          "motion": "hcb",
+          "btn": "MP"
+        },
+        "startup": 14,
+        "active": 12,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 100,
+            "frames": [
+              14,
+              25
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "charge_H",
+        "type": "special",
+        "input": {
+          "motion": "hcb",
+          "btn": "HP"
+        },
+        "startup": 14,
+        "active": 14,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 130,
+            "frames": [
+              14,
+              27
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "charge_EX",
+        "type": "ex",
+        "input": {
+          "motion": "hcb",
+          "two": "P"
+        },
+        "startup": 11,
+        "active": 12,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 70,
+            "frames": [
+              11,
+              15
+            ]
+          },
+          {
+            "damage": 90,
+            "frames": [
+              17,
+              22
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "crown_L",
+        "type": "special",
+        "input": {
+          "motion": "dp",
+          "btn": "LK"
+        },
+        "startup": 6,
+        "active": 6,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 85,
+            "frames": [
+              6,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "crown_M",
+        "type": "special",
+        "input": {
+          "motion": "dp",
+          "btn": "MK"
+        },
+        "startup": 6,
+        "active": 6,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 95,
+            "frames": [
+              6,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "crown_H",
+        "type": "special",
+        "input": {
+          "motion": "dp",
+          "btn": "HK"
+        },
+        "startup": 6,
+        "active": 6,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 105,
+            "frames": [
+              6,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "crown_EX",
+        "type": "ex",
+        "input": {
+          "motion": "dp",
+          "two": "K"
+        },
+        "startup": 6,
+        "active": 6,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 70,
+            "frames": [
+              6,
+              8
+            ]
+          },
+          {
+            "damage": 110,
+            "frames": [
+              10,
+              14
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "super",
+        "type": "super",
+        "input": {
+          "motion": "qcf2",
+          "anyOf": "P"
+        },
+        "startup": 2,
+        "active": 3,
+        "recovery": 44,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "ult",
+        "type": "ultimate",
+        "input": {
+          "motion": "qcf2",
+          "anyOf": "K"
+        },
+        "startup": 8,
+        "active": 34,
+        "recovery": 30,
+        "hits": [
+          {
+            "damage": 45,
+            "frames": [
+              8,
+              10
+            ]
+          },
+          {
+            "damage": 45,
+            "frames": [
+              12,
+              14
+            ]
+          },
+          {
+            "damage": 45,
+            "frames": [
+              16,
+              18
+            ]
+          },
+          {
+            "damage": 45,
+            "frames": [
+              20,
+              22
+            ]
+          },
+          {
+            "damage": 45,
+            "frames": [
+              24,
+              26
+            ]
+          },
+          {
+            "damage": 45,
+            "frames": [
+              28,
+              30
+            ]
+          },
+          {
+            "damage": 230,
+            "frames": [
+              38,
+              41
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "throwF",
+        "type": "throw",
+        "input": {
+          "combo": [
+            "LP",
+            "LK"
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 20,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "throwB",
+        "type": "throw",
+        "input": {
+          "combo": [
+            "LP",
+            "LK"
+          ],
+          "dirs": [
+            4,
+            1,
+            7
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 20,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "drive",
+        "type": "drive",
+        "input": {
+          "combo": [
+            "MP",
+            "MK"
+          ]
+        },
+        "startup": 1,
+        "active": 1,
+        "recovery": 14,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "guardcancel",
+        "type": "guardcancel",
+        "input": {
+          "combo": [
+            "MP",
+            "MK"
+          ]
+        },
+        "startup": 6,
+        "active": 4,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              6,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "pushblock",
+        "type": "pushblock",
+        "input": {
+          "two": "P"
+        },
+        "startup": 1,
+        "active": 1,
+        "recovery": 14,
+        "hits": [],
+        "per_frame_overrides": 0
+      }
+    ]
+  },
+  {
+    "id": "sable",
+    "hp": 1040,
+    "normal_count": 18,
+    "total_moves": 42,
+    "types": {
+      "normal": 18,
+      "command": 2,
+      "special": 12,
+      "ex": 3,
+      "super": 1,
+      "ultimate": 1,
+      "throw": 2,
+      "drive": 1,
+      "guardcancel": 1,
+      "pushblock": 1
+    },
+    "trials": 4,
+    "moves": [
+      {
+        "id": "5LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 3,
+        "active": 2,
+        "recovery": 5,
+        "hits": [
+          {
+            "damage": 29,
+            "frames": [
+              3,
+              4
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 4,
+        "active": 2,
+        "recovery": 9,
+        "hits": [
+          {
+            "damage": 50,
+            "frames": [
+              4,
+              5
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 6,
+        "active": 3,
+        "recovery": 14,
+        "hits": [
+          {
+            "damage": 80,
+            "frames": [
+              6,
+              8
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 4,
+        "active": 2,
+        "recovery": 7,
+        "hits": [
+          {
+            "damage": 32,
+            "frames": [
+              4,
+              5
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 5,
+        "active": 3,
+        "recovery": 11,
+        "hits": [
+          {
+            "damage": 55,
+            "frames": [
+              5,
+              7
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 8,
+        "active": 4,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              8,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 3,
+        "active": 2,
+        "recovery": 6,
+        "hits": [
+          {
+            "damage": 25,
+            "frames": [
+              3,
+              4
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 4,
+        "active": 2,
+        "recovery": 9,
+        "hits": [
+          {
+            "damage": 50,
+            "frames": [
+              4,
+              5
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 5,
+        "active": 5,
+        "recovery": 18,
+        "hits": [
+          {
+            "damage": 85,
+            "frames": [
+              5,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 3,
+        "active": 2,
+        "recovery": 7,
+        "hits": [
+          {
+            "damage": 25,
+            "frames": [
+              3,
+              4
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 5,
+        "active": 3,
+        "recovery": 12,
+        "hits": [
+          {
+            "damage": 50,
+            "frames": [
+              5,
+              7
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 7,
+        "active": 5,
+        "recovery": 22,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              7,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP"
+        },
+        "startup": 3,
+        "active": 6,
+        "recovery": 6,
+        "hits": [
+          {
+            "damage": 34,
+            "frames": [
+              3,
+              8
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP"
+        },
+        "startup": 4,
+        "active": 6,
+        "recovery": 9,
+        "hits": [
+          {
+            "damage": 55,
+            "frames": [
+              4,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP"
+        },
+        "startup": 6,
+        "active": 5,
+        "recovery": 11,
+        "hits": [
+          {
+            "damage": 85,
+            "frames": [
+              6,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK"
+        },
+        "startup": 3,
+        "active": 10,
+        "recovery": 5,
+        "hits": [
+          {
+            "damage": 34,
+            "frames": [
+              3,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK"
+        },
+        "startup": 5,
+        "active": 6,
+        "recovery": 9,
+        "hits": [
+          {
+            "damage": 55,
+            "frames": [
+              5,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK"
+        },
+        "startup": 6,
+        "active": 6,
+        "recovery": 11,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              6,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.2HK",
+        "type": "command",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 6,
+        "active": 24,
+        "recovery": 8,
+        "hits": [
+          {
+            "damage": 70,
+            "frames": [
+              6,
+              30
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "6MK",
+        "type": "command",
+        "input": {
+          "btn": "MK",
+          "dirs": [
+            6
+          ]
+        },
+        "startup": 17,
+        "active": 2,
+        "recovery": 14,
+        "hits": [
+          {
+            "damage": 65,
+            "frames": [
+              17,
+              18
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "fang1_L",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "btn": "LP"
+        },
+        "startup": 6,
+        "active": 3,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 54,
+            "frames": [
+              6,
+              8
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "fang1_M",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "btn": "MP"
+        },
+        "startup": 7,
+        "active": 3,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 59,
+            "frames": [
+              7,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "fang1_H",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "btn": "HP"
+        },
+        "startup": 8,
+        "active": 3,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 70,
+            "frames": [
+              8,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "fang1_EX",
+        "type": "ex",
+        "input": {
+          "motion": "qcf",
+          "two": "P"
+        },
+        "startup": 5,
+        "active": 3,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 49,
+            "frames": [
+              5,
+              6
+            ]
+          },
+          {
+            "damage": 49,
+            "frames": [
+              8,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "fang2",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "anyOf": "P"
+        },
+        "startup": 7,
+        "active": 3,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 59,
+            "frames": [
+              7,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "fang3b",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "anyOf": "P"
+        },
+        "startup": 9,
+        "active": 4,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 86,
+            "frames": [
+              9,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "fang3a",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "anyOf": "K"
+        },
+        "startup": 15,
+        "active": 3,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 86,
+            "frames": [
+              15,
+              17
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "step_L",
+        "type": "special",
+        "input": {
+          "motion": "qcb",
+          "btn": "LK"
+        },
+        "startup": 16,
+        "active": 1,
+        "recovery": 12,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "step_M",
+        "type": "special",
+        "input": {
+          "motion": "qcb",
+          "btn": "MK"
+        },
+        "startup": 16,
+        "active": 1,
+        "recovery": 14,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "step_H",
+        "type": "special",
+        "input": {
+          "motion": "qcb",
+          "btn": "HK"
+        },
+        "startup": 16,
+        "active": 1,
+        "recovery": 2,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "step_EX",
+        "type": "ex",
+        "input": {
+          "motion": "qcb",
+          "two": "K"
+        },
+        "startup": 10,
+        "active": 1,
+        "recovery": 8,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "needle_L",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "btn": "LK"
+        },
+        "startup": 8,
+        "active": 10,
+        "recovery": 18,
+        "hits": [
+          {
+            "damage": 81,
+            "frames": [
+              8,
+              17
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "needle_M",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "btn": "MK"
+        },
+        "startup": 8,
+        "active": 10,
+        "recovery": 18,
+        "hits": [
+          {
+            "damage": 86,
+            "frames": [
+              8,
+              17
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "needle_H",
+        "type": "special",
+        "input": {
+          "motion": "qcf",
+          "btn": "HK"
+        },
+        "startup": 8,
+        "active": 12,
+        "recovery": 18,
+        "hits": [
+          {
+            "damage": 92,
+            "frames": [
+              8,
+              19
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "needle_EX",
+        "type": "ex",
+        "input": {
+          "motion": "qcf",
+          "two": "K"
+        },
+        "startup": 6,
+        "active": 12,
+        "recovery": 18,
+        "hits": [
+          {
+            "damage": 54,
+            "frames": [
+              6,
+              9
+            ]
+          },
+          {
+            "damage": 86,
+            "frames": [
+              12,
+              17
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "super",
+        "type": "super",
+        "input": {
+          "motion": "qcf2",
+          "anyOf": "K"
+        },
+        "startup": 5,
+        "active": 30,
+        "recovery": 26,
+        "hits": [
+          {
+            "damage": 26,
+            "frames": [
+              5,
+              6
+            ]
+          },
+          {
+            "damage": 26,
+            "frames": [
+              8,
+              9
+            ]
+          },
+          {
+            "damage": 26,
+            "frames": [
+              11,
+              12
+            ]
+          },
+          {
+            "damage": 26,
+            "frames": [
+              14,
+              15
+            ]
+          },
+          {
+            "damage": 26,
+            "frames": [
+              17,
+              18
+            ]
+          },
+          {
+            "damage": 26,
+            "frames": [
+              20,
+              21
+            ]
+          },
+          {
+            "damage": 26,
+            "frames": [
+              23,
+              24
+            ]
+          },
+          {
+            "damage": 26,
+            "frames": [
+              26,
+              27
+            ]
+          },
+          {
+            "damage": 120,
+            "frames": [
+              31,
+              33
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "ult",
+        "type": "ultimate",
+        "input": {
+          "motion": "qcb2",
+          "anyOf": "P"
+        },
+        "startup": 14,
+        "active": 34,
+        "recovery": 26,
+        "hits": [
+          {
+            "damage": 34,
+            "frames": [
+              14,
+              15
+            ]
+          },
+          {
+            "damage": 34,
+            "frames": [
+              17,
+              18
+            ]
+          },
+          {
+            "damage": 34,
+            "frames": [
+              20,
+              21
+            ]
+          },
+          {
+            "damage": 34,
+            "frames": [
+              23,
+              24
+            ]
+          },
+          {
+            "damage": 34,
+            "frames": [
+              26,
+              27
+            ]
+          },
+          {
+            "damage": 34,
+            "frames": [
+              29,
+              30
+            ]
+          },
+          {
+            "damage": 34,
+            "frames": [
+              32,
+              33
+            ]
+          },
+          {
+            "damage": 34,
+            "frames": [
+              35,
+              36
+            ]
+          },
+          {
+            "damage": 34,
+            "frames": [
+              38,
+              39
+            ]
+          },
+          {
+            "damage": 220,
+            "frames": [
+              44,
+              47
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "throwF",
+        "type": "throw",
+        "input": {
+          "combo": [
+            "LP",
+            "LK"
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 20,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "throwB",
+        "type": "throw",
+        "input": {
+          "combo": [
+            "LP",
+            "LK"
+          ],
+          "dirs": [
+            4,
+            1,
+            7
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 20,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "drive",
+        "type": "drive",
+        "input": {
+          "combo": [
+            "MP",
+            "MK"
+          ]
+        },
+        "startup": 1,
+        "active": 1,
+        "recovery": 14,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "guardcancel",
+        "type": "guardcancel",
+        "input": {
+          "combo": [
+            "MP",
+            "MK"
+          ]
+        },
+        "startup": 6,
+        "active": 4,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              6,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "pushblock",
+        "type": "pushblock",
+        "input": {
+          "two": "P"
+        },
+        "startup": 1,
+        "active": 1,
+        "recovery": 14,
+        "hits": [],
+        "per_frame_overrides": 0
+      }
+    ]
+  },
+  {
+    "id": "warden",
+    "hp": 900,
+    "normal_count": 18,
+    "total_moves": 42,
+    "types": {
+      "normal": 18,
+      "command": 1,
+      "special": 12,
+      "ex": 4,
+      "super": 1,
+      "ultimate": 1,
+      "throw": 2,
+      "drive": 1,
+      "guardcancel": 1,
+      "pushblock": 1
+    },
+    "trials": 4,
+    "moves": [
+      {
+        "id": "5LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 4,
+        "active": 2,
+        "recovery": 7,
+        "hits": [
+          {
+            "damage": 30,
+            "frames": [
+              4,
+              5
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 6,
+        "active": 3,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              6,
+              8
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 9,
+        "active": 4,
+        "recovery": 18,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              9,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 5,
+        "active": 3,
+        "recovery": 9,
+        "hits": [
+          {
+            "damage": 32,
+            "frames": [
+              5,
+              7
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 7,
+        "active": 3,
+        "recovery": 15,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              7,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "5HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            4,
+            5,
+            6
+          ]
+        },
+        "startup": 11,
+        "active": 4,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 100,
+            "frames": [
+              11,
+              14
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 4,
+        "active": 2,
+        "recovery": 7,
+        "hits": [
+          {
+            "damage": 28,
+            "frames": [
+              4,
+              5
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 6,
+        "active": 3,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 55,
+            "frames": [
+              6,
+              8
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 7,
+        "active": 6,
+        "recovery": 20,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              7,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 8,
+        "hits": [
+          {
+            "damage": 26,
+            "frames": [
+              5,
+              6
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 7,
+        "active": 3,
+        "recovery": 14,
+        "hits": [
+          {
+            "damage": 55,
+            "frames": [
+              7,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "2HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            1,
+            2,
+            3
+          ]
+        },
+        "startup": 9,
+        "active": 3,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              9,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.LP",
+        "type": "normal",
+        "input": {
+          "btn": "LP"
+        },
+        "startup": 4,
+        "active": 7,
+        "recovery": 6,
+        "hits": [
+          {
+            "damage": 32,
+            "frames": [
+              4,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.MP",
+        "type": "normal",
+        "input": {
+          "btn": "MP"
+        },
+        "startup": 6,
+        "active": 6,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              6,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.HP",
+        "type": "normal",
+        "input": {
+          "btn": "HP"
+        },
+        "startup": 8,
+        "active": 6,
+        "recovery": 12,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              8,
+              13
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.LK",
+        "type": "normal",
+        "input": {
+          "btn": "LK"
+        },
+        "startup": 4,
+        "active": 9,
+        "recovery": 6,
+        "hits": [
+          {
+            "damage": 32,
+            "frames": [
+              4,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.MK",
+        "type": "normal",
+        "input": {
+          "btn": "MK"
+        },
+        "startup": 6,
+        "active": 6,
+        "recovery": 10,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              6,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "j.HK",
+        "type": "normal",
+        "input": {
+          "btn": "HK"
+        },
+        "startup": 7,
+        "active": 6,
+        "recovery": 12,
+        "hits": [
+          {
+            "damage": 90,
+            "frames": [
+              7,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "6HK",
+        "type": "command",
+        "input": {
+          "btn": "HK",
+          "dirs": [
+            6
+          ]
+        },
+        "startup": 13,
+        "active": 3,
+        "recovery": 18,
+        "hits": [
+          {
+            "damage": 80,
+            "frames": [
+              13,
+              15
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "lance_L",
+        "type": "special",
+        "input": {
+          "motion": "chargeBF",
+          "btn": "LP"
+        },
+        "startup": 12,
+        "active": 1,
+        "recovery": 31,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "lance_M",
+        "type": "special",
+        "input": {
+          "motion": "chargeBF",
+          "btn": "MP"
+        },
+        "startup": 12,
+        "active": 1,
+        "recovery": 31,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "lance_H",
+        "type": "special",
+        "input": {
+          "motion": "chargeBF",
+          "btn": "HP"
+        },
+        "startup": 12,
+        "active": 1,
+        "recovery": 31,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "lance_EX",
+        "type": "ex",
+        "input": {
+          "motion": "chargeBF",
+          "two": "P"
+        },
+        "startup": 9,
+        "active": 1,
+        "recovery": 26,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "disc_L",
+        "type": "special",
+        "input": {
+          "motion": "chargeDU",
+          "btn": "LP"
+        },
+        "startup": 10,
+        "active": 1,
+        "recovery": 30,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "disc_M",
+        "type": "special",
+        "input": {
+          "motion": "chargeDU",
+          "btn": "MP"
+        },
+        "startup": 10,
+        "active": 1,
+        "recovery": 30,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "disc_H",
+        "type": "special",
+        "input": {
+          "motion": "chargeDU",
+          "btn": "HP"
+        },
+        "startup": 10,
+        "active": 1,
+        "recovery": 30,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "disc_EX",
+        "type": "ex",
+        "input": {
+          "motion": "chargeDU",
+          "two": "P"
+        },
+        "startup": 8,
+        "active": 1,
+        "recovery": 26,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "arc_L",
+        "type": "special",
+        "input": {
+          "motion": "chargeDU",
+          "btn": "LK"
+        },
+        "startup": 4,
+        "active": 8,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 95,
+            "frames": [
+              4,
+              10
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "arc_M",
+        "type": "special",
+        "input": {
+          "motion": "chargeDU",
+          "btn": "MK"
+        },
+        "startup": 4,
+        "active": 8,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 105,
+            "frames": [
+              4,
+              11
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "arc_H",
+        "type": "special",
+        "input": {
+          "motion": "chargeDU",
+          "btn": "HK"
+        },
+        "startup": 4,
+        "active": 8,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 105,
+            "frames": [
+              4,
+              12
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "arc_EX",
+        "type": "ex",
+        "input": {
+          "motion": "chargeDU",
+          "two": "K"
+        },
+        "startup": 4,
+        "active": 8,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              4,
+              6
+            ]
+          },
+          {
+            "damage": 110,
+            "frames": [
+              8,
+              13
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "rush_L",
+        "type": "special",
+        "input": {
+          "motion": "chargeBF",
+          "btn": "LK"
+        },
+        "startup": 12,
+        "active": 8,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 75,
+            "frames": [
+              12,
+              19
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "rush_M",
+        "type": "special",
+        "input": {
+          "motion": "chargeBF",
+          "btn": "MK"
+        },
+        "startup": 12,
+        "active": 9,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 85,
+            "frames": [
+              12,
+              20
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "rush_H",
+        "type": "special",
+        "input": {
+          "motion": "chargeBF",
+          "btn": "HK"
+        },
+        "startup": 12,
+        "active": 10,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 95,
+            "frames": [
+              12,
+              21
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "rush_EX",
+        "type": "ex",
+        "input": {
+          "motion": "chargeBF",
+          "two": "K"
+        },
+        "startup": 9,
+        "active": 12,
+        "recovery": 16,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              9,
+              12
+            ]
+          },
+          {
+            "damage": 80,
+            "frames": [
+              15,
+              20
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "super",
+        "type": "super",
+        "input": {
+          "motion": "chargeBFBF",
+          "anyOf": "P"
+        },
+        "startup": 10,
+        "active": 1,
+        "recovery": 28,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "ult",
+        "type": "ultimate",
+        "input": {
+          "motion": "chargeBFBF",
+          "anyOf": "K"
+        },
+        "startup": 6,
+        "active": 36,
+        "recovery": 28,
+        "hits": [
+          {
+            "damage": 36,
+            "frames": [
+              6,
+              7
+            ]
+          },
+          {
+            "damage": 36,
+            "frames": [
+              10,
+              11
+            ]
+          },
+          {
+            "damage": 36,
+            "frames": [
+              14,
+              15
+            ]
+          },
+          {
+            "damage": 36,
+            "frames": [
+              18,
+              19
+            ]
+          },
+          {
+            "damage": 36,
+            "frames": [
+              22,
+              23
+            ]
+          },
+          {
+            "damage": 36,
+            "frames": [
+              26,
+              27
+            ]
+          },
+          {
+            "damage": 36,
+            "frames": [
+              30,
+              31
+            ]
+          },
+          {
+            "damage": 36,
+            "frames": [
+              34,
+              35
+            ]
+          },
+          {
+            "damage": 220,
+            "frames": [
+              40,
+              43
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "throwF",
+        "type": "throw",
+        "input": {
+          "combo": [
+            "LP",
+            "LK"
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 20,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "throwB",
+        "type": "throw",
+        "input": {
+          "combo": [
+            "LP",
+            "LK"
+          ],
+          "dirs": [
+            4,
+            1,
+            7
+          ]
+        },
+        "startup": 5,
+        "active": 2,
+        "recovery": 20,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "drive",
+        "type": "drive",
+        "input": {
+          "combo": [
+            "MP",
+            "MK"
+          ]
+        },
+        "startup": 1,
+        "active": 1,
+        "recovery": 14,
+        "hits": [],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "guardcancel",
+        "type": "guardcancel",
+        "input": {
+          "combo": [
+            "MP",
+            "MK"
+          ]
+        },
+        "startup": 6,
+        "active": 4,
+        "recovery": 24,
+        "hits": [
+          {
+            "damage": 60,
+            "frames": [
+              6,
+              9
+            ]
+          }
+        ],
+        "per_frame_overrides": 0
+      },
+      {
+        "id": "pushblock",
+        "type": "pushblock",
+        "input": {
+          "two": "P"
+        },
+        "startup": 1,
+        "active": 1,
+        "recovery": 14,
+        "hits": [],
+        "per_frame_overrides": 0
+      }
+    ]
+  }
+]

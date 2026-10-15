@@ -1,0 +1,6 @@
+COMMAND: node judging/scripts/performance.mjs A --gpu-bench-only
+A BENCH 32.61 13.96 50.00
+A GPU BENCH COMPLETE
+
+EXIT_CODE: 0
+DURATION_SECONDS: 67.532

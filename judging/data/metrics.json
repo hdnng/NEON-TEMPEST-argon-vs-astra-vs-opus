@@ -1,0 +1,1312 @@
+{
+  "A": {
+    "startup": {
+      "command": "npm install && npm run dev",
+      "status": "PASS",
+      "assisted": false,
+      "duration_seconds": 14.843,
+      "exit_code": null,
+      "pid": 3284,
+      "url": "http://localhost:5123",
+      "log": "judging/logs/A/readme-start.log"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "duration_seconds": 7.309,
+      "log": "judging/logs/A/build.log"
+    },
+    "bundle": {
+      "files": [
+        {
+          "path": "assets/index-D6MQdmbI.js",
+          "bytes": 193452,
+          "gzip_bytes": 53233
+        },
+        {
+          "path": "index.html",
+          "bytes": 1290,
+          "gzip_bytes": 692
+        }
+      ],
+      "total_bytes": 194742,
+      "gzip_total_bytes": 53925
+    },
+    "unit_tests": {
+      "numTotalTests": 8,
+      "numPassedTests": 8,
+      "numFailedTests": 0
+    },
+    "e2e": {
+      "startTime": "2026-10-15T15:07:15.036Z",
+      "duration": 4595.423,
+      "expected": 0,
+      "skipped": 0,
+      "unexpected": 1,
+      "flaky": 0
+    },
+    "browser_console": {
+      "errors": 0,
+      "warnings": 0,
+      "scope": "Independent production browser flow and two-minute keyboard gameplay; excludes Vite HMR and node runner color warnings."
+    },
+    "benchmark": {
+      "label": "A",
+      "duration_seconds": 60.012899999999995,
+      "frames": 1957,
+      "fps_average": 32.60965559071467,
+      "fps_1pct_low": 13.957708144322803,
+      "p95_frame_ms": 50,
+      "p99_frame_ms": 66.59999999999854,
+      "max_frame_ms": 99.90000000000146,
+      "frame_ms_average": 30.66576392437404,
+      "heap_start_bytes": 3133193,
+      "heap_end_bytes": 5483909,
+      "heap_growth_bytes": 2350716,
+      "matches": 2,
+      "fight_sample_percent": 78.69187531936637,
+      "canvas": [
+        [
+          1280,
+          720
+        ]
+      ],
+      "date": "2026-10-15T15:25:37.879Z",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "devicePixelRatio": 1,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "launch": {
+        "headless": true,
+        "channel": "chromium",
+        "args": [
+          "--use-angle=d3d11",
+          "--enable-gpu",
+          "--ignore-gpu-blocklist",
+          "--enable-gpu-rasterization",
+          "--enable-precise-memory-info"
+        ]
+      },
+      "graphics": {
+        "devices": [
+          {
+            "vendorId": 32902,
+            "deviceId": 22807,
+            "subSysId": 136515624,
+            "revision": 7,
+            "vendorString": "",
+            "deviceString": "Intel(R) UHD Graphics 620",
+            "driverVendor": "Intel",
+            "driverVersion": "31.0.101.2137"
+          },
+          {
+            "vendorId": 5140,
+            "deviceId": 140,
+            "subSysId": 0,
+            "revision": 0,
+            "vendorString": "",
+            "deviceString": "Microsoft Basic Render Driver",
+            "driverVendor": "",
+            "driverVersion": "10.0.26100.9711"
+          }
+        ],
+        "auxAttributes": {
+          "amdSwitchable": false,
+          "bgra8OverlaySupport": "DIRECT",
+          "canSupportThreadedTextureMailbox": false,
+          "directComposition": true,
+          "directMLFeatureLevel": "Not supported",
+          "directRenderingVersion": "",
+          "displayType": "ANGLE_D3D11",
+          "dx12FeatureLevel": "Not supported",
+          "glExtensions": "GL_AMD_performance_monitor GL_ANGLE_base_vertex_base_instance_shader_builtin GL_ANGLE_blob_cache GL_ANGLE_client_arrays GL_ANGLE_clip_cull_distance GL_ANGLE_copy_texture_3d GL_ANGLE_depth_texture GL_ANGLE_framebuffer_blit GL_ANGLE_framebuffer_multisample GL_ANGLE_get_serialized_context_string GL_ANGLE_get_tex_level_parameter GL_ANGLE_instanced_arrays GL_ANGLE_memory_size GL_ANGLE_multiview_multisample GL_ANGLE_pack_reverse_row_order GL_ANGLE_polygon_mode GL_ANGLE_program_binary_readiness_query GL_ANGLE_program_cache_control GL_ANGLE_provoking_vertex GL_ANGLE_renderability_validation GL_ANGLE_request_extension GL_ANGLE_robust_client_memory GL_ANGLE_shader_pixel_local_storage GL_ANGLE_shader_pixel_local_storage_coherent GL_ANGLE_stencil_texturing GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ANGLE_texture_multisample GL_ANGLE_texture_usage GL_ANGLE_translated_shader_source GL_APPLE_clip_distance GL_ARM_rgba8 GL_CHROMIUM_bind_generates_resource GL_CHROMIUM_bind_uniform_location GL_CHROMIUM_copy_compressed_texture GL_CHROMIUM_copy_texture GL_CHROMIUM_lose_context GL_EXT_EGL_image_external_wrap_modes GL_EXT_base_instance GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_clamp GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_read_format_bgra GL_EXT_render_snorm GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_border_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_robustness GL_NV_EGL_stream_consumer_external GL_NV_fence GL_NV_framebuffer_blit GL_NV_pack_subimage GL_NV_pixel_buffer_object GL_NV_shader_noperspective_interpolation GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_depth24 GL_OES_depth32 GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalformat GL_OES_rgb8_rgba8 GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OVR_multiview GL_OVR_multiview2 ",
+          "glImplementationParts": "(gl=egl-angle,angle=d3d11)",
+          "glRenderer": "ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00005917) Direct3D11 vs_5_0 ps_5_0, D3D11-31.0.101.2137)",
+          "glResetNotificationStrategy": 33362,
+          "glVendor": "Google Inc. (Intel)",
+          "glVersion": "OpenGL ES 3.0 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+          "glWsExtensions": "EGL_EXT_create_context_robustness EGL_ANGLE_d3d_share_handle_client_buffer EGL_ANGLE_d3d_texture_client_buffer EGL_ANGLE_surface_d3d_texture_2d_share_handle EGL_ANGLE_query_surface_pointer EGL_ANGLE_window_fixed_size EGL_ANGLE_keyed_mutex EGL_ANGLE_surface_orientation EGL_ANGLE_direct_composition EGL_NV_post_sub_buffer EGL_KHR_create_context EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_get_all_proc_addresses EGL_KHR_stream EGL_KHR_stream_consumer_gltexture EGL_NV_stream_consumer_gltexture_yuv EGL_ANGLE_stream_producer_d3d_texture EGL_ANGLE_create_context_webgl_compatibility EGL_CHROMIUM_create_context_bind_generates_resource EGL_CHROMIUM_sync_control EGL_EXT_pixel_format_float EGL_KHR_surfaceless_context EGL_ANGLE_display_texture_share_group EGL_ANGLE_display_semaphore_share_group EGL_ANGLE_create_context_client_arrays EGL_ANGLE_program_cache_control EGL_ANGLE_robust_resource_initialization EGL_ANGLE_create_context_extensions_enabled EGL_ANDROID_blob_cache EGL_ANDROID_recordable EGL_ANGLE_image_d3d11_texture EGL_ANGLE_create_context_backwards_compatible EGL_KHR_no_config_context EGL_KHR_create_context_no_error EGL_KHR_reusable_sync EGL_ANGLE_memory_usage_report ",
+          "glWsVendor": "Google Inc. (Intel)",
+          "glWsVersion": "1.5 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+          "inProcessGpu": false,
+          "initializationTime": 1.526031,
+          "isAsan": false,
+          "isClangCoverage": false,
+          "jpegDecodeAcceleratorSupported": false,
+          "maxMsaaSamples": "16",
+          "nv12OverlaySupport": "DIRECT",
+          "optimus": false,
+          "p010OverlaySupport": "SOFTWARE",
+          "passthroughCmdDecoder": true,
+          "pixelShaderVersion": "5.0",
+          "processCrashCount": 0,
+          "rgb10a2OverlaySupport": "SOFTWARE",
+          "sandboxed": false,
+          "skiaBackendType": "GaneshGL",
+          "subpixelFontRendering": true,
+          "supportsD3dSharedImages": false,
+          "supportsDirectML": false,
+          "supportsDx12": false,
+          "supportsOverlays": true,
+          "supportsVulkan": false,
+          "targetCpuBits": 64,
+          "vertexShaderVersion": "5.0",
+          "visibilityCallbackCallCount": 0,
+          "vulkanVersion": "Not supported",
+          "yuy2OverlaySupport": "DIRECT"
+        },
+        "featureStatus": {
+          "2d_canvas": "enabled",
+          "direct_rendering_display_compositor": "disabled_off_ok",
+          "gpu_compositing": "enabled",
+          "multiple_raster_threads": "enabled_on",
+          "opengl": "enabled_on",
+          "rasterization": "enabled_force",
+          "raw_draw": "disabled_off_ok",
+          "skia_graphite": "disabled_off",
+          "trees_in_viz": "disabled_off",
+          "video_decode": "enabled",
+          "video_encode": "enabled",
+          "webgl": "enabled",
+          "webgpu": "enabled",
+          "webnn": "disabled_off"
+        },
+        "driverBugWorkarounds": [
+          "check_ycbcr_studio_g22_left_p709_for_nv12_support",
+          "d3d12_encode_packed_format_dpb_sizing",
+          "disable_accelerated_vp9_encode",
+          "disable_d3d12_av1_multi_ref_encoding",
+          "disable_d3d12_h264_encoder_non_reference_frames",
+          "disable_d3d12_hevc_encoding",
+          "disable_d3d12_video_encoder",
+          "disable_decode_swap_chain",
+          "disable_direct_composition_sw_video_overlays",
+          "disable_hevc_hmft_cbr_encoding",
+          "disable_video_overlay_if_moving",
+          "disable_vp9_hmft_temporal_encoding",
+          "disable_vp_auto_hdr",
+          "disable_vp_super_resolution",
+          "enable_bgra8_overlays_with_yuv_overlay_support",
+          "enable_webgl_timer_query_extensions",
+          "exit_on_context_lost",
+          "limit_d3d12_av1_profile_to_main",
+          "max_msaa_sample_count_4",
+          "msaa_is_slow",
+          "msaa_is_slow_2",
+          "no_downscaled_overlay_promotion",
+          "use_first_valid_ref_for_av1_invalid_ref",
+          "disabled_extension_GL_KHR_blend_equation_advanced",
+          "disabled_extension_GL_KHR_blend_equation_advanced_coherent"
+        ],
+        "videoDecoding": [],
+        "videoEncoding": []
+      },
+      "issues": []
+    },
+    "software_benchmark": {
+      "fps_average": 36.72458064161375,
+      "fps_1pct_low": 10.864944021918781,
+      "p95_frame_ms": 50,
+      "heap_growth_bytes": 1600047
+    },
+    "submitted_benchmark_comparison": {
+      "submitted_avg_fps": 59.61,
+      "submitted_1pct_low": 48.45,
+      "avg_relative_change_percent": -45.29,
+      "low_relative_change_percent": -71.19,
+      "numeric_mismatch": true,
+      "comparable_conditions": false,
+      "note": {
+        "en": "Different viewport/backends/workloads; mismatch is a reproduction flag, not proof of a false claim. A also changes the game loop and render target.",
+        "vi": "Viewport/backend/workload khác nhau; chênh lệch chỉ là cờ cảnh báo tái lập, không chứng minh tuyên bố sai. A còn đổi vòng lặp và render target."
+      }
+    },
+    "play": {
+      "duration_seconds": 121.066,
+      "input_cycles": 390,
+      "issues": []
+    },
+    "determinism": {
+      "frames": 7200,
+      "seed": 774921,
+      "firstDifference": -1,
+      "pass": true,
+      "hash1": "e1ba572eb3a90648e71142f10b835a6cbcb57acc92cf8106ac843c4bc837eeea",
+      "hash2": "e1ba572eb3a90648e71142f10b835a6cbcb57acc92cf8106ac843c4bc837eeea",
+      "serialization_roundtrip": true,
+      "inputs_sha256": "931796c8a1716ceb7df5090120a6a7150bec6a9f1f0824d8415e1721e7023c38"
+    },
+    "balance": {
+      "attempted": 512,
+      "completed": 512,
+      "crashes": 0,
+      "softlocks": 0,
+      "average_match_seconds": 67.51539713541666,
+      "winRates": [
+        {
+          "id": "hayate",
+          "matches": 192,
+          "percent": 52.604166666666664,
+          "wilson_95_percent": [
+            45.56,
+            59.55
+          ]
+        },
+        {
+          "id": "magnus",
+          "matches": 192,
+          "percent": 54.166666666666664,
+          "wilson_95_percent": [
+            47.11,
+            61.06
+          ]
+        },
+        {
+          "id": "sable",
+          "matches": 192,
+          "percent": 45.833333333333336,
+          "wilson_95_percent": [
+            38.94,
+            52.89
+          ]
+        },
+        {
+          "id": "warden",
+          "matches": 192,
+          "percent": 47.395833333333336,
+          "wilson_95_percent": [
+            40.45,
+            54.44
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          {
+            "matches": 32,
+            "p1Wins": 16,
+            "p2Wins": 16,
+            "draws": 0,
+            "win_percent": 50
+          },
+          {
+            "matches": 32,
+            "p1Wins": 18,
+            "p2Wins": 14,
+            "draws": 0,
+            "win_percent": 56.25
+          },
+          {
+            "matches": 32,
+            "p1Wins": 22,
+            "p2Wins": 10,
+            "draws": 0,
+            "win_percent": 68.75
+          },
+          {
+            "matches": 32,
+            "p1Wins": 9,
+            "p2Wins": 23,
+            "draws": 0,
+            "win_percent": 28.125
+          }
+        ],
+        [
+          {
+            "matches": 32,
+            "p1Wins": 6,
+            "p2Wins": 26,
+            "draws": 0,
+            "win_percent": 18.75
+          },
+          {
+            "matches": 32,
+            "p1Wins": 18,
+            "p2Wins": 14,
+            "draws": 0,
+            "win_percent": 56.25
+          },
+          {
+            "matches": 32,
+            "p1Wins": 20,
+            "p2Wins": 12,
+            "draws": 0,
+            "win_percent": 62.5
+          },
+          {
+            "matches": 32,
+            "p1Wins": 25,
+            "p2Wins": 7,
+            "draws": 0,
+            "win_percent": 78.125
+          }
+        ],
+        [
+          {
+            "matches": 32,
+            "p1Wins": 12,
+            "p2Wins": 20,
+            "draws": 0,
+            "win_percent": 37.5
+          },
+          {
+            "matches": 32,
+            "p1Wins": 17,
+            "p2Wins": 15,
+            "draws": 0,
+            "win_percent": 53.125
+          },
+          {
+            "matches": 32,
+            "p1Wins": 19,
+            "p2Wins": 13,
+            "draws": 0,
+            "win_percent": 59.375
+          },
+          {
+            "matches": 32,
+            "p1Wins": 19,
+            "p2Wins": 13,
+            "draws": 0,
+            "win_percent": 59.375
+          }
+        ],
+        [
+          {
+            "matches": 32,
+            "p1Wins": 26,
+            "p2Wins": 6,
+            "draws": 0,
+            "win_percent": 81.25
+          },
+          {
+            "matches": 32,
+            "p1Wins": 8,
+            "p2Wins": 24,
+            "draws": 0,
+            "win_percent": 25
+          },
+          {
+            "matches": 32,
+            "p1Wins": 14,
+            "p2Wins": 18,
+            "draws": 0,
+            "win_percent": 43.75
+          },
+          {
+            "matches": 32,
+            "p1Wins": 17,
+            "p2Wins": 15,
+            "draws": 0,
+            "win_percent": 53.125
+          }
+        ]
+      ]
+    },
+    "spec_completion_percent": 75.0,
+    "spec_sections": {
+      "A": {
+        "requirements": 4,
+        "earned": 4,
+        "completion_percent": 100.0
+      },
+      "B": {
+        "requirements": 10,
+        "earned": 8.5,
+        "completion_percent": 85.0
+      },
+      "C": {
+        "requirements": 8,
+        "earned": 6.0,
+        "completion_percent": 75.0
+      },
+      "D": {
+        "requirements": 2,
+        "earned": 1.0,
+        "completion_percent": 50.0
+      },
+      "E": {
+        "requirements": 6,
+        "earned": 3.0,
+        "completion_percent": 50.0
+      }
+    }
+  },
+  "B": {
+    "startup": {
+      "command": "npm start",
+      "status": "PASS",
+      "assisted": false,
+      "duration_seconds": 12.702,
+      "exit_code": null,
+      "pid": 21752,
+      "url": "http://localhost:5173",
+      "log": "judging/logs/B/readme-start.log"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "duration_seconds": 10.494,
+      "log": "judging/logs/B/build.log"
+    },
+    "bundle": {
+      "files": [
+        {
+          "path": "assets/index-BDzXYmyz.css",
+          "bytes": 16452,
+          "gzip_bytes": 4505
+        },
+        {
+          "path": "assets/index-Dps3RrfX.js",
+          "bytes": 96677,
+          "gzip_bytes": 35632
+        },
+        {
+          "path": "index.html",
+          "bytes": 1059,
+          "gzip_bytes": 603
+        }
+      ],
+      "total_bytes": 114188,
+      "gzip_total_bytes": 40740
+    },
+    "unit_tests": {
+      "numTotalTests": 55,
+      "numPassedTests": 55,
+      "numFailedTests": 0
+    },
+    "e2e": {
+      "startTime": "2026-10-15T15:02:11.737Z",
+      "duration": 80197.428,
+      "expected": 4,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "browser_console": {
+      "errors": 0,
+      "warnings": 0,
+      "scope": "Independent production browser flow and two-minute keyboard gameplay; excludes Vite HMR and node runner color warnings."
+    },
+    "benchmark": {
+      "label": "B",
+      "duration_seconds": 60.013299999999994,
+      "frames": 3602,
+      "fps_average": 60.02002889359526,
+      "fps_1pct_low": 58.99234693877134,
+      "p95_frame_ms": 16.80000000000291,
+      "p99_frame_ms": 16.900000000001455,
+      "max_frame_ms": 17.5,
+      "frame_ms_average": 16.661104941699055,
+      "heap_start_bytes": 3382243,
+      "heap_end_bytes": 4591230,
+      "heap_growth_bytes": 1208987,
+      "matches": 2,
+      "fight_sample_percent": 74.81954469739034,
+      "canvas": [
+        [
+          1920,
+          1080
+        ]
+      ],
+      "date": "2026-10-15T15:23:23.758Z",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "devicePixelRatio": 1,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "launch": {
+        "headless": true,
+        "channel": "chromium",
+        "args": [
+          "--use-angle=d3d11",
+          "--enable-gpu",
+          "--ignore-gpu-blocklist",
+          "--enable-gpu-rasterization",
+          "--enable-precise-memory-info"
+        ]
+      },
+      "graphics": {
+        "devices": [
+          {
+            "vendorId": 32902,
+            "deviceId": 22807,
+            "subSysId": 136515624,
+            "revision": 7,
+            "vendorString": "",
+            "deviceString": "Intel(R) UHD Graphics 620",
+            "driverVendor": "Intel",
+            "driverVersion": "31.0.101.2137"
+          },
+          {
+            "vendorId": 5140,
+            "deviceId": 140,
+            "subSysId": 0,
+            "revision": 0,
+            "vendorString": "",
+            "deviceString": "Microsoft Basic Render Driver",
+            "driverVendor": "",
+            "driverVersion": "10.0.26100.9711"
+          }
+        ],
+        "auxAttributes": {
+          "amdSwitchable": false,
+          "bgra8OverlaySupport": "DIRECT",
+          "canSupportThreadedTextureMailbox": false,
+          "directComposition": true,
+          "directMLFeatureLevel": "Not supported",
+          "directRenderingVersion": "",
+          "displayType": "ANGLE_D3D11",
+          "dx12FeatureLevel": "Not supported",
+          "glExtensions": "GL_AMD_performance_monitor GL_ANGLE_base_vertex_base_instance_shader_builtin GL_ANGLE_blob_cache GL_ANGLE_client_arrays GL_ANGLE_clip_cull_distance GL_ANGLE_copy_texture_3d GL_ANGLE_depth_texture GL_ANGLE_framebuffer_blit GL_ANGLE_framebuffer_multisample GL_ANGLE_get_serialized_context_string GL_ANGLE_get_tex_level_parameter GL_ANGLE_instanced_arrays GL_ANGLE_memory_size GL_ANGLE_multiview_multisample GL_ANGLE_pack_reverse_row_order GL_ANGLE_polygon_mode GL_ANGLE_program_binary_readiness_query GL_ANGLE_program_cache_control GL_ANGLE_provoking_vertex GL_ANGLE_renderability_validation GL_ANGLE_request_extension GL_ANGLE_robust_client_memory GL_ANGLE_shader_pixel_local_storage GL_ANGLE_shader_pixel_local_storage_coherent GL_ANGLE_stencil_texturing GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ANGLE_texture_multisample GL_ANGLE_texture_usage GL_ANGLE_translated_shader_source GL_APPLE_clip_distance GL_ARM_rgba8 GL_CHROMIUM_bind_generates_resource GL_CHROMIUM_bind_uniform_location GL_CHROMIUM_copy_compressed_texture GL_CHROMIUM_copy_texture GL_CHROMIUM_lose_context GL_EXT_EGL_image_external_wrap_modes GL_EXT_base_instance GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_clamp GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_read_format_bgra GL_EXT_render_snorm GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_border_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_robustness GL_NV_EGL_stream_consumer_external GL_NV_fence GL_NV_framebuffer_blit GL_NV_pack_subimage GL_NV_pixel_buffer_object GL_NV_shader_noperspective_interpolation GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_depth24 GL_OES_depth32 GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalformat GL_OES_rgb8_rgba8 GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OVR_multiview GL_OVR_multiview2 ",
+          "glImplementationParts": "(gl=egl-angle,angle=d3d11)",
+          "glRenderer": "ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00005917) Direct3D11 vs_5_0 ps_5_0, D3D11-31.0.101.2137)",
+          "glResetNotificationStrategy": 33362,
+          "glVendor": "Google Inc. (Intel)",
+          "glVersion": "OpenGL ES 3.0 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+          "glWsExtensions": "EGL_EXT_create_context_robustness EGL_ANGLE_d3d_share_handle_client_buffer EGL_ANGLE_d3d_texture_client_buffer EGL_ANGLE_surface_d3d_texture_2d_share_handle EGL_ANGLE_query_surface_pointer EGL_ANGLE_window_fixed_size EGL_ANGLE_keyed_mutex EGL_ANGLE_surface_orientation EGL_ANGLE_direct_composition EGL_NV_post_sub_buffer EGL_KHR_create_context EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_get_all_proc_addresses EGL_KHR_stream EGL_KHR_stream_consumer_gltexture EGL_NV_stream_consumer_gltexture_yuv EGL_ANGLE_stream_producer_d3d_texture EGL_ANGLE_create_context_webgl_compatibility EGL_CHROMIUM_create_context_bind_generates_resource EGL_CHROMIUM_sync_control EGL_EXT_pixel_format_float EGL_KHR_surfaceless_context EGL_ANGLE_display_texture_share_group EGL_ANGLE_display_semaphore_share_group EGL_ANGLE_create_context_client_arrays EGL_ANGLE_program_cache_control EGL_ANGLE_robust_resource_initialization EGL_ANGLE_create_context_extensions_enabled EGL_ANDROID_blob_cache EGL_ANDROID_recordable EGL_ANGLE_image_d3d11_texture EGL_ANGLE_create_context_backwards_compatible EGL_KHR_no_config_context EGL_KHR_create_context_no_error EGL_KHR_reusable_sync EGL_ANGLE_memory_usage_report ",
+          "glWsVendor": "Google Inc. (Intel)",
+          "glWsVersion": "1.5 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+          "inProcessGpu": false,
+          "initializationTime": 0.93235,
+          "isAsan": false,
+          "isClangCoverage": false,
+          "jpegDecodeAcceleratorSupported": false,
+          "maxMsaaSamples": "16",
+          "nv12OverlaySupport": "DIRECT",
+          "optimus": false,
+          "p010OverlaySupport": "SOFTWARE",
+          "passthroughCmdDecoder": true,
+          "pixelShaderVersion": "5.0",
+          "processCrashCount": 0,
+          "rgb10a2OverlaySupport": "SOFTWARE",
+          "sandboxed": false,
+          "skiaBackendType": "GaneshGL",
+          "subpixelFontRendering": true,
+          "supportsD3dSharedImages": false,
+          "supportsDirectML": false,
+          "supportsDx12": false,
+          "supportsOverlays": true,
+          "supportsVulkan": false,
+          "targetCpuBits": 64,
+          "vertexShaderVersion": "5.0",
+          "visibilityCallbackCallCount": 0,
+          "vulkanVersion": "Not supported",
+          "yuy2OverlaySupport": "DIRECT"
+        },
+        "featureStatus": {
+          "2d_canvas": "enabled",
+          "direct_rendering_display_compositor": "disabled_off_ok",
+          "gpu_compositing": "enabled",
+          "multiple_raster_threads": "enabled_on",
+          "opengl": "enabled_on",
+          "rasterization": "enabled_force",
+          "raw_draw": "disabled_off_ok",
+          "skia_graphite": "disabled_off",
+          "trees_in_viz": "disabled_off",
+          "video_decode": "enabled",
+          "video_encode": "enabled",
+          "webgl": "enabled",
+          "webgpu": "enabled",
+          "webnn": "disabled_off"
+        },
+        "driverBugWorkarounds": [
+          "check_ycbcr_studio_g22_left_p709_for_nv12_support",
+          "d3d12_encode_packed_format_dpb_sizing",
+          "disable_accelerated_vp9_encode",
+          "disable_d3d12_av1_multi_ref_encoding",
+          "disable_d3d12_h264_encoder_non_reference_frames",
+          "disable_d3d12_hevc_encoding",
+          "disable_d3d12_video_encoder",
+          "disable_decode_swap_chain",
+          "disable_direct_composition_sw_video_overlays",
+          "disable_hevc_hmft_cbr_encoding",
+          "disable_video_overlay_if_moving",
+          "disable_vp9_hmft_temporal_encoding",
+          "disable_vp_auto_hdr",
+          "disable_vp_super_resolution",
+          "enable_bgra8_overlays_with_yuv_overlay_support",
+          "enable_webgl_timer_query_extensions",
+          "exit_on_context_lost",
+          "limit_d3d12_av1_profile_to_main",
+          "max_msaa_sample_count_4",
+          "msaa_is_slow",
+          "msaa_is_slow_2",
+          "no_downscaled_overlay_promotion",
+          "use_first_valid_ref_for_av1_invalid_ref",
+          "disabled_extension_GL_KHR_blend_equation_advanced",
+          "disabled_extension_GL_KHR_blend_equation_advanced_coherent"
+        ],
+        "videoDecoding": [],
+        "videoEncoding": []
+      },
+      "issues": []
+    },
+    "software_benchmark": {
+      "fps_average": 41.55683154986653,
+      "fps_1pct_low": 13.636611574755694,
+      "p95_frame_ms": 33.400000000001455,
+      "heap_growth_bytes": 933997
+    },
+    "submitted_benchmark_comparison": {
+      "submitted_avg_fps": 59.603553884812015,
+      "submitted_1pct_low": 35.12880562060833,
+      "avg_relative_change_percent": 0.7,
+      "low_relative_change_percent": 67.93,
+      "numeric_mismatch": true,
+      "comparable_conditions": false,
+      "note": {
+        "en": "Different viewport/backends/workloads; mismatch is a reproduction flag, not proof of a false claim. A also changes the game loop and render target.",
+        "vi": "Viewport/backend/workload khác nhau; chênh lệch chỉ là cờ cảnh báo tái lập, không chứng minh tuyên bố sai. A còn đổi vòng lặp và render target."
+      }
+    },
+    "play": {
+      "duration_seconds": 120.508,
+      "input_cycles": 368,
+      "issues": []
+    },
+    "determinism": {
+      "frames": 7200,
+      "seed": 774921,
+      "firstDifference": -1,
+      "pass": true,
+      "hash1": "c9f7ea5503c7fd393d89554fb83a60cbf0c13b43f08d63f7b12bee9f96316111",
+      "hash2": "c9f7ea5503c7fd393d89554fb83a60cbf0c13b43f08d63f7b12bee9f96316111",
+      "serialization_roundtrip": true,
+      "inputs_sha256": "6006e854e0742fa32dcd2754b72851c79d048779e6a3402d56b4faf9349be0cf"
+    },
+    "balance": {
+      "attempted": 512,
+      "completed": 512,
+      "crashes": 0,
+      "softlocks": 0,
+      "average_match_seconds": 72.11966145833334,
+      "winRates": [
+        {
+          "id": "hayate",
+          "matches": 192,
+          "percent": 44.270833333333336,
+          "wilson_95_percent": [
+            37.43,
+            51.34
+          ]
+        },
+        {
+          "id": "magnus",
+          "matches": 192,
+          "percent": 56.770833333333336,
+          "wilson_95_percent": [
+            49.7,
+            63.58
+          ]
+        },
+        {
+          "id": "sable",
+          "matches": 192,
+          "percent": 58.333333333333336,
+          "wilson_95_percent": [
+            51.26,
+            65.08
+          ]
+        },
+        {
+          "id": "warden",
+          "matches": 192,
+          "percent": 40.625,
+          "wilson_95_percent": [
+            33.93,
+            47.69
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          {
+            "matches": 32,
+            "p1Wins": 17,
+            "p2Wins": 15,
+            "draws": 0,
+            "win_percent": 53.125
+          },
+          {
+            "matches": 32,
+            "p1Wins": 17,
+            "p2Wins": 15,
+            "draws": 0,
+            "win_percent": 53.125
+          },
+          {
+            "matches": 32,
+            "p1Wins": 14,
+            "p2Wins": 18,
+            "draws": 0,
+            "win_percent": 43.75
+          },
+          {
+            "matches": 32,
+            "p1Wins": 12,
+            "p2Wins": 20,
+            "draws": 0,
+            "win_percent": 37.5
+          }
+        ],
+        [
+          {
+            "matches": 32,
+            "p1Wins": 16,
+            "p2Wins": 16,
+            "draws": 0,
+            "win_percent": 50
+          },
+          {
+            "matches": 32,
+            "p1Wins": 12,
+            "p2Wins": 20,
+            "draws": 0,
+            "win_percent": 37.5
+          },
+          {
+            "matches": 32,
+            "p1Wins": 16,
+            "p2Wins": 16,
+            "draws": 0,
+            "win_percent": 50
+          },
+          {
+            "matches": 32,
+            "p1Wins": 22,
+            "p2Wins": 10,
+            "draws": 0,
+            "win_percent": 68.75
+          }
+        ],
+        [
+          {
+            "matches": 32,
+            "p1Wins": 19,
+            "p2Wins": 13,
+            "draws": 0,
+            "win_percent": 59.375
+          },
+          {
+            "matches": 32,
+            "p1Wins": 16,
+            "p2Wins": 16,
+            "draws": 0,
+            "win_percent": 50
+          },
+          {
+            "matches": 32,
+            "p1Wins": 16,
+            "p2Wins": 16,
+            "draws": 0,
+            "win_percent": 50
+          },
+          {
+            "matches": 32,
+            "p1Wins": 21,
+            "p2Wins": 11,
+            "draws": 0,
+            "win_percent": 65.625
+          }
+        ],
+        [
+          {
+            "matches": 32,
+            "p1Wins": 19,
+            "p2Wins": 13,
+            "draws": 0,
+            "win_percent": 59.375
+          },
+          {
+            "matches": 32,
+            "p1Wins": 8,
+            "p2Wins": 24,
+            "draws": 0,
+            "win_percent": 25
+          },
+          {
+            "matches": 32,
+            "p1Wins": 10,
+            "p2Wins": 22,
+            "draws": 0,
+            "win_percent": 31.25
+          },
+          {
+            "matches": 32,
+            "p1Wins": 16,
+            "p2Wins": 16,
+            "draws": 0,
+            "win_percent": 50
+          }
+        ]
+      ]
+    },
+    "spec_completion_percent": 88.33,
+    "spec_sections": {
+      "A": {
+        "requirements": 4,
+        "earned": 4,
+        "completion_percent": 100.0
+      },
+      "B": {
+        "requirements": 10,
+        "earned": 9.0,
+        "completion_percent": 90.0
+      },
+      "C": {
+        "requirements": 8,
+        "earned": 7.0,
+        "completion_percent": 87.5
+      },
+      "D": {
+        "requirements": 2,
+        "earned": 1.0,
+        "completion_percent": 50.0
+      },
+      "E": {
+        "requirements": 6,
+        "earned": 5.5,
+        "completion_percent": 91.67
+      }
+    }
+  },
+  "C": {
+    "startup": {
+      "command": "npm start",
+      "status": "PASS",
+      "assisted": false,
+      "duration_seconds": 15.19,
+      "exit_code": null,
+      "pid": 16088,
+      "url": "http://localhost:5173",
+      "log": "judging/logs/C/readme-start.log"
+    },
+    "build": {
+      "command": "npm run build",
+      "exit_code": 0,
+      "duration_seconds": 13.893,
+      "log": "judging/logs/C/build.log"
+    },
+    "bundle": {
+      "files": [
+        {
+          "path": "assets/index-xrqisXGG.js",
+          "bytes": 410475,
+          "gzip_bytes": 133027
+        },
+        {
+          "path": "index.html",
+          "bytes": 1348,
+          "gzip_bytes": 754
+        }
+      ],
+      "total_bytes": 411823,
+      "gzip_total_bytes": 133781
+    },
+    "unit_tests": {
+      "numTotalTests": 68,
+      "numPassedTests": 68,
+      "numFailedTests": 0
+    },
+    "e2e": {
+      "startTime": "2026-10-15T15:03:34.203Z",
+      "duration": 219204.548,
+      "expected": 5,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "browser_console": {
+      "errors": 0,
+      "warnings": 0,
+      "scope": "Independent production browser flow and two-minute keyboard gameplay; excludes Vite HMR and node runner color warnings."
+    },
+    "benchmark": {
+      "label": "C",
+      "duration_seconds": 60.0296,
+      "frames": 2511,
+      "fps_average": 41.8293641803377,
+      "fps_1pct_low": 17.913738459418575,
+      "p95_frame_ms": 33.400000000001455,
+      "p99_frame_ms": 50,
+      "max_frame_ms": 100,
+      "frame_ms_average": 23.906650736758262,
+      "heap_start_bytes": 8613784,
+      "heap_end_bytes": 11641888,
+      "heap_growth_bytes": 3028104,
+      "matches": 1,
+      "fight_sample_percent": 88.17204301075269,
+      "canvas": [
+        [
+          1920,
+          1080
+        ]
+      ],
+      "date": "2026-10-15T15:24:30.241Z",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "devicePixelRatio": 1,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+      "launch": {
+        "headless": true,
+        "channel": "chromium",
+        "args": [
+          "--use-angle=d3d11",
+          "--enable-gpu",
+          "--ignore-gpu-blocklist",
+          "--enable-gpu-rasterization",
+          "--enable-precise-memory-info"
+        ]
+      },
+      "graphics": {
+        "devices": [
+          {
+            "vendorId": 32902,
+            "deviceId": 22807,
+            "subSysId": 136515624,
+            "revision": 7,
+            "vendorString": "",
+            "deviceString": "Intel(R) UHD Graphics 620",
+            "driverVendor": "Intel",
+            "driverVersion": "31.0.101.2137"
+          },
+          {
+            "vendorId": 5140,
+            "deviceId": 140,
+            "subSysId": 0,
+            "revision": 0,
+            "vendorString": "",
+            "deviceString": "Microsoft Basic Render Driver",
+            "driverVendor": "",
+            "driverVersion": "10.0.26100.9711"
+          }
+        ],
+        "auxAttributes": {
+          "amdSwitchable": false,
+          "bgra8OverlaySupport": "DIRECT",
+          "canSupportThreadedTextureMailbox": false,
+          "directComposition": true,
+          "directMLFeatureLevel": "Not supported",
+          "directRenderingVersion": "",
+          "displayType": "ANGLE_D3D11",
+          "dx12FeatureLevel": "Not supported",
+          "glExtensions": "GL_AMD_performance_monitor GL_ANGLE_base_vertex_base_instance_shader_builtin GL_ANGLE_blob_cache GL_ANGLE_client_arrays GL_ANGLE_clip_cull_distance GL_ANGLE_copy_texture_3d GL_ANGLE_depth_texture GL_ANGLE_framebuffer_blit GL_ANGLE_framebuffer_multisample GL_ANGLE_get_serialized_context_string GL_ANGLE_get_tex_level_parameter GL_ANGLE_instanced_arrays GL_ANGLE_memory_size GL_ANGLE_multiview_multisample GL_ANGLE_pack_reverse_row_order GL_ANGLE_polygon_mode GL_ANGLE_program_binary_readiness_query GL_ANGLE_program_cache_control GL_ANGLE_provoking_vertex GL_ANGLE_renderability_validation GL_ANGLE_request_extension GL_ANGLE_robust_client_memory GL_ANGLE_shader_pixel_local_storage GL_ANGLE_shader_pixel_local_storage_coherent GL_ANGLE_stencil_texturing GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ANGLE_texture_multisample GL_ANGLE_texture_usage GL_ANGLE_translated_shader_source GL_APPLE_clip_distance GL_ARM_rgba8 GL_CHROMIUM_bind_generates_resource GL_CHROMIUM_bind_uniform_location GL_CHROMIUM_copy_compressed_texture GL_CHROMIUM_copy_texture GL_CHROMIUM_lose_context GL_EXT_EGL_image_external_wrap_modes GL_EXT_base_instance GL_EXT_blend_func_extended GL_EXT_blend_minmax GL_EXT_clip_control GL_EXT_clip_cull_distance GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_conservative_depth GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_clamp GL_EXT_discard_framebuffer GL_EXT_disjoint_timer_query GL_EXT_draw_buffers GL_EXT_draw_buffers_indexed GL_EXT_draw_elements_base_vertex GL_EXT_float_blend GL_EXT_frag_depth GL_EXT_instanced_arrays GL_EXT_map_buffer_range GL_EXT_occlusion_query_boolean GL_EXT_polygon_offset_clamp GL_EXT_read_format_bgra GL_EXT_render_snorm GL_EXT_robustness GL_EXT_sRGB GL_EXT_shader_texture_lod GL_EXT_texture_border_clamp GL_EXT_texture_compression_bptc GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_texture_mirror_clamp_to_edge GL_EXT_texture_norm16 GL_EXT_texture_rg GL_EXT_texture_storage GL_EXT_texture_type_2_10_10_10_REV GL_EXT_unpack_subimage GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_robustness GL_NV_EGL_stream_consumer_external GL_NV_fence GL_NV_framebuffer_blit GL_NV_pack_subimage GL_NV_pixel_buffer_object GL_NV_shader_noperspective_interpolation GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_depth24 GL_OES_depth32 GL_OES_draw_buffers_indexed GL_OES_draw_elements_base_vertex GL_OES_element_index_uint GL_OES_fbo_render_mipmap GL_OES_get_program_binary GL_OES_mapbuffer GL_OES_packed_depth_stencil GL_OES_required_internalformat GL_OES_rgb8_rgba8 GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_standard_derivatives GL_OES_surfaceless_context GL_OES_texture_border_clamp GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_texture_npot GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_vertex_array_object GL_OVR_multiview GL_OVR_multiview2 ",
+          "glImplementationParts": "(gl=egl-angle,angle=d3d11)",
+          "glRenderer": "ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00005917) Direct3D11 vs_5_0 ps_5_0, D3D11-31.0.101.2137)",
+          "glResetNotificationStrategy": 33362,
+          "glVendor": "Google Inc. (Intel)",
+          "glVersion": "OpenGL ES 3.0 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+          "glWsExtensions": "EGL_EXT_create_context_robustness EGL_ANGLE_d3d_share_handle_client_buffer EGL_ANGLE_d3d_texture_client_buffer EGL_ANGLE_surface_d3d_texture_2d_share_handle EGL_ANGLE_query_surface_pointer EGL_ANGLE_window_fixed_size EGL_ANGLE_keyed_mutex EGL_ANGLE_surface_orientation EGL_ANGLE_direct_composition EGL_NV_post_sub_buffer EGL_KHR_create_context EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_get_all_proc_addresses EGL_KHR_stream EGL_KHR_stream_consumer_gltexture EGL_NV_stream_consumer_gltexture_yuv EGL_ANGLE_stream_producer_d3d_texture EGL_ANGLE_create_context_webgl_compatibility EGL_CHROMIUM_create_context_bind_generates_resource EGL_CHROMIUM_sync_control EGL_EXT_pixel_format_float EGL_KHR_surfaceless_context EGL_ANGLE_display_texture_share_group EGL_ANGLE_display_semaphore_share_group EGL_ANGLE_create_context_client_arrays EGL_ANGLE_program_cache_control EGL_ANGLE_robust_resource_initialization EGL_ANGLE_create_context_extensions_enabled EGL_ANDROID_blob_cache EGL_ANDROID_recordable EGL_ANGLE_image_d3d11_texture EGL_ANGLE_create_context_backwards_compatible EGL_KHR_no_config_context EGL_KHR_create_context_no_error EGL_KHR_reusable_sync EGL_ANGLE_memory_usage_report ",
+          "glWsVendor": "Google Inc. (Intel)",
+          "glWsVersion": "1.5 (ANGLE 2.1.28967 git hash: dfeede58b618)",
+          "inProcessGpu": false,
+          "initializationTime": 0.949717,
+          "isAsan": false,
+          "isClangCoverage": false,
+          "jpegDecodeAcceleratorSupported": false,
+          "maxMsaaSamples": "16",
+          "nv12OverlaySupport": "DIRECT",
+          "optimus": false,
+          "p010OverlaySupport": "SOFTWARE",
+          "passthroughCmdDecoder": true,
+          "pixelShaderVersion": "5.0",
+          "processCrashCount": 0,
+          "rgb10a2OverlaySupport": "SOFTWARE",
+          "sandboxed": false,
+          "skiaBackendType": "GaneshGL",
+          "subpixelFontRendering": true,
+          "supportsD3dSharedImages": false,
+          "supportsDirectML": false,
+          "supportsDx12": false,
+          "supportsOverlays": true,
+          "supportsVulkan": false,
+          "targetCpuBits": 64,
+          "vertexShaderVersion": "5.0",
+          "visibilityCallbackCallCount": 0,
+          "vulkanVersion": "Not supported",
+          "yuy2OverlaySupport": "DIRECT"
+        },
+        "featureStatus": {
+          "2d_canvas": "enabled",
+          "direct_rendering_display_compositor": "disabled_off_ok",
+          "gpu_compositing": "enabled",
+          "multiple_raster_threads": "enabled_on",
+          "opengl": "enabled_on",
+          "rasterization": "enabled_force",
+          "raw_draw": "disabled_off_ok",
+          "skia_graphite": "disabled_off",
+          "trees_in_viz": "disabled_off",
+          "video_decode": "enabled",
+          "video_encode": "enabled",
+          "webgl": "enabled",
+          "webgpu": "enabled",
+          "webnn": "disabled_off"
+        },
+        "driverBugWorkarounds": [
+          "check_ycbcr_studio_g22_left_p709_for_nv12_support",
+          "d3d12_encode_packed_format_dpb_sizing",
+          "disable_accelerated_vp9_encode",
+          "disable_d3d12_av1_multi_ref_encoding",
+          "disable_d3d12_h264_encoder_non_reference_frames",
+          "disable_d3d12_hevc_encoding",
+          "disable_d3d12_video_encoder",
+          "disable_decode_swap_chain",
+          "disable_direct_composition_sw_video_overlays",
+          "disable_hevc_hmft_cbr_encoding",
+          "disable_video_overlay_if_moving",
+          "disable_vp9_hmft_temporal_encoding",
+          "disable_vp_auto_hdr",
+          "disable_vp_super_resolution",
+          "enable_bgra8_overlays_with_yuv_overlay_support",
+          "enable_webgl_timer_query_extensions",
+          "exit_on_context_lost",
+          "limit_d3d12_av1_profile_to_main",
+          "max_msaa_sample_count_4",
+          "msaa_is_slow",
+          "msaa_is_slow_2",
+          "no_downscaled_overlay_promotion",
+          "use_first_valid_ref_for_av1_invalid_ref",
+          "disabled_extension_GL_KHR_blend_equation_advanced",
+          "disabled_extension_GL_KHR_blend_equation_advanced_coherent"
+        ],
+        "videoDecoding": [],
+        "videoEncoding": []
+      },
+      "issues": []
+    },
+    "software_benchmark": {
+      "fps_average": 7.560668536294539,
+      "fps_1pct_low": 2.970002970002957,
+      "p95_frame_ms": 216.6999999999971,
+      "heap_growth_bytes": -240943
+    },
+    "submitted_benchmark_comparison": {
+      "submitted_avg_fps": 59.7,
+      "submitted_1pct_low": 38.3,
+      "avg_relative_change_percent": -29.93,
+      "low_relative_change_percent": -53.23,
+      "numeric_mismatch": true,
+      "comparable_conditions": false,
+      "note": {
+        "en": "Different viewport/backends/workloads; mismatch is a reproduction flag, not proof of a false claim. A also changes the game loop and render target.",
+        "vi": "Viewport/backend/workload khác nhau; chênh lệch chỉ là cờ cảnh báo tái lập, không chứng minh tuyên bố sai. A còn đổi vòng lặp và render target."
+      }
+    },
+    "play": {
+      "duration_seconds": 121.405,
+      "input_cycles": 212,
+      "issues": []
+    },
+    "determinism": {
+      "frames": 7200,
+      "seed": 774921,
+      "firstDifference": -1,
+      "pass": true,
+      "hash1": "c21846dd61e6ab9265d8922062ead960d25eda4c77353fc5c9e393630d3091e0",
+      "hash2": "c21846dd61e6ab9265d8922062ead960d25eda4c77353fc5c9e393630d3091e0",
+      "serialization_roundtrip": true,
+      "inputs_sha256": "3b3f3e9967f8e9a7d134fd450eec6691b9853fa77dff5eca002be6a031726f6f"
+    },
+    "balance": {
+      "attempted": 512,
+      "completed": 512,
+      "crashes": 0,
+      "softlocks": 0,
+      "average_match_seconds": 106.91490885416667,
+      "winRates": [
+        {
+          "id": "hayate",
+          "matches": 192,
+          "percent": 56.770833333333336,
+          "wilson_95_percent": [
+            49.7,
+            63.58
+          ]
+        },
+        {
+          "id": "magnus",
+          "matches": 192,
+          "percent": 41.145833333333336,
+          "wilson_95_percent": [
+            34.43,
+            48.21
+          ]
+        },
+        {
+          "id": "sable",
+          "matches": 192,
+          "percent": 50,
+          "wilson_95_percent": [
+            43.0,
+            57.0
+          ]
+        },
+        {
+          "id": "warden",
+          "matches": 192,
+          "percent": 52.083333333333336,
+          "wilson_95_percent": [
+            45.05,
+            59.04
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          {
+            "matches": 32,
+            "p1Wins": 17,
+            "p2Wins": 15,
+            "draws": 0,
+            "win_percent": 53.125
+          },
+          {
+            "matches": 32,
+            "p1Wins": 17,
+            "p2Wins": 15,
+            "draws": 0,
+            "win_percent": 53.125
+          },
+          {
+            "matches": 32,
+            "p1Wins": 19,
+            "p2Wins": 13,
+            "draws": 0,
+            "win_percent": 59.375
+          },
+          {
+            "matches": 32,
+            "p1Wins": 19,
+            "p2Wins": 13,
+            "draws": 0,
+            "win_percent": 59.375
+          }
+        ],
+        [
+          {
+            "matches": 32,
+            "p1Wins": 17,
+            "p2Wins": 15,
+            "draws": 0,
+            "win_percent": 53.125
+          },
+          {
+            "matches": 32,
+            "p1Wins": 19,
+            "p2Wins": 13,
+            "draws": 0,
+            "win_percent": 59.375
+          },
+          {
+            "matches": 32,
+            "p1Wins": 12,
+            "p2Wins": 20,
+            "draws": 0,
+            "win_percent": 37.5
+          },
+          {
+            "matches": 32,
+            "p1Wins": 8,
+            "p2Wins": 24,
+            "draws": 0,
+            "win_percent": 25
+          }
+        ],
+        [
+          {
+            "matches": 32,
+            "p1Wins": 13,
+            "p2Wins": 19,
+            "draws": 0,
+            "win_percent": 40.625
+          },
+          {
+            "matches": 32,
+            "p1Wins": 15,
+            "p2Wins": 17,
+            "draws": 0,
+            "win_percent": 46.875
+          },
+          {
+            "matches": 32,
+            "p1Wins": 17,
+            "p2Wins": 15,
+            "draws": 0,
+            "win_percent": 53.125
+          },
+          {
+            "matches": 32,
+            "p1Wins": 20,
+            "p2Wins": 12,
+            "draws": 0,
+            "win_percent": 62.5
+          }
+        ],
+        [
+          {
+            "matches": 32,
+            "p1Wins": 12,
+            "p2Wins": 20,
+            "draws": 0,
+            "win_percent": 37.5
+          },
+          {
+            "matches": 32,
+            "p1Wins": 22,
+            "p2Wins": 10,
+            "draws": 0,
+            "win_percent": 68.75
+          },
+          {
+            "matches": 32,
+            "p1Wins": 17,
+            "p2Wins": 15,
+            "draws": 0,
+            "win_percent": 53.125
+          },
+          {
+            "matches": 32,
+            "p1Wins": 16,
+            "p2Wins": 16,
+            "draws": 0,
+            "win_percent": 50
+          }
+        ]
+      ]
+    },
+    "spec_completion_percent": 93.33,
+    "spec_sections": {
+      "A": {
+        "requirements": 4,
+        "earned": 4,
+        "completion_percent": 100.0
+      },
+      "B": {
+        "requirements": 10,
+        "earned": 9.5,
+        "completion_percent": 95.0
+      },
+      "C": {
+        "requirements": 8,
+        "earned": 7.5,
+        "completion_percent": 93.75
+      },
+      "D": {
+        "requirements": 2,
+        "earned": 1.5,
+        "completion_percent": 75.0
+      },
+      "E": {
+        "requirements": 6,
+        "earned": 5.5,
+        "completion_percent": 91.67
+      }
+    }
+  }
+}

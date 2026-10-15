@@ -1,0 +1,1637 @@
+{
+  "method": {
+    "en": "Equal-weight requirements; Implemented = full, Partial = half, Missing/Broken = zero. Unnumbered D bullets are D1/D2. Only sections A–E enter this percentage.",
+    "vi": "Mỗi yêu cầu có trọng số ngang nhau; Implemented tính đủ, Partial tính nửa, Missing/Broken tính không. Hai bullet không đánh số ở phần D được ghi là D1/D2. Chỉ phần A–E được tính phần trăm này."
+  },
+  "projects": {
+    "A": {
+      "sections": {
+        "A": {
+          "requirements": 4,
+          "earned": 4,
+          "completion_percent": 100.0
+        },
+        "B": {
+          "requirements": 10,
+          "earned": 8.5,
+          "completion_percent": 85.0
+        },
+        "C": {
+          "requirements": 8,
+          "earned": 6.0,
+          "completion_percent": 75.0
+        },
+        "D": {
+          "requirements": 2,
+          "earned": 1.0,
+          "completion_percent": 50.0
+        },
+        "E": {
+          "requirements": 6,
+          "earned": 3.0,
+          "completion_percent": 50.0
+        }
+      },
+      "completion_percent": 75.0,
+      "rows": [
+        {
+          "id": "A1",
+          "requirement": {
+            "en": "Vite/npm, Canvas/WebGL, documented one-command startup",
+            "vi": "Vite/npm, Canvas/WebGL, khởi động bằng một lệnh"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "README command reached a live server; production build passed.",
+            "vi": "Lệnh trong README mở được server; build production chạy đạt."
+          },
+          "evidence": [
+            "judging/logs/A/readme-start.log",
+            "judging/logs/A/build.log"
+          ]
+        },
+        {
+          "id": "A2",
+          "requirement": {
+            "en": "Procedural art, stages, animation, VFX and Web Audio; no external assets",
+            "vi": "Đồ họa, sân đấu, animation, VFX và Web Audio sinh bằng code; không dùng asset ngoài"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Source uses procedural drawing/synthesis; no runtime image, font or audio asset files in the submission source.",
+            "vi": "Source dùng lệnh vẽ và tổng hợp âm thanh; không có file ảnh/font/audio dùng lúc chạy trong source."
+          },
+          "evidence": [
+            "judging/work/A/src/main.ts#L1",
+            "judging/logs/A/original-manifest.json"
+          ]
+        },
+        {
+          "id": "A3",
+          "requirement": {
+            "en": "Deterministic, serializable 60 Hz simulation, decoupled rendering",
+            "vi": "Simulation 60 Hz có tính determinism, serialize được, tách khỏi rendering"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Independent same-input replay and JSON serialization continuation match; fixed-step loop is separate from presentation.",
+            "vi": "Replay độc lập với cùng input và phần chạy tiếp sau JSON serialization khớp; vòng lặp fixed-step tách khỏi trình diễn."
+          },
+          "evidence": [
+            "judging/logs/A/determinism.json"
+          ]
+        },
+        {
+          "id": "A4",
+          "requirement": {
+            "en": "Data-defined characters, moves, frame data, boxes and projectiles",
+            "vi": "Nhân vật, chiêu, frame data, các loại box và projectile được định nghĩa bằng data"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Loaded move inventory is defined in character data, including all normal stances.",
+            "vi": "Inventory lấy trực tiếp từ character data có đầy đủ normal theo tư thế."
+          },
+          "evidence": [
+            "judging/logs/A/roster-inventory.json"
+          ]
+        },
+        {
+          "id": "B1",
+          "requirement": {
+            "en": "Full move frame data; separate per-frame collision box types",
+            "vi": "Frame data đầy đủ; tách riêng các loại collision box theo frame"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Typed move schema and simulation define timing, boxes, hit levels, cancels, armor and invulnerability.",
+            "vi": "Schema có type và simulation định nghĩa timing, box, hit level, cancel, armor và invulnerability."
+          },
+          "evidence": [
+            "judging/logs/A/roster-inventory.json",
+            "judging/logs/A/combat-spotchecks.json"
+          ]
+        },
+        {
+          "id": "B2",
+          "requirement": {
+            "en": "Buffer, SOCD, motions/charge, negative edge, macros, device remapping",
+            "vi": "Buffer, SOCD, motion/charge, negative edge, macro và remap thiết bị"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "The documented HCF grab binding selects a shoulder charge; unordered cardinals count as a rotation. Gamepad remapping/macros are incomplete.",
+            "vi": "Binding HCF grab trong tài liệu lại chọn shoulder charge; cardinal sai thứ tự cũng được nhận là rotation. Remap gamepad/macro còn thiếu."
+          },
+          "evidence": [
+            "judging/logs/A/edge-cases.json",
+            "judging/work/A/src/input/inputBuffer.ts#L318"
+          ]
+        },
+        {
+          "id": "B3",
+          "requirement": {
+            "en": "Complete normals, command normals, throws, specials/EX/Super/Ultimate",
+            "vi": "Đầy đủ normal, command normal, throw, special/EX/Super/Ultimate"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Every fighter has the full standing/crouching/air normal set, directional throws, special variants, EX and finishers.",
+            "vi": "Mỗi võ sĩ có đủ normal đứng/ngồi/trên không, throw theo hướng, các bản special, EX và chiêu kết liễu."
+          },
+          "evidence": [
+            "judging/logs/A/roster-inventory.json"
+          ]
+        },
+        {
+          "id": "B4",
+          "requirement": {
+            "en": "Movement, blocking, pushblock, throw tech, wakeup, juggle, air tech and walls",
+            "vi": "Di chuyển, block, pushblock, throw tech, wakeup, juggle, air tech và xử lý góc sân"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Simulation movement/defense paths inspected; throw, guard, charge and air-mobility probes run in the browser.",
+            "vi": "Đã đọc xử lý di chuyển/phòng thủ và chạy probe throw, guard, charge, di chuyển trên không trong trình duyệt."
+          },
+          "evidence": [
+            "judging/logs/A/combat-spotchecks.json"
+          ]
+        },
+        {
+          "id": "B5",
+          "requirement": {
+            "en": "Links/chains/cancels, scaling, combo/damage display and dizzy",
+            "vi": "Link/chain/cancel, scaling, hiển thị combo/damage và dizzy"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Input-driven combo forms, counter advances, scaling exists and is covered by actual combat assertions.",
+            "vi": "Combo tạo từ input chạy được, counter tăng, có scaling và assertion kiểm tra combat thực."
+          },
+          "evidence": [
+            "judging/logs/A/combat-spotchecks.json",
+            "judging/screenshots/A/08-mid-combo.png"
+          ]
+        },
+        {
+          "id": "B6",
+          "requirement": {
+            "en": "Three-stock meter, EX, defensive resource tool and risky overdrive",
+            "vi": "Meter ba stock, EX, công cụ phòng thủ và overdrive có đánh đổi"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Meter gain and a paid Super Art were observed; EX, defensive tools and overdrive costs/risk are defined.",
+            "vi": "Đã quan sát meter tăng và Super Art tiêu meter; có định nghĩa chi phí/rủi ro của EX, công cụ phòng thủ và overdrive."
+          },
+          "evidence": [
+            "judging/logs/A/combat-spotchecks.json",
+            "judging/screenshots/A/09-super-active.png"
+          ]
+        },
+        {
+          "id": "B7",
+          "requirement": {
+            "en": "Best-of-three, timer, time-over, KO/draw/perfect and presentation",
+            "vi": "Đấu theo round, timer, time-over, KO/draw/perfect và phần trình diễn"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Timer decreases, forced near-expiry uses the real time-over path, and attack-generated KO advances rounds.",
+            "vi": "Timer giảm, fixture gần hết giờ đi qua xử lý time-over thật, KO từ đòn đánh chuyển được round."
+          },
+          "evidence": [
+            "judging/logs/A/combat-spotchecks.json",
+            "judging/screenshots/A/10-ko-round-end.png"
+          ]
+        },
+        {
+          "id": "B8",
+          "requirement": {
+            "en": "Hitstop, shake, sparks, block FX, camera, shadows and cinematic supers",
+            "vi": "Hitstop, shake, spark, block FX, camera, bóng nhân vật và super cinematic"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Hitstop, buffered inputs, camera/shake, impact FX and super presentation are visible and implemented in code.",
+            "vi": "Code có hitstop, input buffer, camera/shake, impact FX; quan sát được phần trình diễn super."
+          },
+          "evidence": [
+            "judging/screenshots/A/09-super-active.png",
+            "judging/screenshots/A/18-special-strip.png",
+            "judging/logs/A/combat-spotchecks.json"
+          ]
+        },
+        {
+          "id": "B9",
+          "requirement": {
+            "en": "Difficulty/personality, spacing/defense/combos/meter, fair input-driven CPU",
+            "vi": "Độ khó/cá tính, spacing/phòng thủ/combo/meter, CPU dùng input công bằng"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Uses current opponent attack/level before the neutral cooldown; defensive decisions lack a perception delay.",
+            "vi": "Đọc đòn/hit level hiện tại của đối thủ trước cooldown neutral; quyết định phòng thủ không có perception delay."
+          },
+          "evidence": [
+            "judging/work/A/src/ai/cpuController.ts#L217",
+            "judging/logs/A/independent-balance.json"
+          ]
+        },
+        {
+          "id": "B10",
+          "requirement": {
+            "en": "Arcade, local versus, full training, validated trials and last-match replay",
+            "vi": "Arcade, versus tại máy, training đầy đủ, trial có kiểm tra và replay trận gần nhất"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Training/trial/replay code exists, but the submission has no executable validation of all trials or a browser replay hash.",
+            "vi": "Có code training/trial/replay, nhưng chưa có kiểm tra thực thi toàn bộ trial hoặc hash replay trong trình duyệt."
+          },
+          "evidence": [
+            "judging/work/A/src/scenes/gameApp.ts#L762",
+            "judging/logs/A/unit-results.json"
+          ]
+        },
+        {
+          "id": "C1",
+          "requirement": {
+            "en": "Complete animated screen flow, selection, results, pause and return",
+            "vi": "Luồng màn hình có animation, chọn nhân vật/sân, kết quả, pause và quay lại"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "The mode choices are merged into the main menu; there is no separate mode-select screen.",
+            "vi": "Các lựa chọn mode nằm chung trong main menu; không có màn mode select riêng."
+          },
+          "evidence": [
+            "judging/screenshots/A/03-main-menu.png",
+            "judging/screenshots/A/20-mode-select.png"
+          ]
+        },
+        {
+          "id": "C2",
+          "requirement": {
+            "en": "Complete legible match HUD, trails, meters, inputs, announcements and warnings",
+            "vi": "HUD đủ thành phần, dễ đọc, có trail, meter, input, thông báo và cảnh báo"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Health, meter stocks, round pips, timer, stun/input/combo/announcement rendering inspected.",
+            "vi": "Đã kiểm tra cách vẽ health, stock meter, round pip, timer, stun/input/combo/thông báo."
+          },
+          "evidence": [
+            "judging/screenshots/A/07-match-hud-start.png",
+            "judging/screenshots/A/08-mid-combo.png"
+          ]
+        },
+        {
+          "id": "C3",
+          "requirement": {
+            "en": "Described move lists with clear motion icons and training frame data",
+            "vi": "Move list có mô tả, ký hiệu motion rõ ràng và frame data trong training"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Character tabs, motion notation, descriptions and frame information are present.",
+            "vi": "Có tab nhân vật, ký hiệu motion, mô tả chiêu và thông tin frame."
+          },
+          "evidence": [
+            "judging/screenshots/A/12-move-list.png"
+          ]
+        },
+        {
+          "id": "C4",
+          "requirement": {
+            "en": "Remapping, audio/video/accessibility settings, fullscreen, language-ready text",
+            "vi": "Remap, thiết lập âm thanh/hình ảnh/accessibility, fullscreen, sẵn cấu trúc ngôn ngữ"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Keyboard remapping and audiovisual toggles exist; fullscreen and gamepad-remapping UI are absent. Many labels are hardcoded.",
+            "vi": "Có remap keyboard và tùy chọn âm thanh/hình ảnh; thiếu UI fullscreen và remap gamepad. Nhiều nhãn viết cứng trong code."
+          },
+          "evidence": [
+            "judging/screenshots/A/13-settings.png",
+            "judging/work/A/src/data/settings.ts#L3"
+          ]
+        },
+        {
+          "id": "C5",
+          "requirement": {
+            "en": "Responsive letterboxing, crisp DPR rendering, keyboard/gamepad menus",
+            "vi": "Letterbox theo cửa sổ, rendering rõ theo DPR, menu dùng keyboard/gamepad"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Letterboxing works, but at the judge viewport the backing canvas remains lower resolution, visibly softening small text.",
+            "vi": "Letterbox chạy đúng, nhưng backing canvas vẫn có độ phân giải thấp hơn viewport kiểm tra, làm chữ nhỏ bị mềm."
+          },
+          "evidence": [
+            "judging/logs/A/resize.json",
+            "judging/work/A/src/scenes/gameApp.ts#L203"
+          ]
+        },
+        {
+          "id": "C6",
+          "requirement": {
+            "en": "Cohesive design system, interaction motion and sound; no placeholder feel",
+            "vi": "Thiết kế thống nhất, tương tác có chuyển động/âm thanh, không mang cảm giác placeholder"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Visual consistency judged from the complete judge-captured gallery; detailed legibility/animation limitations are recorded.",
+            "vi": "Đánh giá tính thống nhất từ toàn bộ ảnh do người chấm chụp; có ghi rõ giới hạn về khả năng đọc và animation."
+          },
+          "evidence": [
+            "judging/screenshots/A/03-main-menu.png",
+            "judging/screenshots/A/04-character-select.png",
+            "judging/logs/A/visual-review.json"
+          ]
+        },
+        {
+          "id": "C7",
+          "requirement": {
+            "en": "Distinct original animated parallax stages with ambience/music",
+            "vi": "Các sân đấu riêng biệt, có animation/parallax và âm thanh/nhạc tương ứng"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "All stage variants render with animated ambience; screenshots compare their actual layouts.",
+            "vi": "Tất cả biến thể sân render được với môi trường có chuyển động; ảnh cho thấy bố cục thực tế."
+          },
+          "evidence": [
+            "judging/screenshots/A/15-stage-1.png",
+            "judging/screenshots/A/16-stage-2.png",
+            "judging/screenshots/A/17-stage-3.png"
+          ]
+        },
+        {
+          "id": "C8",
+          "requirement": {
+            "en": "Menu/stage/victory music, action/UI SFX, mute and volume controls",
+            "vi": "Nhạc menu/sân/chiến thắng, SFX cho hành động/UI, mute và chỉnh âm lượng"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Synthesized audio paths and volume controls exist; auditory taste has not been human-tested.",
+            "vi": "Có âm thanh tổng hợp và chỉnh âm lượng; chất lượng nghe chưa được người chơi đánh giá."
+          },
+          "evidence": [
+            "judging/screenshots/A/13-settings.png"
+          ]
+        },
+        {
+          "id": "D1",
+          "requirement": {
+            "en": "Stable FPS/GC, pooling, low latency, cleanup, visibility pause, clean console",
+            "vi": "FPS/GC ổn định, pooling, độ trễ thấp, cleanup, pause khi ẩn tab, console sạch"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "No browser errors in the shared play run; visibility event pauses the simulation, but frame-time tails and allocation paths prevent full credit.",
+            "vi": "Lượt chơi chung không có lỗi trình duyệt; sự kiện visibility dừng simulation, nhưng frame-time đuôi và chỗ cấp phát bộ nhớ chưa đạt trọn yêu cầu."
+          },
+          "evidence": [
+            "judging/logs/A/two-minute-play.json",
+            "judging/logs/A/visibility.json",
+            "judging/logs/A/independent-benchmark-gpu.json"
+          ]
+        },
+        {
+          "id": "D2",
+          "requirement": {
+            "en": "Clean typed modular architecture with useful comments",
+            "vi": "Kiến trúc có type, chia module rõ và comment hữu ích"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Typed module separation inspected; monolithic scene/application code and cleanup gaps are called out.",
+            "vi": "Đã đọc cách chia module có type; chỉ ra những phần scene/application quá tập trung và thiếu sót cleanup."
+          },
+          "evidence": [
+            "judging/logs/A/source-evidence.json"
+          ]
+        },
+        {
+          "id": "E1",
+          "requirement": {
+            "en": "Meaningful passing unit coverage of every specified combat/input topic",
+            "vi": "Unit test có ý nghĩa, chạy đạt và bao phủ các chủ đề combat/input đã yêu cầu"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "The small suite has meaningful broad assertions but lacks granular boundary, trial, replay and finisher coverage.",
+            "vi": "Suite nhỏ có assertion hành vi hữu ích, nhưng thiếu coverage chi tiết cho biên input, trial, replay và finisher."
+          },
+          "evidence": [
+            "judging/logs/A/unit-results.json",
+            "judging/work/A/tests/simulation.test.ts#L38"
+          ]
+        },
+        {
+          "id": "E2",
+          "requirement": {
+            "en": "Passing keyboard/menu/special/HUD/round browser verification",
+            "vi": "Browser test chạy đạt cho keyboard/menu/special/HUD/round"
+          },
+          "status": "Broken",
+          "credit": 0,
+          "finding": {
+            "en": "The submitted E2E fails at the move-list keyboard navigation assertion.",
+            "vi": "E2E của bài nộp trượt ở assertion điều hướng keyboard vào move list."
+          },
+          "evidence": [
+            "judging/logs/A/own-e2e.log"
+          ]
+        },
+        {
+          "id": "E3",
+          "requirement": {
+            "en": "Reproducible large CPU balance run, matrix and match length",
+            "vi": "Chạy cân bằng CPU tái lập được, có ma trận và thời lượng trận"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Shared seeded headless balance script completes the full required match workload with no crashes or cap hits.",
+            "vi": "Script cân bằng headless chung, có seed, hoàn thành số trận yêu cầu mà không crash hoặc chạm giới hạn frame."
+          },
+          "evidence": [
+            "judging/logs/A/independent-balance.json"
+          ]
+        },
+        {
+          "id": "E4",
+          "requirement": {
+            "en": "Screenshot verification deliverables and visual review/fixes",
+            "vi": "Có bộ ảnh kiểm tra và bằng chứng rà soát/sửa lỗi hình ảnh"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Submission screenshot tools/assets exist; the author’s claimed inspection/fix process cannot be independently established. Judge captures are separate evidence.",
+            "vi": "Có công cụ/ảnh screenshot của bài nộp; chưa xác minh độc lập được quy trình tự xem và sửa mà tác giả tuyên bố. Ảnh của người chấm là bằng chứng riêng."
+          },
+          "evidence": [
+            "judging/logs/A/original-manifest.json",
+            "judging/logs/A/visual-review.json"
+          ]
+        },
+        {
+          "id": "E5",
+          "requirement": {
+            "en": "Real rendered match benchmark with frame pacing and memory output",
+            "vi": "Benchmark trận được render thực, có frame pacing và memory"
+          },
+          "status": "Broken",
+          "credit": 0,
+          "finding": {
+            "en": "The script replaces the game loop and paints into an offscreen software canvas using scheduled steps; it is not an on-screen rAF FPS benchmark.",
+            "vi": "Script thay vòng lặp game, vẽ vào canvas phần mềm ngoài màn hình và tự lên lịch step; đây không phải benchmark FPS rAF của màn hình game."
+          },
+          "evidence": [
+            "judging/work/A/scripts/bench.ts#L50",
+            "judging/work/A/scripts/bench.ts#L85"
+          ]
+        },
+        {
+          "id": "E6",
+          "requirement": {
+            "en": "Successful production build and measured bundle",
+            "vi": "Build production thành công và đo bundle"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "The exact production build command passed and every output file was measured, including gzip.",
+            "vi": "Lệnh build production chạy đạt; đã đo mọi file đầu ra, gồm cả gzip."
+          },
+          "evidence": [
+            "judging/logs/A/build.log",
+            "judging/data/objective.json"
+          ]
+        }
+      ],
+      "status_counts": {
+        "Implemented": 17,
+        "Partial": 11,
+        "Broken": 2
+      }
+    },
+    "B": {
+      "sections": {
+        "A": {
+          "requirements": 4,
+          "earned": 4,
+          "completion_percent": 100.0
+        },
+        "B": {
+          "requirements": 10,
+          "earned": 9.0,
+          "completion_percent": 90.0
+        },
+        "C": {
+          "requirements": 8,
+          "earned": 7.0,
+          "completion_percent": 87.5
+        },
+        "D": {
+          "requirements": 2,
+          "earned": 1.0,
+          "completion_percent": 50.0
+        },
+        "E": {
+          "requirements": 6,
+          "earned": 5.5,
+          "completion_percent": 91.67
+        }
+      },
+      "completion_percent": 88.33,
+      "rows": [
+        {
+          "id": "A1",
+          "requirement": {
+            "en": "Vite/npm, Canvas/WebGL, documented one-command startup",
+            "vi": "Vite/npm, Canvas/WebGL, khởi động bằng một lệnh"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "README command reached a live server; production build passed.",
+            "vi": "Lệnh trong README mở được server; build production chạy đạt."
+          },
+          "evidence": [
+            "judging/logs/B/readme-start.log",
+            "judging/logs/B/build.log"
+          ]
+        },
+        {
+          "id": "A2",
+          "requirement": {
+            "en": "Procedural art, stages, animation, VFX and Web Audio; no external assets",
+            "vi": "Đồ họa, sân đấu, animation, VFX và Web Audio sinh bằng code; không dùng asset ngoài"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Source uses procedural drawing/synthesis; no runtime image, font or audio asset files in the submission source.",
+            "vi": "Source dùng lệnh vẽ và tổng hợp âm thanh; không có file ảnh/font/audio dùng lúc chạy trong source."
+          },
+          "evidence": [
+            "judging/work/B/src/main.ts#L1",
+            "judging/logs/B/original-manifest.json"
+          ]
+        },
+        {
+          "id": "A3",
+          "requirement": {
+            "en": "Deterministic, serializable 60 Hz simulation, decoupled rendering",
+            "vi": "Simulation 60 Hz có tính determinism, serialize được, tách khỏi rendering"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Independent same-input replay and JSON serialization continuation match; fixed-step loop is separate from presentation.",
+            "vi": "Replay độc lập với cùng input và phần chạy tiếp sau JSON serialization khớp; vòng lặp fixed-step tách khỏi trình diễn."
+          },
+          "evidence": [
+            "judging/logs/B/determinism.json"
+          ]
+        },
+        {
+          "id": "A4",
+          "requirement": {
+            "en": "Data-defined characters, moves, frame data, boxes and projectiles",
+            "vi": "Nhân vật, chiêu, frame data, các loại box và projectile được định nghĩa bằng data"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Loaded move inventory is defined in character data, including all normal stances.",
+            "vi": "Inventory lấy trực tiếp từ character data có đầy đủ normal theo tư thế."
+          },
+          "evidence": [
+            "judging/logs/B/roster-inventory.json"
+          ]
+        },
+        {
+          "id": "B1",
+          "requirement": {
+            "en": "Full move frame data; separate per-frame collision box types",
+            "vi": "Frame data đầy đủ; tách riêng các loại collision box theo frame"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Typed move schema and simulation define timing, boxes, hit levels, cancels, armor and invulnerability.",
+            "vi": "Schema có type và simulation định nghĩa timing, box, hit level, cancel, armor và invulnerability."
+          },
+          "evidence": [
+            "judging/logs/B/roster-inventory.json",
+            "judging/logs/B/combat-spotchecks.json"
+          ]
+        },
+        {
+          "id": "B2",
+          "requirement": {
+            "en": "Buffer, SOCD, motions/charge, negative edge, macros, device remapping",
+            "vi": "Buffer, SOCD, motion/charge, negative edge, macro và remap thiết bị"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Motion/charge/negative-edge and device paths inspected and exercised; boundary limitations noted below.",
+            "vi": "Đã đọc và kiểm tra đường xử lý motion/charge/negative edge và thiết bị; các giới hạn ở biên được nêu bên dưới."
+          },
+          "evidence": [
+            "judging/logs/B/keyboard-qcf-state.json",
+            "judging/logs/B/edge-cases.json"
+          ]
+        },
+        {
+          "id": "B3",
+          "requirement": {
+            "en": "Complete normals, command normals, throws, specials/EX/Super/Ultimate",
+            "vi": "Đầy đủ normal, command normal, throw, special/EX/Super/Ultimate"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Every fighter has the full standing/crouching/air normal set, directional throws, special variants, EX and finishers.",
+            "vi": "Mỗi võ sĩ có đủ normal đứng/ngồi/trên không, throw theo hướng, các bản special, EX và chiêu kết liễu."
+          },
+          "evidence": [
+            "judging/logs/B/roster-inventory.json"
+          ]
+        },
+        {
+          "id": "B4",
+          "requirement": {
+            "en": "Movement, blocking, pushblock, throw tech, wakeup, juggle, air tech and walls",
+            "vi": "Di chuyển, block, pushblock, throw tech, wakeup, juggle, air tech và xử lý góc sân"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Normal throws connect, but no tested full-step throw-tech timing succeeds: a defensive throw consumes its edge before collision resolution.",
+            "vi": "Throw thường trúng, nhưng không timing throw tech nào trong probe full-step thành công: throw phòng thủ dùng mất cạnh input trước khi resolve va chạm."
+          },
+          "evidence": [
+            "judging/logs/B/edge-cases.json",
+            "judging/work/B/src/core/sim.ts#L160",
+            "judging/work/B/src/core/sim.ts#L338"
+          ]
+        },
+        {
+          "id": "B5",
+          "requirement": {
+            "en": "Links/chains/cancels, scaling, combo/damage display and dizzy",
+            "vi": "Link/chain/cancel, scaling, hiển thị combo/damage và dizzy"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Input-driven combo forms, counter advances, scaling exists and is covered by actual combat assertions.",
+            "vi": "Combo tạo từ input chạy được, counter tăng, có scaling và assertion kiểm tra combat thực."
+          },
+          "evidence": [
+            "judging/logs/B/combat-spotchecks.json",
+            "judging/screenshots/B/08-mid-combo.png"
+          ]
+        },
+        {
+          "id": "B6",
+          "requirement": {
+            "en": "Three-stock meter, EX, defensive resource tool and risky overdrive",
+            "vi": "Meter ba stock, EX, công cụ phòng thủ và overdrive có đánh đổi"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Meter gain and a paid Super Art were observed; EX, defensive tools and overdrive costs/risk are defined.",
+            "vi": "Đã quan sát meter tăng và Super Art tiêu meter; có định nghĩa chi phí/rủi ro của EX, công cụ phòng thủ và overdrive."
+          },
+          "evidence": [
+            "judging/logs/B/combat-spotchecks.json",
+            "judging/screenshots/B/09-super-active.png"
+          ]
+        },
+        {
+          "id": "B7",
+          "requirement": {
+            "en": "Best-of-three, timer, time-over, KO/draw/perfect and presentation",
+            "vi": "Đấu theo round, timer, time-over, KO/draw/perfect và phần trình diễn"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Timer decreases, forced near-expiry uses the real time-over path, and attack-generated KO advances rounds.",
+            "vi": "Timer giảm, fixture gần hết giờ đi qua xử lý time-over thật, KO từ đòn đánh chuyển được round."
+          },
+          "evidence": [
+            "judging/logs/B/combat-spotchecks.json",
+            "judging/screenshots/B/10-ko-round-end.png"
+          ]
+        },
+        {
+          "id": "B8",
+          "requirement": {
+            "en": "Hitstop, shake, sparks, block FX, camera, shadows and cinematic supers",
+            "vi": "Hitstop, shake, spark, block FX, camera, bóng nhân vật và super cinematic"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Hitstop, buffered inputs, camera/shake, impact FX and super presentation are visible and implemented in code.",
+            "vi": "Code có hitstop, input buffer, camera/shake, impact FX; quan sát được phần trình diễn super."
+          },
+          "evidence": [
+            "judging/screenshots/B/09-super-active.png",
+            "judging/screenshots/B/18-special-strip.png",
+            "judging/logs/B/combat-spotchecks.json"
+          ]
+        },
+        {
+          "id": "B9",
+          "requirement": {
+            "en": "Difficulty/personality, spacing/defense/combos/meter, fair input-driven CPU",
+            "vi": "Độ khó/cá tính, spacing/phòng thủ/combo/meter, CPU dùng input công bằng"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Decision waits and rolled motions exist, but guard choice reads the opponent’s current move and exact hit level.",
+            "vi": "Có thời gian chờ quyết định và motion từng frame, nhưng chọn guard vẫn đọc chiêu và hit level hiện tại của đối thủ."
+          },
+          "evidence": [
+            "judging/work/B/src/ai/cpu.ts#L123",
+            "judging/logs/B/independent-balance.json"
+          ]
+        },
+        {
+          "id": "B10",
+          "requirement": {
+            "en": "Arcade, local versus, full training, validated trials and last-match replay",
+            "vi": "Arcade, versus tại máy, training đầy đủ, trial có kiểm tra và replay trận gần nhất"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Modes and tools exist; training overlay and trials were opened; replay assertions reviewed.",
+            "vi": "Có các mode và công cụ; đã mở overlay training và trial, đồng thời đọc assertion replay."
+          },
+          "evidence": [
+            "judging/screenshots/B/11-training-hitboxes.png",
+            "judging/screenshots/B/21-trials.png",
+            "judging/logs/B/unit-results.json"
+          ]
+        },
+        {
+          "id": "C1",
+          "requirement": {
+            "en": "Complete animated screen flow, selection, results, pause and return",
+            "vi": "Luồng màn hình có animation, chọn nhân vật/sân, kết quả, pause và quay lại"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Main menu doubles as mode select; the rest of the flow works and is captured.",
+            "vi": "Main menu kiêm mode select; các phần còn lại của luồng chạy được và đã chụp ảnh."
+          },
+          "evidence": [
+            "judging/screenshots/B/03-main-menu.png",
+            "judging/screenshots/B/20-mode-select.png"
+          ]
+        },
+        {
+          "id": "C2",
+          "requirement": {
+            "en": "Complete legible match HUD, trails, meters, inputs, announcements and warnings",
+            "vi": "HUD đủ thành phần, dễ đọc, có trail, meter, input, thông báo và cảnh báo"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Health, meter stocks, round pips, timer, stun/input/combo/announcement rendering inspected.",
+            "vi": "Đã kiểm tra cách vẽ health, stock meter, round pip, timer, stun/input/combo/thông báo."
+          },
+          "evidence": [
+            "judging/screenshots/B/07-match-hud-start.png",
+            "judging/screenshots/B/08-mid-combo.png"
+          ]
+        },
+        {
+          "id": "C3",
+          "requirement": {
+            "en": "Described move lists with clear motion icons and training frame data",
+            "vi": "Move list có mô tả, ký hiệu motion rõ ràng và frame data trong training"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Character tabs, motion notation, descriptions and frame information are present.",
+            "vi": "Có tab nhân vật, ký hiệu motion, mô tả chiêu và thông tin frame."
+          },
+          "evidence": [
+            "judging/screenshots/B/12-move-list.png"
+          ]
+        },
+        {
+          "id": "C4",
+          "requirement": {
+            "en": "Remapping, audio/video/accessibility settings, fullscreen, language-ready text",
+            "vi": "Remap, thiết lập âm thanh/hình ảnh/accessibility, fullscreen, sẵn cấu trúc ngôn ngữ"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Settings expose volume, visual toggles and remapping; device/fullscreen/localization paths reviewed.",
+            "vi": "Settings có âm lượng, tùy chọn hình ảnh và remap; đã đọc đường xử lý thiết bị/fullscreen/ngôn ngữ."
+          },
+          "evidence": [
+            "judging/screenshots/B/13-settings.png"
+          ]
+        },
+        {
+          "id": "C5",
+          "requirement": {
+            "en": "Responsive letterboxing, crisp DPR rendering, keyboard/gamepad menus",
+            "vi": "Letterbox theo cửa sổ, rendering rõ theo DPR, menu dùng keyboard/gamepad"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Portrait and ultrawide viewports preserve the game aspect ratio; keyboard flow works; device code reviewed.",
+            "vi": "Cửa sổ dọc và siêu rộng giữ đúng tỉ lệ sân đấu; luồng keyboard chạy được; đã đọc code thiết bị."
+          },
+          "evidence": [
+            "judging/logs/B/resize.json",
+            "judging/logs/B/browser-flow.json"
+          ]
+        },
+        {
+          "id": "C6",
+          "requirement": {
+            "en": "Cohesive design system, interaction motion and sound; no placeholder feel",
+            "vi": "Thiết kế thống nhất, tương tác có chuyển động/âm thanh, không mang cảm giác placeholder"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Visual consistency judged from the complete judge-captured gallery; detailed legibility/animation limitations are recorded.",
+            "vi": "Đánh giá tính thống nhất từ toàn bộ ảnh do người chấm chụp; có ghi rõ giới hạn về khả năng đọc và animation."
+          },
+          "evidence": [
+            "judging/screenshots/B/03-main-menu.png",
+            "judging/screenshots/B/04-character-select.png",
+            "judging/logs/B/visual-review.json"
+          ]
+        },
+        {
+          "id": "C7",
+          "requirement": {
+            "en": "Distinct original animated parallax stages with ambience/music",
+            "vi": "Các sân đấu riêng biệt, có animation/parallax và âm thanh/nhạc tương ứng"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "All stage variants render with animated ambience; screenshots compare their actual layouts.",
+            "vi": "Tất cả biến thể sân render được với môi trường có chuyển động; ảnh cho thấy bố cục thực tế."
+          },
+          "evidence": [
+            "judging/screenshots/B/15-stage-1.png",
+            "judging/screenshots/B/16-stage-2.png",
+            "judging/screenshots/B/17-stage-3.png"
+          ]
+        },
+        {
+          "id": "C8",
+          "requirement": {
+            "en": "Menu/stage/victory music, action/UI SFX, mute and volume controls",
+            "vi": "Nhạc menu/sân/chiến thắng, SFX cho hành động/UI, mute và chỉnh âm lượng"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Stage/menu synthesis works, but the distinct victory-tempo branch is not selected by the results flow; SFX use broad action classes.",
+            "vi": "Nhạc sân/menu tổng hợp chạy được, nhưng luồng results không chọn nhánh tempo chiến thắng riêng; SFX gom theo nhóm hành động rộng."
+          },
+          "evidence": [
+            "judging/work/B/src/audio/synth.ts#L132",
+            "judging/work/B/src/main.ts#L297"
+          ]
+        },
+        {
+          "id": "D1",
+          "requirement": {
+            "en": "Stable FPS/GC, pooling, low latency, cleanup, visibility pause, clean console",
+            "vi": "FPS/GC ổn định, pooling, độ trễ thấp, cleanup, pause khi ẩn tab, console sạch"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "No browser errors in the shared play run; visibility event pauses the simulation, but frame-time tails and allocation paths prevent full credit.",
+            "vi": "Lượt chơi chung không có lỗi trình duyệt; sự kiện visibility dừng simulation, nhưng frame-time đuôi và chỗ cấp phát bộ nhớ chưa đạt trọn yêu cầu."
+          },
+          "evidence": [
+            "judging/logs/B/two-minute-play.json",
+            "judging/logs/B/visibility.json",
+            "judging/logs/B/independent-benchmark-gpu.json"
+          ]
+        },
+        {
+          "id": "D2",
+          "requirement": {
+            "en": "Clean typed modular architecture with useful comments",
+            "vi": "Kiến trúc có type, chia module rõ và comment hữu ích"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Typed module separation inspected; monolithic scene/application code and cleanup gaps are called out.",
+            "vi": "Đã đọc cách chia module có type; chỉ ra những phần scene/application quá tập trung và thiếu sót cleanup."
+          },
+          "evidence": [
+            "judging/logs/B/source-evidence.json"
+          ]
+        },
+        {
+          "id": "E1",
+          "requirement": {
+            "en": "Meaningful passing unit coverage of every specified combat/input topic",
+            "vi": "Unit test có ý nghĩa, chạy đạt và bao phủ các chủ đề combat/input đã yêu cầu"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Executed own unit suite; assertions inspected for behavior rather than filenames or README promises.",
+            "vi": "Đã chạy unit suite của dự án và đọc assertion theo hành vi, không dựa vào tên test hay lời hứa trong README."
+          },
+          "evidence": [
+            "judging/logs/B/unit-results.json",
+            "judging/logs/B/source-evidence.json"
+          ]
+        },
+        {
+          "id": "E2",
+          "requirement": {
+            "en": "Passing keyboard/menu/special/HUD/round browser verification",
+            "vi": "Browser test chạy đạt cho keyboard/menu/special/HUD/round"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Executed original browser suite under the common viewport; exact pass/fail result is retained.",
+            "vi": "Đã chạy browser suite gốc ở viewport chung; lưu nguyên kết quả đạt/trượt."
+          },
+          "evidence": [
+            "judging/logs/B/own-e2e.log",
+            "judging/logs/B/e2e-results.json"
+          ]
+        },
+        {
+          "id": "E3",
+          "requirement": {
+            "en": "Reproducible large CPU balance run, matrix and match length",
+            "vi": "Chạy cân bằng CPU tái lập được, có ma trận và thời lượng trận"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Shared seeded headless balance script completes the full required match workload with no crashes or cap hits.",
+            "vi": "Script cân bằng headless chung, có seed, hoàn thành số trận yêu cầu mà không crash hoặc chạm giới hạn frame."
+          },
+          "evidence": [
+            "judging/logs/B/independent-balance.json"
+          ]
+        },
+        {
+          "id": "E4",
+          "requirement": {
+            "en": "Screenshot verification deliverables and visual review/fixes",
+            "vi": "Có bộ ảnh kiểm tra và bằng chứng rà soát/sửa lỗi hình ảnh"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Submission screenshot tools/assets exist; the author’s claimed inspection/fix process cannot be independently established. Judge captures are separate evidence.",
+            "vi": "Có công cụ/ảnh screenshot của bài nộp; chưa xác minh độc lập được quy trình tự xem và sửa mà tác giả tuyên bố. Ảnh của người chấm là bằng chứng riêng."
+          },
+          "evidence": [
+            "judging/logs/B/original-manifest.json",
+            "judging/logs/B/visual-review.json"
+          ]
+        },
+        {
+          "id": "E5",
+          "requirement": {
+            "en": "Real rendered match benchmark with frame pacing and memory output",
+            "vi": "Benchmark trận được render thực, có frame pacing và memory"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Project benchmark method inspected against a shared real-rAF workload; submitted values are treated as claims.",
+            "vi": "Đã đối chiếu cách benchmark của dự án với workload rAF thực dùng chung; số liệu nộp kèm được xem là tuyên bố cần kiểm chứng."
+          },
+          "evidence": [
+            "judging/logs/B/submitted-bench.json",
+            "judging/logs/B/independent-benchmark-gpu.json"
+          ]
+        },
+        {
+          "id": "E6",
+          "requirement": {
+            "en": "Successful production build and measured bundle",
+            "vi": "Build production thành công và đo bundle"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "The exact production build command passed and every output file was measured, including gzip.",
+            "vi": "Lệnh build production chạy đạt; đã đo mọi file đầu ra, gồm cả gzip."
+          },
+          "evidence": [
+            "judging/logs/B/build.log",
+            "judging/data/objective.json"
+          ]
+        }
+      ],
+      "status_counts": {
+        "Implemented": 23,
+        "Partial": 7
+      }
+    },
+    "C": {
+      "sections": {
+        "A": {
+          "requirements": 4,
+          "earned": 4,
+          "completion_percent": 100.0
+        },
+        "B": {
+          "requirements": 10,
+          "earned": 9.5,
+          "completion_percent": 95.0
+        },
+        "C": {
+          "requirements": 8,
+          "earned": 7.5,
+          "completion_percent": 93.75
+        },
+        "D": {
+          "requirements": 2,
+          "earned": 1.5,
+          "completion_percent": 75.0
+        },
+        "E": {
+          "requirements": 6,
+          "earned": 5.5,
+          "completion_percent": 91.67
+        }
+      },
+      "completion_percent": 93.33,
+      "rows": [
+        {
+          "id": "A1",
+          "requirement": {
+            "en": "Vite/npm, Canvas/WebGL, documented one-command startup",
+            "vi": "Vite/npm, Canvas/WebGL, khởi động bằng một lệnh"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "README command reached a live server; production build passed.",
+            "vi": "Lệnh trong README mở được server; build production chạy đạt."
+          },
+          "evidence": [
+            "judging/logs/C/readme-start.log",
+            "judging/logs/C/build.log"
+          ]
+        },
+        {
+          "id": "A2",
+          "requirement": {
+            "en": "Procedural art, stages, animation, VFX and Web Audio; no external assets",
+            "vi": "Đồ họa, sân đấu, animation, VFX và Web Audio sinh bằng code; không dùng asset ngoài"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Source uses procedural drawing/synthesis; no runtime image, font or audio asset files in the submission source.",
+            "vi": "Source dùng lệnh vẽ và tổng hợp âm thanh; không có file ảnh/font/audio dùng lúc chạy trong source."
+          },
+          "evidence": [
+            "judging/work/C/src/main.ts#L10",
+            "judging/logs/C/original-manifest.json"
+          ]
+        },
+        {
+          "id": "A3",
+          "requirement": {
+            "en": "Deterministic, serializable 60 Hz simulation, decoupled rendering",
+            "vi": "Simulation 60 Hz có tính determinism, serialize được, tách khỏi rendering"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Independent same-input replay and JSON serialization continuation match; fixed-step loop is separate from presentation.",
+            "vi": "Replay độc lập với cùng input và phần chạy tiếp sau JSON serialization khớp; vòng lặp fixed-step tách khỏi trình diễn."
+          },
+          "evidence": [
+            "judging/logs/C/determinism.json"
+          ]
+        },
+        {
+          "id": "A4",
+          "requirement": {
+            "en": "Data-defined characters, moves, frame data, boxes and projectiles",
+            "vi": "Nhân vật, chiêu, frame data, các loại box và projectile được định nghĩa bằng data"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Loaded move inventory is defined in character data, including all normal stances.",
+            "vi": "Inventory lấy trực tiếp từ character data có đầy đủ normal theo tư thế."
+          },
+          "evidence": [
+            "judging/logs/C/roster-inventory.json"
+          ]
+        },
+        {
+          "id": "B1",
+          "requirement": {
+            "en": "Full move frame data; separate per-frame collision box types",
+            "vi": "Frame data đầy đủ; tách riêng các loại collision box theo frame"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Typed move schema and simulation define timing, boxes, hit levels, cancels, armor and invulnerability.",
+            "vi": "Schema có type và simulation định nghĩa timing, box, hit level, cancel, armor và invulnerability."
+          },
+          "evidence": [
+            "judging/logs/C/roster-inventory.json",
+            "judging/logs/C/combat-spotchecks.json"
+          ]
+        },
+        {
+          "id": "B2",
+          "requirement": {
+            "en": "Buffer, SOCD, motions/charge, negative edge, macros, device remapping",
+            "vi": "Buffer, SOCD, motion/charge, negative edge, macro và remap thiết bị"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Broad parser coverage and device remapping work; rotation recognition deliberately accepts unordered cardinal directions, reducing motion strictness.",
+            "vi": "Parser có coverage rộng và remap thiết bị chạy được; rotation cố ý nhận cardinal không theo thứ tự, làm điều kiện motion quá dễ."
+          },
+          "evidence": [
+            "judging/logs/C/edge-cases.json",
+            "judging/work/C/src/sim/input.ts#L267"
+          ]
+        },
+        {
+          "id": "B3",
+          "requirement": {
+            "en": "Complete normals, command normals, throws, specials/EX/Super/Ultimate",
+            "vi": "Đầy đủ normal, command normal, throw, special/EX/Super/Ultimate"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Every fighter has the full standing/crouching/air normal set, directional throws, special variants, EX and finishers.",
+            "vi": "Mỗi võ sĩ có đủ normal đứng/ngồi/trên không, throw theo hướng, các bản special, EX và chiêu kết liễu."
+          },
+          "evidence": [
+            "judging/logs/C/roster-inventory.json"
+          ]
+        },
+        {
+          "id": "B4",
+          "requirement": {
+            "en": "Movement, blocking, pushblock, throw tech, wakeup, juggle, air tech and walls",
+            "vi": "Di chuyển, block, pushblock, throw tech, wakeup, juggle, air tech và xử lý góc sân"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Simulation movement/defense paths inspected; throw, guard, charge and air-mobility probes run in the browser.",
+            "vi": "Đã đọc xử lý di chuyển/phòng thủ và chạy probe throw, guard, charge, di chuyển trên không trong trình duyệt."
+          },
+          "evidence": [
+            "judging/logs/C/combat-spotchecks.json"
+          ]
+        },
+        {
+          "id": "B5",
+          "requirement": {
+            "en": "Links/chains/cancels, scaling, combo/damage display and dizzy",
+            "vi": "Link/chain/cancel, scaling, hiển thị combo/damage và dizzy"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Input-driven combo forms, counter advances, scaling exists and is covered by actual combat assertions.",
+            "vi": "Combo tạo từ input chạy được, counter tăng, có scaling và assertion kiểm tra combat thực."
+          },
+          "evidence": [
+            "judging/logs/C/combat-spotchecks.json",
+            "judging/screenshots/C/08-mid-combo.png"
+          ]
+        },
+        {
+          "id": "B6",
+          "requirement": {
+            "en": "Three-stock meter, EX, defensive resource tool and risky overdrive",
+            "vi": "Meter ba stock, EX, công cụ phòng thủ và overdrive có đánh đổi"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Meter gain and a paid Super Art were observed; EX, defensive tools and overdrive costs/risk are defined.",
+            "vi": "Đã quan sát meter tăng và Super Art tiêu meter; có định nghĩa chi phí/rủi ro của EX, công cụ phòng thủ và overdrive."
+          },
+          "evidence": [
+            "judging/logs/C/combat-spotchecks.json",
+            "judging/screenshots/C/09-super-active.png"
+          ]
+        },
+        {
+          "id": "B7",
+          "requirement": {
+            "en": "Best-of-three, timer, time-over, KO/draw/perfect and presentation",
+            "vi": "Đấu theo round, timer, time-over, KO/draw/perfect và phần trình diễn"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Timer decreases, forced near-expiry uses the real time-over path, and attack-generated KO advances rounds.",
+            "vi": "Timer giảm, fixture gần hết giờ đi qua xử lý time-over thật, KO từ đòn đánh chuyển được round."
+          },
+          "evidence": [
+            "judging/logs/C/combat-spotchecks.json",
+            "judging/screenshots/C/10-ko-round-end.png"
+          ]
+        },
+        {
+          "id": "B8",
+          "requirement": {
+            "en": "Hitstop, shake, sparks, block FX, camera, shadows and cinematic supers",
+            "vi": "Hitstop, shake, spark, block FX, camera, bóng nhân vật và super cinematic"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Hitstop, buffered inputs, camera/shake, impact FX and super presentation are visible and implemented in code.",
+            "vi": "Code có hitstop, input buffer, camera/shake, impact FX; quan sát được phần trình diễn super."
+          },
+          "evidence": [
+            "judging/screenshots/C/09-super-active.png",
+            "judging/screenshots/C/18-special-strip.png",
+            "judging/logs/C/combat-spotchecks.json"
+          ]
+        },
+        {
+          "id": "B9",
+          "requirement": {
+            "en": "Difficulty/personality, spacing/defense/combos/meter, fair input-driven CPU",
+            "vi": "Độ khó/cá tính, spacing/phòng thủ/combo/meter, CPU dùng input công bằng"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Hard CPU completes the shared balance workload; decision/input policy reviewed for fairness and personality.",
+            "vi": "CPU Hard hoàn thành lượt chạy cân bằng chung; đã đọc chính sách quyết định/input để đánh giá tính công bằng và cá tính."
+          },
+          "evidence": [
+            "judging/logs/C/independent-balance.json"
+          ]
+        },
+        {
+          "id": "B10",
+          "requirement": {
+            "en": "Arcade, local versus, full training, validated trials and last-match replay",
+            "vi": "Arcade, versus tại máy, training đầy đủ, trial có kiểm tra và replay trận gần nhất"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Modes and tools exist; training overlay and trials were opened; replay assertions reviewed.",
+            "vi": "Có các mode và công cụ; đã mở overlay training và trial, đồng thời đọc assertion replay."
+          },
+          "evidence": [
+            "judging/screenshots/C/11-training-hitboxes.png",
+            "judging/screenshots/C/21-trials.png",
+            "judging/logs/C/unit-results.json"
+          ]
+        },
+        {
+          "id": "C1",
+          "requirement": {
+            "en": "Complete animated screen flow, selection, results, pause and return",
+            "vi": "Luồng màn hình có animation, chọn nhân vật/sân, kết quả, pause và quay lại"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Keyboard flow reaches selection, versus and match; settings, move list, pause and results are captured.",
+            "vi": "Luồng keyboard vào được màn chọn, versus và trận; đã chụp settings, move list, pause và results."
+          },
+          "evidence": [
+            "judging/logs/C/browser-flow.json",
+            "judging/screenshots/C/14-results.png"
+          ]
+        },
+        {
+          "id": "C2",
+          "requirement": {
+            "en": "Complete legible match HUD, trails, meters, inputs, announcements and warnings",
+            "vi": "HUD đủ thành phần, dễ đọc, có trail, meter, input, thông báo và cảnh báo"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Health, meter stocks, round pips, timer, stun/input/combo/announcement rendering inspected.",
+            "vi": "Đã kiểm tra cách vẽ health, stock meter, round pip, timer, stun/input/combo/thông báo."
+          },
+          "evidence": [
+            "judging/screenshots/C/07-match-hud-start.png",
+            "judging/screenshots/C/08-mid-combo.png"
+          ]
+        },
+        {
+          "id": "C3",
+          "requirement": {
+            "en": "Described move lists with clear motion icons and training frame data",
+            "vi": "Move list có mô tả, ký hiệu motion rõ ràng và frame data trong training"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Character tabs, motion notation, descriptions and frame information are present.",
+            "vi": "Có tab nhân vật, ký hiệu motion, mô tả chiêu và thông tin frame."
+          },
+          "evidence": [
+            "judging/screenshots/C/12-move-list.png"
+          ]
+        },
+        {
+          "id": "C4",
+          "requirement": {
+            "en": "Remapping, audio/video/accessibility settings, fullscreen, language-ready text",
+            "vi": "Remap, thiết lập âm thanh/hình ảnh/accessibility, fullscreen, sẵn cấu trúc ngôn ngữ"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Settings expose volume, visual toggles and remapping; device/fullscreen/localization paths reviewed.",
+            "vi": "Settings có âm lượng, tùy chọn hình ảnh và remap; đã đọc đường xử lý thiết bị/fullscreen/ngôn ngữ."
+          },
+          "evidence": [
+            "judging/screenshots/C/13-settings.png"
+          ]
+        },
+        {
+          "id": "C5",
+          "requirement": {
+            "en": "Responsive letterboxing, crisp DPR rendering, keyboard/gamepad menus",
+            "vi": "Letterbox theo cửa sổ, rendering rõ theo DPR, menu dùng keyboard/gamepad"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Portrait and ultrawide viewports preserve the game aspect ratio; keyboard flow works; device code reviewed.",
+            "vi": "Cửa sổ dọc và siêu rộng giữ đúng tỉ lệ sân đấu; luồng keyboard chạy được; đã đọc code thiết bị."
+          },
+          "evidence": [
+            "judging/logs/C/resize.json",
+            "judging/logs/C/browser-flow.json",
+            "judging/work/C/src/core/view.ts#L59"
+          ]
+        },
+        {
+          "id": "C6",
+          "requirement": {
+            "en": "Cohesive design system, interaction motion and sound; no placeholder feel",
+            "vi": "Thiết kế thống nhất, tương tác có chuyển động/âm thanh, không mang cảm giác placeholder"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Cohesive original neon typography and panels, but glow, thin small labels and busy backdrops reduce readability; it is below the exceptional quality bar.",
+            "vi": "Typography neon và panel thống nhất, có cá tính; glow, nhãn nhỏ nét mảnh và nền dày chi tiết làm giảm khả năng đọc, chưa đạt mức xuất sắc."
+          },
+          "evidence": [
+            "judging/screenshots/C/04-character-select.png",
+            "judging/screenshots/C/11-training-hitboxes.png",
+            "judging/logs/C/visual-review.json"
+          ]
+        },
+        {
+          "id": "C7",
+          "requirement": {
+            "en": "Distinct original animated parallax stages with ambience/music",
+            "vi": "Các sân đấu riêng biệt, có animation/parallax và âm thanh/nhạc tương ứng"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "All stage variants render with animated ambience; screenshots compare their actual layouts.",
+            "vi": "Tất cả biến thể sân render được với môi trường có chuyển động; ảnh cho thấy bố cục thực tế."
+          },
+          "evidence": [
+            "judging/screenshots/C/15-stage-1.png",
+            "judging/screenshots/C/16-stage-2.png",
+            "judging/screenshots/C/17-stage-3.png"
+          ]
+        },
+        {
+          "id": "C8",
+          "requirement": {
+            "en": "Menu/stage/victory music, action/UI SFX, mute and volume controls",
+            "vi": "Nhạc menu/sân/chiến thắng, SFX cho hành động/UI, mute và chỉnh âm lượng"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Synthesized audio paths and volume controls exist; auditory taste has not been human-tested.",
+            "vi": "Có âm thanh tổng hợp và chỉnh âm lượng; chất lượng nghe chưa được người chơi đánh giá."
+          },
+          "evidence": [
+            "judging/screenshots/C/13-settings.png"
+          ]
+        },
+        {
+          "id": "D1",
+          "requirement": {
+            "en": "Stable FPS/GC, pooling, low latency, cleanup, visibility pause, clean console",
+            "vi": "FPS/GC ổn định, pooling, độ trễ thấp, cleanup, pause khi ẩn tab, console sạch"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "No browser errors in the shared play run; visibility event pauses the simulation, but frame-time tails and allocation paths prevent full credit.",
+            "vi": "Lượt chơi chung không có lỗi trình duyệt; sự kiện visibility dừng simulation, nhưng frame-time đuôi và chỗ cấp phát bộ nhớ chưa đạt trọn yêu cầu."
+          },
+          "evidence": [
+            "judging/logs/C/two-minute-play.json",
+            "judging/logs/C/visibility.json",
+            "judging/logs/C/independent-benchmark-gpu.json"
+          ]
+        },
+        {
+          "id": "D2",
+          "requirement": {
+            "en": "Clean typed modular architecture with useful comments",
+            "vi": "Kiến trúc có type, chia module rõ và comment hữu ích"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Typed module separation inspected; monolithic scene/application code and cleanup gaps are called out.",
+            "vi": "Đã đọc cách chia module có type; chỉ ra những phần scene/application quá tập trung và thiếu sót cleanup."
+          },
+          "evidence": [
+            "judging/logs/C/source-evidence.json"
+          ]
+        },
+        {
+          "id": "E1",
+          "requirement": {
+            "en": "Meaningful passing unit coverage of every specified combat/input topic",
+            "vi": "Unit test có ý nghĩa, chạy đạt và bao phủ các chủ đề combat/input đã yêu cầu"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Executed own unit suite; assertions inspected for behavior rather than filenames or README promises.",
+            "vi": "Đã chạy unit suite của dự án và đọc assertion theo hành vi, không dựa vào tên test hay lời hứa trong README."
+          },
+          "evidence": [
+            "judging/logs/C/unit-results.json",
+            "judging/logs/C/source-evidence.json"
+          ]
+        },
+        {
+          "id": "E2",
+          "requirement": {
+            "en": "Passing keyboard/menu/special/HUD/round browser verification",
+            "vi": "Browser test chạy đạt cho keyboard/menu/special/HUD/round"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Executed original browser suite under the common viewport; exact pass/fail result is retained.",
+            "vi": "Đã chạy browser suite gốc ở viewport chung; lưu nguyên kết quả đạt/trượt."
+          },
+          "evidence": [
+            "judging/logs/C/own-e2e.log",
+            "judging/logs/C/e2e-results.json"
+          ]
+        },
+        {
+          "id": "E3",
+          "requirement": {
+            "en": "Reproducible large CPU balance run, matrix and match length",
+            "vi": "Chạy cân bằng CPU tái lập được, có ma trận và thời lượng trận"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Shared seeded headless balance script completes the full required match workload with no crashes or cap hits.",
+            "vi": "Script cân bằng headless chung, có seed, hoàn thành số trận yêu cầu mà không crash hoặc chạm giới hạn frame."
+          },
+          "evidence": [
+            "judging/logs/C/independent-balance.json"
+          ]
+        },
+        {
+          "id": "E4",
+          "requirement": {
+            "en": "Screenshot verification deliverables and visual review/fixes",
+            "vi": "Có bộ ảnh kiểm tra và bằng chứng rà soát/sửa lỗi hình ảnh"
+          },
+          "status": "Partial",
+          "credit": 0.5,
+          "finding": {
+            "en": "Submission screenshot tools/assets exist; the author’s claimed inspection/fix process cannot be independently established. Judge captures are separate evidence.",
+            "vi": "Có công cụ/ảnh screenshot của bài nộp; chưa xác minh độc lập được quy trình tự xem và sửa mà tác giả tuyên bố. Ảnh của người chấm là bằng chứng riêng."
+          },
+          "evidence": [
+            "judging/logs/C/original-manifest.json",
+            "judging/logs/C/visual-review.json"
+          ]
+        },
+        {
+          "id": "E5",
+          "requirement": {
+            "en": "Real rendered match benchmark with frame pacing and memory output",
+            "vi": "Benchmark trận được render thực, có frame pacing và memory"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "Project benchmark method inspected against a shared real-rAF workload; submitted values are treated as claims.",
+            "vi": "Đã đối chiếu cách benchmark của dự án với workload rAF thực dùng chung; số liệu nộp kèm được xem là tuyên bố cần kiểm chứng."
+          },
+          "evidence": [
+            "judging/logs/C/submitted-bench.json",
+            "judging/logs/C/independent-benchmark-gpu.json"
+          ]
+        },
+        {
+          "id": "E6",
+          "requirement": {
+            "en": "Successful production build and measured bundle",
+            "vi": "Build production thành công và đo bundle"
+          },
+          "status": "Implemented",
+          "credit": 1,
+          "finding": {
+            "en": "The exact production build command passed and every output file was measured, including gzip.",
+            "vi": "Lệnh build production chạy đạt; đã đo mọi file đầu ra, gồm cả gzip."
+          },
+          "evidence": [
+            "judging/logs/C/build.log",
+            "judging/data/objective.json"
+          ]
+        }
+      ],
+      "status_counts": {
+        "Implemented": 26,
+        "Partial": 4
+      }
+    }
+  }
+}
