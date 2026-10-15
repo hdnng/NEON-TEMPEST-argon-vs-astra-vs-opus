@@ -1,0 +1,61 @@
+/* Presentation pass: keep tools clear of the cinematic and give selections room. */
+.cinematic .training-panel,
+.cinematic .trial-panel {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+.character-name .stat-panel {
+  padding: 10px;
+  background: #071326a8;
+  border-top: 1px solid #8bb6c02b;
+  width: 153px;
+}
+.character-name.left h2 {
+  font-size: 37px;
+}
+.character-name.right h2 {
+  font-size: 37px;
+}
+.fighter-card b {
+  color: var(--fighter);
+  text-shadow: 0 0 20px #8adce530;
+}
+.menu-item:focus-visible,
+.stage-card:focus-visible,
+.fighter-card:focus-visible {
+  outline-offset: 2px;
+  outline-width: 1px;
+}
+.start:focus-visible {
+  outline: none;
+  color: #fff;
+}
+.start {
+  border-bottom: 1px solid #78e8e366;
+}
+.panel-content {
+  padding-bottom: 24px;
+  mask-image: linear-gradient(to bottom, #000 97%, transparent);
+}
+.trial-panel {
+  left: 385px;
+  width: 510px;
+}
+.trial-panel .eyebrow:before {
+  display: none;
+}
+.result-panel {
+  width: 580px;
+}
+.result-panel h2 {
+  max-width: 540px;
+}
+.screen[data-scene="results"]:before {
+  background: linear-gradient(
+    90deg,
+    #060d20f5 5%,
+    #060d20aa 45%,
+    transparent 78%
+  );
+}
