@@ -1,0 +1,68 @@
+{
+  "durationSeconds": 60.01310000000001,
+  "frames": 3536,
+  "averageFPS": 58.92046903092824,
+  "onePercentLowFPS": 26.964272339150323,
+  "averageFrameTimeMs": 16.972030542986428,
+  "p99FrameTimeMs": 33.29999999999927,
+  "maxFrameTimeMs": 99.79999999999927,
+  "memoryStartMB": 4.846391677856445,
+  "memoryEndMB": 4.950719833374023,
+  "memoryPeakMB": 5.086981773376465,
+  "simulationFrame": 3781,
+  "droppedCatchups": 4,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "viewport": [
+    1280,
+    720
+  ],
+  "devicePixelRatio": 1,
+  "canvas": [
+    1280,
+    720
+  ],
+  "date": "2026-10-14T20:04:50.356Z",
+  "browserBackend": "Full Chromium, new headless mode (channel: chromium)",
+  "graphics": {
+    "devices": [
+      {
+        "vendorId": 32902,
+        "deviceId": 22807,
+        "subSysId": 136515624,
+        "revision": 7,
+        "vendorString": "",
+        "deviceString": "Intel(R) UHD Graphics 620",
+        "driverVendor": "Intel",
+        "driverVersion": "31.0.101.2137"
+      },
+      {
+        "vendorId": 5140,
+        "deviceId": 140,
+        "subSysId": 0,
+        "revision": 0,
+        "vendorString": "",
+        "deviceString": "Microsoft Basic Render Driver",
+        "driverVendor": "",
+        "driverVersion": "10.0.26100.9711"
+      }
+    ],
+    "features": {
+      "2d_canvas": "enabled",
+      "direct_rendering_display_compositor": "disabled_off_ok",
+      "gpu_compositing": "enabled",
+      "multiple_raster_threads": "enabled_on",
+      "opengl": "enabled_on",
+      "rasterization": "enabled",
+      "raw_draw": "disabled_off_ok",
+      "skia_graphite": "disabled_off",
+      "trees_in_viz": "disabled_off",
+      "video_decode": "enabled",
+      "video_encode": "enabled",
+      "webgl": "enabled",
+      "webgpu": "enabled",
+      "webnn": "disabled_off"
+    }
+  },
+  "environment": "Headless Chromium on this Windows host; hardware/virtualization specific, not a universal laptop guarantee.",
+  "errors": []
+}
